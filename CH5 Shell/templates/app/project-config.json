@@ -1,0 +1,176 @@
+{
+  "projectName": "Shell-Template",
+  "version": "0.0.1",
+  "faviconPath": "favicon.ico",
+  "menuOrientation": "horizontal",
+  "selectedTheme": "dark-theme",
+  "useWebXPanel": true,
+  "themes": [
+    {
+      "name": "light-theme",
+      "path": "./assets/theme/light.css",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-light.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "url": ["./app/template/assets/img/bg1.jpg"]
+      }
+    },
+    {
+      "name": "dark-theme",
+      "path": "./assets/theme/dark.css",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-dark.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "url": ["./app/template/assets/img/bg1.jpg"]
+      }
+    },
+    {
+      "name": "custom-theme",
+      "path": "./assets/theme/custom.css",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-light.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "url": ["./app/template/assets/img/bg1.jpg"]
+      }
+    }
+  ],
+  "config": {
+    "controlSystem": {}
+  },
+  "header": {
+    "display": true,
+    "displayInfo": true,
+    "$component": ""
+  },
+  "footer": {
+    "display": true,
+    "$component": ""
+  },
+  "content": {
+    "$defaultView": "page1",
+    "triggerViewProperties": {
+      "gestureable": false
+    },
+    "pages": [
+      {
+        "pageName": "page1",
+        "fullPath": "./app/project/components/pages/page1/",
+        "fileName": "page1.html",
+        "standAloneView": true,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 1,
+          "label": "Living Room",
+          "isI18nLabel": true,
+          "iconClass": "fa-house-night",
+          "iconUrl": "./app/project/assets/img/navigation/door-open-solid.svg",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "page2",
+        "fullPath": "./app/project/components/pages/page2/",
+        "fileName": "page2.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 2,
+          "label": "Family Room",
+          "isI18nLabel": true,
+          "iconClass": "",
+          "iconUrl": "./app/project/assets/img/navigation/door-open-solid.svg",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "page3",
+        "fullPath": "./app/project/components/pages/page3/",
+        "fileName": "page3.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 3,
+          "label": "Kitchen",
+          "isI18nLabel": true,
+          "iconClass": "",
+          "iconUrl": "./app/project/assets/img/navigation/door-open-solid.svg",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "page4",
+        "fullPath": "./app/project/components/pages/page4/",
+        "fileName": "page4.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 4,
+          "label": "Office",
+          "isI18nLabel": true,
+          "iconClass": "",
+          "iconUrl": "./app/project/assets/img/navigation/door-open-solid.svg",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "page5",
+        "fullPath": "./app/project/components/pages/page5/",
+        "fileName": "page5.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 5,
+          "label": "Master Bed",
+          "isI18nLabel": true,
+          "iconClass": "",
+          "iconUrl": "./app/project/assets/img/navigation/door-open-solid.svg",
+          "iconPosition": "bottom"
+        }
+      },
+      {
+        "pageName": "page6",
+        "fullPath": "./app/project/components/pages/page6/",
+        "fileName": "page6.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "class": ""
+        },
+        "navigation": {
+          "sequence": 6,
+          "label": "Landscape",
+          "isI18nLabel": true,
+          "iconClass": "",
+          "iconUrl": "./app/project/assets/img/navigation/door-open-solid.svg",
+          "iconPosition": "bottom"
+        }
+      }
+    ],
+    "widgets": [
+      {
+        "widgetName": "pagedisplay",
+        "fullPath": "./app/project/components/widgets/pagedisplay/",
+        "fileName": "pagedisplay.html",
+        "widgetProperties": {}
+      }
+    ]
+  }
+}

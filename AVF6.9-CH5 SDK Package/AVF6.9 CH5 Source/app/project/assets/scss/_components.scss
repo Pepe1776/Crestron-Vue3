@@ -1,0 +1,170 @@
+/* Copyright (C) 3020 to the present, Crestron Electronics, Inc.
+  * All rights reserved.
+  * No part of this software may be reproduced in any form, machine
+  * or natural, without the express written consent of Crestron Electronics.
+  * Use of this source code is subject to the terms of the Crestron Software License Agreement 
+ * under which you licensed this source code.
+  */
+
+#header-index-page {
+  background-color: #fff;
+
+  .navbar-default.navbar {
+    @include box-shadow(none);
+  }
+}
+
+#template-header {
+  width: 100%;
+}
+
+.selected-element {
+  border: 2px solid red;
+}
+
+.selected-element-8 {
+  border: 8px solid red;
+}
+
+
+@keyframes hover-color {
+    from {
+        border-color: $mycustom-border-color;
+    }
+
+    to {
+        border-color: $mycustom-main-color;
+    }
+}
+
+.mycustom-radio,
+.mycustom-checkbox {
+    position: absolute;
+    display: none;
+}
+.mycustom-radio[disabled],
+.mycustom-checkbox[disabled] {
+    cursor: not-allowed;
+}
+
+.mycustom-radio ~ .mycustom-checkbox-label,
+.mycustom-checkbox ~ .mycustom-checkbox-label {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    cursor: pointer;
+    vertical-align: middle;
+
+    &:hover {
+        &:before {
+            animation-duration: 0.4s;
+            animation-fill-mode: both;
+            animation-name: hover-color;
+        }
+    }
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        width: $mycustom-checkbox-size;
+        height: $mycustom-checkbox-size;
+        content: "";
+        border: 1px solid $mycustom-border-color;
+    }
+    &:after {
+        position: absolute;
+        display: none;
+        content: "";
+    }
+}
+
+.mycustom-radio[disabled] ~ .mycustom-checkbox-label,
+.mycustom-checkbox[disabled] ~ .mycustom-checkbox-label {
+    cursor: not-allowed;
+    color: $mycustom-disabled-color;
+    &:hover,
+    &:before,
+    &:after {
+        cursor: not-allowed;
+    }
+    &:hover {
+        &:before {
+            border: 1px solid $mycustom-disabled-color;
+            animation-name: none;
+        }
+    }
+    &:before {
+        border-color: $mycustom-disabled-color;
+    }
+}
+
+.mycustom-radio:checked ~ .mycustom-checkbox-label,
+.mycustom-checkbox:checked ~ .mycustom-checkbox-label {
+    &:before {
+        animation-name: none;
+    }
+    &:after {
+        display: block;
+    }
+}
+
+.mycustom-checkbox ~ .mycustom-checkbox-label {
+    &:before {
+        border-radius: 3px;
+    }
+    &:after {
+        top: 2px;
+        left: 7px;
+        box-sizing: border-box;
+        width: 6px;
+        height: 12px;
+        transform: rotate(45deg);
+        border-width: 2px;
+        border-style: solid;
+        border-color: #fff;
+
+        border-top: 0;
+        border-left: 0;
+    }
+}
+.mycustom-checkbox:checked ~ .mycustom-checkbox-label {
+    &:before {
+        border: $mycustom-main-color;
+        background: $mycustom-main-color;
+    }
+}
+.mycustom-checkbox:checked[disabled] ~ .mycustom-checkbox-label {
+    &:before {
+        border: $mycustom-disabled-checked-color;
+        background: $mycustom-disabled-checked-color;
+    }
+}
+
+.mycustom-radio ~ .mycustom-checkbox-label {
+    &:before {
+        border-radius: 50%;
+    }
+    &:after {
+        top: 6px;
+        left: 6px;
+        width: $mycustom-dot-size;
+        height: $mycustom-dot-size;
+        border-radius: 50%;
+        background: $mycustom-main-color;
+    }
+}
+
+.mycustom-radio:checked ~ .mycustom-checkbox-label {
+    &:before {
+        border: 1px solid $mycustom-main-color;
+    }
+}
+.mycustom-radio:checked[disabled] ~ .mycustom-checkbox-label {
+    &:before {
+        border: 1px solid $mycustom-disabled-checked-color;
+    }
+    &:after {
+        background: $mycustom-disabled-checked-color;
+    }
+}

@@ -1,0 +1,509 @@
+{
+  "projectName": "AVF-Shell",
+  "version": "0.0.1",
+  "faviconPath": "favicon.ico",
+  "menuOrientation": "none",
+  "selectedTheme": "custom-theme",
+  "useWebXPanel": false,
+  "themes": [
+    {
+      "name": "light-theme",
+      "path": "./assets/theme/light.css",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-light.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "url": [
+          "./app/template/assets/img/ch5-stone-light-bg.jpg"
+        ]
+      }
+    },
+    {
+      "name": "dark-theme",
+      "path": "./assets/theme/dark.css",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-dark.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "url": [
+          "./app/template/assets/img/ch5-stone-dark-bg.jpg"
+        ]
+      }
+    },
+    {
+      "name": "custom-theme",
+      "path": "./assets/theme/custom.css",
+      "brandLogo": {
+        "url": "./app/template/assets/img/ch5-logo-light.svg",
+        "alt": "Crestron Logo",
+        "receiveStateUrl": ""
+      },
+      "backgroundProperties": {
+        "backgroundColor": [
+          "white"
+        ],
+        "url": [
+          ""
+        ]
+      }
+    }
+  ],
+  "config": {
+    "controlSystem": {}
+  },
+  "header": {
+    "display": true,
+    "displayInfo": true,
+    "$component": "header"
+  },
+  "footer": {
+    "display": true,
+    "$component": "footer"
+  },
+  "content": {
+    "$defaultView": "startPage",
+    "triggerViewProperties": {
+      "gestureable": false,
+      "endless": false,
+      "disableAnimation": true
+    },
+    "pages": [
+      {
+        "pageName": "airmedia",
+        "fullPath": "./app/project/components/pages/source-selection/airmedia/",
+        "fileName": "airmedia.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "show": "false"
+        },
+        "navigation": {
+          "sequence": 3,
+          "label": "",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "",
+          "iconPosition": ""
+        }
+      },
+      {
+        "pageName": "announcement",
+        "fullPath": "./app/project/components/pages/announcement/",
+        "fileName": "announcement.html",
+        "standAloneView": true
+      },
+      {
+        "pageName": "appleTv",
+        "fullPath": "./app/project/components/pages/source-selection/controlled-sources/apple-tv/",
+        "fileName": "apple-tv.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "show": "false"
+        },
+        "navigation": {
+          "sequence": 4,
+          "label": "",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "",
+          "iconPosition": ""
+        }
+      },
+      {
+        "pageName": "bluray",
+        "fullPath": "./app/project/components/pages/source-selection/controlled-sources/bluray/",
+        "fileName": "bluray.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "show": "false"
+        },
+        "navigation": {
+          "sequence": 5,
+          "label": "bluray",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "",
+          "iconPosition": ""
+        }
+      },
+      {
+        "pageName": "configuring",
+        "fullPath": "./app/project/components/pages/configuring/",
+        "fileName": "configuring.html",
+        "standAloneView": true
+      },
+      {
+        "pageName": "coolingDown",
+        "fullPath": "./app/project/components/pages/cooling-down/",
+        "fileName": "cooling-down.html",
+        "standAloneView": true
+      },
+      {
+        "pageName": "directTv",
+        "fullPath": "./app/project/components/pages/source-selection/controlled-sources/direct-tv/",
+        "fileName": "direct-tv.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "show": "false"
+        },
+        "navigation": {
+          "sequence": 6,
+          "label": "directtv",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "",
+          "iconPosition": ""
+        }
+      },
+      {
+        "pageName": "disconnected",
+        "fullPath": "./app/project/components/pages/disconnected/",
+        "fileName": "disconnected.html",
+        "standAloneView": true
+      },
+      {
+        "pageName": "emergencyBroadcast",
+        "fullPath": "./app/project/components/pages/emergency-broadcast/",
+        "fileName": "emergency-broadcast.html",
+        "standAloneView": true
+      },
+      {
+        "pageName": "extendedInfo",
+        "fullPath": "./app/project/components/pages/extended-info/",
+        "fileName": "extended-info.html",
+        "standAloneView": true
+      },
+      {
+        "pageName": "footer",
+        "fullPath": "./app/project/components/pages/footer/",
+        "fileName": "footer.html",
+        "standAloneView": false
+      },
+      {
+        "pageName": "header",
+        "fullPath": "./app/project/components/pages/header/",
+        "fileName": "header.html",
+        "standAloneView": false
+      },
+      {
+        "pageName": "help",
+        "fullPath": "./app/project/components/pages/help/",
+        "fileName": "help.html",
+        "standAloneView": true
+      },
+      {
+        "pageName": "horizontalPresent",
+        "fullPath": "./app/project/components/pages/source-selection/horizontal-present/",
+        "fileName": "horizontal-present.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "show": "false"
+        },
+        "navigation": {
+          "sequence": 9,
+          "label": "horizontalpresent",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "",
+          "iconPosition": ""
+        }
+      },
+      {
+        "pageName": "info",
+        "fullPath": "./app/project/components/pages/info/",
+        "fileName": "info.html",
+        "standAloneView": true
+      },
+      {
+        "pageName": "infoFooter",
+        "fullPath": "./app/project/components/pages/info-footer/",
+        "fileName": "info-footer.html",
+        "standAloneView": false
+      },
+      {
+        "pageName": "initializing",
+        "fullPath": "./app/project/components/pages/initializing/",
+        "fileName": "initializing.html",
+        "standAloneView": true
+      },
+      {
+        "pageName": "meetingStatus",
+        "fullPath": "./app/project/components/pages/meeting-status/",
+        "fileName": "meeting-status.html",
+        "standAloneView": false
+      },
+      {
+        "pageName": "menuScreen",
+        "fullPath": "./app/project/components/pages/menu-screen/",
+        "fileName": "menu-screen.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "show": "false"
+        },
+        "navigation": {
+          "sequence": 2,
+          "label": "menuscreen",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "",
+          "iconPosition": ""
+        }
+      },
+      {
+        "pageName": "roku",
+        "fullPath": "./app/project/components/pages/source-selection/controlled-sources/roku/",
+        "fileName": "roku.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "show": "false"
+        },
+        "navigation": {
+          "sequence": 7,
+          "label": "roku",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "",
+          "iconPosition": ""
+        }
+      },
+      {
+        "pageName": "scheduleMeeting",
+        "fullPath": "./app/project/components/pages/schedule-meeting/",
+        "fileName": "schedule-meeting.html",
+        "standAloneView": true
+      },
+      {
+        "pageName": "screensaver",
+        "fullPath": "./app/project/components/pages/screensaver/",
+        "fileName": "screensaver.html",
+        "standAloneView": true
+      },
+      {
+        "pageName": "shutdown",
+        "fullPath": "./app/project/components/pages/shutdown/",
+        "fileName": "shutdown.html",
+        "standAloneView": true
+      },
+      {
+        "pageName": "startPage",
+        "fullPath": "./app/project/components/pages/start-page/",
+        "fileName": "start-page.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "show": "false"
+        },
+        "navigation": {
+          "sequence": 1,
+          "label": "startPage",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "",
+          "iconPosition": ""
+        }
+      },
+      {
+        "pageName": "tivo",
+        "fullPath": "./app/project/components/pages/source-selection/controlled-sources/tivo/",
+        "fileName": "tivo.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "show": "false"
+        },
+        "navigation": {
+          "sequence": 8,
+          "label": "tivo",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "",
+          "iconPosition": ""
+        }
+      },
+      {
+        "pageName": "verticalPresent",
+        "fullPath": "./app/project/components/pages/source-selection/vertical-present/",
+        "fileName": "vertical-present.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "show": "false"
+        },
+        "navigation": {
+          "sequence": 10,
+          "label": "verticalpresent",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "",
+          "iconPosition": ""
+        }
+      },
+      {
+        "pageName": "loader",
+        "fullPath": "./app/project/components/pages/loader/",
+        "fileName": "loader.html",
+        "standAloneView": true
+      },
+      {
+        "pageName": "warmingUp",
+        "fullPath": "./app/project/components/pages/warming-up/",
+        "fileName": "warming-up.html",
+        "standAloneView": true
+      },
+      {
+        "pageName": "dateTimeDisplay",
+        "fullPath": "./app/project/components/pages/date-time-display/",
+        "fileName": "date-time-display.html",
+        "standAloneView": false
+      },
+      {
+        "pageName": "uncontrolledSources",
+        "fullPath": "./app/project/components/pages/source-selection/uncontrolled-sources/",
+        "fileName": "uncontrolled-sources.html",
+        "standAloneView": false,
+        "pageProperties": {
+          "show": "false"
+        },
+        "navigation": {
+          "sequence": 11,
+          "label": "uncontrolledsources",
+          "isI18nLabel": false,
+          "iconClass": "",
+          "iconUrl": "",
+          "iconPosition": ""
+        }
+      },
+      {
+        "pageName": "logDisplay",
+        "fullPath": "./app/project/components/pages/log-display/",
+        "fileName": "log-display.html",
+        "standAloneView": true,
+        "pageProperties": {
+          "class": ""
+        }
+      }
+    ],
+    "widgets": [
+      {
+        "widgetName": "appleTvButtonsView",
+        "fullPath": "./app/project/components/widgets/apple-tv/apple-tv-buttons-view/",
+        "fileName": "apple-tv-buttons-view.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "appleTvColorButtons",
+        "fullPath": "./app/project/components/widgets/apple-tv/apple-tv-color-buttons/",
+        "fileName": "apple-tv-color-buttons.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "appleTvDpad",
+        "fullPath": "./app/project/components/widgets/apple-tv/apple-tv-dpad/",
+        "fileName": "apple-tv-dpad.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "blurayColorButtons",
+        "fullPath": "./app/project/components/widgets/bluray/bluray-color-buttons/",
+        "fileName": "bluray-color-buttons.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "blurayDeviceKeysPanelOne",
+        "fullPath": "./app/project/components/widgets/bluray/bluray-device-keys-panel-one/",
+        "fileName": "bluray-device-keys-panel-one.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "blurayDeviceKeysPanelTwo",
+        "fullPath": "./app/project/components/widgets/bluray/bluray-device-keys-panel-two/",
+        "fileName": "bluray-device-keys-panel-two.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "blurayNumberKeypad",
+        "fullPath": "./app/project/components/widgets/bluray/bluray-number-keypad/",
+        "fileName": "bluray-number-keypad.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "directTvColorButtons",
+        "fullPath": "./app/project/components/widgets/direct-tv/direct-tv-color-buttons/",
+        "fileName": "direct-tv-color-buttons.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "directTvDeviceKeysPanelOne",
+        "fullPath": "./app/project/components/widgets/direct-tv/direct-tv-device-keys-panel-one/",
+        "fileName": "direct-tv-device-keys-panel-one.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "directTvDeviceKeysPanelTwo",
+        "fullPath": "./app/project/components/widgets/direct-tv/direct-tv-device-keys-panel-two/",
+        "fileName": "direct-tv-device-keys-panel-two.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "directTvNumberKeypad",
+        "fullPath": "./app/project/components/widgets/direct-tv/direct-tv-number-keypad/",
+        "fileName": "direct-tv-number-keypad.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "rokuColorButtons",
+        "fullPath": "./app/project/components/widgets/roku/roku-color-buttons/",
+        "fileName": "roku-color-buttons.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "rokuDeviceKeysPanelOne",
+        "fullPath": "./app/project/components/widgets/roku/roku-device-keys-panel-one/",
+        "fileName": "roku-device-keys-panel-one.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "rokuDeviceKeysPanelTwo",
+        "fullPath": "./app/project/components/widgets/roku/roku-device-keys-panel-two/",
+        "fileName": "roku-device-keys-panel-two.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "tivoColorButtons",
+        "fullPath": "./app/project/components/widgets/tivo/tivo-color-buttons/",
+        "fileName": "tivo-color-buttons.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "tivoDeviceKeysPanelOne",
+        "fullPath": "./app/project/components/widgets/tivo/tivo-device-keys-panel-one/",
+        "fileName": "tivo-device-keys-panel-one.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "tivoDeviceKeysPanelTwo",
+        "fullPath": "./app/project/components/widgets/tivo/tivo-device-keys-panel-two/",
+        "fileName": "tivo-device-keys-panel-two.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "tivoNumberKeypad",
+        "fullPath": "./app/project/components/widgets/tivo/tivo-number-keypad/",
+        "fileName": "tivo-number-keypad.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "loadingIndicator",
+        "fullPath": "./app/project/components/widgets/loading-indicator/",
+        "fileName": "loading-indicator.html",
+        "widgetProperties": {}
+      },
+      {
+        "widgetName": "verticalPresentationWidget",
+        "fullPath": "./app/project/components/widgets/vertical-presentation-widget/",
+        "fileName": "vertical-presentation-widget.html",
+        "widgetProperties": {}
+      }
+    ]
+  }
+}

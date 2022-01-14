@@ -1,0 +1,283 @@
+ch5-triggerview {
+    width: 100%;
+    text-align: center;
+
+    > div,
+    > div > div,
+    ch5-triggerview-child {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+.main-widget-content {
+    ch5-template {
+        height: 100%;
+        width: 100%;
+        > div, div.ch5-template-content-wrapper > div, .complete-table {
+            height: 100%;
+            width: 100%;
+        }        
+    }
+}
+
+.hide-div {
+    display: none !important;
+}
+
+.ch5-hide-vis {
+    display: none;
+}
+
+.vh-view {
+    height: 100%;
+}
+
+.triggerview-tabs .selected {
+    .cb-icon {
+        color: #61cbb6;
+    }
+}
+
+.stop-button {
+    .cb-btn {
+        width: 100%;
+        height: 78px;
+    }
+
+    .ch5-button--label {
+        color: black;
+        font-size: 28px;
+    }
+
+    .ch5-button--default {
+        padding: 5px;
+        border: solid 1px white;
+        background: #fff;
+    }
+}
+
+.color-button-bottom {
+    margin-bottom: 30px !important;
+}
+
+.red-button {
+    margin: 0 10px 0 10px;
+
+    div {
+        background-color: #ff443a;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.green-button {
+    margin: 0 10px 0 10px;
+
+    div {
+        background-color: #0ddf59;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.yellow-button {
+    margin: 0 10px 0 10px;
+
+    div {
+        background-color: #ffce0d;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.blue-button {
+    margin: 0 10px 0 10px;
+
+    div {
+        background-color: #0d80ff;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.border-gray {
+    border: solid 1px darkgray;
+    border-radius: 20px;
+}
+
+.ch5-template-content-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+ch5-button {
+    .ch5-button--default {
+        padding: 5px;
+    }
+
+    .ch5-button--img {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+.triggerview-tabs {
+    width: 100%;
+    text-align: center;
+
+    .ch5-button {
+        width: 100%;
+    }
+
+    div {
+        border-bottom: none;
+        background: transparent;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    .cb-btn {
+        color: #818183;
+        width: 100%;
+    }
+}
+
+ch5-button {
+    .ch5-button--selected .cb-btn {
+        color: #60cbb2;
+    }
+}
+
+.options-outline {
+    font-size: 24px;
+    border: 3px solid #1c2b58;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+
+    span {
+        color: #1c2b58;
+        font-size: 24px;
+    }
+}
+
+.options {
+    height: inherit;
+}
+
+.options-button {
+    div {
+        background-color: transparent;
+        border-color: #1c2b58;
+    }
+
+    .cb-btn {
+        span {
+            color: #1c2b58;
+            font-size: 24px;
+        }
+    }
+
+    // @media only screen and (max-width: 960px) {
+    //     .cb-btn {
+    //         span {
+    //             font-size: 20px;
+    //         }
+    //     }
+    // }
+    .ch5-button--default {
+        border: 2px solid #1c2b58;
+    }
+
+    .ch5-button--rounded-rectangle {
+        border-radius: 10px;
+    }
+}
+
+// 1070 Panel, 1060 Panel
+@media only screen and (device-width: 1280px) {
+
+    .this-container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .triggerview-tabs {
+        width: 100%;
+        height: 60px;
+    }
+
+    .triggerview-tabs-content {
+        height: calc(100% - 60px);
+    }
+
+    .stop-button {
+        .ch5-button--img {
+            width: 66px;
+            height: 66px;
+        }
+    }
+}
+
+// 760 Panel
+@media only screen and (device-width: 1261px) {
+
+    .this-container {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .triggerview-tabs {
+        width: 100%;
+        height: 60px;
+    }
+
+    .triggerview-tabs-content {
+        height: calc(100% - 60px);
+    }
+
+    .stop-button {
+        .ch5-button--img {
+            width: 64px;
+            height: 64px;
+        }
+    }
+}
+
+// 560 Panel
+@media only screen and (device-width: 640px) {
+
+    .this-container {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .triggerview-tabs {
+        width: 100%;
+        height: 30px;
+    }
+
+    .triggerview-tabs-content {
+        // height: calc(100% - 30px);
+    }
+
+    .stop-button {
+        .ch5-button--img {
+            width: 42px;
+            height: 42px;
+        }
+    }
+}
+
+.stop-presenting-label {
+    font-size: calc(1.275rem + 0.3vw);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

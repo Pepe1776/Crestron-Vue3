@@ -1,0 +1,92 @@
+<!--
+    Copyright (C) 2020 to the present, Crestron Electronics, Inc.
+    All rights reserved.
+    No part of this software may be reproduced in any form, machine
+    or natural, without the express written consent of Crestron Electronics.
+    Use of this source code is subject to the terms of the Crestron Software License Agreement 
+    under which you licensed this source code.  
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title data-ch5-i18n="-+app.title+-"></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    {{{favicon faviconPath}}}
+    <!-- inject:css -->
+    <link rel="stylesheet" href="./assets/css/external.css">
+    <link rel="stylesheet" href="./assets/css/light-theme.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/templatecomponents.css">
+    <link rel="stylesheet" href="./assets/css/projectcomponents.css">
+    <!-- endinject -->
+</head>
+
+<body>
+    <div id="triggerViewWrapper" class="hide-vis">
+        {{#if header.display}}
+        <div id="header-index-page">
+            <!-- Header Component -->
+            <ch5-import-htmlsnippet id="template-header-import-page"
+                url="./app/template/components/pages/header/header.html">
+            </ch5-import-htmlsnippet>
+        </div>
+        {{/if}}
+        <div id="content-index-page">
+            <!-- Page Component -->
+            <ch5-import-htmlsnippet id="template-content-import-page"
+                url="./app/template/components/pages/content/content.html">
+            </ch5-import-htmlsnippet>
+        </div>
+        {{#if footer.display}}
+        <div id="footer-index-page">
+            <!-- Footer Component -->
+            <ch5-import-htmlsnippet id="template-footer-import-page"
+                url="./app/template/components/pages/footer/footer.html">
+            </ch5-import-htmlsnippet>
+        </div>
+        {{/if}}
+    </div>
+
+    <!-- Loader -->
+    <!--  <div id="loader" style="display: none;" class="loader"></div> -->
+    <div id="pageLoadingDiv" class="load-initializing-index-page">
+        <div class="d-flex flex-column text-center h-100 justify-content-around align-items-center p-l-r-30">
+            <div style="height:80px;">
+                <img class="initializing-image"
+                    src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MzQuNzIgMjI2Ljc5Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjtzdHJva2U6I2ZmZjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLXdpZHRoOjNweDt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjQ2LjUxLDI0NC44OWExMDIuNTgsMTAyLjU4LDAsMCwxLTEzLjgxLDEuODZjLTk5LjI5LDUuNzEtMTQzLjQ0LTI3LjYzLTE0OC41LTY0LjYtNS42Ny00MS43MSwzOC4yOS04OCwxMDguNzMtODguMTksMjQuNjYtLjA2LDUyLjQ0LDEuNzQsNzAuNjMsMjIuM2ExLjc1LDEuNzUsMCwwLDEtMi40NywyLjQ3Yy0zMC42Ny0yNy44OS0xMTQuMzYtMTcuNDYtMTMzLjMxLDExLjkxLTEyLjc5LDIwLTguMzQsMzYuNTQsMy44Nyw1MS40OXYwYTExMS4yMSwxMTEuMjEsMCwwLDAsOC4xNSw4Ljc1YzE5LjEsMTguNCw0OC41MiwzNC4xMiwxMDYuODYsNTAuNTdhMS43MiwxLjcyLDAsMCwxLS4xNSwzLjQyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTQuNjQgLTIyLjEpIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjE3LjUxLDI2LjExYTEwMi4zLDEwMi4zLDAsMCwxLDEzLjgyLTEuODdDNDQyLjU0LDEyLjEsNDA0LDE3Ni43MiwyNzEuMDYsMTc3Yy0yNC42NiwwLTUyLjQxLTEuNzQtNzAuNjctMjIuM2ExLjc1LDEuNzUsMCwwLDEsMi40Ny0yLjQ3YzMwLjc1LDI3LjkxLDExNC40MywxNy40OCwxMzMuMzEtMTEuOTEsMTUuNDEtMjQsNS45LTQzLTExLjk1LTYwLjI0QzMwNS4wOCw2MS43LDI3NS42Miw0NiwyMTcuMzIsMjkuNTRhMS43MywxLjczLDAsMCwxLC4xOS0zLjQzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTQuNjQgLTIyLjEpIi8+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNDMuNiw4Ny40MWMuMy0uOC41Ny0xLjgsMS4xMy0zYTE3LDE3LDAsMCwxLDIuODYtNC41NEM5MS4yNCwyOC4yNSwxNzUuMjMsMjguNDEsMjM5Ljc0LDQ4LjIyYzYyLjksMTkuMywxMTMuNCw2MCw3OS4zOCw5MC45My0xMi41OSwxMS40Mi0yOS42OCwyMi43OS03Mi4xNSwyMC43NGExLjc1LDEuNzUsMCwxLDEsMC0zLjVjNjQuNDcuMTcsODMuODEtNDIuMiw0Ni42My02My45M0MyNjAuMzIsNzIuOTQsMjIyLjIzLDY3LjU2LDE4NC4xLDY3Yy00MC42OC0uNjUtODEuODIsNC43Ny0xMzguMzMsMjIuNzVhMS42OCwxLjY4LDAsMCwxLTIuMTctMi4zMiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE0LjY0IC0yMi4xKSIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTI4MCw5Ni43NWMtMzIuNzMtMjkuMS0xMjIuNjItMjgtMTg3LjczLTlDMzIuMzMsMTA1LjI3LTExLDE0MCwzNi4xLDE4Mi4xNWExNDUuNzQsMTQ1Ljc0LDAsMCwwLDEyLjM3LDkuNzksNDkuMTMsNDkuMTMsMCwwLDAsNS43NCwzLjY3LDI3LjU0LDI3LjU0LDAsMCwwLDQuMzgsMS45NSwxLjg4LDEuODgsMCwwLDAsMi41OS0xLjkzLDExMS44MSwxMTEuODEsMCwwLDEsMC0xMy40OHYtLjA5YzEuNTktMjYuMSwxMi40OC00My42MywzMC42Ny01OC44NSwxOS43NS0xNi42NCw0Ny43Mi0zMS4wOSw5Ny4xNS0zNi4zNCw2My42NC02Ljc3LDExNC43OCwyNy4yNiw4Ny4xMiw1MS44OWExLjc0LDEuNzQsMCwxLDAsMi4xNywyLjczYzI1Ljg3LTE5LDE0LjM4LTMzLjQ4LDEuNjctNDQuNzQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNC42NCAtMjIuMSkiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00MTUuNDgsNzkuMDZhMzksMzksMCwwLDAtNS44Mi0zLjM5Yy0xLjcyLS44NC0zLjItMS40NS00LjM0LTJhMS42NiwxLjY2LDAsMCwwLTIuNDgsMS42OWMxLjcyLDMzLjktOS41OSw1NC42OS0zMC43LDcyLjQyLTE3LjYyLDE0Ljc4LTQxLjY0LDI3Ljg0LTgxLjU2LDM0LjI4aC0uMTVjLTQuOTUuNzktMTAuMDksMS40OC0xNS40NiwyYTE1MC41MywxNTAuNTMsMCwwLDEtNDUuNTQtMmMtMzguMjUtOC4yMS02Mi4xNS0zMS41OC00MS41Ni00OS44NWExLjc2LDEuNzYsMCwwLDAtMi4yMS0yLjc1Yy0yNS44OCwxOS0xNC4zNSwzMy41LTEuNzEsNDQuNzQsMy4zNSwzLDExLjY0LDcuOTQsMTEuNjQsNy45NCwzOS4wOCwyMC43OCwxMTcuNjMsMTguMTcsMTc2LjE2LDEuMDcsMS4zLS40LDIuNTItLjc4LDMuODEtMS4xMXYwYzYyLjQxLTE5LjI0LDEwNC42NS01Ny4zOSwzOS45Mi0xMDMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNC42NCAtMjIuMSkiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00MTguMjYsMTgxLjI5YTEuNzYsMS43NiwwLDAsMSwyLjI1Ljg2LDEuOTMsMS45MywwLDAsMS0uMDgsMS40NGMtLjMxLjc3LS42MSwxLjc4LTEuMTUsM2ExOS43OSwxOS43OSwwLDAsMS0yLjkzLDQuNTVjLTQzLjYxLDUxLjY0LTEyNy41Niw1MS40Ny0xOTIuMTQsMzEuNjUtMzEuMTMtOS41Ni01OS4yNS0yNC4zNy03NS41NC00MC42M2gwYy0xNi41NS0xNi42My0yMC44OS0zNC43Mi0zLjczLTUwLjI5LDEyLjYtMTEuNDMsMjkuNjEtMjIuOCw3Mi4xNS0yMC43NWExLjc1LDEuNzUsMCwxLDEtLjExLDMuNWMtNjQuMzktLjE1LTgzLjcyLDQyLjItNDYuNjIsNjQsMi4xNywxLjIzLDQuMywyLjQyLDYuNTEsMy41OCwzMS43OCwxNi41OCw2Ny40LDIxLjMzLDEwMywyMS45LDQwLjE1LjYyLDgwLjY4LTQuNjUsMTM1LjktMjJoLjE5Yy44LS4yOSwxLjU2LS41NCwyLjMyLS43NyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE0LjY0IC0yMi4xKSIvPjwvc3ZnPg==" />
+            </div>
+            <div style="height:60px;">
+                <ch5-template templateid="loading-indicator-widget" context="LOADING-INDICATOR-COLOR:white">
+                </ch5-template>
+            </div>
+            <div class="justify-content-center align-self-center">
+                <label class="bottom-content">Please wait for the system to initialize ...</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- project-config.json Widgets -->
+    {{#each content/widgets}}
+    <ch5-import-htmlsnippet id="{{widgetName}}-import-widget" url="{{fullPath}}{{fileName}}" show="false">
+    </ch5-import-htmlsnippet>
+    {{/each}}
+
+    <!-- project-config.json Non-Navigation Stand Alone View Pages -->
+    {{#standAloneViewPages content/pages}}
+    <ch5-import-htmlsnippet id="{{pageName}}-import-page" url="{{fullPath}}{{fileName}}" show="false">
+    </ch5-import-htmlsnippet>
+    {{/standAloneViewPages}}
+
+    <!-- inject:js -->
+    <script src="./libraries/cr-com-lib.js"></script>
+    <script src="./libraries/component.js"></script>
+    <!-- endinject -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.1/socket.io.min.js"></script>
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+</body>
+
+</html>

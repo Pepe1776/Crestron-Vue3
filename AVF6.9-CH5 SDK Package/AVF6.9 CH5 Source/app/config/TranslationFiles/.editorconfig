@@ -1,0 +1,14 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Specific files for the Translation files
+
+# Default styles
+[*]
+indent_style = space
+insert_final_newline = true
+tab_width = 4
+trim_trailing_whitespace = true
+
+[*.xml]
+indent_style = tab
+tab_width = 2

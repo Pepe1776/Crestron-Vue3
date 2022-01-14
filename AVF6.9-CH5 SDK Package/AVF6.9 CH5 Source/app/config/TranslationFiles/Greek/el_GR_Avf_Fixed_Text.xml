@@ -1,0 +1,1552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang locale="el_GR" name="Greek" variant="Greek">
+	<include file="el_GR_Common_Text.xml"/>
+	<include file="el_GR_Scheduling_Calendar.xml"/>
+
+	<fontface name="Crestron Sans Pro"><![CDATA[Crestron Unicode]]></fontface>
+	<fontface name="Crestron Sans Pro Light"><![CDATA[Crestron Unicode]]></fontface>
+	<fontface name="Crestron Sans Pro Semibold"><![CDATA[Crestron Unicode]]></fontface>
+	<fontface name="Crestron Serif"><![CDATA[Crestron Unicode]]></fontface>
+	<fontface name="Crestron Mono"><![CDATA[Crestron Unicode]]></fontface>
+
+	<lookup key = "CurrentLanguageTranslatedName"><![CDATA[Ελληνικά]]></lookup> <!-- This is the name of the language being translated as it exists natively -->
+
+	<lookup key="AvFramework"><![CDATA[AvFramework]]></lookup>
+	<lookup key="signin"><![CDATA[Σύνδεση]]></lookup>
+
+	<!-- 000_Initialize  -->
+	<lookup key="InitializeMessageText"><![CDATA[Περιμένετε να προετοιμαστεί το σύστημα …]]></lookup>
+
+	<!-- 002_Home_Available -->
+	<lookup key="ReserveNowButtonText"><![CDATA[ΚΑΝΤΕ ΚΡΑΤΗΣΗ]]></lookup>
+
+	<!-- 002_Home_Available_All_Day -->
+	<lookup key="RestOfDayText"><![CDATA[Για το υπόλοιπο της ημέρας]]></lookup>
+
+	<!-- 002_Home_Available_Reserve -->
+	<lookup key="NewMeetingText"><![CDATA[Νέα συνάντηση]]></lookup>
+
+	<!-- 002_Home_Fusion_Offline -->
+
+	<!-- 002_Home_Meeting_InProgress -->
+
+	<!-- 002_Home_Meeting_InProgress_Join -->
+	<lookup key="MeetingInProgressText"><![CDATA[Σε εξέλιξη]]></lookup>
+	<lookup key="JoinMeetingButtonText"><![CDATA[ΣΥΜΜΕΤΟΧΗ ΣΤΗ ΣΥΝΑΝΤΗΣΗ]]></lookup>
+
+	<!-- 003_Call_Selection -->
+	<lookup key="MakeCallText"><![CDATA[Κάντε κλήση]]></lookup>
+
+	<!-- 003_Call_Video_Directory -->
+
+	<!-- 003_Call_Video_InCall -->
+	<lookup key="VideoCallText"><![CDATA[Σε βίντεο διάσκεψη]]></lookup>
+	<lookup key="VideoCallDisableVideoText"><![CDATA[Απενεργοποίηση βίντεο]]></lookup>
+
+	<!-- 004_Call_Audio_Keypad, KeypadButton is in Common_Text.xml-->
+
+	<!-- 004_Call_Audio_Keypad_DTMF, KeypadButton is in Common_Text.xml-->
+
+	<!-- 004_Call_Audio_inCall -->
+	<lookup key="AudioCallText"><![CDATA[Σε φωνητ. κλήση]]></lookup>
+
+	<!-- 0096_Outgoing_Audio_Call, in Common_Text.xml -->
+
+	<!-- 0097_Incoming_In_Call_Audio_Call -->
+	<lookup key="IncomingCallText"><![CDATA[Εισερχόμενη]]></lookup>
+	<lookup key="IncomingInCallAnswerText"><![CDATA[Τερματισμός τρέχουσας + Απάντηση]]></lookup>
+	<lookup key="IncomingInCallIgnoreText"><![CDATA[Παράλειψη]]></lookup>
+
+	<!-- 0098_Incoming_Audio_Call -->
+	<lookup key="IncomingCallAnswerText"><![CDATA[Απάντηση]]></lookup>
+	<lookup key="IncomingCallDismissText"><![CDATA[ΑΠΟΡΡΙΨΗ]]></lookup>
+
+	<!-- 005_Present_Selection -->
+	<lookup key="PresentSourceSelectText"><![CDATA[Επιλέξτε πηγή για παρουσίαση]]></lookup>
+
+	<!-- 005_Present_BluRay_Playhead -->
+	<lookup key="PresentBlurayPopUpMenuText"><![CDATA[Αναδυόμενο μενού]]></lookup>
+	<lookup key="PresentBlurayTopMenuText"><![CDATA[Μενού στην κορυφή]]></lookup>
+	<lookup key="PresentBlurayEjectText"><![CDATA[ΕΞΑΓΩΓΗ]]></lookup>
+	<lookup key="PresentSourcesText"><![CDATA[ΠΗΓΕΣ]]></lookup>
+	<lookup key="PresentNowPresentText"><![CDATA[Υφιστάμενη παρουσίαση]]></lookup>
+	<lookup key="PresentStopPresentingText"><![CDATA[Διακοπή παρουσίασης]]></lookup>
+	<lookup key="PresentSmartTVText"><![CDATA[Smart TV]]></lookup>
+
+	<!-- 005_Present_BluRay_Keypad -->
+
+	<!-- 005_Present_Laptop -->
+	<lookup key="PresentPlayingSourceText"><![CDATA[αναπαραγωγή πηγής μέσω]]></lookup>
+
+	<!-- 005_Present_Laptop_NoSource -->
+	<lookup key="PresentLaptopNoSourceText"><![CDATA[Συνδέστε το φορητό υπολογιστή σας]]></lookup>
+	<lookup key="PresentLaptopNoSourceConnectText"><![CDATA[Συνδέστε το φορητό υπολογιστή σας στο]]></lookup>
+
+	<!-- 005_Present_PC -->
+
+	<!-- 005_Present_TV_Playhead -->
+	<lookup key="PresentTVTunerText"><![CDATA[Δέκτης τηλεόρασης]]></lookup>
+	<lookup key="PresentGuideText"><![CDATA[Οδηγός]]></lookup>
+
+	<!-- 005_Present_TV_Keypad -->
+
+	<!-- 005_Present_Wireless -->
+	<lookup key="PresentWirelessSourceText"><![CDATA[Φορητός υπολογιστής]]></lookup>
+
+	<!-- 0094_Mic_Mute_Privacy -->
+	<lookup key="MicMuteText"><![CDATA[Ο ήχος από το μικρόφωνο έχει απομονωθεί για την προστασία του απορρήτου της συζήτησης ]]></lookup>
+
+	<!-- 0095_Lighting_Popup -->
+	<lookup key="LightingAdjustText"><![CDATA[Ρύθμιση τρέχουσας]]></lookup>
+
+	<!-- All power off -->
+	<lookup key="AllPowerOff"><![CDATA[Όλες οι προβολές θα σβήσουν και ο ήχος θα απομονωθεί.]]></lookup>
+	<lookup key="PowerOffCountDown"><![CDATA[Το σύστημα θα σβήσει αυτόματα σε:]]></lookup>
+	<lookup key="PowerOffShutdown"><![CDATA[Παύση λειτουργίας]]></lookup>
+	<lookup key="PowerOffContinue"><![CDATA[Να συνεχίσει να χρησιμοποιείται]]></lookup>
+	<lookup key="PowerOffShutingDown"><![CDATA[Παύση λειτουργίας σε εξέλιξη]]></lookup>
+
+	<!-- MainTemplate.html -->
+	<lookup key="AvFramework20"><![CDATA[AV Framework 2.0]]></lookup>
+
+	<!-- MainTemplate.html (01/28/2016 )-->
+	<lookup key="ToggleNavigation"><![CDATA[Εναλλαγή πλοήγησης]]></lookup>
+
+	<!-- login.html -->
+	<lookup key="Username"><![CDATA[Όνομα χρήστη]]></lookup>
+	<lookup key="PleaseSignIn"><![CDATA[Συνδεθείτε]]></lookup>
+	<lookup key="Password"><![CDATA[Κωδικός πρόσβασης]]></lookup>
+	<lookup key="Required"><![CDATA[Υποχρεωτικό]]></lookup>
+
+	<!--AddNewDevice.html -->
+
+	<lookup key="AddNewDevice"><![CDATA[Προσθήκη νέας συσκευής]]></lookup>
+	<lookup key="DeviceType"><![CDATA[Τύπος συσκευής]]></lookup>
+	<lookup key="ChannelName"><![CDATA[Όνομα καναλιού]]></lookup>
+	<lookup key="DisplayName"><![CDATA[Όνομα οθόνης]]></lookup>
+	<lookup key="Model"><![CDATA[Μοντέλο]]></lookup>
+	<lookup key="Control"><![CDATA[Έλεγχος]]></lookup>
+	<lookup key="IP"><![CDATA[IP]]></lookup>
+	<lookup key="Port"><![CDATA[Θύρα]]></lookup>
+	<lookup key="Channel"><![CDATA[Κανάλι]]></lookup>
+	<lookup key="IPID"><![CDATA[IP ID]]></lookup>
+	<lookup key="DigitalMedia"><![CDATA[Ψηφιακά μέσα]]></lookup>
+	<lookup key="Resolution"><![CDATA[Ανάλυση]]></lookup>
+	<lookup key="DisplayMode"><![CDATA[Λειτουργία οθόνης]]></lookup>
+	<lookup key="UsbPort"><![CDATA[Θύρα USB]]></lookup>
+	<lookup key="One"><![CDATA[1]]></lookup>
+	<lookup key="Two"><![CDATA[2]]></lookup>
+	<lookup key="Three"><![CDATA[3]]></lookup>
+	<lookup key="Four"><![CDATA[4]]></lookup>
+	<lookup key="BaudRate"><![CDATA[Ταχύτητα Baud]]></lookup>
+	<lookup key="IpIdValidationMessage"><![CDATA[Υποχρεωτική μορφή αναγνωριστικού IPID (03-FE).]]></lookup>
+	<lookup key="IpValidationMessage"><![CDATA[Υποχρεωτική μορφή διεύθυνσης IP (#.#.#.#).]]></lookup>
+	<lookup key="PortValidationMessage"><![CDATA[Υποχρεωτική μορφή θύρας (1-65535).]]></lookup>
+
+	<!--ConfigStep1.html-->
+
+	<lookup key="SystemSetup"><![CDATA[Ρύθμιση συστήματος]]></lookup>
+	<lookup key="RoomName"><![CDATA[Όνομα δωματίου]]></lookup>
+	<lookup key="FusionIpId"><![CDATA[IPID]]></lookup>
+	<lookup key="AllowCalls"><![CDATA[Οι κλήσεις επιτρέπονται]]></lookup>
+	<lookup key="EnableLighting"><![CDATA[Ενεργοποίηση φωτισμού]]></lookup>
+	<lookup key="TimeFormat"><![CDATA[Μορφή εμφάνισης ώρας]]></lookup>
+	<lookup key="24Hour"><![CDATA[24 ώρες]]></lookup>
+	<lookup key="12hour"><![CDATA[12 ώρες]]></lookup>
+	<lookup key="DateFormat"><![CDATA[Μορφή εμφάνισης ημερομηνίας]]></lookup>
+
+	<!--ConfigStep2.html-->
+
+	<lookup key="Devices"><![CDATA[Συσκευές]]></lookup>
+	<lookup key="Name"><![CDATA[Όνομα]]></lookup>
+	<lookup key="Type"><![CDATA[Τύπος]]></lookup>
+	<lookup key="Driver"><![CDATA[Οδηγός]]></lookup>
+	<lookup key="TransportDetails"><![CDATA[Στοιχεία μεταφοράς]]></lookup>
+	<lookup key="Serial"><![CDATA[Σειριακό]]></lookup>
+	<lookup key="Delete"><![CDATA[Διαγραφή]]></lookup>
+	<lookup key="Previous"><![CDATA[Προηγούμενη]]></lookup>
+
+	<!--ConfigStep3.html-->
+	<lookup key="Inputs"><![CDATA[Είσοδοι]]></lookup>
+	<lookup key="Icon"><![CDATA[Εικονίδιο]]></lookup>
+	<lookup key="Enabled"><![CDATA[Ενεργοποιήθηκε]]></lookup>
+	<lookup key="Rank"><![CDATA[Θέση]]></lookup>
+	<lookup key="Device"><![CDATA[Συσκευή]]></lookup>
+	<lookup key="Endpoint"><![CDATA[Κατάληξη]]></lookup>
+	<lookup key="Outputs"><![CDATA[Έξοδοι]]></lookup>
+
+	<!-- ConfigStep4.html (01/28/2016 ) -->
+	<lookup key="DownloadConfiguration"><![CDATA[Λήψη διαμόρφωσης]]></lookup>
+	<lookup key="UploadConfiguration"><![CDATA[Μεταφόρτωση διαμόρφωσης]]></lookup>
+	<lookup key="ActivateConfiguration"><![CDATA[Ενεργοποίηση διαμόρφωσης]]></lookup>
+	<lookup key="RevertConfiguration"><![CDATA[Επαναφορά διαμόρφωσης]]></lookup>
+
+	<!--Index.html-->
+	<lookup key="Welcome"><![CDATA[Καλώς ήρθατε στο AV Framework 2.0]]></lookup>
+
+	<!--RoomStatus.html-->
+	<lookup key="EthernetInformation"><![CDATA[Πληροφορίες Ethernet ]]></lookup>
+	<lookup key="InputChannels"><![CDATA[Κανάλια εισόδου]]></lookup>
+	<lookup key="AttachedDevice"><![CDATA[Συνδεδεμένη συσκευή]]></lookup>
+	<lookup key="OutputChannels"><![CDATA[Κανάλια εξόδου]]></lookup>
+	<lookup key="HostName"><![CDATA[Όνομα κεντρικού υπολογιστή]]></lookup>
+	<lookup key="DefaultRouter"><![CDATA[Προεπιλεγμένος δρομολογητής]]></lookup>
+	<lookup key="SubnetMask"><![CDATA[Μάσκα υποδικτύου]]></lookup>
+
+	<!--JavaScript-->
+	<lookup key="Error"><![CDATA[Σφάλμα]]></lookup>
+	<lookup key="Notice"><![CDATA[Επισήμανση]]></lookup>
+	<lookup key="SaveProblemWarning"><![CDATA[Παρουσιάστηκε κάποιο πρόβλημα κατά την αποθήκευση.]]></lookup>
+	<lookup key="MaxDeviceWarning"><![CDATA[Το σύστημα έχει ήδη το μέγιστο αριθμό ({0}) αυτής της συσκευής.]]></lookup>
+	<lookup key="SpecifyDeviceWarning"><![CDATA[Προσδιορίστε πρώτα τύπο συσκευής.]]></lookup>
+	<lookup key="UnSavedChangesWarning"><![CDATA[Υπάρχουν αλλαγές που δεν έχετε αποθηκεύσει.]]></lookup>
+	<lookup key="InvalidLogin"><![CDATA[Μη έγκυρος χρήστης/κωδικός πρόσβασης.]]></lookup>
+	<lookup key="UnControlledNotConfigurable"><![CDATA[Οι μη ελεγχόμενες/απενεργοποιημένες συσκευές δε μπορούν να διαμορφωθούν.]]></lookup>
+
+	<!--JavaScript (01/28/2016 ) -->
+	<lookup key="Warning"><![CDATA[Προειδοποίηση]]></lookup>
+	<lookup key="DeleteDeviceWarning"><![CDATA[Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή τη συσκευή;]]></lookup>
+	<lookup key="ActivateConfigWarning"><![CDATA[Είστε βέβαιοι ότι θέλετε να ενεργοποιήσετε αυτή τη διαμόρφωση;]]></lookup>
+	<lookup key="RevertConfigWarning"><![CDATA[Είστε βέβαιοι ότι θέλετε να επαναφέρετε αυτή τη διαμόρφωση;]]></lookup>
+	<lookup key="AlreadyInUse"><![CDATA[Το {0} είναι ήδη σε χρήση.]]></lookup>
+	<lookup key="FileLargeError"><![CDATA[Αυτό το αρχείο είναι υπερβολικά μεγάλο.]]></lookup>
+	<lookup key="IncorrectFileExtensionError"><![CDATA[Λάθος τύπος αρχείου.]]></lookup>
+	<lookup key="Success"><![CDATA[Επιτυχία]]></lookup>
+	<lookup key="CofigurationUpdated"><![CDATA[Η διαμόρφωση ενημερώθηκε.]]></lookup>
+
+	<!-- Web Menu System-->
+	<lookup key="SignOff"><![CDATA[Αποσύνδεση]]></lookup>
+	<lookup key="Configure"><![CDATA[Διαμόρφωση]]></lookup>
+	<!-- Web Menu System (01/28/2016 ) -->
+	<lookup key="Switch"><![CDATA[Μεταγωγή]]></lookup>
+	<lookup key="System"><![CDATA[Σύστημα]]></lookup>
+
+	<!-- 01/19/2016, enums for web page -->
+	<!-- AssociatedDevice -->
+	<lookup key="AssociatedInputDevice.Disabled"><![CDATA[Απενεργοποιημένο]]></lookup>
+	<lookup key="AssociatedInputDevice.UnControlled"><![CDATA[Μη ελεγχόμενο]]></lookup>
+	<lookup key="AssociatedInputDevice.Bluray"><![CDATA[Blu-ray]]></lookup>
+	<lookup key="AssociatedInputDevice.Cable"><![CDATA[Καλώδιο]]></lookup>
+	<lookup key="AssociatedInputDevice.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="AssociatedOutputDevice.Disabled"><![CDATA[Απενεργοποιημένο]]></lookup>
+	<lookup key="AssociatedOutputDevice.UnControlled"><![CDATA[UnControlled]]></lookup>
+	<lookup key="AssociatedInputDevice.ConnectIt"><![CDATA[ConnectIt]]></lookup>
+
+	<!-- ComBaudRate -->
+	<lookup key="ComBaudRate.ComspecBaudRate57600"><![CDATA[57600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate38400"><![CDATA[38400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate28800"><![CDATA[28800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate19200"><![CDATA[19200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate14400"><![CDATA[14400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate9600"><![CDATA[9600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate7200"><![CDATA[7200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate4800"><![CDATA[4800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate3600"><![CDATA[3600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate2400"><![CDATA[2400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate1800"><![CDATA[1800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate1200"><![CDATA[1200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate600"><![CDATA[600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate300"><![CDATA[300]]></lookup>
+
+	<!-- DateFormat -->
+	<lookup key="DateFormat.Mmddyy"><![CDATA[Ιανουάριος 15, 2017]]></lookup>
+	<lookup key="DateFormat.Ddmmyy"><![CDATA[15 Ιανουαρίου 2017]]></lookup>
+	<lookup key="DateFormat.Yymmdd"><![CDATA[2017 Ιανουάριος 15]]></lookup>
+
+	<!-- DeviceOnlineStatus -->
+	<lookup key="DeviceOnlineStatus.Unknown"><![CDATA[ΜΗ ΔΙΑΘ.]]></lookup>
+	<lookup key="DeviceOnlineStatus.Online"><![CDATA[Εντός δικτύου]]></lookup>
+	<lookup key="DeviceOnlineStatus.Offline"><![CDATA[Εκτός δικτύου]]></lookup>
+
+	<!-- DeviceType -->
+	<lookup key="DeviceType.Switcher"><![CDATA[Μεταγωγέας]]></lookup>
+	<lookup key="DeviceType.CableTv"><![CDATA[Καλώδιο TV]]></lookup>
+	<lookup key="DeviceType.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="DeviceType.ButtonPanel"><![CDATA[Πίνακας πλήκτρων]]></lookup>
+	<lookup key="DeviceType.Keypad"><![CDATA[Πληκτρολόγιο]]></lookup>
+	<lookup key="DeviceType.KeyPadUsb"><![CDATA[Πληκτρολόγιο USB]]></lookup>
+
+	<!-- DisplayMode -->
+	<lookup key="DisplayMode.Maintain"><![CDATA[Διατήρηση]]></lookup>
+	<lookup key="DisplayMode.Stretch"><![CDATA[Άπλωμα]]></lookup>
+	<lookup key="DisplayMode.Zoom"><![CDATA[Μεγέθυνση]]></lookup>
+	<lookup key="DisplayMode.None"><![CDATA[Κανένα]]></lookup>
+
+	<!-- PortType -->
+	<lookup key="PortType.Ir"><![CDATA[IR]]></lookup>
+	<lookup key="PortType.Serial"><![CDATA[Σειριακή]]></lookup>
+	<lookup key="PortType.Cec"><![CDATA[CEC]]></lookup>
+
+	<!-- Resolution -->
+	<lookup key="Resolution.EDIDPreferred"><![CDATA[Προτεινόμενο EDID]]></lookup>
+	<lookup key="Resolution.None"><![CDATA[Κανένα]]></lookup>
+	<lookup key="Resolution.Res640x480PC"><![CDATA[Ανάλυση 640x480 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res720x480pNTSC"><![CDATA[Ανάλυση 720x480p 60Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res720x576iPAL"><![CDATA[Ανάλυση 720x576i 25Hz PAL]]></lookup>
+	<lookup key="Resolution.Res720x576pPAL"><![CDATA[Ανάλυση 720x576p 50Hz PAL]]></lookup>
+	<lookup key="Resolution.Res800x600PC"><![CDATA[Ανάλυση 800x600 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res848x480PC"><![CDATA[Ανάλυση 848x480 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1024x768PC"><![CDATA[Ανάλυση 1024x768 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x720pPAL"><![CDATA[Ανάλυση 1280x720p 50Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1280x720pNTSC"><![CDATA[Ανάλυση 1280x720p 60Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1280x768PC"><![CDATA[Ανάλυση 1280x768 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x768PCRb"><![CDATA[Ανάλυση 1280x768 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1280x800PC"><![CDATA[Ανάλυση 1280x800 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x800PCRb"><![CDATA[Ανάλυση 1280x800 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1280x960PC"><![CDATA[Ανάλυση 1280x960 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x1024PC"><![CDATA[Ανάλυση 1280x1024 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1360x768PC"><![CDATA[Ανάλυση 1360x768 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PC"><![CDATA[Ανάλυση 1366x768 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PCRb"><![CDATA[Ανάλυση 1366x768 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1400x1050PC"><![CDATA[Ανάλυση 1400x1050 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1400x1050PCRb"><![CDATA[Ανάλυση 1400x1050 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1440x900PC"><![CDATA[Ανάλυση 1440x900 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1440x900PCRb"><![CDATA[Ανάλυση 1440x900 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1600x900PCRb"><![CDATA[Ανάλυση 1600x900 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1600x1200PC"><![CDATA[Ανάλυση 1600x1200 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PC"><![CDATA[Ανάλυση 1680x1050 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PCRb"><![CDATA[Ανάλυση 1680x1050 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1920x1080iPAL"><![CDATA[Ανάλυση 1920x1080i 25Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080iNTSC"><![CDATA[Ανάλυση 1920x1080i 30Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080pPAL"><![CDATA[Ανάλυση 1920x1080p 50Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080pNTSC"><![CDATA[Ανάλυση 1920x1080p 60Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1200PCRb"><![CDATA[Ανάλυση 1920x1200 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res2048x1152PCRb"><![CDATA[Ανάλυση 2048x1152 60Hz PC RB]]></lookup>
+
+	<!-- SystemRole -->
+	<lookup key="SystemRole.Admin"><![CDATA[Διαχείριση]]></lookup>
+	<lookup key="SystemRole.DriverUpdate"><![CDATA[Ενημέρωση οδηγού]]></lookup>
+	<lookup key="SystemRole.User"><![CDATA[Χρήστης]]></lookup>
+	<lookup key="SystemRole.UnAuthorized"><![CDATA[Μη εξουσιοδοτημένος]]></lookup>
+
+	<!-- SystemState -->
+	<lookup key="SystemState.UnKnown"><![CDATA[Άγνωστο]]></lookup>
+	<lookup key="SystemState.UnConfigured"><![CDATA[Μη διαμορφωμένο]]></lookup>
+	<lookup key="SystemState.Configuring"><![CDATA[Διαμόρφωση σε εξέλιξη]]></lookup>
+	<lookup key="SystemState.Configured"><![CDATA[Διαμορφώθηκε]]></lookup>
+
+	<!-- DeviceTransport -->
+	<lookup key="DeviceTransport.None"><![CDATA[Κανένα]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpId"><![CDATA[Αναγν. IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronInternal"><![CDATA[CrestronInternal]]></lookup>
+	<lookup key="DeviceTransport.CrestronIp"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronUsb"><![CDATA[USB]]></lookup>
+	<lookup key="DeviceTransport.IpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Ip"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpPortChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Serial"><![CDATA[Σειριακό]]></lookup>
+	<lookup key="DeviceTransport.SerialBaud"><![CDATA[Σειριακό]]></lookup>
+	<lookup key="DeviceTransport.SerialChannel"><![CDATA[Σειριακό]]></lookup>
+	<lookup key="DeviceTransport.Ir"><![CDATA[IR]]></lookup>
+	<lookup key="DeviceTransport.Cec"><![CDATA[CEC]]></lookup>
+	<lookup key="DeviceTransport.HDMI"><![CDATA[HDMI]]></lookup>
+
+	<!-- ChannelType -->
+	<lookup key="ChannelType.Undefined"><![CDATA[Απροσδιόριστο]]></lookup>
+	<lookup key="ChannelType.Hdmi"><![CDATA[HDMI]]></lookup>
+	<lookup key="ChannelType.HdmiVga"><![CDATA[HDMI VGA]]></lookup>
+	<lookup key="ChannelType.HdmiVgaBnc"><![CDATA[HDMI VGA BNC]]></lookup>
+	<lookup key="ChannelType.Vga"><![CDATA[VGA]]></lookup>
+	<lookup key="ChannelType.Dvi"><![CDATA[DVI]]></lookup>
+	<lookup key="ChannelType.DM"><![CDATA[DM]]></lookup>
+	<lookup key="ChannelType.DmHdmi"><![CDATA[DM HDMI]]></lookup>
+	<lookup key="ChannelType.SingleModeFiber"><![CDATA[Οπτική ίνα μίας κατεύθυνσης]]></lookup>
+	<lookup key="ChannelType.Fiber"><![CDATA[Οπτική ίνα]]></lookup>
+	<lookup key="ChannelType.Audio"><![CDATA[Ήχος]]></lookup>
+	<lookup key="ChannelType.Sip"><![CDATA[SIP]]></lookup>
+	<lookup key="ChannelType.Composite"><![CDATA[Σύνθετο]]></lookup>
+	<lookup key="ChannelType.DisplayPort"><![CDATA[Display Port]]></lookup>
+
+	<!-- 02/11/2016 -->
+
+	<!-- Web Logger : new added  -->
+	<lookup key="NoFilter"><![CDATA[Κανένα φίλτρο]]></lookup>
+	<lookup key="Info"><![CDATA[Πληροφορίες]]></lookup>
+	<lookup key="Debug"><![CDATA[Εντοπισμός σφαλμάτων]]></lookup>
+	<lookup key="FilterExpression"><![CDATA[Έκφραση φίλτρου]]></lookup>
+	<lookup key="StopScrolling"><![CDATA[Τερματισμός κύλισης]]></lookup>
+	<lookup key="Scrolling"><![CDATA[Κύλιση]]></lookup>
+	<lookup key="Download"><![CDATA[Λήψη]]></lookup>
+
+	<lookup key="ClearSearchMessage"><![CDATA[Απαλοιφή για συνέχεια]]></lookup>
+	<lookup key="Search"><![CDATA[Αναζήτηση]]></lookup>
+	<lookup key="SearchLog"><![CDATA[Αναζήτηση στο αρχείο καταγραφής]]></lookup>
+	<lookup key="Clear"><![CDATA[Απαλοιφή]]></lookup>
+
+	<!-- 02/29/2016 -->
+
+	<!-- ComBaudRate -->
+	<lookup key="ComBaudRate.ComspecBaudRate115200"><![CDATA[115200]]></lookup>
+
+	<!-- AddNewDevice.html -->
+	<lookup key="UseSensorTimeout"><![CDATA[Χρήση λήξης αισθητήρα]]></lookup>
+	<lookup key="SensorTimeOutMinutes"><![CDATA[Λήξη σε λεπτά]]></lookup>
+	<lookup key="TurnSystemOn"><![CDATA[Ενεργοποίηση συστήματος]]></lookup>
+	<lookup key="TurnSystemOff"><![CDATA[Απενεργοποίηση συστήματος]]></lookup>
+	<lookup key="RouteDefaultVideo"><![CDATA[Δρομολόγηση προεπιλεγμένου βίντεο]]></lookup>
+	<lookup key="PowerOnCommandLabel"><![CDATA[Εντολή ενεργοποίησης]]></lookup>
+	<lookup key="PowerOffCommandLabel"><![CDATA[Εντολή απενεργοποίησης]]></lookup>
+	<lookup key="SetSourceCommandLabel"><![CDATA[Ορισμός εντολής πηγής]]></lookup>
+	<lookup key="PowerOnDelaySecondsLabel"><![CDATA[Καθυστέρηση ενεργοποίησης σε δευτερόλεπτα]]></lookup>
+	<lookup key="Seconds"><![CDATA[Δευτερόλεπτα]]></lookup>
+
+	<!-- RelaySettings.html -->
+	<lookup key="RelayBehavior"><![CDATA[Συμπεριφορά ρελέ]]></lookup>
+
+	<!-- JavascriptConts -->
+	<lookup key="Disable"><![CDATA[Απενεργοποίηση]]></lookup>
+	<lookup key="Enable"><![CDATA[Ενεργοποίηση]]></lookup>
+
+	<!-- Custom Serial Web AddNewDevice -->
+	<lookup key="CustomSerialNote"><![CDATA[Σημείωση: Χρησιμοποιήστε \n για νέα γραμμή \r για αλλαγή γραμμής.]]></lookup>
+	<lookup key="ValidTimeoutWarning"><![CDATA[Πληκτρολογήστε έγκυρο κωδικό πρόσβασης.]]></lookup>
+
+	<!-- ConfigStep1.html -->
+	<lookup key="Fusion"><![CDATA[Crestron Fusion]]></lookup>
+	<lookup key="Dialer"><![CDATA[Πρόγραμμα κλήσης]]></lookup>
+	<lookup key="Relay"><![CDATA[Ρελέ]]></lookup>
+	<lookup key="Lighting"><![CDATA[Φωτισμός]]></lookup>
+
+	<!-- ConfigStep3.html  -->
+	<lookup key="SwitchChannelState.EnabledDefault"><![CDATA[Ναι (Προεπιλογή)]]></lookup>
+
+	<!-- ConfigStep4.html  -->
+	<lookup key="ManageConfiguration"><![CDATA[Διαχείριση διαμόρφωσης]]></lookup>
+	<lookup key="BackupRestore"><![CDATA[Εφεδρικό αρχείο/Επαναφορά]]></lookup>
+
+	<!-- DialerSettings.html -->
+	<lookup key="SpeedKeys"><![CDATA[Πλήκτρα γρήγορης πρόσβασης]]></lookup>
+	<lookup key="SpeedKey"><![CDATA[Πλήκτρο γρήγορης πρόσβασης]]></lookup>
+	<lookup key="Number"><![CDATA[Αριθμός]]></lookup>
+	<lookup key="OneTouch"><![CDATA[Μιας επαφής]]></lookup>
+	<lookup key="Regex"><![CDATA[Regex]]></lookup>
+	<lookup key="EnabledSpeekKeyWarning"><![CDATA[Για να ενεργοποιήσετε τα πλήκτρα ταχύτητας, πρέπει να εισάγετε όνομα και αριθμό.]]></lookup>
+	<lookup key="PhoneNumberWarning"><![CDATA[Πληκτρολογήστε έναν έγκυρο αριθμό τηλεφώνου.]]></lookup>
+
+	<!--FusionSettings.html  -->
+	<lookup key="RoomNameRequired"><![CDATA[Το όνομα δωματίου είναι υποχρεωτικό]]></lookup>
+
+	<!--LightingSettings.html -->
+	<lookup key="LightingPresets"><![CDATA[Προκαθορισμένες τιμές φωτισμού]]></lookup>
+	<lookup key="EnabledPresetsWarning"><![CDATA[Για να ενεργοποιηθούν οι προκαθορισμένες τιμές πρέπει να εισάγετε όνομα.]]></lookup>
+
+	<!-- 03/09/2016 -->
+	<!-- ChannelType : add 2 more Enum -->
+	<lookup key="ChannelType.Aec"><![CDATA[Aec]]></lookup>
+	<lookup key="ChannelType.Codec"><![CDATA[Codec]]></lookup>
+
+	<!--EditDevice.html -->
+	<lookup key="EditDevice"><![CDATA[Επεξεργασία συσκευής]]></lookup>
+	<lookup key="UpdatePendingCountdown"><![CDATA[Οι αλλαγές σας θα τεθούν σε ισχύ σε {0} δευτερόλεπτα.]]></lookup>
+
+	<!-- JavascriptConts 03/14/2016 -->
+	<lookup key="DeleteDevicePortWarning"><![CDATA[Οι παρακάτω συσκευές<br> {0} <br> είναι ρυθμισμένες για τη χρήση αυτής της συσκευής. Θέλετε να συνεχίσετε;]]></lookup>
+
+	<!--AddNewDevice.html 03/16/2016-->
+	<lookup key="CrestnetId"><![CDATA[Αναγνωριστικό Cresnet:]]></lookup>
+	<lookup key="CrestnetIdValidationMessage"><![CDATA[Υποχρεωτική μορφή αναγνωριστικού Cresnet (03-FE).]]></lookup>
+
+	<!--RoomStatus.html 03/16/2016-->
+	<lookup key="Equipment"><![CDATA[Εξοπλισμός]]></lookup>
+
+	<!-- DeviceTransport 03/21/2016 -->
+	<lookup key="DeviceTransport.CrestronCrestnet"><![CDATA[Cresnet]]></lookup>
+	<lookup key="DeviceTransport.SerialBaudCustom"><![CDATA[Προσαρμογή ρυθμού Baud]]></lookup>
+
+	<!-- RelaySettings.html 03/21/2016 -->
+	<lookup key="RelayBehavior.Momentary"><![CDATA[Στιγμιαίο]]></lookup>
+	<lookup key="RelayBehavior.Latching"><![CDATA[Στήριξη]]></lookup>
+
+	<!-- ConfigStep3.html 03/21/2016 -->
+	<lookup key="SwitchChannelState.Disabled"><![CDATA[Απενεργοποιημένο]]></lookup>
+	<lookup key="SwitchChannelState.Enabled"><![CDATA[Ενεργοποιήθηκε]]></lookup>
+
+	<!--AddNewDevice.html 03/21/2016-->
+	<lookup key="DelayValidationMessage"><![CDATA[Υποχρεωτική μορφή καθυστέρησης (0-255).]]></lookup>
+
+	<!-- JavascriptConts 03/21/2016 -->
+	<lookup key="ServerCommunicationError"><![CDATA[Παρουσιάστηκε σφάλμα κατά την επικοινωνία με τη συσκευή.]]></lookup>
+	<lookup key="ServerUpdateMessage"><![CDATA[Γίνεται ενημέρωση του διακομιστή. Παρακαλώ περιμένετε.]]></lookup>
+
+	<!-- 8/26/2016 -->
+	<lookup key="AvailableForLabel"><![CDATA[ΔΙΑΘΕΣΙΜΗ ΓΙΑ ΤΙΣ ΕΠΟΜΕΝΕΣ]]></lookup>
+	<lookup key="AvailableAllLabel"><![CDATA[ΔΙΑΘΕΣΙΜΗ ΓΙΑ ΤΟ ΥΠΟΛΟΙΠΟ ΤΗΣ ΗΜΕΡΑΣ]]></lookup>
+	<lookup key="ReserveLabel"><![CDATA[ΔΕΣΜΕΥΜΕΝΗ ΓΙΑ ΤΙΣ ΕΠΟΜΕΝΕΣ]]></lookup>
+	<lookup key="HourLabel"><![CDATA[ΩΡΕΣ]]></lookup>
+	<lookup key="MinLabel"><![CDATA[ΛΕΠΤΑ]]></lookup>
+	<lookup key="NextUpLabel"><![CDATA[ΕΠΟΜΕΝΗ]]></lookup>
+	<lookup key="PopupMinLeft"><![CDATA[ΛΕΠΤΑ που απομένουν | ΕΠΟΜΕΝΗ ΣΕ:]]></lookup>
+	<lookup key="WirelessLabel"><![CDATA[Ασύρματη παρουσίαση]]></lookup>
+	<lookup key="VisitLabel"><![CDATA[Τοποθεσία:]]></lookup>
+	<lookup key="CodeLabel"><![CDATA[Κωδικός:]]></lookup>
+	<lookup key="CableLabel"><![CDATA[Ενσύρματη παρουσίαση]]></lookup>
+	<lookup key="UseCableLabel"><![CDATA[Συνδεθείτε με τα συνοδευτικά καλώδια:]]></lookup>
+
+	<!-- MainTemplate.html 3/25/16 -->
+	<lookup key="ConfiguredMessageOffline"><![CDATA[Το σύστημα είναι προς το παρόν εκτός σύνδεσης, προχωρήστε σε ενεργοποίηση ή επαναφορά διαμόρφωσης.]]></lookup>
+	<lookup key="ConfiguredMessageOfflineShort"><![CDATA[Το σύστημα είναι προς το παρόν εκτός σύνδεσης.]]></lookup>
+	<lookup key="ConfiguredMessageOnline"><![CDATA[Το σύστημα είναι προς το παρόν εντός σύνδεσης.]]></lookup>
+	<lookup key="ConfiguredMessage"><![CDATA[Διαμόρφωση του συστήματος σε εξέλιξη.]]></lookup>
+	<lookup key="ConfiguredMessageClass"><![CDATA[Διαμόρφωση του συστήματος σε εξέλιξη.]]></lookup>
+
+	<!-- SystemWideSaveWarning 3/25/16 -->
+	<lookup key="SystemWideSaveWarning"><![CDATA[Τυχόν αποθηκευμένες αλλαγές θα θέσουν το σύστημα εκτός σύνδεσης. Εσείς/ο χρήστης πρέπει να ενεργοποιήσετε τη νέα διαμόρφωση για να επανέλθει το σύστημα εντός σύνδεσης. Κάντε κλικ στο OK για να συνεχίσετε.]]></lookup>
+
+	<lookup key="PortUnconfigured"><![CDATA[Θύρα μη διαμορφωμένη]]></lookup>
+	<lookup key="Version"><![CDATA[Έκδοση]]></lookup>
+	<lookup key="None"><![CDATA[Κανένα]]></lookup>
+
+	<lookup key="AssociatedChannel"><![CDATA[Σχετικό κανάλι]]></lookup>
+	<lookup key="PrimaryAssociatedChannel"><![CDATA[Προεπιλεγμένη πηγή]]></lookup>
+	<lookup key="SecondaryAssociatedChannel"><![CDATA[Δευτερεύουσα πηγή]]></lookup>
+	<lookup key="SecondaryInputChannelNumber"><![CDATA[Δευτερεύον κανάλι]]></lookup>
+	<lookup key="IPAddress"><![CDATA[Διεύθυνση IP]]></lookup>
+
+	<!-- 05/02/2016  -->
+	<lookup key="PortType.Usb"><![CDATA[USB]]></lookup>
+
+	<!-- 08/15/2016 -->
+	<lookup key="DialerType.Sip"><![CDATA[Ήχος]]></lookup>
+	<lookup key="DialerType.Bluetooth"><![CDATA[Bluetooth]]></lookup>
+	<lookup key="DialerType.Usb"><![CDATA[USB]]></lookup>
+	<lookup key="DialerType.Video"><![CDATA[Βίντεο]]></lookup>
+
+	<!--MercurySystemSettings.html 08/31/2016-->
+	<lookup key="SystemSettings"><![CDATA[Ρυθμίσεις συστήματος]]></lookup>
+	<lookup key="ValidValueMessage"><![CDATA[Πληκτρολογήστε μια τιμή.]]></lookup>
+
+	<!--MercuryFusionSettings.html 08/31/2016-->
+
+	<!-- MercuryDialerSettings.html 08/31/2016-->
+	<lookup key="General"><![CDATA[Γενικά]]></lookup>
+	<lookup key="EnableBluetooth"><![CDATA[Ενεργοποίηση Bluetooth]]></lookup>
+	<lookup key="EnableUSB"><![CDATA[Ενεργοποίηση USB]]></lookup>
+
+	<!-- MercuryDisplayDriver.html 08/31/2016-->
+	<lookup key="VideoDisplaySettings"><![CDATA[Ρυθμίσεις προβολής βίντεο]]></lookup>
+
+	<!-- MercuryUXGeneralCustomization.html 08/31/2016-->
+	<lookup key="UXGeneralCustomization"><![CDATA[Γενική προσαρμογή UX]]></lookup>
+	<lookup key="HideMeetingSubject"><![CDATA[Απόκρυψη θέματος συνάντησης]]></lookup>
+	<lookup key="HideMeetingOrganizer"><![CDATA[Απόκρυψη οργανωτή συνάντησης]]></lookup>
+	<lookup key="DisplayNonEmergencyBroadcast"><![CDATA[Εμφάνιση εκπομπής μη έκτακτης ανάγκης]]></lookup>
+	<lookup key="EmergencyBroadcastSound"><![CDATA[Εκπομπή ήχου έκτακτης ανάγκης]]></lookup>
+	<lookup key="EnableCallNotification"><![CDATA[Ενεργοποίηση ειδοποίησης κλήσης]]></lookup>
+	<lookup key="SuppressOfflineNotificationPeriod"><![CDATA[Απόκρυψη περιόδου ενημέρωσης εκτός σύνδεσης]]></lookup>
+	<lookup key="NotificationPeriod"><![CDATA[Περίοδος ειδοποίησης]]></lookup>
+	<lookup key="CallNotificationTimeout"><![CDATA[Λήξη κλήσης ειδοποίησης]]></lookup>
+
+	<!-- PresentationScreenCustomization.html 08/31/2016-->
+	<lookup key="PresentationScreenCustomization"><![CDATA[Προσαρμογή οθόνης παρουσίασης]]></lookup>
+	<lookup key="TimeRemainingMessageStarts"><![CDATA[Έναρξη μηνύματος χρόνου που απομένει]]></lookup>
+	<lookup key="TimeRemainingMessageDuration"><![CDATA[Διάρκεια μηνύματος χρόνου που απομένει]]></lookup>
+
+	<!-- RoomScheduleScreenCustomization.html 08/31/2016-->
+	<lookup key="RoomScheduleScreenCustomization"><![CDATA[Προγραμματισμός οθόνης αίθουσας]]></lookup>
+	<lookup key="NextMeetingInformationShown"><![CDATA[Εμφάνιση πληροφοριών επόμενης συνάντησης]]></lookup>
+	<lookup key="MinutesBeforeMeetingStart"><![CDATA[Λεπτά που απομένουν για την έναρξη της συνάντησης]]></lookup>
+	<lookup key="HideWiredCableConnection"><![CDATA[Απόκρυψη καλωδιακής σύνδεσης]]></lookup>
+	<lookup key="CableConnectionDetails"><![CDATA[Στοιχεία καλωδιακής σύνδεσης]]></lookup>
+	<lookup key="EnableCustomLogoGraphic"><![CDATA[Ενεργοποίηση προσαρμοσμένων γραφικών λογότυπου]]></lookup>
+	<lookup key="CustomLogoGraphicUrl"><![CDATA[URL προσαρμοσμένου λογότυπου γραφικών]]></lookup>
+	<lookup key="EnableCustomBackgrounds"><![CDATA[Ενεργοποίηση προσαρμοσμένων φόντων]]></lookup>
+	<lookup key="AddCustomBackgroundUrl"><![CDATA[Προσθήκη URL προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl1"><![CDATA[URL 1 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl2"><![CDATA[URL 2 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl3"><![CDATA[URL 3 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl4"><![CDATA[URL 4 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl5"><![CDATA[URL 5 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl6"><![CDATA[URL 6 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl7"><![CDATA[URL 7 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl8"><![CDATA[URL 8 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl9"><![CDATA[URL 9 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl10"><![CDATA[URL 10 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl11"><![CDATA[URL 11 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl12"><![CDATA[URL 12 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl13"><![CDATA[URL 13 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl14"><![CDATA[URL 14 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="BackgroundUrl15"><![CDATA[URL 15 προσαρμοσμένου φόντου]]></lookup>
+	<lookup key="IntervalBetweenBackgrounds"><![CDATA[Χρονικό διάστημα εναλλαγής φόντου]]></lookup>
+
+	<!-- MercuryDialerSettings.html 10/17/2016-->
+	<lookup key="BluetoothDeviceName"><![CDATA[Όνομα συσκευής Bluetooth]]></lookup>
+
+	<!-- MercuryExternalSettings.html 11/18/2016-->
+
+	<lookup key="CalendarSettings"><![CDATA[Ρυθμίσεις ημερολογίου]]></lookup>
+	<lookup key="SchedulingType"><![CDATA[Είδος προγραμματισμού]]></lookup>
+
+	<lookup key="SntpServer"><![CDATA[Διακομιστής SNTP]]></lookup>
+	<lookup key="SntpUpdateInterval"><![CDATA[Διάστημα ενημέρωσης SNTP]]></lookup>
+	<lookup key="ValidUrlMessage"><![CDATA[Πληκτρολογήστε έγκυρο URL]]></lookup>
+	<lookup key="ValidDomainName"><![CDATA[Πληκτρολογήστε έγκυρο όνομα τομέα]]></lookup>
+	<lookup key="ValidEmailUrlMessage"><![CDATA[Πληκτρολογήστε έγκυρη διεύθυνση email]]></lookup>
+	<lookup key="ValidPassword"><![CDATA[Πληκτρολογήστε έγκυρο κωδικό πρόσβασης.]]></lookup>
+	<lookup key="ValidSntpServer"><![CDATA[Εισαγάγετε έγκυρο διακομιστή SNTP.]]></lookup>
+	<lookup key="ValidSntpUpdateIntervalMessage"><![CDATA[Εισαγάγετε έγκυρο διάστημα διακομιστή SNTP.]]></lookup>
+	<lookup key="ValidOutlookResourceAddress"><![CDATA[Πληκτρολογήστε έγκυρη διεύθυνση πηγής Outlook]]></lookup>
+
+	<!-- DMPS 4k300C 12/08/2016-->
+	<lookup key="DeviceType.VideoServer"><![CDATA[Διακομιστής βίντεο]]></lookup>
+	<lookup key="DeviceType.Dialer"><![CDATA[Πρόγραμμα κλήσης]]></lookup>
+	<lookup key="ImageCouldNotBeLoaded"><![CDATA[Δεν ήταν δυνατή η φόρτωση της εικόνας]]></lookup>
+	<lookup key="VerifingImage"><![CDATA[Επαλήθευση εικόνας...]]></lookup>
+	<lookup key="SchedulingTypeEnum.Fusion"><![CDATA[Crestron Fusion]]></lookup>
+	<lookup key="SchedulingTypeEnum.Exchange"><![CDATA[Τύπος προγραμματισμού Exchange]]></lookup>
+
+	<!-- MercuryDialerSettings.html 12/12/2016-->
+	<lookup key="ValidBluetoothDeviceNameMessage"><![CDATA[Πληκτρολογήστε ένα έγκυρο όνομα συσκευής Bluetooth.]]></lookup>
+
+	<!-- MercuryExternalSettings.html 12/15/2016-->
+
+	<!-- Default Inputs 12/20/2016-->
+	<lookup key="DefaultInputs.HDMI1"><![CDATA[HDMI1]]></lookup>
+	<lookup key="DefaultInputs.HDMI2"><![CDATA[HDMI2]]></lookup>
+	<lookup key="DefaultInputs.HDMI3"><![CDATA[HDMI3]]></lookup>
+	<lookup key="DefaultInputs.HDMI4"><![CDATA[HDMI4]]></lookup>
+	<lookup key="DefaultInput"><![CDATA[Προεπιλογή εισόδου]]></lookup>
+
+	<!-- Blutooth Page 1/9/2017 -->
+	<lookup key="PresentConnectYourDevice"><![CDATA[Συνδέστε τη συσκευή σας]]></lookup>
+
+	<lookup key="DisableSip"><![CDATA[Απενεργοποίηση ήχου]]></lookup>
+	<lookup key="DisableBluetooth"><![CDATA[Απενεργοποίηση Bluetooth]]></lookup>
+	<lookup key="DisableUsb"><![CDATA[Απενεργοποίηση USB]]></lookup>
+
+	<!-- Standby Mode 2/1/2017 -->
+	<lookup key="Standby"><![CDATA[Σε αναμονή]]></lookup>
+	<lookup key="StandbyMode.AlwaysOn"><![CDATA[Πάντα ενεργό]]></lookup>
+	<lookup key="StandbyMode.OccupancyBased"><![CDATA[Με βάση την πληρότητα]]></lookup>
+
+	<lookup key="DisplayNameIsRequired"><![CDATA[Απαιτείται όνομα προβολής]]></lookup>
+	<lookup key="PowerOffCommandValidationMessage"><![CDATA[Απαιτείται εντολή απενεργοποίησης]]></lookup>
+	<lookup key="PowerOnCommandValidationMessage"><![CDATA[Απαιτείται εντολή ενεργοποίησης]]></lookup>
+	<lookup key="SourceSelectCommandValidationMessage"><![CDATA[Απαιτείται επιλογή πηγής]]></lookup>
+
+	<lookup key="DeviceType.RfGateway"><![CDATA[Πύλη RF]]></lookup>
+	<lookup key="DeviceTransport.Rf"><![CDATA[RF]]></lookup>
+
+	<!-- Mercury Pages 2/23/2017 -->
+	<lookup key="AddressBook"><![CDATA[Βιβλίο διευθύνσεων]]></lookup>
+	<lookup key="End"><![CDATA[Τέλος]]></lookup>
+	<lookup key="DialText"><![CDATA[Εισαγάγετε κείμενο για κλήση]]></lookup>
+	<lookup key="Mute"><![CDATA[Σίγαση]]></lookup>
+	<lookup key="BlueToothActiveConnection"><![CDATA[Ενεργή σύνδεση: Bluetooth]]></lookup>
+	<lookup key="BTCallText"><![CDATA[Σε κλήση Bluetooth]]></lookup>
+	<lookup key="ConnectedToText"><![CDATA[Συνδεδεμένο σε]]></lookup>
+	<lookup key="PresentBTNoSourceConnectionText"><![CDATA[Συνδέστε τη συσκευή Bluetooth με]]></lookup>
+	<lookup key="USBConnected"><![CDATA[Συνδεδεμένο με USB]]></lookup>
+	<lookup key="Speakerphone"><![CDATA[Μεγάφωνο]]></lookup>
+	<lookup key="ConnectedViaText"><![CDATA[Συνδεδεμένο μέσω]]></lookup>
+	<lookup key="USBCableText"><![CDATA[Το καλώδιο USB]]></lookup>
+	<lookup key="Connected"><![CDATA[Συνδεδεμένο]]></lookup>
+	<lookup key="TimeMinutesCap"><![CDATA[ΛΕΠΤΑ]]></lookup>
+	<lookup key="Extension"><![CDATA[Εσωτερικό]]></lookup>
+	<lookup key="AvailableCap"><![CDATA[ΔΙΑΘΕΣΙΜH]]></lookup>
+	<lookup key="RestOfDayCap"><![CDATA[ΓΙΑ ΤΗΝ ΥΠΟΛΟΙΠΗ ΜΕΡΑ]]></lookup>
+	<lookup key="PrepareMeetingText"><![CDATA[Προετοιμάζοντας τη σύσκεψή σας]]></lookup>
+	<lookup key="ExitCap"><![CDATA[ΕΞΟΔΟΣ]]></lookup>
+	<lookup key="TopMenuCap"><![CDATA[ΕΠΑΝΩ ΜΕΝΟΥ]]></lookup>
+	<lookup key="PopupMenuCap"><![CDATA[ΑΝΑΔΥΟΜΕΝΟ ΜΕΝΟΥ]]></lookup>
+	<lookup key="HomeCap"><![CDATA[ΑΡΧΙΚΗ]]></lookup>
+	<lookup key="OptionsCap"><![CDATA[ΕΠΙΛΟΓΕΣ]]></lookup>
+	<lookup key="Stop"><![CDATA[Διακοπή]]></lookup>
+	<lookup key="MenuCap"><![CDATA[ΜΕΝΟΥ]]></lookup>
+	<lookup key="GuideCap"><![CDATA[ΟΔΗΓΟΣ]]></lookup>
+	<lookup key="ConnectToAirmediaText"><![CDATA[Σύνδεση στο AirMedia®]]></lookup>
+	<lookup key="PresentOverWifi"><![CDATA[Για να παρουσιάσετε περιεχόμενο μέσω ασύρματου δικτύου WiFi,]]></lookup>
+	<lookup key="ConnectCap"><![CDATA[ΣΥΝΔΕΘΕΙΤΕ]]></lookup>
+	<lookup key="ToWirelessNwetwork"><![CDATA[με το ασύρματο δίκτυό σας]]></lookup>
+	<lookup key="VisitCap"><![CDATA[ΕΠΙΣΚΕΦΘΕΙΤΕ]]></lookup>
+	<lookup key="ToBrowerAddress"><![CDATA[αυτή τη διεύθυνση προγράμματος περιήγησης]]></lookup>
+	<lookup key="EnterCap"><![CDATA[ΕΙΣΑΓΑΓΕΤΕ]]></lookup>
+	<lookup key="ThisCode"><![CDATA[αυτόν τον κωδικό]]></lookup>
+	<lookup key="DownloadAirmediaMobile"><![CDATA[Κατεβάστε την εφαρμογή AirMedia® της Crestron για την κινητή συσκευή σας στο]]></lookup>
+	<lookup key="Wirelessly"><![CDATA[Ασύρματα]]></lookup>
+	<lookup key="SystemInfo"><![CDATA[Πληροφορίες συστήματος]]></lookup>
+	<lookup key="FusionServerConnection"><![CDATA[Σύνδεση διακομιστή Crestron Fusion]]></lookup>
+	<lookup key="MACAddress"><![CDATA[Διεύθυνση MAC]]></lookup>
+	<lookup key="RoomAndStatus"><![CDATA[Όνομα και κατάσταση αίθουσας]]></lookup>
+	<lookup key="NavPresentCallEtc"><![CDATA[Πλοήγηση στην αρχική, Παρουσίαση πηγής περιεχομένου, Πραγματοποίηση κλήσης κ.ά.]]></lookup>
+	<lookup key="AdjustVolume"><![CDATA[Μείωση και αύξηση έντασης ήχου συστήματος]]></lookup>
+	<lookup key="MICmute"><![CDATA[Σίγαση MIC]]></lookup>
+	<lookup key="SystemMute"><![CDATA[Σίγαση συστήματος]]></lookup>
+	<lookup key="SerialNumber"><![CDATA[Σειριακός αριθμός]]></lookup>
+	<lookup key="PhoneExtensionURI"><![CDATA[Εσωτερικό τηλέφωνο / SIP URI]]></lookup>
+	<lookup key="SIPServer"><![CDATA[Διακομιστής SIP]]></lookup>
+	<lookup key="AddedLicences"><![CDATA[Πρόσθετες άδειες]]></lookup>
+	<lookup key="WebConferenceText"><![CDATA[Σύσκεψη μέσω web]]></lookup>
+	<lookup key="StartWebConferenceText"><![CDATA[Για να ξεκινήσετε μια σύσκεψη μέσω web]]></lookup>
+	<lookup key="HDMI"><![CDATA[HDMI]]></lookup>
+	<lookup key="PlugHDMIToPresent"><![CDATA[Συνδέστε το καλώδιο HDMI στον φορητό υπολογιστή για να κάνετε παρουσίαση στην οθόνη.]]></lookup>
+	<lookup key="USB"><![CDATA[USB]]></lookup>
+	<lookup key="PlugUSBForAudio"><![CDATA[Συνδέστε το καλώδιο USB στον φορητό υπολογιστή για να τον χρησιμοποιήσετε ως συσκευή ήχου.]]></lookup>
+	<lookup key="CameraCap"><![CDATA[ΚΑΜΕΡΑ]]></lookup>
+	<lookup key="UseRoomCamera"><![CDATA[Ρυθμίστε το λογισμικό για να χρησιμοποιήσετε την κάμερα της αίθουσας.]]></lookup>
+	<lookup key="Remote"><![CDATA[Απομακρυσμένη]]></lookup>
+	<lookup key="SecondsCap"><![CDATA[ΔΕΥΤΕΡΟΛΕΠΤΑ]]></lookup>
+	<lookup key="PresentingCap"><![CDATA[ΠΑΡΟΥΣΙΑΣΗ...]]></lookup>
+	<lookup key="ReceivingContent"><![CDATA[Λήψη περιεχομένου...]]></lookup>
+	<lookup key="CameraPresets"><![CDATA[Προεπιλεγμένες ρυθμίσεις κάμερας]]></lookup>
+	<lookup key="MeetingID"><![CDATA[Αναγνωριστικό σύσκεψης]]></lookup>
+	<lookup key="InfoCap"><![CDATA[ΠΛΗΡΟΦΟΡΙΕΣ]]></lookup>
+	<lookup key="LastCap"><![CDATA[ΤΕΛΕΥΤΑΙΑ]]></lookup>
+	<lookup key="LiveCap"><![CDATA[ΖΩΝΤΑΝΑ]]></lookup>
+	<lookup key="OnDemandCap"><![CDATA[ΚΑΤ' ΑΠΑΙΤΗΣΗ]]></lookup>
+	<lookup key="TapSourceToPresent"><![CDATA[αγγίξτε μια πηγή περιεχομένου για παρουσίαση]]></lookup>
+	<lookup key="Sources"><![CDATA[Πηγές]]></lookup>
+	<lookup key="FavCap"><![CDATA[FAV]]></lookup>
+	<lookup key="DVR"><![CDATA[DVR]]></lookup>
+	<lookup key="RecCap"><![CDATA[REC]]></lookup>
+	<lookup key="OutlookUseCertificate"><![CDATA[Πιστοποιητικό χρήσης Outlook]]></lookup>
+	<lookup key="OutlookCertificate"><![CDATA[Πιστοποιητικό Outlook]]></lookup>
+	<lookup key="UploadCertificate"><![CDATA[Μεταφόρτωση πιστοποιητικού]]></lookup>
+	<lookup key="InvalidUrl"><![CDATA[Εισαγάγετε έγκυρη διεύθυνση URL]]></lookup>
+
+	<lookup key="OutlookWebAccessURLToolTip"><![CDATA[(Π.χ. https://outlook.office365.com/EWS/Exchange.asmx)]]></lookup>
+	<lookup key="OutlookDomainNameToolTip"><![CDATA[(π.χ.: ΤΟΜΕΑΣ\όνομα χρήστη)]]></lookup>
+	<lookup key="OutlookDomainNameMisc"><![CDATA[(Αφήστε κενό εάν δεν ισχύει)]]></lookup>
+	<lookup key="OutlookResourceAddressToopTip"><![CDATA[(Μπορεί να είναι ή να μην είναι το ίδιο με τον Χρήστη)]]></lookup>
+	<lookup key="OutlookUserEmailAddressToolTip"><![CDATA[ (π.χ: τομέας\όνομα χρήστη)]]></lookup>
+	<lookup key="ValidUsernameMessage"><![CDATA[Εισαγάγετε έγκυρο όνομα χρήστη.]]></lookup>
+
+	<!-- Add new resolution 3/28/2017 -->
+	<lookup key="Resolution.Res2048x1080At60Hz"><![CDATA[2048x1080 στα 60Hz]]></lookup>
+	<lookup key="Resolution.Res1792x1344PC"><![CDATA[1792x1344 PC]]></lookup>
+	<lookup key="Resolution.Res1856x1392PC"><![CDATA[1856x1392 PC]]></lookup>
+	<lookup key="Resolution.Res1920x1440PC"><![CDATA[1920x1440 PC]]></lookup>
+	<lookup key="Resolution.Res2048x1536PC"><![CDATA[2048x1536 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1080PC"><![CDATA[2560x1080 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1440PC"><![CDATA[2560x1440 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1600PCRb"><![CDATA[2560x1600 PC RB]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt24Hz"><![CDATA[3840x2160p στα 24Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt25Hz"><![CDATA[3840x2160p στα 25Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt30Hz"><![CDATA[3840x2160p στα 30Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt24Hz"><![CDATA[4096x2160p στα 24Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt25Hz"><![CDATA[4096x2160p στα 25Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt30Hz"><![CDATA[4096x2160p στα 30Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt50Hz"><![CDATA[3840x2160p στα 50Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt60Hz"><![CDATA[3840x2160p στα 60Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt50Hz"><![CDATA[4096x2160p στα 50Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt60Hz"><![CDATA[4096x2160p στα 60Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt60HzPCVesaRbV2"><![CDATA[4096x2160p στα 60Hz PC VESA RB V2]]></lookup>
+	<lookup key="Resolution.Res1680x720At24Hz"><![CDATA[1680x720p στα 24Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At25Hz"><![CDATA[1680x720p στα 25Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At30Hz"><![CDATA[1680x720p στα 30Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At50Hz"><![CDATA[1680x720p στα 50Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At60Hz"><![CDATA[1680x720p στα 60Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At24Hz"><![CDATA[2560x1080 στα 24Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At25Hz"><![CDATA[2560x1080 στα 25Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At30Hz"><![CDATA[2560x1080 στα 30Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At50Hz"><![CDATA[2560x1080 στα 50Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At60Hz"><![CDATA[2560x1080 στα 60Hz]]></lookup>
+
+	<!-- the following fields have been renamed, please translate -->
+	<lookup key="OutlookWebAccessUrl"><![CDATA[Ανταλλαγή EWS URL]]></lookup>
+	<lookup key="OutlookDomainName"><![CDATA[Τομέας]]></lookup>
+	<lookup key="OutlookUserEmailAddress"><![CDATA[Όνομα χρήστη]]></lookup>
+	<lookup key="OutlookPassword"><![CDATA[Κωδικός πρόσβασης]]></lookup>
+	<lookup key="OutlookResourceAddress"><![CDATA[Διεύθυνση email ημερολογίου]]></lookup>
+
+	<lookup key="DeviceType.Bluray"><![CDATA[Συσκευή αναπαραγωγής Blu-ray]]></lookup>
+	<lookup key="DeviceType.Occupancy"><![CDATA[Αισθητήρας κατειλημμένου]]></lookup>
+	<lookup key="DeviceType.Panel"><![CDATA[Οθόνη αφής]]></lookup>
+	<lookup key="DeviceType.EndpointTx"><![CDATA[Αναμεταδότης ψηφιακών μέσων]]></lookup>
+	<lookup key="DeviceType.EndpointRx"><![CDATA[Λήπτης ψηφιακών μέσων]]></lookup>
+	<lookup key="DeviceType.EndpointRxScaler"><![CDATA[Λήπτης κλίμακας ψηφιακών μέσων]]></lookup>
+
+	<lookup key="SfbProxyTypes.None"><![CDATA[Κανένας]]></lookup>
+	<lookup key="SfbProxyTypes.SameCredentials"><![CDATA[Ίδια διαπιστευτήρια]]></lookup>
+	<lookup key="SfbProxyTypes.OtherCredentials"><![CDATA[Άλλα διαπιστευτήρια]]></lookup>
+
+	<!-- Add new projector display type 4/26/2017 -->
+	<lookup key="DeviceType.Projector"><![CDATA[Προβολέας]]></lookup>
+	<lookup key="AssociatedOutputDevice.Projector"><![CDATA[Προβολέας]]></lookup>
+
+	<!-- 5/17/2017 -->
+	<lookup key="Users"><![CDATA[Χρήστες]]></lookup>
+	<lookup key="Manage"><![CDATA[Διαχείριση]]></lookup>
+	<lookup key="Logos"><![CDATA[Προσαρμοσμένα γραφικά οθόνης αφής]]></lookup>
+	<lookup key="Drivers"><![CDATA[Προγράμματα οδήγησης]]></lookup>
+	<lookup key="Import"><![CDATA[Εισαγωγή]]></lookup>
+	<lookup key="Manufacturer"><![CDATA[Κατασκευαστής]]></lookup>
+	<lookup key="DriverFileName"><![CDATA[Όνομα αρχείου προγράμματος οδήγησης]]></lookup>
+	<lookup key="DriverVersion"><![CDATA[Έκδοση προγράμματος οδήγησης]]></lookup>
+	<lookup key="FusionCloudUrlRequired"><![CDATA[Απαιτείται διεύθυνση Cloud URL της Crestron Fusion.]]></lookup>
+	<lookup key="FusionCloudUrlInvalid"><![CDATA[Απαιτείται διεύθυνση Cloud URL της Crestron Fusion.]]></lookup>
+	<lookup key="ShowBroadcastOnPanel"><![CDATA[Εμφάνιση μηνύματος μετάδοσης στην οθόνη αφής]]></lookup>
+	<lookup key="ImageSizeWarning"><![CDATA[Προειδοποίηση μεγέθους εικόνας]]></lookup>
+	<lookup key="ManageUsers"><![CDATA[Διαχείριση χρηστών]]></lookup>
+	<lookup key="FirstName"><![CDATA[Όνομα]]></lookup>
+	<lookup key="LastName"><![CDATA[Επώνυμο]]></lookup>
+	<lookup key="UsernameRequired"><![CDATA[Απαιτείται όνομα χρήστη]]></lookup>
+	<lookup key="MinLengthUsernameWarning"><![CDATA[Το όνομα χρήστη πρέπει να περιέχει τουλάχιστον 3 χαρακτήρες.]]></lookup>
+	<lookup key="MaxLengthUsernameWarning"><![CDATA[Το μήκος του ονόματος χρήστη δεν μπορεί να υπερβαίνει τους 15 χαρακτήρες.]]></lookup>
+	<lookup key="InvalidPassword"><![CDATA[Ο κωδικός πρόσβασης θα πρέπει να περιέχει 1 κεφαλαίο, πεζό, ψηφίο και ειδικό χαρακτήρα.]]></lookup>
+	<lookup key="CreateUser"><![CDATA[Δημιουργία χρήστη]]></lookup>
+	<lookup key="InvalidUsername"><![CDATA[Μη έγκυρο όνομα χρήστη]]></lookup>
+	<lookup key="DuplicateUsernameWarning"><![CDATA[Προειδοποίηση διπλού ονόματος χρήστη]]></lookup>
+	<lookup key="FirstNameRequired"><![CDATA[Απαιτείται όνομα]]></lookup>
+	<lookup key="LastnameRequired"><![CDATA[Απαιτείται επώνυμο]]></lookup>
+	<lookup key="PasswordRequired"><![CDATA[Απαιτείται κωδικός πρόσβασης]]></lookup>
+	<lookup key="MinLengthPasswordWarning"><![CDATA[Ο κωδικός πρόσβασης πρέπει να έχει μήκος 8 χαρακτήρες και να περιέχει 1 κεφαλαίο, πεζό, ψηφίο και ειδικό χαρακτήρα.]]></lookup>
+	<lookup key="MaxLengthPasswordWarning"><![CDATA[Το μήκος του κωδικού πρόσβασης δεν μπορεί να υπερβαίνει τους 12 χαρακτήρες.]]></lookup>
+	<lookup key="MaxLengthRoomNameWarning"><![CDATA[Το μήκος του ονόματος της αίθουσας δεν μπορεί να υπερβαίνει τους 20 χαρακτήρες.]]></lookup>
+	<lookup key="MaxLengthFirstNameWarning"><![CDATA[Το μήκος του ονόματος δεν μπορεί να υπερβαίνει τους 15 χαρακτήρες.]]></lookup>
+	<lookup key="MinLengthFirstNameWarning"><![CDATA[Το όνομα πρέπει να έχει μήκος τουλάχιστον 2 χαρακτήρων.]]></lookup>
+	<lookup key="MaxLengthLastNameWarning"><![CDATA[Το μήκος του επώνυμου δεν μπορεί να υπερβαίνει τους 15 χαρακτήρες.]]></lookup>
+	<lookup key="MinLengthLastNameWarning"><![CDATA[Το επώνυμο πρέπει να έχει μήκος τουλάχιστον 2 χαρακτήρων.]]></lookup>
+
+	<!-- 5/23/2017 -->
+	<lookup key="ImageOutOfRange"><![CDATA[Η εικόνα είναι εκτός εύρους, σωστό μέγεθος: {0}x{1}]]></lookup>
+
+	<!-- 5/24/2017-->
+	<lookup key="DriverInstallationStatus.StatusOk"><![CDATA[Το πρόγραμμα οδήγησης εγκαταστάθηκε.]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusError"><![CDATA[Η εγκατάσταση του προγράμματος οδήγησης απέτυχε.]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorVersionCheckedFailed"><![CDATA[Ο έλεγχος της έκδοσης του προγράμματος οδήγησης απέτυχε.]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorCopyDriverFailed"><![CDATA[Η αντιγραφή του προγράμματος οδήγησης απέτυχε.]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorInvalidDeviceType"><![CDATA[Μη έγκυρος τύπος συσκευής για πρόγραμμα οδήγησης]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusSupportingDllNotFound"><![CDATA[Δεν βρέθηκε το αρχείο DLL του προγράμματος οδήγησης που υποστηρίζει τη συσκευή.]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusPendingRestart"><![CDATA[Η εγκατάσταση του προγράμματος οδήγησης βρίσκεται σε αναμονή επανεκκίνησης.]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusDriverNotFound"><![CDATA[Δεν βρέθηκε το πρόγραμμα οδήγησης.]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorInvalidTransportType"><![CDATA[Μη έγκυρος τύπος μεταφοράς]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorMissingDriverId"><![CDATA[Λείπει το αναγνωριστικό του προγράμματος οδήγησης.]]></lookup>
+
+	<!-- 5/30/2017-->
+	<lookup key="EnableMics"><![CDATA[Ενεργοποίηση μικρόφωνων]]></lookup>
+	<lookup key="ConfirmDeleteUser"><![CDATA[Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον χρήστη;]]></lookup>
+	<lookup key="TimeZone"><![CDATA[Ζώνη ώρας]]></lookup>
+	<lookup key="DateTimeLabel"><![CDATA[Ημερομηνία και ώρα]]></lookup>
+
+	<lookup key="ClickToReadWarningMessage"><![CDATA[Κάντε κλικ για να διαβάσετε την ειδοποίηση.]]></lookup>
+	<lookup key="WarningMessage"><![CDATA[Ειδοποίηση συστήματος]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Manual"><![CDATA[Επιλεγμένος από τον χρήστη]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Fixed"><![CDATA[Σταθερός]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Follow"><![CDATA[Ακολουθώ]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.None"><![CDATA[Όχι]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.FollowWithVolumeControl"><![CDATA[Ναι με ένταση ήχου]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.Follows"><![CDATA[Ναι]]></lookup>
+
+	<!-- Screen saver settings -->
+	<lookup key="PanelScreenSaverEnable"><![CDATA[Ενεργοποίηση προφύλαξης οθόνης αφής]]></lookup>
+	<lookup key="PanelSleepTimeSeconds"><![CDATA[Χρόνος αναμονής προφύλαξης οθόνης αφής]]></lookup>
+	<lookup key="PanelScreenSaverStartTime"><![CDATA[Χρόνος εκκίνησης προφύλαξης οθόνης αφής]]></lookup>
+	<lookup key="PanelScreenSaverEndTime"><![CDATA[Χρόνος λήξης προφύλαξης οθόνης αφής]]></lookup>
+
+	<!-- 6/6/2017 -->
+	<lookup key="Advanced"><![CDATA[Για προχωρημένους]]></lookup>
+	<lookup key="DeviceType.RoomHallwaySign"><![CDATA[Σήμανση διαδρόμου για διαθεσιμότητα αίθουσας]]></lookup>
+	<lookup key="DeviceType.DigitalGraphicsEngine"><![CDATA[Μηχανισμός ψηφιακών γραφικών]]></lookup>
+	<lookup key="AdvancedRouteSettings"><![CDATA[Ρυθμίσεις δρομολόγησης για προχωρημένους]]></lookup>
+	<lookup key="AudioFollowVideoLabel"><![CDATA[Ακολουθώ ήχο]]></lookup>
+	<lookup key="VideoRoutingMode"><![CDATA[Λειτουργία δρομολόγησης βίντεο]]></lookup>
+	<lookup key="InputForFixedRouteLabel"><![CDATA[Σταθερή διαδρομή]]></lookup>
+	<lookup key="SelectInput"><![CDATA[Επιλογή εισόδου]]></lookup>
+	<lookup key="OutputForFollowsRouteLabel"><![CDATA[Ακολουθεί διαδρομή]]></lookup>
+	<lookup key="SelectOutput"><![CDATA[Επιλογή εξόδου]]></lookup>
+	<lookup key="DisplayNameRequired"><![CDATA[Απαιτείται όνομα]]></lookup>
+	<lookup key="ValueRequired"><![CDATA[Απαιτείται τιμή]]></lookup>
+
+	<!-- 6/7/2016 -->
+	<lookup key="EnableSNTP"><![CDATA[Ενεργοποίηση SNTP]]></lookup>
+
+	<!-- 6/13/2017 these fields have been renamed -->
+	<lookup key="AssociatedOutputDevice.AvDisplay"><![CDATA[Επίπεδη οθόνη]]></lookup>
+	<lookup key="DeviceType.AvDisplay"><![CDATA[Επίπεδη οθόνη]]></lookup>
+
+	<!-- 6/16/2017 -->
+	<lookup key="FindContact"><![CDATA[Εύρεση επαφής]]></lookup>
+	<lookup key="FindContactToCall"><![CDATA[Εύρεση επαφής για κλήση:]]></lookup>
+	<lookup key="SkypeCallText"><![CDATA[Σε κλήση Skype®]]></lookup>
+	<lookup key="ViewParticipants"><![CDATA[Προβολή συμμετεχόντων]]></lookup>
+	<lookup key="Participants"><![CDATA[Συμμετέχοντες]]></lookup>
+	<lookup key="AddParticipant"><![CDATA[Προσθήκη συμμετέχοντα]]></lookup>
+	<lookup key="InviteNameOrPhone"><![CDATA[Πρόσκληση με όνομα ή τηλεφωνικό αριθμό]]></lookup>
+	<lookup key="Participants:"><![CDATA[Συμμετέχοντες:]]></lookup>
+	<lookup key="OnThisCall"><![CDATA[Σε αυτήν την κλήση]]></lookup>
+	<lookup key="InLobby"><![CDATA[Σε αναμονή]]></lookup>
+	<lookup key="InVirtualLobby"><![CDATA[Στον εικονικό χώρο αναμονής]]></lookup>
+	<lookup key="VirtualLobbyMessage"><![CDATA[Γεια σας. Βρίσκεστε στο εικονικό μας χώρο αναμονής. Σύντομα, ο διοργανωτής θα σας επιτρέψει την είσοδο.]]></lookup>
+	<lookup key="JoinSkypeMeeting"><![CDATA[ΣΥΜΜΕΤΟΧΗ ΣΕ ΣΥΣΚΕΨΗ SKYPE®]]></lookup>
+
+	<lookup key="NonEmergencyBroadcastTimeoutWarning"><![CDATA[Το χρονικό όριο μηνύματος μη έκτακτης ανάγκης βρίσκεται εκτός εύρους.]]></lookup>
+	<lookup key="EmergencyBroadcastTimeoutWarning"><![CDATA[Το χρονικό όριο μηνύματος έκτακτης ανάγκης βρίσκεται εκτός εύρους.]]></lookup>
+	<lookup key="MinEmergencyBroadcastTimeoutWarning"><![CDATA[Το ελάχιστο επιτρεπόμενο χρονικό όριο είναι 0.]]></lookup>
+	<lookup key="MaxEmergencyBroadcastTimeoutWarning"><![CDATA[Το μέγιστο επιτρεπόμενο χρονικό όριο είναι 1440.]]></lookup>
+
+	<!-- 6/26/2017 -->
+	<lookup key="NaNEmergencyBroadcastTimeoutWarning"><![CDATA[Επιτρέπονται μόνο αριθμητικές τιμές για το χρονικό όριο.]]></lookup>
+
+	<!-- 6/28/2017 -->
+	<lookup key="CECDriverNoticeHeader"><![CDATA[Ειδοποίηση προγράμματος οδήγησης Generic CEC]]></lookup>
+	<lookup key="CrestronConnectedDriverNoticeHeader"><![CDATA[Ειδοποίηση συνδεδεμένου προγράμματος οδήγησης Crestron]]></lookup>
+	<lookup key="CECDriverNoticeMessage"><![CDATA[Το Generic CEC είναι ένα παγκόσμιο πρόγραμμα οδήγησης της Crestron που λειτουργεί με μια μεγάλη γκάμα επίπεδων οθονών.  Η συγκεκριμένη λειτουργικότητα που υποστηρίζει η συσκευή σας εξαρτάται από το πώς έχει υλοποιηθεί η προδιαγραφή CEC από τον κατασκευαστή της συσκευής, καθώς η προδιαγραφή CEC δεν προϋποθέτει να υλοποιηθεί όλη η δέσμη εντολών από τον κατασκευαστή της συσκευής.  Εάν αναζητάτε συγκεκριμένο πρόγραμμα οδήγησης για τη συσκευή σας, ανατρέξτε στην ιστοσελίδα https://drivers.crestron.io.  Για περισσότερες πληροφορίες, επικοινωνήστε με το τμήμα υποστήριξης True Blue Support της Crestron στο support@crestron.com.]]></lookup>
+	<lookup key="CrestronConnectedDriverNoticeMessage"><![CDATA[Το Crestron Connected είναι ένα παγκόσμιο πρόγραμμα οδήγησης της Crestron που λειτουργεί με μια μεγάλη γκάμα επίπεδων οθονών.  Η συγκεκριμένη λειτουργικότητα που υποστηρίζεται από τη συσκευή σας εξαρτάται από ποιο σύνολο χαρακτηριστικών υποστηρίζεται από τη συσκευή σας, καθώς οι κατασκευαστές συσκευών δεν χρειάζεται να υλοποιούν όλες τις λειτουργίες Crestron Connected.  Εάν αναζητάτε συγκεκριμένο πρόγραμμα οδήγησης για τη συσκευή σας, ανατρέξτε στην ιστοσελίδα https://drivers.crestron.io.  Για περισσότερες πληροφορίες, επικοινωνήστε με το τμήμα υποστήριξης True Blue Support της Crestron στο support@crestron.com.]]></lookup>
+	<lookup key="GeneralAcknowledge"><![CDATA[Αναγνώριση]]></lookup>
+	<lookup key="SkypeMeeting"><![CDATA[Σύσκεψη Skype®]]></lookup>
+	<lookup key="DownloadBusyMessage"><![CDATA[Παρακαλούμε περιμένετε...]]></lookup>
+	<lookup key="UploadBusyMessage"><![CDATA[Παρακαλούμε περιμένετε...]]></lookup>
+	<lookup key="MaxUsersWarning"><![CDATA[Το σύστημα έχει συμπληρώσει τον μέγιστο αριθμό χρηστών (5).]]></lookup>
+	<lookup key="MinLengthDisplayNameWarning"><![CDATA[Το εμφανιζόμενο όνομα πρέπει να έχει μήκος τουλάχιστον 1 χαρακτήρα.]]></lookup>
+	<lookup key="MaxLengthDisplayNameWarning"><![CDATA[Το μήκος του εμφανιζόμενου ονόματος δεν μπορεί να υπερβαίνει τους 20 χαρακτήρες.]]></lookup>
+
+	<!-- 7/13/2016 -->
+
+	<lookup key="DeviceManagement"><![CDATA[Διαχείριση συσκευής]]></lookup>
+	<lookup key="ConfigurationManagement"><![CDATA[Διαχείριση διαμόρφωσης]]></lookup>
+	<lookup key="AVFrameworkDashboard"><![CDATA[Πίνακας εργαλείων πλαισίου AV]]></lookup>
+	<lookup key="Transport"><![CDATA[Επικοινωνία]]></lookup>
+	<lookup key="EnableDriver"><![CDATA[Ενεργοποίηση προγράμματος οδήγησης]]></lookup>
+	<lookup key="DeviceName"><![CDATA[Όνομα συσκευής]]></lookup>
+
+	<!-- 7/17/2016 -->
+	<lookup key="DeviceMgmt"><![CDATA[Διαχείριση συσκευής]]></lookup>
+	<lookup key="DMPSConfig"><![CDATA[Διαμόρφ. DMPS]]></lookup>
+	<lookup key="ConfigMgmt"><![CDATA[Διαχ. διαμόρφ.]]></lookup>
+
+	<!-- 7/18/2016 -->
+	<lookup key="EnableDisable"><![CDATA[Ενεργοποίηση Απενεργοποίηση]]></lookup>
+
+	<!-- 7/19/2016 -->
+	<lookup key="RADID"><![CDATA[Αναγν.]]></lookup>
+
+	<!-- 7/28/2017 -->
+	<lookup key="SearchLdap"><![CDATA[Αναζήτηση LDAP]]></lookup>
+	<lookup key="Query"><![CDATA[Ερώτημα]]></lookup>
+	<lookup key="SearchFor"><![CDATA[Αναζήτηση για]]></lookup>
+	<lookup key="GeneralSearch"><![CDATA[Γενική αναζήτηση]]></lookup>
+	<lookup key="Department"><![CDATA[Τμήμα]]></lookup>
+	<lookup key="Location"><![CDATA[Τοποθεσία]]></lookup>
+	<lookup key="Action"><![CDATA[Ενέργεια]]></lookup>
+
+	<!-- 7/31/2017 -->
+	<lookup key="PhoneAttributeWarning"><![CDATA[Προειδοποίηση χαρακτηριστικού τηλεφώνου]]></lookup>
+	<lookup key="Ldap"><![CDATA[LDAP]]></lookup>
+	<lookup key="LdapSettings.Host"><![CDATA[Κεντρικός υπολογιστής]]></lookup>
+	<lookup key="HostWarning"><![CDATA[Απαιτείται κεντρικός υπολογιστής και το μήκος του ονόματός του να μην υπερβαίνει τους 40 χαρακτήρες.]]></lookup>
+	<lookup key="LdapSettings.Port"><![CDATA[Θύρα]]></lookup>
+	<lookup key="LdapSettings.Dn"><![CDATA[Όνομα τομέα]]></lookup>
+	<lookup key="DnWarning"><![CDATA[Απαιτείται όνομα τομέα και το μήκος του ονόματός του δεν πρέπει να υπερβαίνει τους 80 χαρακτήρες.]]></lookup>
+	<lookup key="LdapSettings.Username"><![CDATA[Όνομα χρήστη]]></lookup>
+	<lookup key="UsernameWarning"><![CDATA[Απαιτείται όνομα χρήστη και το μήκος του να μην υπερβαίνει τους 40 χαρακτήρες.]]></lookup>
+	<lookup key="LdapSettings.Password"><![CDATA[Κωδικός πρόσβασης]]></lookup>
+	<lookup key="PasswordWarning"><![CDATA[Απαιτείται κωδικός πρόσβασης]]></lookup>
+	<lookup key="LdapSettings.Search"><![CDATA[Αναζήτηση]]></lookup>
+	<lookup key="SearchWarning"><![CDATA[Η αναζήτηση πρέπει να περιέχει τον όρο "%QUERY%" και να ξεκινά ( και να τελειώνει ) και να μην υπερβαίνει τους 80 χαρακτήρες.]]></lookup>
+	<lookup key="LdapSettings.DisplayAttribute"><![CDATA[Χαρακτηριστικό εμφάνισης]]></lookup>
+	<lookup key="DisplayIsWarning"><![CDATA[Το μήκος του χαρακτηριστικού εμφάνισης δεν πρέπει να υπερβαίνει τους 40 χαρακτήρες.]]></lookup>
+	<lookup key="LdapSettings.LocationAttribute"><![CDATA[Τοποθεσία]]></lookup>
+	<lookup key="LocationAttributeWarning"><![CDATA[Το μήκος του χαρακτηριστικού τοποθεσίας δεν πρέπει να υπερβαίνει τους 40 χαρακτήρες.]]></lookup>
+	<lookup key="LdapSettings.DepartmentAttributeWarning"><![CDATA[Προειδοποίηση χαρακτηριστικού τμήματος]]></lookup>
+	<lookup key="DepartmentAttributeWarning"><![CDATA[Το μήκος του χαρακτηριστικού τμήματος δεν πρέπει να υπερβαίνει τους 40 χαρακτήρες.]]></lookup>
+	<lookup key="LdapSettings.PhoneAttribute"><![CDATA[Χαρακτηριστικό τηλεφώνου]]></lookup>
+	<lookup key="GeneralConnect"><![CDATA[Σύνδεση]]></lookup>
+	<lookup key="LdapSettings.DepartmentAttribute"><![CDATA[Χαρακτηριστικό τμήματος]]></lookup>
+
+	<!-- 8/3/2017 -->
+	<lookup key="EnableLdap"><![CDATA[Ενεργοποίηση LDAP]]></lookup>
+	<lookup key="LdapSettings.Domain"><![CDATA[Τομέας LDAP]]></lookup>
+
+	<!-- 8/22/2017 -->
+	<lookup key="DomainWarning"><![CDATA[Μη έγκυρος τομέας]]></lookup>
+	<lookup key="LdapAuthentication.Kerberos"><![CDATA[Kerberos (Αυτόματος εντοπισμός)]]></lookup>
+	<lookup key="LdapAuthentication.KerberosServer"><![CDATA[Kerberos (Διακομιστής καθορισμένος από τον χρήστη)]]></lookup>
+	<lookup key="LdapAuthentication.Server"><![CDATA[Έλεγχος ταυτότητας διακομιστή (Διακομιστής καθορισμένος από τον χρήστη)]]></lookup>
+	<lookup key="LdapSettings.AuthenticationMethod"><![CDATA[Μέθοδος ελέγχου ταυτότητας]]></lookup>
+
+	<lookup key="SystemNotification"><![CDATA[Ειδοποίηση συστήματος]]></lookup>
+
+	<lookup key="DriverUploadComplete"><![CDATA[Το/τα πρόγραμμα(-τα) οδήγησης της συσκευής δεν έχει(-ουν) φορτωθεί στο σύστημα.  Διαβάστε την ειδοποίηση συστήματος για την κατάσταση του προγράμματος οδήγησης.]]></lookup>
+	<lookup key="DriverDescriptionHeading"><![CDATA[Περιγραφή]]></lookup>
+	<lookup key="DriverSaveProblemWarning"><![CDATA[Η φόρτωση του/των προγράμματος(-ων) οδήγησης της συσκευής στο σύστημα απέτυχε(-αν).  Δοκιμάστε ξανά.  Εάν λάβατε αυτό το μήνυμα πολλές φορές, επικοινωνήστε με το τμήμα υποστήριξης True Blue Support της Crestron.]]></lookup>
+	<lookup key="DriverUploadCompleteHeader"><![CDATA[Επιτυχής φόρτωση προγράμματος οδήγησης ]]></lookup>
+	<lookup key="DriverSaveProblemWarningHeader"><![CDATA[Αποτυχημένη φόρτωση προγράμματος οδήγησης ]]></lookup>
+
+	<!-- 9/12/2017 -->
+	<lookup key="Updating"><![CDATA[Ενημέρωση...]]></lookup>
+
+	<!-- 9/27/2017 -->
+	<lookup key="ChannelType.AirMedia"><![CDATA[AirMedia®]]></lookup>
+
+	<!-- 10/9/2017 -->
+	<lookup key="ActivateConfigurationFromWebsite"><![CDATA[Ενεργοποιήστε τη διαμόρφωση από τη δικτυακή τοποθεσία του συστήματος για να ενεργοποιήσετε το σύστημα.]]></lookup>
+
+	<!-- 12/14/2017 -->
+	<lookup key="HideBackgroundFilter"><![CDATA[Απόκρυψη φίλτρου παρασκηνίου]]></lookup>
+
+	<!-- ***** IMPORTANT ***** -->
+	<!-- The following existing keys need to be renamed -->
+	<lookup key="ScreensaverEnableCustomBackgrounds"><![CDATA[Ενεργοποίηση προσαρμοσμένων παρασκηνίων προφύλαξης οθόνης]]></lookup>
+	<lookup key="ScreensaverAddCustomBackgroundUrl"><![CDATA[Προσθήκη URL προσαρμοσμένου παρασκηνίου προφύλαξης οθόνης]]></lookup>
+	<lookup key="Locale"><![CDATA[Γλώσσα]]></lookup>
+	<lookup key="NetworkStatus"><![CDATA[Πίνακας εργαλείων]]></lookup>
+	<lookup key="ActivityLog"><![CDATA[Αρχείο καταγραφής AVF]]></lookup>
+	<lookup key="EnableDspVolumeControl"><![CDATA[Ενεργοποίηση μεγάφωνου DMPS και έντασης ήχου εξόδου προγράμματος]]></lookup>
+	<lookup key="DevicePort"><![CDATA[Θύρα επικοινωνίας]]></lookup>
+	<lookup key="Add"><![CDATA[Προσθήκη συσκευής]]></lookup>
+	<lookup key="EmergencyBroadcastTimeout"><![CDATA[Λήξη χρόνου μηνύματος έκτακτης ανάγκης]]></lookup>
+	<lookup key="NonEmergencyBroadcastTimeout"><![CDATA[Λήξη χρόνου μηνύματος μη έκτακτης ανάγκης]]></lookup>
+	<lookup key="ChannelValidationMessage"><![CDATA[Απαιτούμενο εύρος μορφής αναγνωριστικού (0-255).]]></lookup>
+
+	<!-- ***** IMPORTANT ***** -->
+	<!-- The following existing keys need to be renamed -->
+	<!-- *** IMPORTANT *** Crestron and Fusion are trademarks and should not be translated -->
+	<lookup key="SupportsFusion"><![CDATA[Υποστηρίζει το Crestron Fusion.]]></lookup>
+	<lookup key="FusionRoomName"><![CDATA[Όνομα αίθουσας Crestron Fusion]]></lookup>
+	<lookup key="FusionConnection"><![CDATA[Σύνδεση Crestron Fusion ]]></lookup>
+	<lookup key="EnableFusionScheduling"><![CDATA[Ενεργοποίηση προγραμματισμού Crestron Fusion]]></lookup>
+	<lookup key="FusionSettings"><![CDATA[Ρυθμίσεις Crestron Fusion]]></lookup>
+	<lookup key="FusionCloudURL"><![CDATA[Cloud URL της Crestron Fusion]]></lookup>
+
+	<lookup key="MinFrontOfRoomBackgroundIntervalSecWarning"><![CDATA[Cloud URL της Crestron Fusion]]></lookup>
+
+	<lookup key="EmergencyBroadcastTimeoutValidValueMessage"><![CDATA[Η απαιτούμενη τιμή πρέπει να βρίσκεται μεταξύ 0-60.]]></lookup>
+	<lookup key="NonEmergencyBroadcastTimeoutValidValueMessage"><![CDATA[Η απαιτούμενη τιμή πρέπει να βρίσκεται μεταξύ 0-60.]]></lookup>
+	<lookup key="CallNotificationTimeoutValidValueMessage"><![CDATA[Η απαιτούμενη τιμή πρέπει να βρίσκεται μεταξύ 0-60.]]></lookup>
+	<lookup key="TimeRemainingMessageDurationValidValueMessage"><![CDATA[Η απαιτούμενη τιμή πρέπει να βρίσκεται μεταξύ 0-60.]]></lookup>
+
+	<lookup key="IntervalBetweenBackgroundsValidValueMessage"><![CDATA[Η απαιτούμενη τιμή πρέπει να βρίσκεται μεταξύ 30-600.]]></lookup>
+
+	<lookup key="ConfigurationText"><![CDATA[Διαμόρφωση συστήματος σε εξέλιξη.]]></lookup>
+
+	<lookup key="ConfiguredMessageOfflineLoggedIn"><![CDATA[Το σύστημα είναι προς το παρόν offline, <span id="activatePlaceholder">ενεργοποιήστε</span> ή <span id="revertPlaceholder">επαναφέρετε</span>τη διαμόρφωση.]]></lookup>
+	<lookup key="SystemOffline"><![CDATA[Το σύστημα είναι προς το παρόν απρόσιτο από την τοποθεσία σας. Επαληθεύστε τη σύνδεση δικτύου ή επικοινωνήστε με τον διαχειριστή του συστήματος. ]]></lookup>
+	<lookup key="Revert"><![CDATA[Επαναφορά]]></lookup>
+	<lookup key="Activate"><![CDATA[Ενεργοποίηση]]></lookup>
+	<lookup key="More"><![CDATA[Περισσότερα]]></lookup>
+
+	<lookup key="WarmUpTimeLabel"><![CDATA[Χρόνος προθέρμανσης]]></lookup>
+	<lookup key="WarmUpTimeValidationMessage"><![CDATA[Η απαιτούμενη τιμή πρέπει να βρίσκεται μεταξύ {0}-{1}.]]></lookup>
+	<lookup key="CoolDownTimeValidationMessage"><![CDATA[Η απαιτούμενη τιμή πρέπει να βρίσκεται μεταξύ {0}-{1}.]]></lookup>
+	<lookup key="CoolDownTimeLabel"><![CDATA[Χρόνος ψύξης]]></lookup>
+
+	<lookup key="ResourceNotFound"><![CDATA[Δεν είναι δυνατό να εντοπιστεί ο πόρος που αναζητάτε.]]></lookup>
+	<lookup key="BackgroundImageRequiredWarning"><![CDATA[Με την ενεργοποίηση απαιτείται τουλάχιστον 1 παρασκήνιο.]]></lookup>
+	<lookup key="MaximumNumberImagesWarning"><![CDATA[Έχει συμπληρωθεί ο μέγιστος αριθμός εικόνων.]]></lookup>
+
+	<lookup key="SupportedSeries"><![CDATA[Υποστηριζόμενη σειρά]]></lookup>
+
+	<lookup key="RoomNameValidCharactersWarning"><![CDATA[Οι χαρακτήρες που επιτρέπονται περιλαμβάνουν αλφαριθμητικούς, κενά, _ ,-, / και ().]]></lookup>
+	<lookup key="Edit"><![CDATA[Επεξεργασία]]></lookup>
+	<lookup key="DriverProcessingMessage"><![CDATA[Η επεξεργασία του αρχείου ({0}) ξεκίνησε.]]></lookup>
+
+	<lookup key="Done"><![CDATA[Ολοκλήρωση]]></lookup>
+	<lookup key="ConfigureButtons"><![CDATA[Διαμόρφωση κουμπιών]]></lookup>
+	<lookup key="StartButtonTextWarning"><![CDATA[Η απαιτούμενη τιμή πρέπει να είναι από 1-20 αλφαριθμητικούς χαρακτήρες.]]></lookup>
+	<lookup key="EnableStartButtonText"><![CDATA[Ενεργοποίηση κουμπιού έναρξης]]></lookup>
+
+	<lookup key="Back"><![CDATA[Πίσω]]></lookup>
+	<lookup key="Cancel"><![CDATA[Άκυρο]]></lookup>
+	<lookup key="FreeFormLog"><![CDATA[Αρχείο εγγραφών AMPS]]></lookup>
+
+	<lookup key="TestDeviceStatus"><![CDATA[Κατάσταση συσκευής]]></lookup>
+	<lookup key="SendCommandLabel"><![CDATA[Αποστολή εντολής]]></lookup>
+	<lookup key="Command"><![CDATA[Εντολή]]></lookup>
+	<lookup key="InstallDevice"><![CDATA[Εγκατάσταση συσκευής]]></lookup>
+	<lookup key="Send"><![CDATA[Αποστολή]]></lookup>
+
+	<!-- 1/19/2018 - button panel -->
+	<lookup key="ButtonPanelButtonAction.Default"><![CDATA[Προεπιλογή]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Disable"><![CDATA[Απενεργοποιημένο]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerOn"><![CDATA[Σε λειτουργία]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerOff"><![CDATA[Εκτός λειτουργίας]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerToggle"><![CDATA[Εναλλαγή λειτουργίας]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteOn"><![CDATA[Ενεργοποίηση σίγασης]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteOff"><![CDATA[Απενεργοποίηση σίγασης]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteToggle"><![CDATA[Εναλλαγή σίγασης]]></lookup>
+	<lookup key="ButtonPanelButtonAction.RouteSource"><![CDATA[Προέλευση διαδρομής]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VolUp"><![CDATA[Υψηλή ένταση]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VolDown"><![CDATA[Χαμηλή ένταση]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Play"><![CDATA[Αναπαραγωγή]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Pause"><![CDATA[Παύση]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Rewind"><![CDATA[Επαναφορά]]></lookup>
+	<lookup key="ButtonPanelButtonAction.FastForward"><![CDATA[Γρήγορη προώθηση]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Menu"><![CDATA[Μενού]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VideoMute"><![CDATA[Σίγαση βίντεο]]></lookup>
+	<lookup key="UnionId"><![CDATA[Κωδικός πρόσβασης]]></lookup>
+	<lookup key="Test"><![CDATA[Δοκιμή]]></lookup>
+	<lookup key="Save"><![CDATA[Αποθήκευση]]></lookup>
+	<lookup key="InstallDialogTitle"><![CDATA[Εγκατάσταση {0} σε εξέλιξη]]></lookup>
+	<lookup key="DeviceTestDialogTitle"><![CDATA[Δοκιμή {0} σε εξέλιξη]]></lookup>
+	<lookup key="UpdateDialogTitle"><![CDATA[Ενημέρωση {0} σε εξέλιξη]]></lookup>
+
+	<!-- 1/26/2018 -->
+	<lookup key="DeviceType.IO"><![CDATA[Crestron IO]]></lookup>
+	<lookup key="Status"><![CDATA[Κατάσταση]]></lookup>
+	<lookup key="TestableDisplayCommands.PowerOn"><![CDATA[Σε λειτουργία]]></lookup>
+	<lookup key="TestableDisplayCommands.PowerOff"><![CDATA[Εκτός λειτουργίας]]></lookup>
+
+	<lookup key="RelayNotes1"><![CDATA[Η διαμόρφωση των ηλεκτρονόμων γίνεται σε ζεύγη στην επιλεγμένη συσκευή.]]></lookup>
+	<lookup key="RelayName"><![CDATA[Όνομα ηλεκτρονόμου]]></lookup>
+	<lookup key="RelayDeviceAndIdentifier"><![CDATA[Συσκευή ηλεκτρονόμου και προσδιοριστικό]]></lookup>
+	<lookup key="RelayTiming"><![CDATA[Συγχρονισμός]]></lookup>
+	<lookup key="BlankRelayLabel"><![CDATA[Καμία]]></lookup>
+
+	<!-- 2/12/2018 -->
+	<lookup key="RelayBehavior.Disable"><![CDATA[Απενεργοποίηση]]></lookup>
+
+	<!-- 2/26/2018 -->
+	<lookup key="RelayTimingBoundsWarning"><![CDATA[Η απαιτούμενη τιμή πρέπει να βρίσκεται μεταξύ (1-180).]]></lookup>
+	<lookup key="RelayNameRequired"><![CDATA[Η απαιτούμενη τιμή πρέπει να αποτελείται από (1-20) αλφαριθμητικούς χαρακτήρες.]]></lookup>
+	<lookup key="RelayValidCharactersWarning"><![CDATA[Η απαιτούμενη τιμή πρέπει να αποτελείται από (1-20) αλφαριθμητικούς χαρακτήρες.]]></lookup>
+	<lookup key="RelayNotes2"><![CDATA[Ο πρώτος ηλεκτρονόμος σε όλα τα ζεύγη ηλεκτρονόμων ΑΝΕΒΑΖΕΙ ΤΗΝ ΟΘΟΝΗ ΤΟΥ ΠΡΟΤΖΕΚΤΟΡΑ.]]></lookup>
+	<lookup key="RelayNotes3"><![CDATA[Ο δεύτερος ηλεκτρονόμος σε όλα τα ζεύγη ηλεκτρονόμων ΚΑΤΕΒΑΖΕΙ ΤΗΝ ΟΘΟΝΗ ΤΟΥ ΠΡΟΤΖΕΚΤΟΡΑ.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.WarmingUpCompleted"><![CDATA[Το ζέσταμα της συσκευής ολοκληρώθηκε.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.WarmingUp"><![CDATA[Ζέσταμα συσκευής...]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.CoolingDown"><![CDATA[Ψύξη συσκευής...]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.CoolingDownCompleted"><![CDATA[Η ψύξη της συσκευής ολοκληρώθηκε.]]></lookup>
+
+	<!-- 2/28/2018 -->
+	<lookup key="MaxLengthRelayNameWarning"><![CDATA[Το μήκος του ονόματος του ηλεκτρονόμου δεν μπορεί να υπερβαίνει τους 20 χαρακτήρες.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PortNotConfigured"><![CDATA[Η θύρα δεν έχει διαμορφωθεί ή δεν είναι διαθέσιμη.]]></lookup>
+
+	<!-- 3/2/2018 -->
+	<lookup key="DeviceUsernameValueWarning"><![CDATA[Το μήκος του ονόματος χρήστη της συσκευής δεν μπορεί να υπερβαίνει τους 15 χαρακτήρες.]]></lookup>
+	<lookup key="DevicePasswordValueWarning"><![CDATA[Το μήκος του κωδικού πρόσβασης της συσκευής δεν μπορεί να υπερβαίνει τους 32 χαρακτήρες.]]></lookup>
+
+	<!-- 3/8/2018 -->
+	<lookup key="RelayEmptyMsg"><![CDATA[Καμία συσκευή δεν υποστηρίζει ηλεκτρονόμους. Μπορείτε να προσθέσετε έναν ηλεκτρονόμο από τη σελίδα διαχείρισης της συσκευής.]]></lookup>
+
+	<!-- 3/9/2018 -->
+	<lookup key="DeviceTransport.Unknown"><![CDATA[Άγνωστη]]></lookup>
+
+	<!-- 3/19/2018 MPC3 - These keys need to be retranslated-->
+	<lookup key="DMPSConfiguration"><![CDATA[Δρομολόγηση A/V]]></lookup>
+	<lookup key="SwitchInformation"><![CDATA[Πληροφορίες διακόπτη εναλλαγής]]></lookup>
+
+	<!-- 3/20/2018 -->
+	<lookup key="StartButtonText"><![CDATA[Κείμενο κουμπιού έναρξης]]></lookup>
+
+	<lookup key="VideoDisplayStatusEvent.Initializing"><![CDATA[Προετοιμασία οδηγού...]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.InitializationFailed"><![CDATA[Η προετοιμασία απέτυχε.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectingToDevice"><![CDATA[Απόπειρα σύνδεσης στη συσκευή...]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.Authenticating"><![CDATA[Έλεγχος ταυτότητας...]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.AuthenticationSuccessful"><![CDATA[Έλεγχος ταυτότητας επιτυχής]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.AuthenticationFailed"><![CDATA[Ο έλεγχος ταυτότητας απέτυχε.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.NotAuthenticated"><![CDATA[Δεν έγινε έλεγχος ταυτότητας.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectionSuccessful"><![CDATA[Συνδέθηκε στον οδηγό.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectionFailed"><![CDATA[Η σύνδεση στον οδηγό απέτυχε.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.Disconnecting"><![CDATA[Αποσύνδεση από τον οδηγό...]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.UnknownEvent"><![CDATA[Άγνωστο συμβάν]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PowerOffCommand"><![CDATA[Αποστολή εντολής για απενεργοποίηση]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PowerOnCommand"><![CDATA[Αποστολή εντολής για ενεργοποίηση]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.UnknownCommand"><![CDATA[Άγνωστη εντολή]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.DeviceOnline"><![CDATA[Η συσκευή είναι online.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.DeviceOffline"><![CDATA[Η συσκευή είναι offline.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.NoControlPortDefined"><![CDATA[Δεν έχει οριστεί θύρα ελέγχου.]]></lookup>
+
+	<lookup key="ImageNotLoaded"><![CDATA[Δεν ήταν δυνατή η φόρτωση της εικόνας.]]></lookup>
+	<lookup key="logoHelpText"><![CDATA[Το βέλτιστο μέγεθος του λογότυπου είναι 800 x 600 pixel.<br>Υποστηριζόμενοι τύποι εικόνας: BMP, JPG, PNG.]]></lookup>
+	<lookup key="Keypad"><![CDATA[Πληκτρολόγιο]]></lookup>
+
+	<!-- 3/22/2018 -->
+	<lookup key="BackgroundOverlay"><![CDATA[Διάταξη φόντου]]></lookup>
+	<!-- 3/27/2018 -->
+	<lookup key="NextMeetingInformationShownValidValueMessage"><![CDATA[Η απαιτούμενη τιμή πρέπει να βρίσκεται μεταξύ (0-120).]]></lookup>
+	<!-- 3/28/2018 -->
+	<lookup key="PowerSettings"><![CDATA[Ρυθμίσεις ισχύος]]></lookup>
+	<lookup key="DayOfWeek"><![CDATA[Ημέρα της εβδομάδας]]></lookup>
+	<lookup key="DisplayOn"><![CDATA[Προβολή ενεργ.]]></lookup>
+	<lookup key="DisplayOff"><![CDATA[Προβολή απενεργ.]]></lookup>
+
+	<lookup key="VideoDisplay"><![CDATA[Εμφάνιση βίντεο]]></lookup>
+	<lookup key="WallPaper"><![CDATA[Οθόνη αφής]]></lookup>
+	<lookup key="WallPaper.EnableCustomBackgroundLabelsLabel"><![CDATA[Ενεργοποίηση προσαρμοσμένων φόντων]]></lookup>
+
+	<lookup key="DisplayNotifications"><![CDATA[Εμφάνιση ειδοποιήσεων]]></lookup>
+	<lookup key="ConnectionDetailsLayout"><![CDATA[Διάταξη στοιχείων σύνδεσης]]></lookup>
+	<lookup key="DisplayCustomization"><![CDATA[Εμφάνιση προσαρμογής]]></lookup>
+
+	<!-- 4/5/2018 -->
+	<lookup key="ShowBackgroundOverlay"><![CDATA[Εμφάνιση διάταξης φόντου]]></lookup>
+	<lookup key="WallPaper.CustomBackgroundLabelsLabel"><![CDATA[Φόντο]]></lookup>
+
+	<lookup key="ShowCalendarOrClockOverlay"><![CDATA[Εμφάνιση διάταξης ημερολογίου ή ρολογιού]]></lookup>
+
+	<!-- 4/6/2018 -->
+	<lookup key="ReturnToAudioCall"><![CDATA[Πατήστε εδώ για να επιστρέψετε στη φωνητική κλήση.]]></lookup>
+	<lookup key="CurrentCallOnHold"><![CDATA[Τρέχουσα κλήση σε αναμονή]]></lookup>
+	<!-- 4/9/2018 -->
+	<lookup key="TimeRemainingMessageStartsValidValueMessage"><![CDATA[Η απαιτούμενη τιμή πρέπει να βρίσκεται μεταξύ (0-60).]]></lookup>
+
+	<!-- 4/9/2018 -->
+	<lookup key="StandbyMode.OccupancyBasedWithSignage"><![CDATA[Πληρότητα ανάλογα με τη σήμανση]]></lookup>
+
+	<!-- 4/10/2018 -->
+	<lookup key="ZumBatteryState.Bx"><![CDATA[Εξωτερικά τροφοδοτούμενο]]></lookup>
+	<lookup key="ZumBatteryState.Bc"><![CDATA[Η στάθμη της μπαταρίας είναι εξαιρετικά χαμηλή.]]></lookup>
+	<lookup key="ZumBatteryState.Bl"><![CDATA[Χαμηλή στάθμη μπαταρίας]]></lookup>
+	<lookup key="ZumBatteryState.Bok"><![CDATA[Στάθμη μπαταρίας OK]]></lookup>
+
+	<lookup key="ZumDeviceStatus.Act"><![CDATA[Ενεργό]]></lookup>
+	<lookup key="ZumDeviceStatus.Mis"><![CDATA[Λείπει]]></lookup>
+
+	<lookup key="ZumOccupancy.Na"><![CDATA[ΜΗ ΔΙΑΘ.]]></lookup>
+	<lookup key="ZumOccupancy.Occupied"><![CDATA[Κατειλημμένη]]></lookup>
+	<lookup key="ZumOccupancy.Vacant"><![CDATA[Κενή]]></lookup>
+	<lookup key="ZumOccupancy.Unknown"><![CDATA[Άγνωστο]]></lookup>
+
+	<lookup key="ZumUpdateStatus.U0"><![CDATA[Δεν υπάρχει ενημέρωση σε εξέλιξη.]]></lookup>
+	<lookup key="ZumUpdateStatus.Ui"><![CDATA[Αναβάθμιση σε εξέλιξη]]></lookup>
+	<lookup key="ZumUpdateStatus.Up"><![CDATA[Ενημέρωση σε εκκρεμότητα]]></lookup>
+
+	<!-- 4/9/2018 -->
+	<lookup key="AppspaceErrorMessage"><![CDATA[Δεν ήταν δυνατή η σύνδεση στη διεύθυνση URL.]]></lookup>
+
+	<!-- 4/13/2018 -->
+	<lookup key="External"><![CDATA[Εξωτερικό]]></lookup>
+	<lookup key="ManageSettings"><![CDATA[Διαχείριση]]></lookup>
+
+	<!-- 4/12/2018 -->
+	<lookup key="DisconnectedHeaderText"><![CDATA[ΑΠΟΣΥΝΔΕΘΗΚΕ]]></lookup>
+
+	<!-- 4/12/2018 -->
+	<lookup key="DisconnectedMessageText"><![CDATA[Προσπάθεια επανασύνδεσης... Ελέγξτε τις ρυθμίσεις επικοινωνίας.]]></lookup>
+
+	<!-- 4/18/2018 these keys need to be retranslated -->
+	<lookup key="IntervalBetweenBackgroundsBoundsWarning"><![CDATA[Η απαιτούμενη τιμή πρέπει να βρίσκεται μεταξύ (30-600).]]></lookup>
+	<lookup key="PanelSleepTimeSecondsBoundsWarning"><![CDATA[Η απαιτούμενη τιμή πρέπει να βρίσκεται μεταξύ (60-600).]]></lookup>
+
+	<!-- 4/18/2018  -->
+
+	<lookup key="Background"><![CDATA[Φόντο]]></lookup>
+	<lookup key="Log"><![CDATA[Αρχείο εγγραφών]]></lookup>
+	<lookup key="TouchScreen"><![CDATA[Οθόνη αφής και μενού προβολής]]></lookup>
+
+	<!-- 4/23/2018  -->
+	<lookup key="DayOfWeekEnum.Monday"><![CDATA[Δευτέρα]]></lookup>
+	<lookup key="DayOfWeekEnum.Tuesday"><![CDATA[Τρίτη]]></lookup>
+	<lookup key="DayOfWeekEnum.Wednesday"><![CDATA[Τετάρτη]]></lookup>
+	<lookup key="DayOfWeekEnum.Thursday"><![CDATA[Πέμπτη]]></lookup>
+	<lookup key="DayOfWeekEnum.Friday"><![CDATA[Παρασκευή]]></lookup>
+	<lookup key="DayOfWeekEnum.Saturday"><![CDATA[Σάββατο]]></lookup>
+	<lookup key="DayOfWeekEnum.Sunday"><![CDATA[Κυριακή]]></lookup>
+
+	<!-- 4/23/2018  -->
+	<lookup key="ConnectionLayout.Bottom"><![CDATA[Κάτω]]></lookup>
+	<lookup key="ConnectionLayout.Top"><![CDATA[Επάνω]]></lookup>
+	<lookup key="ConnectionLayout.Left"><![CDATA[Αριστερά]]></lookup>
+	<lookup key="ConnectionLayout.Right"><![CDATA[Δεξιά]]></lookup>
+
+	<!-- 4/25/2018  -->
+
+	<lookup key="AppspaceCustomBackgroundsWarning"><![CDATA[Δεν είναι δυνατός ο ορισμός προσαρμοσμένων φόντων όταν είναι ενεργοποιημένη η εφαρμογή Appspace.]]></lookup>
+	<lookup key="DeviceType.Audio"><![CDATA[Ήχος]]></lookup>
+	<lookup key="DeviceType.Led"><![CDATA[LED]]></lookup>
+
+	<!-- 4/30/2018  -->
+	<lookup key="AUXIP"><![CDATA[AUX IP]]></lookup>
+	<lookup key="DialerType.Sfb"><![CDATA[Skype®]]></lookup>
+	<lookup key="VerisonNumber"><![CDATA[Αριθμός έκδοσης]]></lookup>
+	<lookup key="Room"><![CDATA[Αίθουσα]]></lookup>
+	<lookup key="EnableDspVolumeControl.ExtAmp"><![CDATA[Ενεργοποίηση εξωτερικού ενισχυτή]]></lookup>
+
+	<!-- 5/1/2018  -->
+	<lookup key="UploadConfigurationError"><![CDATA[Η μεταφόρτωση απέτυχε επειδή η διαμόρφωση δεν ήταν έγκυρη ή αφορούσε άλλο μοντέλο συσκευής.  Έγινε επαναφορά της προηγούμενης διαμόρφωσης.]]></lookup>
+
+	<!-- 5/3/2018  -->
+	<lookup key="AppspaceLoading"><![CDATA[Λήψη και εγκατάσταση της εφαρμογής Appspace...]]></lookup>
+	<lookup key="AppspaceErrorTitle"><![CDATA[Δεν είναι δυνατή η λήψη της εφαρμογής Appspace.]]></lookup>
+	<lookup key="AppspaceErrorSubTitle"><![CDATA[Ελέγξτε τη διεύθυνση URL και τη σύνδεση του δικτύου. Θα προσπαθήσουμε ξανά σε λίγο.]]></lookup>
+
+	<!-- 5/8/2018 -->
+	<lookup key="PortType.Relay"><![CDATA[Ηλεκτρονόμος]]></lookup>
+
+	<!-- 5/10/2018 -->
+	<lookup key="VideoDisplayStatusEvent.TestingNotSupported"><![CDATA[Δεν υποστηρίζεται δοκιμή σε οθόνη που δεν ελέγχεται από τη συσκευή.]]></lookup>
+
+	<lookup key="Zum"><![CDATA[Zūm]]></lookup>
+	<lookup key="Network"><![CDATA[Δίκτυο]]></lookup>
+	<lookup key="FirmwareVersion"><![CDATA[Έκδοση υλικολογισμικού]]></lookup>
+	<lookup key="BatteryStatus"><![CDATA[Κατάσταση μπαταρίας]]></lookup>
+	<lookup key="StartAcquire"><![CDATA[Έναρξη λήψης]]></lookup>
+	<lookup key="StopAcquire"><![CDATA[Διακοπή λήψης]]></lookup>
+	<lookup key="FormNetwork"><![CDATA[Διαμόρφωση δικτύου]]></lookup>
+	<lookup key="ZumBridgeLabel"><![CDATA[Γέφυρα Zūm]]></lookup>
+	<lookup key="RoomOccupancyLabel"><![CDATA[Κατάσταση αισθητήρα Zūm]]></lookup>
+	<lookup key="Occupancy"><![CDATA[Πληρότητα]]></lookup>
+	<lookup key="Id"><![CDATA[Αναγνωριστικό]]></lookup>
+
+	<!-- 5/16/2018 -->
+	<lookup key="ButtonPanelButtonAction.Up"><![CDATA[Επάνω]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Down"><![CDATA[Κάτω]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Left"><![CDATA[Αριστερά]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Right"><![CDATA[Δεξιά]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Enter"><![CDATA[Enter]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Select"><![CDATA[Επιλογή]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Back"><![CDATA[Πίσω]]></lookup>
+
+	<!-- 6/15/2018 -->
+	<lookup key="CallNotificationState.IncomingCall"><![CDATA[Εισερχόμενη κλήση]]></lookup>
+	<lookup key="CallNotificationState.Connected"><![CDATA[Συνδεδεμένο]]></lookup>
+	<lookup key="CallNotificationState.Connecting"><![CDATA[Σύνδεση...]]></lookup>
+	<lookup key="CallNotificationState.Rejected"><![CDATA[Απορρίφθηκε]]></lookup>
+	<lookup key="CallNotificationState.Disconnected"><![CDATA[Αποσυνδέθηκε]]></lookup>
+
+	<!-- 6/19/2018 -->
+	<lookup key="VideoDisplayStatusEvent.CecInitialized"><![CDATA[Οδηγός CEC έτοιμος]]></lookup>
+
+	<lookup key="AssociatedOutputDevice.Whiteboard"><![CDATA[AirBoard®]]></lookup>
+	<lookup key="DeviceType.ZumBridge"><![CDATA[Γέφυρα Zūm]]></lookup>
+	<lookup key="DeviceType.WhiteBoard"><![CDATA[AirBoard®]]></lookup>
+
+	<!-- 7/18/2018 -->
+	<lookup key="DriverInstallationStatus.StatusUnlicensedDeviceType"><![CDATA[Μη αδειοδοτημένος τύπος συσκευής]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusUnsupportedIrDriver"><![CDATA[Μη υποστηριζόμενος οδηγός IR]]></lookup>
+
+	<!-- 7/25/2018 -->
+	<lookup key="CommunicationType"><![CDATA[Τύπος επικοινωνίας]]></lookup>
+	<lookup key="SupportedModels"><![CDATA[Υποστηριζόμενα μοντέλα]]></lookup>
+	<lookup key="DriverSearchHint"><![CDATA[Μοντέλο ή κατασκευαστής]]></lookup>
+
+	<lookup key="AddNewDeviceDriver"><![CDATA[Προσθήκη οδηγού νέας συσκευής...]]></lookup>
+	<lookup key="ImportFromFile"><![CDATA[Εισαγωγή από αρχείο...]]></lookup>
+	<lookup key="GeneralAdd"><![CDATA[Προσθήκη]]></lookup>
+
+	<lookup key="DetectedManufacturer"><![CDATA[Εντοπίστηκε κατασκευαστής]]></lookup>
+	<lookup key="DetectedName"><![CDATA[Εντοπίστηκε όνομα]]></lookup>
+	<lookup key="DetectedSerialNum"><![CDATA[Εντοπίστηκε σειριακός αριθμός]]></lookup>
+
+	<lookup key="CloudSearchError"><![CDATA[Παρουσιάστηκε σφάλμα κατά την αναζήτηση οδηγών στο cloud.]]></lookup>
+	<lookup key="ErrorInstallingDriver"><![CDATA[Παρουσιάστηκε σφάλμα κατά την εγκατάσταση του οδηγού.]]></lookup>
+
+	<lookup key="DeviceInstallingTitle"><![CDATA[Εγκατάσταση {0} σε εξέλιξη.]]></lookup>
+
+	<!-- 8/30/2018 -->
+	<lookup key="DisplayTimeError"><![CDATA[Η τιμή Προβολής ενεργ. πρέπει να είναι μικρότερη από την τιμή της Προβολής απενεργ.]]></lookup>
+	<lookup key="NavPresentEtc"><![CDATA[Πλοήγηση στην αρχική, Παρουσίαση πηγής περιεχομένου, κ.ά.]]></lookup>
+
+	<lookup key="FilterBy"><![CDATA[Φιλτράρισμα κατά]]></lookup>
+	<lookup key="StartDiscovery"><![CDATA[Έναρξη εντοπισμού]]></lookup>
+	<lookup key="StopDiscovery"><![CDATA[Διακοπή εντοπισμού]]></lookup>
+	<lookup key="IPIDCrestnetID"><![CDATA[IPID/CresnetID]]></lookup>
+	<lookup key="Locate"><![CDATA[Εντοπισμός]]></lookup>
+	<lookup key="LocateRunning"><![CDATA[Ο εντοπισμός είναι σε λειτουργία]]></lookup>
+	<lookup key="StopLocate"><![CDATA[Διακοπή εντοπισμού]]></lookup>
+	<lookup key="DeviceDetails"><![CDATA[Στοιχεία συσκευής]]></lookup>
+	<lookup key="DiscoveredDevices"><![CDATA[Εντοπισμένες συσκευές]]></lookup>
+	<lookup key="ConfiguredDevices"><![CDATA[Διαμορφωμένες συσκευές]]></lookup>
+
+	<lookup key="AreYouSure"><![CDATA[Είστε σίγουροι;]]></lookup>
+
+	<lookup key="WhiteboardCode"><![CDATA[Κωδικός ]]></lookup>
+	<lookup key="WhiteboardCrestronId"><![CDATA[CrestronId: ]]></lookup>
+	<lookup key="WhiteboardUserConnUrl"><![CDATA[URL: ]]></lookup>
+
+	<!-- 11/30/2018 -->
+	<lookup key="RefineSearchContact"><![CDATA[Δεν βρέθηκαν αποτελέσματα. Δοκιμάστε με άλλη αναζήτηση.]]></lookup>
+
+	<!-- 12/5/2018 -->
+	<lookup key="WhiteboardMeetingEndPPUX"><![CDATA[Η προγραμματισμένη σας συνάντηση πρόκειται να τελειώσει, διαλέξτε μια επιλογή στην οθόνη αφής.]]></lookup>
+
+	<!-- 12/7/2018 -->
+	<lookup key="WhiteboardIncomingReqPPUX"><![CDATA[Εισερχόμενο αίτημα απομακρυσμένης σύνδεσης, επιλέξτε αποδοχή ή παράβλεψη στην οθόνη αφής.]]></lookup>
+
+	<!-- 12/14/2018 -->
+	<lookup key="account-action"><![CDATA[Ενέργειες]]></lookup>
+	<lookup key="cloudware-license"><![CDATA[Άδεια χρήσης Cloudware]]></lookup>
+	<lookup key="service-status"><![CDATA[Κατάσταση υπηρεσίας]]></lookup>
+	<lookup key="privacy-statement"><![CDATA[Δήλωση απορρήτου]]></lookup>
+	<lookup key="uc-agreement"><![CDATA[Άδεια χρήσης λογισμικού Crestron Unified Communication]]></lookup>
+
+	<lookup key="busy-loading"><![CDATA[φόρτωση]]></lookup>
+	<lookup key="AirBoard"><![CDATA[AirBoard]]></lookup>
+	<lookup key="Settings"><![CDATA[Ρυθμίσεις]]></lookup>
+	<lookup key="ConfirmPassword"><![CDATA[Επιβεβαίωση κωδικού πρόσβασης]]></lookup>
+	<lookup key="UserDetail"><![CDATA[Στοιχεία χρήστη]]></lookup>
+	<lookup key="PasswordMismatchWarning"><![CDATA[Οι κωδικοί πρόσβασης πρέπει να είναι ίδιοι.]]></lookup>
+
+	<!-- 12/27/2018 -->
+	<lookup key="CresnetBusIdValidationMessage"><![CDATA[Υποχρεωτική μορφή αναγνωριστικού Cresnet (03-1B).]]></lookup>
+	<lookup key="DeviceType.CresnetGateway"><![CDATA[Πύλη Cresnet]]></lookup>
+	<lookup key="DeviceTransport.CrestronCrestnetBus"><![CDATA[Δίαυλος Cresnet]]></lookup>
+	<lookup key="GatewayBus"><![CDATA[Δίαυλος πύλης]]></lookup>
+
+	<!-- 01/08/2019 -->
+	<lookup key="EnableAutoUpdate"><![CDATA[Ενεργοποίηση αυτόματης ενημέρωσης οθόνης αφής]]></lookup>
+	<lookup key="AutoRouting"><![CDATA[Αυτόματη δρομολόγηση μόνο AirMedia]]></lookup>
+	<lookup key="PriorityRouting"><![CDATA[Διαδρομή προτεραιότητας]]></lookup>
+	<lookup key="InvalidInputName"><![CDATA[Μη έγκυρο όνομα προβολής.  Δεν μπορεί να περιέχει < ή >χαρακτήρες.]]></lookup>
+
+	<lookup key="AudioSource.AudioFollowVideo"><![CDATA[Ο ήχος ακολουθεί το βίντεο]]></lookup>
+	<lookup key="AudioSource.Analog"><![CDATA[Αναλογικό]]></lookup>
+	<lookup key="ChannelType.Streaming"><![CDATA[Ροή προγράμματος]]></lookup>
+
+	<lookup key="UploadConfigRestore"><![CDATA[Επαναφορά]]></lookup>
+	<lookup key="UploadConfigCreateRoom"><![CDATA[Δημιουργία αίθουσας]]></lookup>
+
+	<lookup key="UploadConfigWarning"><![CDATA[Εάν επαναφέρετε μια παλιά διαμόρφωση από μία υφιστάμενη αίθουσα που υπάρχει ήδη στο περιβάλλον Fusion, επιλέξτε «Επαναφορά».  Εάν εισαγάγετε μια διαμόρφωση ως σημείο έναρξης για μια νέα αίθουσα, επιλέξτε «Δημιουργία αίθουσας».]]></lookup>
+
+	<!-- 01/30/2019 -->
+	<lookup key="WhiteBoardCodeMode.Disabled"><![CDATA[Απενεργοποιημένο]]></lookup>
+	<lookup key="WhiteBoardCodeMode.Random"><![CDATA[Τυχαίο]]></lookup>
+	<lookup key="WhiteBoardCodeMode.Fixed"><![CDATA[Σταθερό]]></lookup>
+
+	<lookup key="WhiteboardViewParticipants"><![CDATA[Συμμετέχοντες]]></lookup>
+	<lookup key="WhiteboardRecord"><![CDATA[Εγγραφή]]></lookup>
+	<lookup key="WhiteboardStopRecording"><![CDATA[Διακοπή εγγραφής]]></lookup>
+	<lookup key="WhiteboardSnapshot"><![CDATA[Αποστολή στιγμιότυπου]]></lookup>
+	<lookup key="WhiteboardParticipants"><![CDATA[Συμμετέχοντες]]></lookup>
+	<lookup key="WhiteboardIncomingReq"><![CDATA[Εισερχόμενο αίτημα απομακρυσμένης σύνδεσης]]></lookup>
+	<lookup key="WhiteboardIncomingReqAccept"><![CDATA[Αποδοχή]]></lookup>
+	<lookup key="WhiteboardIncomingReqIgnore"><![CDATA[Παράβλεψη]]></lookup>
+	<lookup key="WhiteboardInSession"><![CDATA[Σε συνεδρία]]></lookup>
+	<lookup key="WhiteboardInLobby"><![CDATA[Σε αναμονή]]></lookup>
+	<lookup key="WhiteboardEmail"><![CDATA[Αποστολή εγγραφής με email προς:]]></lookup>
+	<lookup key="WhiteboardSendSlideDeck"><![CDATA[Αποστολή παρουσίασης]]></lookup>
+	<lookup key="WhiteboardEmailRecording"><![CDATA[Αποστολή εγγραφής με email]]></lookup>
+	<lookup key="WhiteboardProceed"><![CDATA[Συνέχεια χωρίς αποστολή email]]></lookup>
+	<lookup key="WhiteboardMeetingEnd"><![CDATA[Η προγραμματισμένη σας συνάντηση πρόκειται να τελειώσει, ορίστε μια επιλογή]]></lookup>
+	<lookup key="WhiteboardStopPresenting"><![CDATA[Διακοπή εγγραφής  παρουσίασης]]></lookup>
+	<lookup key="WhiteboardDontStop"><![CDATA[Να μην διακοπεί]]></lookup>
+	<lookup key="WhiteboardTitle"><![CDATA[AirBoard®]]></lookup>
+
+	<lookup key="BluetoothPairingMode"><![CDATA[Λειτουργία ζεύξης Bluetooth]]></lookup>
+	<lookup key="BluetoothTimeOut"><![CDATA[Χρόνος αποσύνδεσης αδρανούς Bluetooth]]></lookup>
+	<lookup key="BluetoothTimeOutValidValueMessage"><![CDATA[Η απαιτούμενη τιμή πρέπει να είναι (1-60)]]></lookup>
+	<lookup key="PairingMode.Timeout"><![CDATA[Χρονική λήξη]]></lookup>
+	<lookup key="PairingMode.Persistent"><![CDATA[Σταθερό]]></lookup>
+	<lookup key="ReportOnlyAirmediaAsset"><![CDATA[Αναφορά μόνο στοιχείου AirMedia]]></lookup>
+	<lookup key="LdapPortWarning"><![CDATA[Υποχρεωτική μορφή θύρας (1-65535).]]></lookup>
+	<lookup key="NonControlledDevice"><![CDATA[Μη ελεγχόμενη συσκευή]]></lookup>
+
+	<lookup key="CrestronConnected"><![CDATA[Crestron συνδέθηκε]]></lookup>
+	<lookup key="MercuryIpIdValidationMessage"><![CDATA[Υποχρεωτική μορφή IPID (03-FD).]]></lookup>
+
+	<!-- 6/10/2019 -->
+	<lookup key="WhiteboardConfirmationPrompt"><![CDATA[Θέλετε σίγουρα να διακόψετε την εγγραφή;]]></lookup>
+	<lookup key="WhiteboardStopNowCap"><![CDATA[ΝΑΙ, ΝΑ ΔΙΑΚΟΠΕΙ]]></lookup>
+	<lookup key="WhiteboardContinueCap"><![CDATA[ΟΧΙ, ΝΑ ΣΥΝΕΧΙΣTΕΙ]]></lookup>
+	<lookup key="WhiteboardEmailRecordingCap"><![CDATA[ΑΠΟΣΤΟΛΗ ΕΓΓΡΑΦΗΣ]]></lookup>
+	<lookup key="WhiteboardProceedCap"><![CDATA[ΣΥΝΕΧΕΙΑ ΧΩΡΙΣ ΑΠΟΣΤΟΛΗ]]></lookup>
+	<lookup key="WhiteboardStopPresentingCap"><![CDATA[ΔΙΑΚΟΠΗ ΕΓΓΡΑΦΗΣ & ΠΑΡΟΥΣΙΑΣΗ]]></lookup>
+
+	<lookup key="GenericCancelCap"><![CDATA[ΑΚΥΡΩΣΗ]]></lookup>
+	<lookup key="CouldNotFindMatch"><![CDATA[Δεν βρέθηκαν αποτελέσματα. Δοκιμάστε με άλλη αναζήτηση.]]></lookup>
+	<lookup key="PresentationTypes"><![CDATA[Τύποι παρουσίασης]]></lookup>
+	<lookup key="Resume"><![CDATA[Συνέχεια]]></lookup>
+	<lookup key="BlankScreen"><![CDATA[Κενή οθόνη]]></lookup>
+	<lookup key="CallTypes"><![CDATA[Τύποι κλήσης]]></lookup>
+	<lookup key="ReturnToCall"><![CDATA[Επιστροφή στην κλήση]]></lookup>
+	<lookup key="TapReturnToCall"><![CDATA[Πατήστε εδώ για να επιστρέψετε στην κλήση]]></lookup>
+	<lookup key="CallOnHold"><![CDATA[Τρέχουσα κλήση σε αναμονή]]></lookup>
+	<lookup key="USBCable"><![CDATA[Καλώδιο USB]]></lookup>
+	<lookup key="UsbCall"><![CDATA[Κλήση USB]]></lookup>
+	<lookup key="ConnectYourUsbDeviceText"><![CDATA[Συνδέστε τη συσκευή σας στο καλώδιο USB]]></lookup>
+	<lookup key="AvailableForNext"><![CDATA[διαθέσιμη για τα επόμενα]]></lookup>
+	<lookup key="Available"><![CDATA[Διαθέσιμη]]></lookup>
+	<lookup key="RestOfDay"><![CDATA[για την υπόλοιπη μέρα]]></lookup>
+	<lookup key="ReservedForNext"><![CDATA[δεσμευμένη για την επόμενη]]></lookup>
+	<lookup key="MeetingLabel"><![CDATA[Συνάντηση]]></lookup>
+	<lookup key="GeneralHome"><![CDATA[Σπίτι]]></lookup>
+	<lookup key="GeneralPresent"><![CDATA[Παρουσίαση]]></lookup>
+	<lookup key="GeneralCall"><![CDATA[Κλήση]]></lookup>
+	<lookup key="GeneralToday"><![CDATA[Σήμερα]]></lookup>
+	<lookup key="GeneralCollaborate"><![CDATA[Συνεργασία]]></lookup>
+	<lookup key="NextMeeting"><![CDATA[Επόμενη συνάντηση]]></lookup>
+	<lookup key="Plug"><![CDATA[Συνδέστε]]></lookup>
+	<lookup key="ConnectLaptopGuide"><![CDATA[στον φορητό υπολογιστή σας για να παρουσιάσετε στην οθόνη]]></lookup>
+	<lookup key="ConnectUsbGuide"><![CDATA[στον φορητό υπολογιστή σας για να τον χρησιμοποιήσετε ως συσκευή ήχου]]></lookup>
+	<lookup key="Set"><![CDATA[ορισμός]]></lookup>
+	<lookup key="Camera"><![CDATA[Κάμερα]]></lookup>
+	<lookup key="Step"><![CDATA[Βήμα]]></lookup>
+	<lookup key="Connect"><![CDATA[σύνδεση]]></lookup>
+	<lookup key="ConnectYourHDMIDeviceText"><![CDATA[για να κάνετε παρουσίαση με τον φορητό υπολογιστή σας χρησιμοποιώντας το καλώδιο HDMI]]></lookup>
+
+	<!-- *** IMPORTANT *** Virtual Control is a trademark and should not be translated -->
+	<lookup key="VCToken"><![CDATA[Διακριτικό Virtual Control]]></lookup>
+	<lookup key="VCToken.Message"><![CDATA[Απαιτείται διακριτικό Virtual Control.]]></lookup>
+	<lookup key="VCToken.Invalid"><![CDATA[Μη έγκυρο διακριτικό Virtual Control.]]></lookup>
+
+	<!-- 2019-09-30 -->
+	<lookup key="VideoDisplayStatusEvent.PortOffline"><![CDATA[Η θύρα βρίσκεται εκτός σύνδεσης]]></lookup>
+	<lookup key="SyncVC4RoomName"><![CDATA[Συγρονισμός ονόματος δωματίου με VC-4]]></lookup>
+	<lookup key="EnableCustomHelpPage"><![CDATA[Ενεργοποίηση προσαρμοσμένης σελίδας βοήθειας]]></lookup>
+	<lookup key="CustomHelpPageUrl"><![CDATA[URL προσαρμοσμένης σελίδας βοήθειας]]></lookup>
+	<lookup key="Upload"><![CDATA[Μεταφόρτωση]]></lookup>
+
+	<!-- 2019-09-09 -->
+	<lookup key="Resolution.Res720x480iNTSC"><![CDATA[720x480i 30Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080p"><![CDATA[1920x1080p 24Hz]]></lookup>
+	<lookup key="Resolution.Res2048x1080At24Hz"><![CDATA[2048x1080 στα 24Hz]]></lookup>
+	<lookup key="Resolution.Res1920x1080pAt30HzNTSC"><![CDATA[1920x1080p στα 30Hz NTSC ]]></lookup>
+	<lookup key="Resolution.Res1920x1080pAt25HzPAL"><![CDATA[1920x1080p στα 25Hz PAL]]></lookup>
+
+	<!-- 2019-09-26 -->
+	<lookup key="UxGeneralCustomization.EnableReservationLabel"><![CDATA[Ενεργοποίηση καταμερισμού]]></lookup>
+
+	<!-- 2019-10-04 -->
+	<lookup key="ChannelType.DmLite"><![CDATA[DM LITE]]></lookup>
+
+	<!-- 2019-10-15 -->
+	<lookup key="WallPaper.EnableCustomHelpPageLabel"><![CDATA[Ενεργοποίηση προσαρμοσμένης βοήθειας]]></lookup>
+	<lookup key="WallPaper.CustomHelpPageUrlLabel"><![CDATA[Διεύθυνση URL προσαρμοσμένης βοήθειας]]></lookup>
+	<lookup key="WallPaper.CustomHelpPageUrlValidValueMessage"><![CDATA[Μη έγκυρη διεύθυνση URL προσαρμοσμένης βοήθειας]]></lookup>
+	<lookup key="WallPaper.IdValidValueMessage"><![CDATA[Απαιτείται έγκυρη επιλογή]]></lookup>
+
+	<!-- 2019-09-17 -->
+	<lookup key="DisplayFeature.PowerFeedback"><![CDATA[Ανατροφοδότηση ισχύος]]></lookup>
+	<lookup key="DisplayFeature.VideoMute"><![CDATA[Σίγαση βίντεο]]></lookup>
+	<lookup key="DisplayFeature.Mute"><![CDATA[Σίγαση]]></lookup>
+	<lookup key="DisplayFeature.MuteFeedback"><![CDATA[Σίγαση ανατροφοδότησης]]></lookup>
+	<lookup key="DisplayFeature.Volume"><![CDATA[Έλεγχος έντασης ήχου]]></lookup>
+	<lookup key="DisplayFeature.SetVolume"><![CDATA[Ρύθμιση αναλογικής έντασης ήχου]]></lookup>
+	<lookup key="DisplayFeature.VolumeFeedback"><![CDATA[Ανατροφοδότηση ελέγχου έντασης ήχου]]></lookup>
+	<lookup key="DisplayFeature.InputFeedback"><![CDATA[Ανατροφοδότηση επιλογής εισόδου]]></lookup>
+	<!-- Supported Driver Feature Web AddNewDevice -->
+	<lookup key="SupportedFeature"><![CDATA[Υποστηριζόμενα χαρακτηριστικά προγράμματος οδήγησης]]></lookup>
+
+	<lookup key="StandbyMode.VideoSyncBased"><![CDATA[Με βάση τον συγχρονισμό βίντεο]]></lookup>
+	<lookup key="VideoSyncPowerOn"><![CDATA[Ενεργοποίηση συγχρονισμού βίντεο]]></lookup>
+	<lookup key="VideoSyncPowerOff"><![CDATA[Απενεργοποίηση συγχρονισμού βίντεο]]></lookup>
+	<lookup key="VideoSyncPowerOffTimeout"><![CDATA[Χρονικό όριο για απενεργοποίηση συγχρονισμού βίντεο]]></lookup>
+	<lookup key="VideoSyncPowerOffTimeoutBoundsWarning"><![CDATA[έγκυρο εύρος 1-120 λεπτά]]></lookup>
+
+	<!-- 2019-11-01 -->
+	<lookup key="PanelUiVersionType.UI1"><![CDATA[AVF 1.0 Θέμα (Παλαιού τύπου)]]></lookup>
+	<lookup key="PanelUiVersionType.UI2"><![CDATA[AVF 2.0 Θέμα (Νέο)]]></lookup>
+	<lookup key="UiVersionLabel"><![CDATA[Θέμα περιβάλλοντος εργασίας χρήστη .AV Framework]]></lookup>
+
+	<!-- 2019-12-11 -->
+	<lookup key="OccupancyPowerOn"><![CDATA[Ενεργοποίηση χρήσης]]></lookup>
+	<lookup key="OccupancyPowerOff"><![CDATA[Απενεργοποίηση χρήσης]]></lookup>
+
+	<lookup key="StandbyMode.Default"><![CDATA[Με βάση τη χρήση]]></lookup>
+
+	<!-- 2019-12-16-->
+	<lookup key="ThemeHelpText"><![CDATA[Σημείωση: Η αλλαγή θέματος θα διαρκέσει περίπου <br>30-60 δευτερόλεπτα μετά την ενεργοποίηση του .AV Framework]]></lookup>
+
+	<!-- 2019-12-24 -->
+	<lookup key="videoSyncWarnText"><![CDATA[Σημείωση: Ένας εικονικός διακόπτης δεν μπορεί να χρησιμοποιηθεί σε συνδυασμό<br> με τη λειτουργία ισχύος που βασίζεται στον συγχρονισμό βίντεο.]]></lookup>
+
+	<!-- 2019-11-15 -->
+	<lookup key="POEOccupancySensorSettings"><![CDATA[Ρυθμίσεις ανιχνευτή χρήσης PoE]]></lookup>
+
+	<!-- 2019-12-20 -->
+	<lookup key="SensorStatus"><![CDATA[Κατάσταση αισθητήρα]]></lookup>
+	<lookup key="Occupied"><![CDATA[Κατειλημμένος]]></lookup>
+	<lookup key="Vacant"><![CDATA[Κενός]]></lookup>
+
+	<!-- 2020-01-09 -->
+	<lookup key="DriverInstallStatusEnum.UnknownCommand"><![CDATA[Άγνωστη εντολή]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Uploading"><![CDATA[Μεταφόρτωση αρχείου]]></lookup>
+	<lookup key="DriverInstallStatusEnum.UploadComplete"><![CDATA[Η μεταφόρτωση ολοκληρώθηκε]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Downloading"><![CDATA[Λήψη αρχείου]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Downloaded"><![CDATA[Αρχείο που έχει ληφθεί]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Installed"><![CDATA[Το πρόγραμμα οδήγησης έχει εγκατασταθεί]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Installing"><![CDATA[Εγκατάσταση του προγράμματος οδήγησης]]></lookup>
+	<lookup key="DriverInstallStatusEnum.ErrorOccured"><![CDATA[Προέκυψε σφάλμα]]></lookup>
+	<lookup key="DriverInstallStatusEnum.UnzippedPkg"><![CDATA[Αρχείο PKG που έχει αποσυμπιεστεί]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Processing"><![CDATA[Επεξεργασία αρχείου]]></lookup>
+	<lookup key="DriverInstallStatusEnum.DownloadingComplete"><![CDATA[Η λήψη ολοκληρώθηκε]]></lookup>
+	<lookup key="DriverInstallStatusEnum.InvalidOrCorruptFile"><![CDATA[Μη έγκυρο ή αλλοιωμένο αρχείο]]></lookup>
+
+	<!-- 2020-01-20 -->
+	<lookup key="AcronymHour"><![CDATA[ώρα]]></lookup>
+	<lookup key="AcronymMinute"><![CDATA[λεπτά]]></lookup>
+
+	<!-- 2020-01-29 -->
+	<lookup key="AddDeviceDriver"><![CDATA[Εισαγωγή προγράμματος οδήγησης]]></lookup>
+</lang>

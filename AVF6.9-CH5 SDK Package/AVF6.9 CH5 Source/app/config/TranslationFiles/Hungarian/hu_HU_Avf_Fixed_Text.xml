@@ -1,0 +1,1546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang locale="hu_HU" name="Hungarian" variant="Hungarian">
+	<include file="hu_HU_Common_Text.xml"/>
+	<include file="hu_HU_Scheduling_Calendar.xml"/>
+
+	<lookup key = "CurrentLanguageTranslatedName"><![CDATA[Magyar]]></lookup> <!-- This is the name of the language being translated as it exists natively -->
+
+	<lookup key="AvFramework"><![CDATA[AvFramework]]></lookup>
+	<lookup key="signin"><![CDATA[Bejelentkezés]]></lookup>
+
+	<!-- 000_Initialize  -->
+	<lookup key="InitializeMessageText"><![CDATA[Várjon, amíg a rendszer inicializálódik...]]></lookup>
+
+	<!-- 002_Home_Available -->
+	<lookup key="ReserveNowButtonText"><![CDATA[LEFOGLALÁS MOST]]></lookup>
+
+	<!-- 002_Home_Available_All_Day -->
+	<lookup key="RestOfDayText"><![CDATA[A nap további részére]]></lookup>
+
+	<!-- 002_Home_Available_Reserve -->
+	<lookup key="NewMeetingText"><![CDATA[Új találkozó]]></lookup>
+
+	<!-- 002_Home_Fusion_Offline -->
+
+	<!-- 002_Home_Meeting_InProgress -->
+
+	<!-- 002_Home_Meeting_InProgress_Join -->
+	<lookup key="MeetingInProgressText"><![CDATA[Folyamatban]]></lookup>
+	<lookup key="JoinMeetingButtonText"><![CDATA[CSATLAKOZÁS A TALÁLKOZÓHOZ]]></lookup>
+
+	<!-- 003_Call_Selection -->
+	<lookup key="MakeCallText"><![CDATA[Hívás indítása]]></lookup>
+
+	<!-- 003_Call_Video_Directory -->
+
+	<!-- 003_Call_Video_InCall -->
+	<lookup key="VideoCallText"><![CDATA[Videóhívásban]]></lookup>
+	<lookup key="VideoCallDisableVideoText"><![CDATA[Videó kikapcsolása]]></lookup>
+
+	<!-- 004_Call_Audio_Keypad, KeypadButton is in Common_Text.xml-->
+
+	<!-- 004_Call_Audio_Keypad_DTMF, KeypadButton is in Common_Text.xml-->
+
+	<!-- 004_Call_Audio_inCall -->
+	<lookup key="AudioCallText"><![CDATA[Hanghívásban]]></lookup>
+
+	<!-- 0096_Outgoing_Audio_Call, in Common_Text.xml -->
+
+	<!-- 0097_Incoming_In_Call_Audio_Call -->
+	<lookup key="IncomingCallText"><![CDATA[Bejövő]]></lookup>
+	<lookup key="IncomingInCallAnswerText"><![CDATA[Jelenlegi befejezése + válasz]]></lookup>
+	<lookup key="IncomingInCallIgnoreText"><![CDATA[Mellőzés]]></lookup>
+
+	<!-- 0098_Incoming_Audio_Call -->
+	<lookup key="IncomingCallAnswerText"><![CDATA[Válasz]]></lookup>
+	<lookup key="IncomingCallDismissText"><![CDATA[ELUTASÍTÁS]]></lookup>
+
+	<!-- 005_Present_Selection -->
+	<lookup key="PresentSourceSelectText"><![CDATA[Válasszon egy forrást a bemutatáshoz]]></lookup>
+
+	<!-- 005_Present_BluRay_Playhead -->
+	<lookup key="PresentBlurayPopUpMenuText"><![CDATA[Felugró menü]]></lookup>
+	<lookup key="PresentBlurayTopMenuText"><![CDATA[Felső menü]]></lookup>
+	<lookup key="PresentBlurayEjectText"><![CDATA[KIADÁS]]></lookup>
+	<lookup key="PresentSourcesText"><![CDATA[FORRÁSOK]]></lookup>
+	<lookup key="PresentNowPresentText"><![CDATA[Jelenleg bemutatva]]></lookup>
+	<lookup key="PresentStopPresentingText"><![CDATA[Bemutatás leállítása]]></lookup>
+	<lookup key="PresentSmartTVText"><![CDATA[Okostévé]]></lookup>
+
+	<!-- 005_Present_BluRay_Keypad -->
+
+	<!-- 005_Present_Laptop -->
+	<lookup key="PresentPlayingSourceText"><![CDATA[forrás lejátszása a következővel:]]></lookup>
+
+	<!-- 005_Present_Laptop_NoSource -->
+	<lookup key="PresentLaptopNoSourceText"><![CDATA[Csatlakoztassa a laptopját]]></lookup>
+	<lookup key="PresentLaptopNoSourceConnectText"><![CDATA[Csatlakoztassa a laptopját a következőhöz:]]></lookup>
+
+	<!-- 005_Present_PC -->
+
+	<!-- 005_Present_TV_Playhead -->
+	<lookup key="PresentTVTunerText"><![CDATA[TV-tuner]]></lookup>
+	<lookup key="PresentGuideText"><![CDATA[Útmutató]]></lookup>
+
+	<!-- 005_Present_TV_Keypad -->
+
+	<!-- 005_Present_Wireless -->
+	<lookup key="PresentWirelessSourceText"><![CDATA[Laptop]]></lookup>
+
+	<!-- 0094_Mic_Mute_Privacy -->
+	<lookup key="MicMuteText"><![CDATA[A mikrofon a magánélet védelme miatt lenémítva]]></lookup>
+
+	<!-- 0095_Lighting_Popup -->
+	<lookup key="LightingAdjustText"><![CDATA[A jelenlegi beállítása]]></lookup>
+
+	<!-- All power off -->
+	<lookup key="AllPowerOff"><![CDATA[Minden kijelző kikapcsol, a hang némítva lesz.]]></lookup>
+	<lookup key="PowerOffCountDown"><![CDATA[A rendszer automatikus kikapcsolásának ideje:]]></lookup>
+	<lookup key="PowerOffShutdown"><![CDATA[Leállítás]]></lookup>
+	<lookup key="PowerOffContinue"><![CDATA[A használat folytatása]]></lookup>
+	<lookup key="PowerOffShutingDown"><![CDATA[Leállás]]></lookup>
+
+	<!-- MainTemplate.html -->
+	<lookup key="AvFramework20"><![CDATA[AV Framework 2.0]]></lookup>
+
+	<!-- MainTemplate.html (01/28/2016 )-->
+	<lookup key="ToggleNavigation"><![CDATA[A navigáció átállítása]]></lookup>
+
+	<!-- login.html -->
+	<lookup key="Username"><![CDATA[Felhasználónév]]></lookup>
+	<lookup key="PleaseSignIn"><![CDATA[Kérjük, jelentkezzen be]]></lookup>
+	<lookup key="Password"><![CDATA[Jelszó]]></lookup>
+	<lookup key="Required"><![CDATA[Kötelező]]></lookup>
+
+	<!--AddNewDevice.html -->
+
+	<lookup key="AddNewDevice"><![CDATA[Új eszköz hozzáadása]]></lookup>
+	<lookup key="DeviceType"><![CDATA[Eszköz típusa]]></lookup>
+	<lookup key="ChannelName"><![CDATA[Csatorna neve]]></lookup>
+	<lookup key="DisplayName"><![CDATA[Kijelző neve]]></lookup>
+	<lookup key="Model"><![CDATA[Modell]]></lookup>
+	<lookup key="Control"><![CDATA[Vezérlés]]></lookup>
+	<lookup key="IP"><![CDATA[IP]]></lookup>
+	<lookup key="Port"><![CDATA[Port]]></lookup>
+	<lookup key="Channel"><![CDATA[Csatorna]]></lookup>
+	<lookup key="IPID"><![CDATA[IP ID]]></lookup>
+	<lookup key="DigitalMedia"><![CDATA[Digitális média]]></lookup>
+	<lookup key="Resolution"><![CDATA[Felbontás]]></lookup>
+	<lookup key="DisplayMode"><![CDATA[Kijelző üzemmód]]></lookup>
+	<lookup key="UsbPort"><![CDATA[USB-port]]></lookup>
+	<lookup key="One"><![CDATA[1]]></lookup>
+	<lookup key="Two"><![CDATA[2]]></lookup>
+	<lookup key="Three"><![CDATA[3]]></lookup>
+	<lookup key="Four"><![CDATA[4]]></lookup>
+	<lookup key="BaudRate"><![CDATA[Baudráta]]></lookup>
+	<lookup key="IpIdValidationMessage"><![CDATA[Az IPID kötelező formátuma (03-FE).]]></lookup>
+	<lookup key="IpValidationMessage"><![CDATA[Az IP-cím kötelező formátuma (#.#.#.#).]]></lookup>
+	<lookup key="PortValidationMessage"><![CDATA[A port kötelező formátuma (1-65535).]]></lookup>
+
+	<!--ConfigStep1.html-->
+
+	<lookup key="SystemSetup"><![CDATA[Rendszerbeállítás]]></lookup>
+	<lookup key="RoomName"><![CDATA[Helyiség neve]]></lookup>
+	<lookup key="FusionIpId"><![CDATA[IPID]]></lookup>
+	<lookup key="AllowCalls"><![CDATA[Hívások engedélyezése]]></lookup>
+	<lookup key="EnableLighting"><![CDATA[Fény engedélyezése]]></lookup>
+	<lookup key="TimeFormat"><![CDATA[Időformátum]]></lookup>
+	<lookup key="24Hour"><![CDATA[24 órás]]></lookup>
+	<lookup key="12hour"><![CDATA[12 órás]]></lookup>
+	<lookup key="DateFormat"><![CDATA[Dátumformátum]]></lookup>
+
+	<!--ConfigStep2.html-->
+
+	<lookup key="Devices"><![CDATA[Eszközök]]></lookup>
+	<lookup key="Name"><![CDATA[Név]]></lookup>
+	<lookup key="Type"><![CDATA[Típus]]></lookup>
+	<lookup key="Driver"><![CDATA[Illesztőprogram]]></lookup>
+	<lookup key="TransportDetails"><![CDATA[Az átvitel részletei]]></lookup>
+	<lookup key="Serial"><![CDATA[Soros]]></lookup>
+	<lookup key="Delete"><![CDATA[Törlés]]></lookup>
+	<lookup key="Previous"><![CDATA[Előző]]></lookup>
+
+	<!--ConfigStep3.html-->
+	<lookup key="Inputs"><![CDATA[Bemenetek]]></lookup>
+	<lookup key="Icon"><![CDATA[Ikon]]></lookup>
+	<lookup key="Enabled"><![CDATA[Engedélyezve]]></lookup>
+	<lookup key="Rank"><![CDATA[Rang]]></lookup>
+	<lookup key="Device"><![CDATA[Eszköz]]></lookup>
+	<lookup key="Endpoint"><![CDATA[Végpont]]></lookup>
+	<lookup key="Outputs"><![CDATA[Kimenetek]]></lookup>
+
+	<!-- ConfigStep4.html (01/28/2016 ) -->
+	<lookup key="DownloadConfiguration"><![CDATA[Konfiguráció letöltése]]></lookup>
+	<lookup key="UploadConfiguration"><![CDATA[Konfiguráció feltöltése]]></lookup>
+	<lookup key="ActivateConfiguration"><![CDATA[Konfiguráció aktiválása]]></lookup>
+	<lookup key="RevertConfiguration"><![CDATA[Konfiguráció visszaállítása]]></lookup>
+
+	<!--Index.html-->
+	<lookup key="Welcome"><![CDATA[Üdvözli Önt az AV Framework 2.0]]></lookup>
+
+	<!--RoomStatus.html-->
+	<lookup key="EthernetInformation"><![CDATA[Ethernet információk]]></lookup>
+	<lookup key="InputChannels"><![CDATA[Bemeneti csatornák]]></lookup>
+	<lookup key="AttachedDevice"><![CDATA[Csatlakoztatott eszköz]]></lookup>
+	<lookup key="OutputChannels"><![CDATA[Kimeneti csatornák]]></lookup>
+	<lookup key="HostName"><![CDATA[Gazdaszámítógép neve:]]></lookup>
+	<lookup key="DefaultRouter"><![CDATA[Alapértelmezett router]]></lookup>
+	<lookup key="SubnetMask"><![CDATA[Alhálózati maszk]]></lookup>
+
+	<!--JavaScript-->
+	<lookup key="Error"><![CDATA[Hiba]]></lookup>
+	<lookup key="Notice"><![CDATA[Értesítés]]></lookup>
+	<lookup key="SaveProblemWarning"><![CDATA[Hiba lépett fel a mentés során.]]></lookup>
+	<lookup key="MaxDeviceWarning"><![CDATA[Ebből az eszközből a maximális ({0}) mennyiség van a rendszerben.]]></lookup>
+	<lookup key="SpecifyDeviceWarning"><![CDATA[Először adja meg az eszköz típusát.]]></lookup>
+	<lookup key="UnSavedChangesWarning"><![CDATA[Nem minden változtatást mentett.]]></lookup>
+	<lookup key="InvalidLogin"><![CDATA[Érvénytelen felhasználónév/jelszó.]]></lookup>
+	<lookup key="UnControlledNotConfigurable"><![CDATA[Az irányítatlan/kikapcsolt eszközöket nem lehet konfigurálni.]]></lookup>
+
+	<!--JavaScript (01/28/2016 ) -->
+	<lookup key="Warning"><![CDATA[Figyelmeztetés]]></lookup>
+	<lookup key="DeleteDeviceWarning"><![CDATA[Biztos, hogy törli ezt az eszközt?]]></lookup>
+	<lookup key="ActivateConfigWarning"><![CDATA[Biztos, hogy aktiválja ezt a konfigurációt?]]></lookup>
+	<lookup key="RevertConfigWarning"><![CDATA[Biztos, hogy visszaállítja ezt a konfigurációt?]]></lookup>
+	<lookup key="AlreadyInUse"><![CDATA[{0} már használatban.]]></lookup>
+	<lookup key="FileLargeError"><![CDATA[A fájl túl nagy.]]></lookup>
+	<lookup key="IncorrectFileExtensionError"><![CDATA[Helytelen fájltípus.]]></lookup>
+	<lookup key="Success"><![CDATA[Sikeres]]></lookup>
+	<lookup key="CofigurationUpdated"><![CDATA[Konfiguráció frissítve.]]></lookup>
+
+	<!-- Web Menu System-->
+	<lookup key="SignOff"><![CDATA[Kijelentkezés]]></lookup>
+	<lookup key="Configure"><![CDATA[Konfigurálás]]></lookup>
+	<!-- Web Menu System (01/28/2016 ) -->
+	<lookup key="Switch"><![CDATA[Kapcsoló]]></lookup>
+	<lookup key="System"><![CDATA[Rendszer]]></lookup>
+
+	<!-- 01/19/2016, enums for web page -->
+	<!-- AssociatedDevice -->
+	<lookup key="AssociatedInputDevice.Disabled"><![CDATA[Kikapcsolva]]></lookup>
+	<lookup key="AssociatedInputDevice.UnControlled"><![CDATA[Irányítatlan]]></lookup>
+	<lookup key="AssociatedInputDevice.Bluray"><![CDATA[Blu-ray]]></lookup>
+	<lookup key="AssociatedInputDevice.Cable"><![CDATA[Kábel]]></lookup>
+	<lookup key="AssociatedInputDevice.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="AssociatedOutputDevice.Disabled"><![CDATA[Kikapcsolva]]></lookup>
+	<lookup key="AssociatedOutputDevice.UnControlled"><![CDATA[Irányítatlan]]></lookup>
+	<lookup key="AssociatedInputDevice.ConnectIt"><![CDATA[ConnectIt]]></lookup>
+
+	<!-- ComBaudRate -->
+	<lookup key="ComBaudRate.ComspecBaudRate57600"><![CDATA[57600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate38400"><![CDATA[38400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate28800"><![CDATA[28800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate19200"><![CDATA[19200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate14400"><![CDATA[14400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate9600"><![CDATA[9600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate7200"><![CDATA[7200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate4800"><![CDATA[4800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate3600"><![CDATA[3600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate2400"><![CDATA[2400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate1800"><![CDATA[1800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate1200"><![CDATA[1200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate600"><![CDATA[600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate300"><![CDATA[300]]></lookup>
+
+	<!-- DateFormat -->
+	<lookup key="DateFormat.Mmddyy"><![CDATA[Január 15., 2017]]></lookup>
+	<lookup key="DateFormat.Ddmmyy"><![CDATA[15. január 2017.]]></lookup>
+	<lookup key="DateFormat.Yymmdd"><![CDATA[2017. január 15.]]></lookup>
+
+	<!-- DeviceOnlineStatus -->
+	<lookup key="DeviceOnlineStatus.Unknown"><![CDATA[N/A]]></lookup>
+	<lookup key="DeviceOnlineStatus.Online"><![CDATA[Online]]></lookup>
+	<lookup key="DeviceOnlineStatus.Offline"><![CDATA[Offline]]></lookup>
+
+	<!-- DeviceType -->
+	<lookup key="DeviceType.Switcher"><![CDATA[Kapcsoló]]></lookup>
+	<lookup key="DeviceType.CableTv"><![CDATA[Kábeltévé]]></lookup>
+	<lookup key="DeviceType.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="DeviceType.ButtonPanel"><![CDATA[Gombpanel]]></lookup>
+	<lookup key="DeviceType.Keypad"><![CDATA[Billentyűzet]]></lookup>
+	<lookup key="DeviceType.KeyPadUsb"><![CDATA[USB-billentyűzet]]></lookup>
+
+	<!-- DisplayMode -->
+	<lookup key="DisplayMode.Maintain"><![CDATA[Javítás]]></lookup>
+	<lookup key="DisplayMode.Stretch"><![CDATA[Nyújtás]]></lookup>
+	<lookup key="DisplayMode.Zoom"><![CDATA[Nagyítás]]></lookup>
+	<lookup key="DisplayMode.None"><![CDATA[Nincs]]></lookup>
+
+	<!-- PortType -->
+	<lookup key="PortType.Ir"><![CDATA[IR]]></lookup>
+	<lookup key="PortType.Serial"><![CDATA[Soros]]></lookup>
+	<lookup key="PortType.Cec"><![CDATA[CEC]]></lookup>
+
+	<!-- Resolution -->
+	<lookup key="Resolution.EDIDPreferred"><![CDATA[EDID preferálva]]></lookup>
+	<lookup key="Resolution.None"><![CDATA[Nincs]]></lookup>
+	<lookup key="Resolution.Res640x480PC"><![CDATA[640x480 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res720x480pNTSC"><![CDATA[720x480p 60Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res720x576iPAL"><![CDATA[720x576i 25Hz PAL]]></lookup>
+	<lookup key="Resolution.Res720x576pPAL"><![CDATA[720x576p 50Hz PAL]]></lookup>
+	<lookup key="Resolution.Res800x600PC"><![CDATA[800x600 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res848x480PC"><![CDATA[848x480 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1024x768PC"><![CDATA[1024x768 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x720pPAL"><![CDATA[1280x720p 50Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1280x720pNTSC"><![CDATA[1280x720p 60Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1280x768PC"><![CDATA[1280x768 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x768PCRb"><![CDATA[1280x768 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1280x800PC"><![CDATA[1280x800 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x800PCRb"><![CDATA[1280x800 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1280x960PC"><![CDATA[1280x960 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x1024PC"><![CDATA[1280x1024 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1360x768PC"><![CDATA[1360x768 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PC"><![CDATA[1366x768 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PCRb"><![CDATA[1366x768 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1400x1050PC"><![CDATA[1400x1050 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1400x1050PCRb"><![CDATA[1400x1050 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1440x900PC"><![CDATA[1440x900 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1440x900PCRb"><![CDATA[1440x900 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1600x900PCRb"><![CDATA[1600x900 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1600x1200PC"><![CDATA[1600x1200 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PC"><![CDATA[1680x1050 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PCRb"><![CDATA[1680x1050 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1920x1080iPAL"><![CDATA[1920x1080i 25Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080iNTSC"><![CDATA[1920x1080i 30Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080pPAL"><![CDATA[1920x1080p 50Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080pNTSC"><![CDATA[1920x1080p 60Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1200PCRb"><![CDATA[1920x1200 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res2048x1152PCRb"><![CDATA[2048x1152 60Hz PC RB]]></lookup>
+
+	<!-- SystemRole -->
+	<lookup key="SystemRole.Admin"><![CDATA[Admin]]></lookup>
+	<lookup key="SystemRole.DriverUpdate"><![CDATA[IllesztőprogramFrissítés]]></lookup>
+	<lookup key="SystemRole.User"><![CDATA[Felhasználó]]></lookup>
+	<lookup key="SystemRole.UnAuthorized"><![CDATA[Hitelesítetlen]]></lookup>
+
+	<!-- SystemState -->
+	<lookup key="SystemState.UnKnown"><![CDATA[Ismeretlen]]></lookup>
+	<lookup key="SystemState.UnConfigured"><![CDATA[Konfigurálatlan]]></lookup>
+	<lookup key="SystemState.Configuring"><![CDATA[Konfigurálás...]]></lookup>
+	<lookup key="SystemState.Configured"><![CDATA[Konfigurálva]]></lookup>
+
+	<!-- DeviceTransport -->
+	<lookup key="DeviceTransport.None"><![CDATA[Nincs]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpId"><![CDATA[IP ID]]></lookup>
+	<lookup key="DeviceTransport.CrestronInternal"><![CDATA[Crestron Internal]]></lookup>
+	<lookup key="DeviceTransport.CrestronIp"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronUsb"><![CDATA[USB]]></lookup>
+	<lookup key="DeviceTransport.IpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Ip"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpPortChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Serial"><![CDATA[Soros]]></lookup>
+	<lookup key="DeviceTransport.SerialBaud"><![CDATA[Soros]]></lookup>
+	<lookup key="DeviceTransport.SerialChannel"><![CDATA[Soros]]></lookup>
+	<lookup key="DeviceTransport.Ir"><![CDATA[IR]]></lookup>
+	<lookup key="DeviceTransport.Cec"><![CDATA[CEC]]></lookup>
+	<lookup key="DeviceTransport.HDMI"><![CDATA[HDMI]]></lookup>
+
+	<!-- ChannelType -->
+	<lookup key="ChannelType.Undefined"><![CDATA[Meghatározatlan]]></lookup>
+	<lookup key="ChannelType.Hdmi"><![CDATA[HDMI]]></lookup>
+	<lookup key="ChannelType.HdmiVga"><![CDATA[HDMI VGA]]></lookup>
+	<lookup key="ChannelType.HdmiVgaBnc"><![CDATA[HDMI VGA BNC]]></lookup>
+	<lookup key="ChannelType.Vga"><![CDATA[VGA]]></lookup>
+	<lookup key="ChannelType.Dvi"><![CDATA[DVI]]></lookup>
+	<lookup key="ChannelType.DM"><![CDATA[DM]]></lookup>
+	<lookup key="ChannelType.DmHdmi"><![CDATA[DM HDMI]]></lookup>
+	<lookup key="ChannelType.SingleModeFiber"><![CDATA[Egymódusú szál]]></lookup>
+	<lookup key="ChannelType.Fiber"><![CDATA[Üvegszál]]></lookup>
+	<lookup key="ChannelType.Audio"><![CDATA[Hang]]></lookup>
+	<lookup key="ChannelType.Sip"><![CDATA[SIP]]></lookup>
+	<lookup key="ChannelType.Composite"><![CDATA[Kompozit]]></lookup>
+	<lookup key="ChannelType.DisplayPort"><![CDATA[Kijelzőport]]></lookup>
+
+	<!-- 02/11/2016 -->
+
+	<!-- Web Logger : new added  -->
+	<lookup key="NoFilter"><![CDATA[Nincs szűrő]]></lookup>
+	<lookup key="Info"><![CDATA[Infó]]></lookup>
+	<lookup key="Debug"><![CDATA[Hibakeresés]]></lookup>
+	<lookup key="FilterExpression"><![CDATA[Szűrés kifejezésre]]></lookup>
+	<lookup key="StopScrolling"><![CDATA[Görgetés leállítása]]></lookup>
+	<lookup key="Scrolling"><![CDATA[Görgetés]]></lookup>
+	<lookup key="Download"><![CDATA[Letöltés]]></lookup>
+
+	<lookup key="ClearSearchMessage"><![CDATA[Törlés visszaállításhoz]]></lookup>
+	<lookup key="Search"><![CDATA[Keresés]]></lookup>
+	<lookup key="SearchLog"><![CDATA[Keresési napló]]></lookup>
+	<lookup key="Clear"><![CDATA[Törlés]]></lookup>
+
+	<!-- 02/29/2016 -->
+
+	<!-- ComBaudRate -->
+	<lookup key="ComBaudRate.ComspecBaudRate115200"><![CDATA[115200]]></lookup>
+
+	<!-- AddNewDevice.html -->
+	<lookup key="UseSensorTimeout"><![CDATA[Szenzor használati időtúllépése]]></lookup>
+	<lookup key="SensorTimeOutMinutes"><![CDATA[Időtúllépés percben]]></lookup>
+	<lookup key="TurnSystemOn"><![CDATA[Rendszer bekapcsolása]]></lookup>
+	<lookup key="TurnSystemOff"><![CDATA[Rendszer kikapcsolása]]></lookup>
+	<lookup key="RouteDefaultVideo"><![CDATA[Alapértelmezett videó irányítása]]></lookup>
+	<lookup key="PowerOnCommandLabel"><![CDATA[Bekapcsolás parancs]]></lookup>
+	<lookup key="PowerOffCommandLabel"><![CDATA[Kikapcsolás parancs]]></lookup>
+	<lookup key="SetSourceCommandLabel"><![CDATA[Forrásparancs beállítása]]></lookup>
+	<lookup key="PowerOnDelaySecondsLabel"><![CDATA[Bekapcsolás késleltetés másodpercben]]></lookup>
+	<lookup key="Seconds"><![CDATA[Másodperc]]></lookup>
+
+	<!-- RelaySettings.html -->
+	<lookup key="RelayBehavior"><![CDATA[Relé viselkedés]]></lookup>
+
+	<!-- JavascriptConts -->
+	<lookup key="Disable"><![CDATA[Letiltás]]></lookup>
+	<lookup key="Enable"><![CDATA[Engedélyezés]]></lookup>
+
+	<!-- Custom Serial Web AddNewDevice -->
+	<lookup key="CustomSerialNote"><![CDATA[Megjegyzés: Új sorhoz  használja ezt: \n  és bekezdéstöréshez ezt: \r .]]></lookup>
+	<lookup key="ValidTimeoutWarning"><![CDATA[Adjon meg érvényes időtúllépést.]]></lookup>
+
+	<!-- ConfigStep1.html -->
+	<lookup key="Fusion"><![CDATA[Crestron Fusion]]></lookup>
+	<lookup key="Dialer"><![CDATA[Tárcsázó]]></lookup>
+	<lookup key="Relay"><![CDATA[Relé]]></lookup>
+	<lookup key="Lighting"><![CDATA[Világítás]]></lookup>
+
+	<!-- ConfigStep3.html  -->
+	<lookup key="SwitchChannelState.EnabledDefault"><![CDATA[Igen (alapértelmezett)]]></lookup>
+
+	<!-- ConfigStep4.html  -->
+	<lookup key="ManageConfiguration"><![CDATA[Konfiguráció kezelése]]></lookup>
+	<lookup key="BackupRestore"><![CDATA[Biztonsági mentés/visszaállítás]]></lookup>
+
+	<!-- DialerSettings.html -->
+	<lookup key="SpeedKeys"><![CDATA[Gyorsbillentyűk]]></lookup>
+	<lookup key="SpeedKey"><![CDATA[Gyorsbillentyű]]></lookup>
+	<lookup key="Number"><![CDATA[Szám]]></lookup>
+	<lookup key="OneTouch"><![CDATA[Egyérintéses]]></lookup>
+	<lookup key="Regex"><![CDATA[Regex]]></lookup>
+	<lookup key="EnabledSpeekKeyWarning"><![CDATA[Az engedélyezett gyorsbillentyűkhöz nevet és számot kell rendelni.]]></lookup>
+	<lookup key="PhoneNumberWarning"><![CDATA[Adjon meg egy érvényes telefonszámot.]]></lookup>
+
+	<!--FusionSettings.html  -->
+	<lookup key="RoomNameRequired"><![CDATA[Helyiségnév szükséges]]></lookup>
+
+	<!--LightingSettings.html -->
+	<lookup key="LightingPresets"><![CDATA[Világítás előzetes beállításai]]></lookup>
+	<lookup key="EnabledPresetsWarning"><![CDATA[Az engedélyezett előzetes beállításokhoz név szükséges.]]></lookup>
+
+	<!-- 03/09/2016 -->
+	<!-- ChannelType : add 2 more Enum -->
+	<lookup key="ChannelType.Aec"><![CDATA[Aec]]></lookup>
+	<lookup key="ChannelType.Codec"><![CDATA[Kodek]]></lookup>
+
+	<!--EditDevice.html -->
+	<lookup key="EditDevice"><![CDATA[Eszköz szerkesztése]]></lookup>
+	<lookup key="UpdatePendingCountdown"><![CDATA[Módosításai {0} másodperc múlva lépnek érvénybe.]]></lookup>
+
+	<!-- JavascriptConts 03/14/2016 -->
+	<lookup key="DeleteDevicePortWarning"><![CDATA[A(z) <br> {0} <br> eszköz(ök) ennek a használatára vannak konfigurálva, folytatja?]]></lookup>
+
+	<!--AddNewDevice.html 03/16/2016-->
+	<lookup key="CrestnetId"><![CDATA[Cresnet azonosító]]></lookup>
+	<lookup key="CrestnetIdValidationMessage"><![CDATA[Cresnet azonosító kötelező formátuma (03-FE).]]></lookup>
+
+	<!--RoomStatus.html 03/16/2016-->
+	<lookup key="Equipment"><![CDATA[Berendezés]]></lookup>
+
+	<!-- DeviceTransport 03/21/2016 -->
+	<lookup key="DeviceTransport.CrestronCrestnet"><![CDATA[Cresnet]]></lookup>
+	<lookup key="DeviceTransport.SerialBaudCustom"><![CDATA[SorosBaudEgyéni]]></lookup>
+
+	<!-- RelaySettings.html 03/21/2016 -->
+	<lookup key="RelayBehavior.Momentary"><![CDATA[Pillanatkapcsoló]]></lookup>
+	<lookup key="RelayBehavior.Latching"><![CDATA[Átkapcsoló]]></lookup>
+
+	<!-- ConfigStep3.html 03/21/2016 -->
+	<lookup key="SwitchChannelState.Disabled"><![CDATA[Letiltva]]></lookup>
+	<lookup key="SwitchChannelState.Enabled"><![CDATA[Engedélyezve]]></lookup>
+
+	<!--AddNewDevice.html 03/21/2016-->
+	<lookup key="DelayValidationMessage"><![CDATA[Késleltetés kötelező formátuma (0-255).]]></lookup>
+
+	<!-- JavascriptConts 03/21/2016 -->
+	<lookup key="ServerCommunicationError"><![CDATA[Hiba lépett fel az eszközzel történő kommunikáció során.]]></lookup>
+	<lookup key="ServerUpdateMessage"><![CDATA[A kiszolgáló frissít, kérjük várjon.]]></lookup>
+
+	<!-- 8/26/2016 -->
+	<lookup key="AvailableForLabel"><![CDATA[ELÉRHETŐ A KÖVETKEZŐ IDŐSZAKBAN:]]></lookup>
+	<lookup key="AvailableAllLabel"><![CDATA[ELÉRHETŐ A NAP FENNMARADÓ RÉSZÉBEN]]></lookup>
+	<lookup key="ReserveLabel"><![CDATA[LEFOGLALVA A KÖVETKEZŐ IDŐSZAKRA:]]></lookup>
+	<lookup key="HourLabel"><![CDATA[ÓRA]]></lookup>
+	<lookup key="MinLabel"><![CDATA[PERC]]></lookup>
+	<lookup key="NextUpLabel"><![CDATA[KÖVETKEZŐ]]></lookup>
+	<lookup key="PopupMinLeft"><![CDATA[PERC maradt | KÖVETKEZŐ:]]></lookup>
+	<lookup key="WirelessLabel"><![CDATA[Megmutatás vezeték nélküli kapcsolat használatával]]></lookup>
+	<lookup key="VisitLabel"><![CDATA[Látogatás:]]></lookup>
+	<lookup key="CodeLabel"><![CDATA[Kód:]]></lookup>
+	<lookup key="CableLabel"><![CDATA[Megmutatás kábel használatával]]></lookup>
+	<lookup key="UseCableLabel"><![CDATA[Csatlakozás a mellékelt kábelekkel:]]></lookup>
+
+	<!-- MainTemplate.html 3/25/16 -->
+	<lookup key="ConfiguredMessageOffline"><![CDATA[A rendszer jelenleg offline állapotú. Aktiválja vagy állítsa vissza a konfigurációt.]]></lookup>
+	<lookup key="ConfiguredMessageOfflineShort"><![CDATA[A rendszer jelenleg offline állapotú.]]></lookup>
+	<lookup key="ConfiguredMessageOnline"><![CDATA[A rendszer jelenleg online állapotú.]]></lookup>
+	<lookup key="ConfiguredMessage"><![CDATA[A rendszer jelenleg épp konfigurálás alatt áll.]]></lookup>
+	<lookup key="ConfiguredMessageClass"><![CDATA[A rendszer jelenleg épp konfigurálás alatt áll.]]></lookup>
+
+	<!-- SystemWideSaveWarning 3/25/16 -->
+	<lookup key="SystemWideSaveWarning"><![CDATA[Bármely mentett módosítás offline állapotba helyezi a rendszert. A rendszer online állapotba helyezéséhez Önnek/a felhasználónak aktiválnia kell az új konfigurációt. Kattintson az OK gombra a folytatáshoz.]]></lookup>
+
+	<lookup key="PortUnconfigured"><![CDATA[Nem konfigurált port]]></lookup>
+	<lookup key="Version"><![CDATA[Verzió]]></lookup>
+	<lookup key="None"><![CDATA[Nincs]]></lookup>
+
+	<lookup key="AssociatedChannel"><![CDATA[Társított csatorna]]></lookup>
+	<lookup key="PrimaryAssociatedChannel"><![CDATA[Alapértelmezett forrás]]></lookup>
+	<lookup key="SecondaryAssociatedChannel"><![CDATA[Másodlagos forrás]]></lookup>
+	<lookup key="SecondaryInputChannelNumber"><![CDATA[Másodlagos csatorna]]></lookup>
+	<lookup key="IPAddress"><![CDATA[IP-cím]]></lookup>
+
+	<!-- 05/02/2016  -->
+	<lookup key="PortType.Usb"><![CDATA[USB]]></lookup>
+
+	<!-- 08/15/2016 -->
+	<lookup key="DialerType.Sip"><![CDATA[Hang]]></lookup>
+	<lookup key="DialerType.Bluetooth"><![CDATA[Bluetooth]]></lookup>
+	<lookup key="DialerType.Usb"><![CDATA[USB]]></lookup>
+	<lookup key="DialerType.Video"><![CDATA[Videó]]></lookup>
+
+	<!--MercurySystemSettings.html 08/31/2016-->
+	<lookup key="SystemSettings"><![CDATA[Rendszerbeállítások]]></lookup>
+	<lookup key="ValidValueMessage"><![CDATA[Kérjük, adjon meg egy értéket.]]></lookup>
+
+	<!--MercuryFusionSettings.html 08/31/2016-->
+
+	<!-- MercuryDialerSettings.html 08/31/2016-->
+	<lookup key="General"><![CDATA[Általános]]></lookup>
+	<lookup key="EnableBluetooth"><![CDATA[Bluetooth engedélyezése]]></lookup>
+	<lookup key="EnableUSB"><![CDATA[USB engedélyezése]]></lookup>
+
+	<!-- MercuryDisplayDriver.html 08/31/2016-->
+	<lookup key="VideoDisplaySettings"><![CDATA[A videókijelző beállításai]]></lookup>
+
+	<!-- MercuryUXGeneralCustomization.html 08/31/2016-->
+	<lookup key="UXGeneralCustomization"><![CDATA[Felhasználói felület általános testreszabása]]></lookup>
+	<lookup key="HideMeetingSubject"><![CDATA[Értekezlet tárgyának elrejtése]]></lookup>
+	<lookup key="HideMeetingOrganizer"><![CDATA[Értekezlet szervezőjének elrejtése]]></lookup>
+	<lookup key="DisplayNonEmergencyBroadcast"><![CDATA[Nem vészhelyzeti közvetítés megjelenítése]]></lookup>
+	<lookup key="EmergencyBroadcastSound"><![CDATA[Vészhelyzeti közvetítés hangja]]></lookup>
+	<lookup key="EnableCallNotification"><![CDATA[Hívásértesítő engedélyezése]]></lookup>
+	<lookup key="SuppressOfflineNotificationPeriod"><![CDATA[Offline értesítési időszak mellőzése]]></lookup>
+	<lookup key="NotificationPeriod"><![CDATA[Értesítési időszak]]></lookup>
+	<lookup key="CallNotificationTimeout"><![CDATA[Hívásértesítő időtúllépése]]></lookup>
+
+	<!-- PresentationScreenCustomization.html 08/31/2016-->
+	<lookup key="PresentationScreenCustomization"><![CDATA[Prezentációs képernyő testreszabása]]></lookup>
+	<lookup key="TimeRemainingMessageStarts"><![CDATA[Hátralévő idő üzenetének kezdete]]></lookup>
+	<lookup key="TimeRemainingMessageDuration"><![CDATA[Hátralévő idő üzenetének időtartama]]></lookup>
+
+	<!-- RoomScheduleScreenCustomization.html 08/31/2016-->
+	<lookup key="RoomScheduleScreenCustomization"><![CDATA[Helyiség ütemezése képernyő testreszabása]]></lookup>
+	<lookup key="NextMeetingInformationShown"><![CDATA[Következő értekezlet információinak megjelenítése]]></lookup>
+	<lookup key="MinutesBeforeMeetingStart"><![CDATA[Értekezlet kezdetéig hátralévő percek száma]]></lookup>
+	<lookup key="HideWiredCableConnection"><![CDATA[Vezetékes kábelkapcsolat elrejtése]]></lookup>
+	<lookup key="CableConnectionDetails"><![CDATA[Kábelkapcsolat részletei]]></lookup>
+	<lookup key="EnableCustomLogoGraphic"><![CDATA[Egyéni emblémakép engedélyezése]]></lookup>
+	<lookup key="CustomLogoGraphicUrl"><![CDATA[Egyéni emblémakép URL-címe]]></lookup>
+	<lookup key="EnableCustomBackgrounds"><![CDATA[Egyéni hátterek engedélyezése]]></lookup>
+	<lookup key="AddCustomBackgroundUrl"><![CDATA[Egyéni háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl1"><![CDATA[1. háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl2"><![CDATA[2. háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl3"><![CDATA[3. háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl4"><![CDATA[4. háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl5"><![CDATA[5. háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl6"><![CDATA[6. háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl7"><![CDATA[7. háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl8"><![CDATA[8. háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl9"><![CDATA[9. háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl10"><![CDATA[10. háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl11"><![CDATA[11. háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl12"><![CDATA[12. háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl13"><![CDATA[13. háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl14"><![CDATA[14. háttér URL-címe]]></lookup>
+	<lookup key="BackgroundUrl15"><![CDATA[15. háttér URL-címe]]></lookup>
+	<lookup key="IntervalBetweenBackgrounds"><![CDATA[Háttérváltások közötti időköz]]></lookup>
+
+	<!-- MercuryDialerSettings.html 10/17/2016-->
+	<lookup key="BluetoothDeviceName"><![CDATA[Bluetooth-eszköz neve]]></lookup>
+
+	<!-- MercuryExternalSettings.html 11/18/2016-->
+
+	<lookup key="CalendarSettings"><![CDATA[Naptárbeállítások]]></lookup>
+	<lookup key="SchedulingType"><![CDATA[Ütemezés típusa]]></lookup>
+
+	<lookup key="SntpServer"><![CDATA[SNTP-kiszolgáló]]></lookup>
+	<lookup key="SntpUpdateInterval"><![CDATA[SNTP-frissítési időköz]]></lookup>
+	<lookup key="ValidUrlMessage"><![CDATA[Kérjük, adjon meg egy érvényes URL-címet]]></lookup>
+	<lookup key="ValidDomainName"><![CDATA[Kérjük, adjon meg egy érvényes tartománynevet]]></lookup>
+	<lookup key="ValidEmailUrlMessage"><![CDATA[Kérjük, adjon meg egy érvényes e-mail-címet]]></lookup>
+	<lookup key="ValidPassword"><![CDATA[Kérjük, adjon meg egy érvényes jelszót]]></lookup>
+	<lookup key="ValidSntpServer"><![CDATA[Adjon meg érvényes SNTP-kiszolgálót]]></lookup>
+	<lookup key="ValidSntpUpdateIntervalMessage"><![CDATA[Adjon meg érvényes SNTP-kiszolgáló időközt]]></lookup>
+	<lookup key="ValidOutlookResourceAddress"><![CDATA[Kérjük, adjon meg egy érvényes Outlook-erőforráscímet]]></lookup>
+
+	<!-- DMPS 4k300C 12/08/2016-->
+	<lookup key="DeviceType.VideoServer"><![CDATA[Videókiszolgáló]]></lookup>
+	<lookup key="DeviceType.Dialer"><![CDATA[Tárcsázó]]></lookup>
+	<lookup key="ImageCouldNotBeLoaded"><![CDATA[A kép nem tölthető be]]></lookup>
+	<lookup key="VerifingImage"><![CDATA[Kép hitelesítése]]></lookup>
+	<lookup key="SchedulingTypeEnum.Fusion"><![CDATA[Crestron Fusion]]></lookup>
+	<lookup key="SchedulingTypeEnum.Exchange"><![CDATA[SchedulingType Exchange]]></lookup>
+
+	<!-- MercuryDialerSettings.html 12/12/2016-->
+	<lookup key="ValidBluetoothDeviceNameMessage"><![CDATA[Kérjük, adjon meg egy érvényes Bluetooth-eszköznevet.]]></lookup>
+
+	<!-- MercuryExternalSettings.html 12/15/2016-->
+
+	<!-- Default Inputs 12/20/2016-->
+	<lookup key="DefaultInputs.HDMI1"><![CDATA[HDMI1]]></lookup>
+	<lookup key="DefaultInputs.HDMI2"><![CDATA[HDMI2]]></lookup>
+	<lookup key="DefaultInputs.HDMI3"><![CDATA[HDMI3]]></lookup>
+	<lookup key="DefaultInputs.HDMI4"><![CDATA[HDMI4]]></lookup>
+	<lookup key="DefaultInput"><![CDATA[Alapértelmezett bemenet]]></lookup>
+
+	<!-- Blutooth Page 1/9/2017 -->
+	<lookup key="PresentConnectYourDevice"><![CDATA[Csatlakoztassa az eszközt]]></lookup>
+
+	<lookup key="DisableSip"><![CDATA[Hang kikapcsolása]]></lookup>
+	<lookup key="DisableBluetooth"><![CDATA[Bluetooth kikapcsolása]]></lookup>
+	<lookup key="DisableUsb"><![CDATA[USB kikapcsolása]]></lookup>
+
+	<!-- Standby Mode 2/1/2017 -->
+	<lookup key="Standby"><![CDATA[Készenlét]]></lookup>
+	<lookup key="StandbyMode.AlwaysOn"><![CDATA[Mindig be]]></lookup>
+	<lookup key="StandbyMode.OccupancyBased"><![CDATA[Foglaltságtól függően]]></lookup>
+
+	<lookup key="DisplayNameIsRequired"><![CDATA[A megjelenített név megadása kötelező]]></lookup>
+	<lookup key="PowerOffCommandValidationMessage"><![CDATA[Kikapcsolási parancs szükséges]]></lookup>
+	<lookup key="PowerOnCommandValidationMessage"><![CDATA[Bekapcsolási parancs szükséges]]></lookup>
+	<lookup key="SourceSelectCommandValidationMessage"><![CDATA[Válassza ki a forrást]]></lookup>
+
+	<lookup key="DeviceType.RfGateway"><![CDATA[RF-átjáró]]></lookup>
+	<lookup key="DeviceTransport.Rf"><![CDATA[RF]]></lookup>
+
+	<!-- Mercury Pages 2/23/2017 -->
+	<lookup key="AddressBook"><![CDATA[Címjegyzék]]></lookup>
+	<lookup key="End"><![CDATA[Befejezés]]></lookup>
+	<lookup key="DialText"><![CDATA[Írjon be szöveget a tárcsázáshoz]]></lookup>
+	<lookup key="Mute"><![CDATA[Némítás]]></lookup>
+	<lookup key="BlueToothActiveConnection"><![CDATA[Aktív kapcsolat: Bluetooth]]></lookup>
+	<lookup key="BTCallText"><![CDATA[Bluetooth-hívásban]]></lookup>
+	<lookup key="ConnectedToText"><![CDATA[Csatlakozva ehhez]]></lookup>
+	<lookup key="PresentBTNoSourceConnectionText"><![CDATA[Csatlakoztassa Bluetooth-eszközét ehhez]]></lookup>
+	<lookup key="USBConnected"><![CDATA[USB csatlakoztatva]]></lookup>
+	<lookup key="Speakerphone"><![CDATA[Kihangosító]]></lookup>
+	<lookup key="ConnectedViaText"><![CDATA[Csatlakozva ezzel:]]></lookup>
+	<lookup key="USBCableText"><![CDATA[Az USB-kábel]]></lookup>
+	<lookup key="Connected"><![CDATA[Csatlakoztatva]]></lookup>
+	<lookup key="TimeMinutesCap"><![CDATA[PERC]]></lookup>
+	<lookup key="Extension"><![CDATA[Mellék]]></lookup>
+	<lookup key="AvailableCap"><![CDATA[ELÉRHETŐ]]></lookup>
+	<lookup key="RestOfDayCap"><![CDATA[A NAP TOVÁBBI RÉSZÉRE]]></lookup>
+	<lookup key="PrepareMeetingText"><![CDATA[Találkozó előkészítése folyamatban]]></lookup>
+	<lookup key="ExitCap"><![CDATA[KILÉPÉS]]></lookup>
+	<lookup key="TopMenuCap"><![CDATA[FELSŐ MENÜ]]></lookup>
+	<lookup key="PopupMenuCap"><![CDATA[FELUGRÓ MENÜ]]></lookup>
+	<lookup key="HomeCap"><![CDATA[KEZDŐLAP]]></lookup>
+	<lookup key="OptionsCap"><![CDATA[OPCIÓK]]></lookup>
+	<lookup key="Stop"><![CDATA[Leállítás]]></lookup>
+	<lookup key="MenuCap"><![CDATA[MENÜ]]></lookup>
+	<lookup key="GuideCap"><![CDATA[ÚTMUTATÓ]]></lookup>
+	<lookup key="ConnectToAirmediaText"><![CDATA[AirMedia®-csatlakozás]]></lookup>
+	<lookup key="PresentOverWifi"><![CDATA[Tartalmak bemutatásához a WiFi-hálózaton keresztül kérjük,]]></lookup>
+	<lookup key="ConnectCap"><![CDATA[CSATLAKOZZON]]></lookup>
+	<lookup key="ToWirelessNwetwork"><![CDATA[a vezeték nélküli hálózathoz]]></lookup>
+	<lookup key="VisitCap"><![CDATA[LÁTOGASSA MEG]]></lookup>
+	<lookup key="ToBrowerAddress"><![CDATA[ezt a webcímet]]></lookup>
+	<lookup key="EnterCap"><![CDATA[ÍRJA BE]]></lookup>
+	<lookup key="ThisCode"><![CDATA[ezt a kódot]]></lookup>
+	<lookup key="DownloadAirmediaMobile"><![CDATA[Töltse le a Crestron AirMedia® alkalmazást mobilkészülékére itt:]]></lookup>
+	<lookup key="Wirelessly"><![CDATA[Vezeték nélküli]]></lookup>
+	<lookup key="SystemInfo"><![CDATA[Rendszeradatok]]></lookup>
+	<lookup key="FusionServerConnection"><![CDATA[Crestron Fusion kiszolgálói kapcsolat]]></lookup>
+	<lookup key="MACAddress"><![CDATA[MAC-cím]]></lookup>
+	<lookup key="RoomAndStatus"><![CDATA[Helyiség neve és státusza]]></lookup>
+	<lookup key="NavPresentCallEtc"><![CDATA[Navigáció a honlapra, Forrás bemutatása, Hívás kezdeményezése és továbbiak...]]></lookup>
+	<lookup key="AdjustVolume"><![CDATA[A rendszer hangerejének növelése és csökkentése]]></lookup>
+	<lookup key="MICmute"><![CDATA[MIKROFON némítása]]></lookup>
+	<lookup key="SystemMute"><![CDATA[A rendszer némítása]]></lookup>
+	<lookup key="SerialNumber"><![CDATA[Sorozatszám]]></lookup>
+	<lookup key="PhoneExtensionURI"><![CDATA[Telefon kiterjesztés / SIP URI]]></lookup>
+	<lookup key="SIPServer"><![CDATA[SIP-kiszolgáló]]></lookup>
+	<lookup key="AddedLicences"><![CDATA[Hozzáadott licencek]]></lookup>
+	<lookup key="WebConferenceText"><![CDATA[Webkonferencia]]></lookup>
+	<lookup key="StartWebConferenceText"><![CDATA[Webkonferencia indításához, kérjük]]></lookup>
+	<lookup key="HDMI"><![CDATA[HDMI]]></lookup>
+	<lookup key="PlugHDMIToPresent"><![CDATA[Csatlakoztassa HDMI kábelét laptopjához a kijelzőn történő prezentációhoz]]></lookup>
+	<lookup key="USB"><![CDATA[USB]]></lookup>
+	<lookup key="PlugUSBForAudio"><![CDATA[Csatlakoztassa USB kábelét laptopjához audioeszközként történő használathoz]]></lookup>
+	<lookup key="CameraCap"><![CDATA[KAMERA]]></lookup>
+	<lookup key="UseRoomCamera"><![CDATA[Állítsa be a szoftverben a terem kamerájának használatát]]></lookup>
+	<lookup key="Remote"><![CDATA[Távoli]]></lookup>
+	<lookup key="SecondsCap"><![CDATA[MÁSODPERC]]></lookup>
+	<lookup key="PresentingCap"><![CDATA[BEMUTATÓ]]></lookup>
+	<lookup key="ReceivingContent"><![CDATA[Tartalom fogadása]]></lookup>
+	<lookup key="CameraPresets"><![CDATA[Előre megadott kamerabeállítások]]></lookup>
+	<lookup key="MeetingID"><![CDATA[Találkozó azonosítója]]></lookup>
+	<lookup key="InfoCap"><![CDATA[INFÓ]]></lookup>
+	<lookup key="LastCap"><![CDATA[UTOLSÓ]]></lookup>
+	<lookup key="LiveCap"><![CDATA[ÉLŐ]]></lookup>
+	<lookup key="OnDemandCap"><![CDATA[IGÉNY SZERINTI]]></lookup>
+	<lookup key="TapSourceToPresent"><![CDATA[érintsen meg egy forrást a bemutatáshoz]]></lookup>
+	<lookup key="Sources"><![CDATA[Források]]></lookup>
+	<lookup key="FavCap"><![CDATA[KEDVENCEK]]></lookup>
+	<lookup key="DVR"><![CDATA[Videokamera]]></lookup>
+	<lookup key="RecCap"><![CDATA[FELVÉTEL]]></lookup>
+	<lookup key="OutlookUseCertificate"><![CDATA[Outlook felhasználói tanúsítvány]]></lookup>
+	<lookup key="OutlookCertificate"><![CDATA[Outlook tanúsítvány]]></lookup>
+	<lookup key="UploadCertificate"><![CDATA[Tanúsítvány feltöltése]]></lookup>
+	<lookup key="InvalidUrl"><![CDATA[Adjon meg érvényes URL-t.]]></lookup>
+
+	<lookup key="OutlookWebAccessURLToolTip"><![CDATA[(Példa: https://outlook.office365.com/EWS/Exchange.asmx)]]></lookup>
+	<lookup key="OutlookDomainNameToolTip"><![CDATA[(példa: TARTOMÁNY\felhasználónév)]]></lookup>
+	<lookup key="OutlookDomainNameMisc"><![CDATA[(Hagyja üresen, ha nem alkalmazható)]]></lookup>
+	<lookup key="OutlookResourceAddressToopTip"><![CDATA[(Ez lehet azonos a felhasználóval, de nem feltétlenül)]]></lookup>
+	<lookup key="OutlookUserEmailAddressToolTip"><![CDATA[ (példa: tartomány\FELHASZNÁLÓNÉV)]]></lookup>
+	<lookup key="ValidUsernameMessage"><![CDATA[Adjon meg érvényes felhasználónevet.]]></lookup>
+
+	<!-- Add new resolution 3/28/2017 -->
+	<lookup key="Resolution.Res2048x1080At60Hz"><![CDATA[2048x1080, 60Hz]]></lookup>
+	<lookup key="Resolution.Res1792x1344PC"><![CDATA[1792x1344 PC]]></lookup>
+	<lookup key="Resolution.Res1856x1392PC"><![CDATA[1856x1392 PC]]></lookup>
+	<lookup key="Resolution.Res1920x1440PC"><![CDATA[1920x1440 PC]]></lookup>
+	<lookup key="Resolution.Res2048x1536PC"><![CDATA[2048x1536 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1080PC"><![CDATA[2560x1080 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1440PC"><![CDATA[2560x1440 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1600PCRb"><![CDATA[2560x1600 PC RB]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt24Hz"><![CDATA[3840x2160p, 24Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt25Hz"><![CDATA[3840x2160p, 25Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt30Hz"><![CDATA[3840x2160p, 30Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt24Hz"><![CDATA[4096x2160p, 24Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt25Hz"><![CDATA[4096x2160p, 25Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt30Hz"><![CDATA[4096x2160p, 30Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt50Hz"><![CDATA[3840x2160p, 50Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt60Hz"><![CDATA[3840x2160p, 60Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt50Hz"><![CDATA[4096x2160p, 50Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt60Hz"><![CDATA[4096x2160p, 60Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt60HzPCVesaRbV2"><![CDATA[4096x2160p, 60Hz PC VESA RB V2]]></lookup>
+	<lookup key="Resolution.Res1680x720At24Hz"><![CDATA[1680x720, 24Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At25Hz"><![CDATA[1680x720, 25Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At30Hz"><![CDATA[1680x720, 30Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At50Hz"><![CDATA[1680x720, 50Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At60Hz"><![CDATA[1680x720, 60Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At24Hz"><![CDATA[2560x1080, 24Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At25Hz"><![CDATA[2560x1080, 25Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At30Hz"><![CDATA[2560x1080, 30Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At50Hz"><![CDATA[2560x1080, 50Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At60Hz"><![CDATA[2560x1080, 60Hz]]></lookup>
+
+	<!-- the following fields have been renamed, please translate -->
+	<lookup key="OutlookWebAccessUrl"><![CDATA[Exchange EWS URL-címe]]></lookup>
+	<lookup key="OutlookDomainName"><![CDATA[Tartomány]]></lookup>
+	<lookup key="OutlookUserEmailAddress"><![CDATA[Felhasználónév]]></lookup>
+	<lookup key="OutlookPassword"><![CDATA[Jelszó]]></lookup>
+	<lookup key="OutlookResourceAddress"><![CDATA[Naptár e-mail címe]]></lookup>
+
+	<lookup key="DeviceType.Bluray"><![CDATA[Blu-ray lejátszó]]></lookup>
+	<lookup key="DeviceType.Occupancy"><![CDATA[Foglaltságérzékelő]]></lookup>
+	<lookup key="DeviceType.Panel"><![CDATA[Érintőképernyő]]></lookup>
+	<lookup key="DeviceType.EndpointTx"><![CDATA[DigitalMedia adó]]></lookup>
+	<lookup key="DeviceType.EndpointRx"><![CDATA[DigitalMedia vevő]]></lookup>
+	<lookup key="DeviceType.EndpointRxScaler"><![CDATA[DigitalMedia skálázó vevő]]></lookup>
+
+	<lookup key="SfbProxyTypes.None"><![CDATA[Nincs]]></lookup>
+	<lookup key="SfbProxyTypes.SameCredentials"><![CDATA[Egyező hitelesítő adatok]]></lookup>
+	<lookup key="SfbProxyTypes.OtherCredentials"><![CDATA[Eltérő hitelesítő adatok]]></lookup>
+
+	<!-- Add new projector display type 4/26/2017 -->
+	<lookup key="DeviceType.Projector"><![CDATA[Kivetítő]]></lookup>
+	<lookup key="AssociatedOutputDevice.Projector"><![CDATA[Kivetítő]]></lookup>
+
+	<!-- 5/17/2017 -->
+	<lookup key="Users"><![CDATA[Felhasználók]]></lookup>
+	<lookup key="Manage"><![CDATA[Kezelés]]></lookup>
+	<lookup key="Logos"><![CDATA[Érintőképernyő egyedi grafika]]></lookup>
+	<lookup key="Drivers"><![CDATA[Illesztőprogramok]]></lookup>
+	<lookup key="Import"><![CDATA[Importálás]]></lookup>
+	<lookup key="Manufacturer"><![CDATA[Gyártó]]></lookup>
+	<lookup key="DriverFileName"><![CDATA[Illesztőprogram-fájlnév]]></lookup>
+	<lookup key="DriverVersion"><![CDATA[Illesztőprogram-verzió]]></lookup>
+	<lookup key="FusionCloudUrlRequired"><![CDATA[Crestron Fusion Cloud Url megadása kötelező]]></lookup>
+	<lookup key="FusionCloudUrlInvalid"><![CDATA[Érvénytelen Crestron Fusion Cloud Url]]></lookup>
+	<lookup key="ShowBroadcastOnPanel"><![CDATA[Közvetített üzenet megjelenítése az érintőképernyőn]]></lookup>
+	<lookup key="ImageSizeWarning"><![CDATA[Képméret-figyelmeztetés]]></lookup>
+	<lookup key="ManageUsers"><![CDATA[Felhasználók kezelése]]></lookup>
+	<lookup key="FirstName"><![CDATA[Utónév]]></lookup>
+	<lookup key="LastName"><![CDATA[Vezetéknév]]></lookup>
+	<lookup key="UsernameRequired"><![CDATA[A felhasználónév megadása kötelező]]></lookup>
+	<lookup key="MinLengthUsernameWarning"><![CDATA[A felhasználónévnek legalább három karakterből kell állnia.]]></lookup>
+	<lookup key="MaxLengthUsernameWarning"><![CDATA[A felhasználónév nem lehet 15 karakternél hosszabb.]]></lookup>
+	<lookup key="InvalidPassword"><![CDATA[A jelszónak tartalmaznia kell egy-egy nagybetűt, kisbetűt, számjegyet és speciális karaktert.]]></lookup>
+	<lookup key="CreateUser"><![CDATA[Felhasználó létrehozása]]></lookup>
+	<lookup key="InvalidUsername"><![CDATA[Érvénytelen felhasználónév]]></lookup>
+	<lookup key="DuplicateUsernameWarning"><![CDATA[Figyelmeztetés: a felhasználónév már létezik]]></lookup>
+	<lookup key="FirstNameRequired"><![CDATA[Az utónév megadása kötelező]]></lookup>
+	<lookup key="LastnameRequired"><![CDATA[A vezetéknév megadása kötelező]]></lookup>
+	<lookup key="PasswordRequired"><![CDATA[A jelszó megadása kötelező]]></lookup>
+	<lookup key="MinLengthPasswordWarning"><![CDATA[A jelszónak legalább 8 karakterből kell állnia, és tartalmaznia kell egy-egy nagybetűt, kisbetűt, számjegyet és speciális karaktert.]]></lookup>
+	<lookup key="MaxLengthPasswordWarning"><![CDATA[A felhasználónév nem lehet 12 karakternél hosszabb.]]></lookup>
+	<lookup key="MaxLengthRoomNameWarning"><![CDATA[A felhasználónév nem lehet 20 karakternél hosszabb.]]></lookup>
+	<lookup key="MaxLengthFirstNameWarning"><![CDATA[Az utónév nem lehet 15 karakternél hosszabb.]]></lookup>
+	<lookup key="MinLengthFirstNameWarning"><![CDATA[Az utónévnek legalább 2 karakterből kell állnia.]]></lookup>
+	<lookup key="MaxLengthLastNameWarning"><![CDATA[A vezetéknév nem lehet 15 karakternél hosszabb.]]></lookup>
+	<lookup key="MinLengthLastNameWarning"><![CDATA[A vezetéknévnek legalább 2 karakterből kell állnia.]]></lookup>
+
+	<!-- 5/23/2017 -->
+	<lookup key="ImageOutOfRange"><![CDATA[A képméret tartományon kívül van, várt érték: {0}x{1}]]></lookup>
+
+	<!-- 5/24/2017-->
+	<lookup key="DriverInstallationStatus.StatusOk"><![CDATA[Illesztőprogram sikeresen telepítve]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusError"><![CDATA[Az Illesztőprogram telepítése sikertelen]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorVersionCheckedFailed"><![CDATA[Illesztőprogram-verzió ellenőrzése sikertelen]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorCopyDriverFailed"><![CDATA[Az Illesztőprogram másolása sikertelen]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorInvalidDeviceType"><![CDATA[Érvénytelen eszköztípus az illesztőprogramhoz]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusSupportingDllNotFound"><![CDATA[A támogató illesztőprogram DLL-fájlja nem található]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusPendingRestart"><![CDATA[Illesztőprogram telepítése miatti újraindítás függőben]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusDriverNotFound"><![CDATA[Az illesztőprogram nem található]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorInvalidTransportType"><![CDATA[Érvénytelen átviteltípus]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorMissingDriverId"><![CDATA[Hiányzó illesztőprogram-azonosító]]></lookup>
+
+	<!-- 5/30/2017-->
+	<lookup key="EnableMics"><![CDATA[Mikrofonok engedélyezése]]></lookup>
+	<lookup key="ConfirmDeleteUser"><![CDATA[Biztos, hogy törli ezt a felhasználót?]]></lookup>
+	<lookup key="TimeZone"><![CDATA[Időzóna]]></lookup>
+	<lookup key="DateTimeLabel"><![CDATA[Dátum és idő]]></lookup>
+
+	<lookup key="ClickToReadWarningMessage"><![CDATA[Kattintson ide az értesítés elolvasásához.]]></lookup>
+	<lookup key="WarningMessage"><![CDATA[Rendszerüzenet]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Manual"><![CDATA[Kiválasztott felhasználó]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Fixed"><![CDATA[Rögzített]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Follow"><![CDATA[Követés]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.None"><![CDATA[Nem]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.FollowWithVolumeControl"><![CDATA[Igen, hangerő-szabályozással]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.Follows"><![CDATA[Igen]]></lookup>
+
+	<!-- Screen saver settings -->
+	<lookup key="PanelScreenSaverEnable"><![CDATA[Érintőképernyő képernyővédő engedélyezése]]></lookup>
+	<lookup key="PanelSleepTimeSeconds"><![CDATA[Érintőképernyő képernyővédő alvási idő]]></lookup>
+	<lookup key="PanelScreenSaverStartTime"><![CDATA[Érintőképernyő képernyővédő kezdési idő]]></lookup>
+	<lookup key="PanelScreenSaverEndTime"><![CDATA[Érintőképernyő képernyővédő befejezési idő]]></lookup>
+
+	<!-- 6/6/2017 -->
+	<lookup key="Advanced"><![CDATA[Haladó]]></lookup>
+	<lookup key="DeviceType.RoomHallwaySign"><![CDATA[Helyiség elérhetőségének jelzése a folyosón]]></lookup>
+	<lookup key="DeviceType.DigitalGraphicsEngine"><![CDATA[Digitális grafikus motor]]></lookup>
+	<lookup key="AdvancedRouteSettings"><![CDATA[Haladó útvonal-beállítások]]></lookup>
+	<lookup key="AudioFollowVideoLabel"><![CDATA[Audió követés]]></lookup>
+	<lookup key="VideoRoutingMode"><![CDATA[Videó irányítási mód]]></lookup>
+	<lookup key="InputForFixedRouteLabel"><![CDATA[Rögzített útvonal]]></lookup>
+	<lookup key="SelectInput"><![CDATA[Bemenet kiválasztása]]></lookup>
+	<lookup key="OutputForFollowsRouteLabel"><![CDATA[Követett útvonal]]></lookup>
+	<lookup key="SelectOutput"><![CDATA[Kimenet kiválasztása]]></lookup>
+	<lookup key="DisplayNameRequired"><![CDATA[A kijelző nevének megadása kötelező]]></lookup>
+	<lookup key="ValueRequired"><![CDATA[Érték megadása szükséges]]></lookup>
+
+	<!-- 6/7/2016 -->
+	<lookup key="EnableSNTP"><![CDATA[SNTP engedélyezése]]></lookup>
+
+	<!-- 6/13/2017 these fields have been renamed -->
+	<lookup key="AssociatedOutputDevice.AvDisplay"><![CDATA[Lapos képernyős kijelző]]></lookup>
+	<lookup key="DeviceType.AvDisplay"><![CDATA[Lapos képernyős kijelző]]></lookup>
+
+	<!-- 6/16/2017 -->
+	<lookup key="FindContact"><![CDATA[Névjegy keresése]]></lookup>
+	<lookup key="FindContactToCall"><![CDATA[Névjegy keresése híváshoz:]]></lookup>
+	<lookup key="SkypeCallText"><![CDATA[Skype® hívásban]]></lookup>
+	<lookup key="ViewParticipants"><![CDATA[Résztvevők megtekintése]]></lookup>
+	<lookup key="Participants"><![CDATA[Résztvevők]]></lookup>
+	<lookup key="AddParticipant"><![CDATA[Résztvevő hozzáadása]]></lookup>
+	<lookup key="InviteNameOrPhone"><![CDATA[Meghívás név vagy telefonszám alapján]]></lookup>
+	<lookup key="Participants:"><![CDATA[Résztvevők:]]></lookup>
+	<lookup key="OnThisCall"><![CDATA[Ebben a hívásban]]></lookup>
+	<lookup key="InLobby"><![CDATA[Előtérben]]></lookup>
+	<lookup key="InVirtualLobby"><![CDATA[Virtuális előtérben]]></lookup>
+	<lookup key="VirtualLobbyMessage"><![CDATA[Üdvözöljük. Ön a virtuális előtérben tartózkodik. A szervező hamarosan beengedi Önt.]]></lookup>
+	<lookup key="JoinSkypeMeeting"><![CDATA[CSATLAKOZÁS SKYPE® TALÁLKOZÓHOZ]]></lookup>
+
+	<lookup key="NonEmergencyBroadcastTimeoutWarning"><![CDATA[Nem vészhelyzeti üzenet időtúllépése tartományon kívül]]></lookup>
+	<lookup key="EmergencyBroadcastTimeoutWarning"><![CDATA[Vészhelyzeti üzenet időtúllépése tartományon kívül]]></lookup>
+	<lookup key="MinEmergencyBroadcastTimeoutWarning"><![CDATA[A minimális engedélyezett időtúllépés 0]]></lookup>
+	<lookup key="MaxEmergencyBroadcastTimeoutWarning"><![CDATA[A maximális engedélyezett időtúllépés 1440]]></lookup>
+
+	<!-- 6/26/2017 -->
+	<lookup key="NaNEmergencyBroadcastTimeoutWarning"><![CDATA[Az időtúllépés értéke csak szám lehet]]></lookup>
+
+	<!-- 6/28/2017 -->
+	<lookup key="CECDriverNoticeHeader"><![CDATA[Generic CEC illesztőprogram értesítés]]></lookup>
+	<lookup key="CrestronConnectedDriverNoticeHeader"><![CDATA[Crestron Connected illesztőprogram értesítés]]></lookup>
+	<lookup key="CECDriverNoticeMessage"><![CDATA[A Generic CEC egy, a Crestron által biztosított univerzális illesztőprogram, amely számos különféle lapos képernyős kijelzővel használható.  Az eszköz által támogatott konkrét funkciók választéka azon múlik, hogy a készülék gyártója hogyan valósította meg a CEC-specifikációt, mivel a CEC-specifikáció nem kötelezi a készülék gyártóját a teljes parancskészlet megvalósítására.  Eszköz-specifikus illesztőprogramért kérjük, látogassa meg: https://drivers.crestron.io.  További információért kérjük, forduljon a Crestron True Blue Supporthoz a support@crestron.com címen.]]></lookup>
+	<lookup key="CrestronConnectedDriverNoticeMessage"><![CDATA[A Crestron Connected egy, a Crestron által biztosított univerzális illesztőprogram, amely számos különféle lapos képernyős kijelzővel és projektorral használható.  Az eszköz által támogatott konkrét funkciók választéka azon múlik, hogy a készülék milyen funkció-készletet támogat, mivel a készülékgyártók nem kötelesek megvalósítani az összes Crestron Connected funkciót.  Eszköz-specifikus illesztőprogramért kérjük, látogassa meg: https://drivers.crestron.io.  További információért kérjük, forduljon a Crestron True Blue Supporthoz a support@crestron.com címen.]]></lookup>
+	<lookup key="GeneralAcknowledge"><![CDATA[Rendben]]></lookup>
+	<lookup key="SkypeMeeting"><![CDATA[Skype® találkozó]]></lookup>
+	<lookup key="DownloadBusyMessage"><![CDATA[Kérjük, várjon…]]></lookup>
+	<lookup key="UploadBusyMessage"><![CDATA[Kérjük, várjon…]]></lookup>
+	<lookup key="MaxUsersWarning"><![CDATA[A rendszer maximális számú (5) felhasználóval rendelkezik.]]></lookup>
+	<lookup key="MinLengthDisplayNameWarning"><![CDATA[A kijelző nevének legalább 1 karakterből kell állnia.]]></lookup>
+	<lookup key="MaxLengthDisplayNameWarning"><![CDATA[A kijelző neve nem lehet 20 karakternél hosszabb.]]></lookup>
+
+	<!-- 7/13/2016 -->
+
+	<lookup key="DeviceManagement"><![CDATA[Eszközkezelés]]></lookup>
+	<lookup key="ConfigurationManagement"><![CDATA[Konfigurációkezelés]]></lookup>
+	<lookup key="AVFrameworkDashboard"><![CDATA[AV Framework vezérlőpult]]></lookup>
+	<lookup key="Transport"><![CDATA[Kommunikáció]]></lookup>
+	<lookup key="EnableDriver"><![CDATA[Illesztőprogram engedélyezése]]></lookup>
+	<lookup key="DeviceName"><![CDATA[Eszköznév]]></lookup>
+
+	<!-- 7/17/2016 -->
+	<lookup key="DeviceMgmt"><![CDATA[Eszközkez.]]></lookup>
+	<lookup key="DMPSConfig"><![CDATA[DMPS-konfig.]]></lookup>
+	<lookup key="ConfigMgmt"><![CDATA[Konfig.-kez.]]></lookup>
+
+	<!-- 7/18/2016 -->
+	<lookup key="EnableDisable"><![CDATA[Engedélyezés Letiltás]]></lookup>
+
+	<!-- 7/19/2016 -->
+	<lookup key="RADID"><![CDATA[Azonosító]]></lookup>
+
+	<!-- 7/28/2017 -->
+	<lookup key="SearchLdap"><![CDATA[LDAP-keresés]]></lookup>
+	<lookup key="Query"><![CDATA[Lekérdezés]]></lookup>
+	<lookup key="SearchFor"><![CDATA[Ezt keresi:]]></lookup>
+	<lookup key="GeneralSearch"><![CDATA[Általános keresés]]></lookup>
+	<lookup key="Department"><![CDATA[Részleg]]></lookup>
+	<lookup key="Location"><![CDATA[Hely]]></lookup>
+	<lookup key="Action"><![CDATA[Művelet]]></lookup>
+
+	<!-- 7/31/2017 -->
+	<lookup key="PhoneAttributeWarning"><![CDATA[Telefon-tulajdonság figyelmeztetés]]></lookup>
+	<lookup key="Ldap"><![CDATA[LDAP]]></lookup>
+	<lookup key="LdapSettings.Host"><![CDATA[Host]]></lookup>
+	<lookup key="HostWarning"><![CDATA[A host megadása kötelező és nem lehet 40 karakternél hosszabb]]></lookup>
+	<lookup key="LdapSettings.Port"><![CDATA[Port]]></lookup>
+	<lookup key="LdapSettings.Dn"><![CDATA[Tartománynév]]></lookup>
+	<lookup key="DnWarning"><![CDATA[A tartománynév megadása kötelező és nem lehet 80 karakternél hosszabb]]></lookup>
+	<lookup key="LdapSettings.Username"><![CDATA[Felhasználónév]]></lookup>
+	<lookup key="UsernameWarning"><![CDATA[A felhasználónév megadása kötelező és nem lehet 40 karakternél hosszabb]]></lookup>
+	<lookup key="LdapSettings.Password"><![CDATA[Jelszó]]></lookup>
+	<lookup key="PasswordWarning"><![CDATA[A jelszó megadása kötelező]]></lookup>
+	<lookup key="LdapSettings.Search"><![CDATA[Keresés]]></lookup>
+	<lookup key="SearchWarning"><![CDATA[A keresésnek tartalmaznia kell ezt: "%QUERY%", ( szimbólummal kell kezdődnie, ) szimbólummal kell végződnie és nem lehet 80 karakternél hosszabb]]></lookup>
+	<lookup key="LdapSettings.DisplayAttribute"><![CDATA[Kijelző-tulajdonság]]></lookup>
+	<lookup key="DisplayIsWarning"><![CDATA[A kijelző-tulajdonság nem lehet 40 karakternél hosszabb]]></lookup>
+	<lookup key="LdapSettings.LocationAttribute"><![CDATA[Hely]]></lookup>
+	<lookup key="LocationAttributeWarning"><![CDATA[A helytulajdonság nem lehet 40 karakternél hosszabb]]></lookup>
+	<lookup key="LdapSettings.DepartmentAttributeWarning"><![CDATA[Részlegtulajdonság figyelmeztetés]]></lookup>
+	<lookup key="DepartmentAttributeWarning"><![CDATA[A részlegtulajdonság nem lehet 40 karakternél hosszabb]]></lookup>
+	<lookup key="LdapSettings.PhoneAttribute"><![CDATA[Telefon-tulajdonság]]></lookup>
+	<lookup key="GeneralConnect"><![CDATA[Csatlakozás]]></lookup>
+	<lookup key="LdapSettings.DepartmentAttribute"><![CDATA[Részlegtulajdonság]]></lookup>
+
+	<!-- 8/3/2017 -->
+	<lookup key="EnableLdap"><![CDATA[LDAP engedélyezése]]></lookup>
+	<lookup key="LdapSettings.Domain"><![CDATA[LDAP-tartomány]]></lookup>
+
+	<!-- 8/22/2017 -->
+	<lookup key="DomainWarning"><![CDATA[Érvénytelen tartomány]]></lookup>
+	<lookup key="LdapAuthentication.Kerberos"><![CDATA[Kerberos (Automatikus észlelés)]]></lookup>
+	<lookup key="LdapAuthentication.KerberosServer"><![CDATA[Kerberos (Felhasználó által megadott szerver)]]></lookup>
+	<lookup key="LdapAuthentication.Server"><![CDATA[Szerverhitelesítés (Felhasználó által megadott szerver)]]></lookup>
+	<lookup key="LdapSettings.AuthenticationMethod"><![CDATA[Hitelesítési mód]]></lookup>
+
+	<lookup key="SystemNotification"><![CDATA[Rendszerüzenet]]></lookup>
+
+	<lookup key="DriverUploadComplete"><![CDATA[A rendszer betöltötte az eszköz egy vagy több illesztőprogramját. Az illesztőprogram állapotát lásd a rendszerüzenetben.]]></lookup>
+	<lookup key="DriverDescriptionHeading"><![CDATA[Leírás]]></lookup>
+	<lookup key="DriverSaveProblemWarning"><![CDATA[Az eszköz egy vagy több illesztőprogramjának betöltése sikertelen. Kérjük, próbálkozzon újra. Ha többször megkapta ezt az üzenetet, kérjük, forduljon a Crestron True Blue Supporthoz.]]></lookup>
+	<lookup key="DriverUploadCompleteHeader"><![CDATA[Illesztőprogram betöltése sikeres ]]></lookup>
+	<lookup key="DriverSaveProblemWarningHeader"><![CDATA[Illesztőprogram betöltése sikertelen ]]></lookup>
+
+	<!-- 9/12/2017 -->
+	<lookup key="Updating"><![CDATA[Frissítés...]]></lookup>
+
+	<!-- 9/27/2017 -->
+	<lookup key="ChannelType.AirMedia"><![CDATA[AirMedia®]]></lookup>
+
+	<!-- 10/9/2017 -->
+	<lookup key="ActivateConfigurationFromWebsite"><![CDATA[Kérjük, aktiválja a konfigurációt a rendszer weblapján a rendszer bekapcsolásához.]]></lookup>
+
+	<!-- 12/14/2017 -->
+	<lookup key="HideBackgroundFilter"><![CDATA[Háttérszűrő rejtése]]></lookup>
+
+	<!-- ***** IMPORTANT ***** -->
+	<!-- The following existing keys need to be renamed -->
+	<lookup key="ScreensaverEnableCustomBackgrounds"><![CDATA[Egyedi képernyővédő-hátterek engedélyezése]]></lookup>
+	<lookup key="ScreensaverAddCustomBackgroundUrl"><![CDATA[Egyedi képernyővédő-háttér URL-jének hozzáadása]]></lookup>
+	<lookup key="Locale"><![CDATA[Nyelv]]></lookup>
+	<lookup key="NetworkStatus"><![CDATA[Vezérlőpult]]></lookup>
+	<lookup key="ActivityLog"><![CDATA[AVF-napló]]></lookup>
+	<lookup key="EnableDspVolumeControl"><![CDATA[DMPS hangszóró és program kimeneti hangerő-szabályozás]]></lookup>
+	<lookup key="DevicePort"><![CDATA[Kommunikációs port]]></lookup>
+	<lookup key="Add"><![CDATA[Eszköz hozzáadása]]></lookup>
+	<lookup key="EmergencyBroadcastTimeout"><![CDATA[Vészhelyzeti üzenet időtúllépése]]></lookup>
+	<lookup key="NonEmergencyBroadcastTimeout"><![CDATA[Nem vészhelyzeti üzenet időtúllépése]]></lookup>
+	<lookup key="ChannelValidationMessage"><![CDATA[Azonosító kötelező formátuma (0-255).]]></lookup>
+
+	<!-- ***** IMPORTANT ***** -->
+	<!-- The following existing keys need to be renamed -->
+	<!-- *** IMPORTANT *** Crestron and Fusion are trademarks and should not be translated -->
+	<lookup key="SupportsFusion"><![CDATA[Crestron Fusion támogatva]]></lookup>
+	<lookup key="FusionRoomName"><![CDATA[Crestron Fusion-helyiségnév]]></lookup>
+	<lookup key="FusionConnection"><![CDATA[Crestron Fusion-kapcsolat]]></lookup>
+	<lookup key="EnableFusionScheduling"><![CDATA[Crestron Fusion-ütemezés engedélyezése]]></lookup>
+	<lookup key="FusionSettings"><![CDATA[Crestron Fusion-beállítások]]></lookup>
+	<lookup key="FusionCloudURL"><![CDATA[Crestron Fusion Cloud URL]]></lookup>
+
+	<lookup key="MinFrontOfRoomBackgroundIntervalSecWarning"><![CDATA[Crestron Fusion Cloud URL]]></lookup>
+
+	<lookup key="EmergencyBroadcastTimeoutValidValueMessage"><![CDATA[Az értéknek a (0-60) tartományban kell lennie]]></lookup>
+	<lookup key="NonEmergencyBroadcastTimeoutValidValueMessage"><![CDATA[Az értéknek a (0-60) tartományban kell lennie]]></lookup>
+	<lookup key="CallNotificationTimeoutValidValueMessage"><![CDATA[Az értéknek a (0-60) tartományban kell lennie]]></lookup>
+	<lookup key="TimeRemainingMessageDurationValidValueMessage"><![CDATA[Az értéknek a (0-60) tartományban kell lennie]]></lookup>
+
+	<lookup key="IntervalBetweenBackgroundsValidValueMessage"><![CDATA[Az értéknek a (30-600) tartományban kell lennie]]></lookup>
+
+	<lookup key="ConfigurationText"><![CDATA[Rendszerkonfiguráció folyamatban.]]></lookup>
+
+	<lookup key="ConfiguredMessageOfflineLoggedIn"><![CDATA[A rendszer jelenleg offline állapotú, <span id="activatePlaceholder">aktiválja</span> vagy <span id="revertPlaceholder">állítsa vissza</span> a konfigurációt.]]></lookup>
+	<lookup key="SystemOffline"><![CDATA[A rendszer jelenleg nem érhető el az Ön tartózkodási helyéről. Kérjük, ellenőrizze a hálózati kapcsolatot vagy forduljon a rendszergazdához. ]]></lookup>
+	<lookup key="Revert"><![CDATA[Visszaállítás]]></lookup>
+	<lookup key="Activate"><![CDATA[Aktiválás]]></lookup>
+	<lookup key="More"><![CDATA[Továbbiak]]></lookup>
+
+	<lookup key="WarmUpTimeLabel"><![CDATA[Beindítási idő]]></lookup>
+	<lookup key="WarmUpTimeValidationMessage"><![CDATA[Az értéknek a ({0}-{1}) tartományban kell lennie]]></lookup>
+	<lookup key="CoolDownTimeValidationMessage"><![CDATA[Az értéknek a ({0}-{1}) tartományban kell lennie]]></lookup>
+	<lookup key="CoolDownTimeLabel"><![CDATA[Leállási idő]]></lookup>
+
+	<lookup key="ResourceNotFound"><![CDATA[A keresett erőforrás nem található.]]></lookup>
+	<lookup key="BackgroundImageRequiredWarning"><![CDATA[Engedélyezése esetén legalább 1 háttér szükséges.]]></lookup>
+	<lookup key="MaximumNumberImagesWarning"><![CDATA[Elérte a képek maximális számát.]]></lookup>
+
+	<lookup key="SupportedSeries"><![CDATA[Támogatott szériák]]></lookup>
+
+	<lookup key="RoomNameValidCharactersWarning"><![CDATA[A támogatott karakterek a következők: alfanumerikus, szóköz, _ ,-, / és ().]]></lookup>
+	<lookup key="Edit"><![CDATA[Szerkesztés]]></lookup>
+	<lookup key="DriverProcessingMessage"><![CDATA[A ({0}) fájl feldolgozása megkezdődött.]]></lookup>
+
+	<lookup key="Done"><![CDATA[Kész]]></lookup>
+	<lookup key="ConfigureButtons"><![CDATA[Gombok konfigurálása]]></lookup>
+	<lookup key="StartButtonTextWarning"><![CDATA[Az értéknek (1-20) alfanumerikus karakterből kell állnia]]></lookup>
+	<lookup key="EnableStartButtonText"><![CDATA[Start gomb engedélyezése]]></lookup>
+
+	<lookup key="Back"><![CDATA[Vissza]]></lookup>
+	<lookup key="Cancel"><![CDATA[Mégse]]></lookup>
+	<lookup key="FreeFormLog"><![CDATA[AMPS-napló]]></lookup>
+
+	<lookup key="TestDeviceStatus"><![CDATA[Eszközállapot]]></lookup>
+	<lookup key="SendCommandLabel"><![CDATA[Parancs küldése]]></lookup>
+	<lookup key="Command"><![CDATA[Parancs]]></lookup>
+	<lookup key="InstallDevice"><![CDATA[Eszköz telepítése]]></lookup>
+	<lookup key="Send"><![CDATA[Küldés]]></lookup>
+
+	<!-- 1/19/2018 - button panel -->
+	<lookup key="ButtonPanelButtonAction.Default"><![CDATA[Alapértelmezett]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Disable"><![CDATA[Letiltva]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerOn"><![CDATA[Bekapcsolás]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerOff"><![CDATA[Kikapcsolás]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerToggle"><![CDATA[Váltókapcsoló]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteOn"><![CDATA[Némítás be]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteOff"><![CDATA[Némítás ki]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteToggle"><![CDATA[Némítás váltókapcsoló]]></lookup>
+	<lookup key="ButtonPanelButtonAction.RouteSource"><![CDATA[Útvonal forrása]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VolUp"><![CDATA[Hangerő fel]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VolDown"><![CDATA[Hangerő le]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Play"><![CDATA[Lejátszás]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Pause"><![CDATA[Szünet]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Rewind"><![CDATA[Visszacsévélés]]></lookup>
+	<lookup key="ButtonPanelButtonAction.FastForward"><![CDATA[Gyors előre]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Menu"><![CDATA[Menü]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VideoMute"><![CDATA[Videó némítása]]></lookup>
+	<lookup key="UnionId"><![CDATA[Jelszó]]></lookup>
+	<lookup key="Test"><![CDATA[Tesztelés]]></lookup>
+	<lookup key="Save"><![CDATA[Mentés]]></lookup>
+	<lookup key="InstallDialogTitle"><![CDATA[{0} telepítése folyamatban]]></lookup>
+	<lookup key="DeviceTestDialogTitle"><![CDATA[{0} tesztelése folyamatban]]></lookup>
+	<lookup key="UpdateDialogTitle"><![CDATA[{0} frissítése folyamatban]]></lookup>
+
+	<!-- 1/26/2018 -->
+	<lookup key="DeviceType.IO"><![CDATA[Crestron IO]]></lookup>
+	<lookup key="Status"><![CDATA[Állapot]]></lookup>
+	<lookup key="TestableDisplayCommands.PowerOn"><![CDATA[Bekapcsolás]]></lookup>
+	<lookup key="TestableDisplayCommands.PowerOff"><![CDATA[Kikapcsolás]]></lookup>
+
+	<lookup key="RelayNotes1"><![CDATA[A kiválasztott eszközön a relék párokban vannak konfigurálva.]]></lookup>
+	<lookup key="RelayName"><![CDATA[Relénév]]></lookup>
+	<lookup key="RelayDeviceAndIdentifier"><![CDATA[Relé eszköz és azonosító]]></lookup>
+	<lookup key="RelayTiming"><![CDATA[Időzítés]]></lookup>
+	<lookup key="BlankRelayLabel"><![CDATA[Nincs]]></lookup>
+
+	<!-- 2/12/2018 -->
+	<lookup key="RelayBehavior.Disable"><![CDATA[Letiltás]]></lookup>
+
+	<!-- 2/26/2018 -->
+	<lookup key="RelayTimingBoundsWarning"><![CDATA[Az értéknek az (1-180) tartományban kell lennie]]></lookup>
+	<lookup key="RelayNameRequired"><![CDATA[Az értéknek (1-20) alfanumerikus karakterből kell állnia]]></lookup>
+	<lookup key="RelayValidCharactersWarning"><![CDATA[Az értéknek (1-20) alfanumerikus karakterből kell állnia]]></lookup>
+	<lookup key="RelayNotes2"><![CDATA[Az összes relépár közül az első relé FELFELÉ MOZGATJA A KÉPERNYŐT.]]></lookup>
+	<lookup key="RelayNotes3"><![CDATA[Az összes relépár közül az első relé LEFELÉ MOZGATJA A KÉPERNYŐT.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.WarmingUpCompleted"><![CDATA[Az eszköz beindítása befejeződött]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.WarmingUp"><![CDATA[Az eszköz beindítása folyamatban]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.CoolingDown"><![CDATA[Az eszköz leállítása folyamatban]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.CoolingDownCompleted"><![CDATA[Az eszköz leállítása befejeződött]]></lookup>
+
+	<!-- 2/28/2018 -->
+	<lookup key="MaxLengthRelayNameWarning"><![CDATA[A relé neve nem lehet 20 karakternél hosszabb.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PortNotConfigured"><![CDATA[A port nincs beállítva vagy nem elérhető]]></lookup>
+
+	<!-- 3/2/2018 -->
+	<lookup key="DeviceUsernameValueWarning"><![CDATA[Az eszközön a felhasználónév nem lehet 15 karakternél hosszabb.]]></lookup>
+	<lookup key="DevicePasswordValueWarning"><![CDATA[Az eszközön a jelszó nem lehet 32 karakternél hosszabb.]]></lookup>
+
+	<!-- 3/8/2018 -->
+	<lookup key="RelayEmptyMsg"><![CDATA[Nincs reléket támogató eszköz. Hozzáadhat egy relét az Eszközkezelő panelről.]]></lookup>
+
+	<!-- 3/9/2018 -->
+	<lookup key="DeviceTransport.Unknown"><![CDATA[Ismeretlen]]></lookup>
+
+	<!-- 3/19/2018 MPC3 - These keys need to be retranslated-->
+	<lookup key="DMPSConfiguration"><![CDATA[A/V irányítás]]></lookup>
+	<lookup key="SwitchInformation"><![CDATA[Kapcsolóinformáció]]></lookup>
+
+	<!-- 3/20/2018 -->
+	<lookup key="StartButtonText"><![CDATA[Start gomb szövege]]></lookup>
+
+	<lookup key="VideoDisplayStatusEvent.Initializing"><![CDATA[Illesztőprogram inicializálása]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.InitializationFailed"><![CDATA[Inicializálás sikertelen]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectingToDevice"><![CDATA[Kapcsolódási próbálkozás az eszközhöz]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.Authenticating"><![CDATA[Hitelesítés]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.AuthenticationSuccessful"><![CDATA[Hitelesítés sikeres]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.AuthenticationFailed"><![CDATA[Hitelesítés sikertelen]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.NotAuthenticated"><![CDATA[Nincs hitelesítve]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectionSuccessful"><![CDATA[Csatlakozva az illesztőprogramhoz]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectionFailed"><![CDATA[Csatlakozás az illesztőprogramhoz sikertelen]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.Disconnecting"><![CDATA[Lecsatlakozás az illesztőprogramról]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.UnknownEvent"><![CDATA[Ismeretlen esemény]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PowerOffCommand"><![CDATA[Kikapcsolás parancs küldése]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PowerOnCommand"><![CDATA[Bekapcsolás parancs küldése]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.UnknownCommand"><![CDATA[Ismeretlen parancs]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.DeviceOnline"><![CDATA[Eszköz online]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.DeviceOffline"><![CDATA[Eszköz offline]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.NoControlPortDefined"><![CDATA[Nincs meghatározva vezérlőport]]></lookup>
+
+	<lookup key="ImageNotLoaded"><![CDATA[Kép betöltése sikertelen]]></lookup>
+	<lookup key="logoHelpText"><![CDATA[A logó optimális mérete 800 x 600 pixel.<br>Támogatott képformátumok: BMP, JPG, PNG.]]></lookup>
+	<lookup key="Keypad"><![CDATA[Billentyűzet]]></lookup>
+
+	<!-- 3/22/2018 -->
+	<lookup key="BackgroundOverlay"><![CDATA[Háttérréteg]]></lookup>
+	<!-- 3/27/2018 -->
+	<lookup key="NextMeetingInformationShownValidValueMessage"><![CDATA[Az értéknek a (0-120) tartományban kell lennie]]></lookup>
+	<!-- 3/28/2018 -->
+	<lookup key="PowerSettings"><![CDATA[Áramellátási beállítások]]></lookup>
+	<lookup key="DayOfWeek"><![CDATA[A hét napja]]></lookup>
+	<lookup key="DisplayOn"><![CDATA[Kijelző be]]></lookup>
+	<lookup key="DisplayOff"><![CDATA[Kijelző ki]]></lookup>
+
+	<lookup key="VideoDisplay"><![CDATA[Videókijelző]]></lookup>
+	<lookup key="WallPaper"><![CDATA[Érintőképernyő]]></lookup>
+	<lookup key="WallPaper.EnableCustomBackgroundLabelsLabel"><![CDATA[Egyéni hátterek engedélyezése]]></lookup>
+
+	<lookup key="DisplayNotifications"><![CDATA[Üzenetek megjelenítése]]></lookup>
+	<lookup key="ConnectionDetailsLayout"><![CDATA[Csatlakozás részleteinek elrendezése]]></lookup>
+	<lookup key="DisplayCustomization"><![CDATA[Kijelző testreszabása]]></lookup>
+
+	<!-- 4/5/2018 -->
+	<lookup key="ShowBackgroundOverlay"><![CDATA[Háttérréteg megjelenítése]]></lookup>
+	<lookup key="WallPaper.CustomBackgroundLabelsLabel"><![CDATA[Háttér]]></lookup>
+
+	<lookup key="ShowCalendarOrClockOverlay"><![CDATA[Naptár vagy óra réteg megjelenítése]]></lookup>
+
+	<!-- 4/6/2018 -->
+	<lookup key="ReturnToAudioCall"><![CDATA[Érintse meg itt a visszatéréshez az audiohívásba]]></lookup>
+	<lookup key="CurrentCallOnHold"><![CDATA[Aktuális hívás tartva]]></lookup>
+	<!-- 4/9/2018 -->
+	<lookup key="TimeRemainingMessageStartsValidValueMessage"><![CDATA[Az értéknek a (0-60) tartományban kell lennie]]></lookup>
+
+	<!-- 4/9/2018 -->
+	<lookup key="StandbyMode.OccupancyBasedWithSignage"><![CDATA[Foglaltság alapú, kijelzéssel]]></lookup>
+
+	<!-- 4/10/2018 -->
+	<lookup key="ZumBatteryState.Bx"><![CDATA[Külső áramról]]></lookup>
+	<lookup key="ZumBatteryState.Bc"><![CDATA[Az akkumulátor töltöttsége kritikusan alacsony]]></lookup>
+	<lookup key="ZumBatteryState.Bl"><![CDATA[Az akkumulátor töltöttsége alacsony]]></lookup>
+	<lookup key="ZumBatteryState.Bok"><![CDATA[Az akkumulátor töltöttsége OK]]></lookup>
+
+	<lookup key="ZumDeviceStatus.Act"><![CDATA[Aktív]]></lookup>
+	<lookup key="ZumDeviceStatus.Mis"><![CDATA[Hiányzó]]></lookup>
+
+	<lookup key="ZumOccupancy.Na"><![CDATA[N/A]]></lookup>
+	<lookup key="ZumOccupancy.Occupied"><![CDATA[Foglalt]]></lookup>
+	<lookup key="ZumOccupancy.Vacant"><![CDATA[Üres]]></lookup>
+	<lookup key="ZumOccupancy.Unknown"><![CDATA[Ismeretlen]]></lookup>
+
+	<lookup key="ZumUpdateStatus.U0"><![CDATA[Nincs frissítés folyamatban]]></lookup>
+	<lookup key="ZumUpdateStatus.Ui"><![CDATA[Frissítés folyamatban]]></lookup>
+	<lookup key="ZumUpdateStatus.Up"><![CDATA[Frissítés függőben]]></lookup>
+
+	<!-- 4/9/2018 -->
+	<lookup key="AppspaceErrorMessage"><![CDATA[Nem sikerül csatlakozni az URL-hez]]></lookup>
+
+	<!-- 4/13/2018 -->
+	<lookup key="External"><![CDATA[Külső]]></lookup>
+	<lookup key="ManageSettings"><![CDATA[Kezelés]]></lookup>
+
+	<!-- 4/12/2018 -->
+	<lookup key="DisconnectedHeaderText"><![CDATA[LEVÁLASZTVA]]></lookup>
+
+	<!-- 4/12/2018 -->
+	<lookup key="DisconnectedMessageText"><![CDATA[Csatlakozási kísérlet. Kérjük, ellenőrizze a kommunikációs beállításokat.]]></lookup>
+
+	<!-- 4/18/2018 these keys need to be retranslated -->
+	<lookup key="IntervalBetweenBackgroundsBoundsWarning"><![CDATA[Az értéknek a (30-600) tartományban kell lennie]]></lookup>
+	<lookup key="PanelSleepTimeSecondsBoundsWarning"><![CDATA[Az értéknek a (60-600) tartományban kell lennie]]></lookup>
+
+	<!-- 4/18/2018  -->
+
+	<lookup key="Background"><![CDATA[Háttér]]></lookup>
+	<lookup key="Log"><![CDATA[Napló]]></lookup>
+	<lookup key="TouchScreen"><![CDATA[Érintőképernyő és kijelző]]></lookup>
+
+	<!-- 4/23/2018  -->
+	<lookup key="DayOfWeekEnum.Monday"><![CDATA[Hétfő]]></lookup>
+	<lookup key="DayOfWeekEnum.Tuesday"><![CDATA[Kedd]]></lookup>
+	<lookup key="DayOfWeekEnum.Wednesday"><![CDATA[Szerda]]></lookup>
+	<lookup key="DayOfWeekEnum.Thursday"><![CDATA[Csütörtök]]></lookup>
+	<lookup key="DayOfWeekEnum.Friday"><![CDATA[Péntek]]></lookup>
+	<lookup key="DayOfWeekEnum.Saturday"><![CDATA[Szombat]]></lookup>
+	<lookup key="DayOfWeekEnum.Sunday"><![CDATA[Vasárnap]]></lookup>
+
+	<!-- 4/23/2018  -->
+	<lookup key="ConnectionLayout.Bottom"><![CDATA[Alul]]></lookup>
+	<lookup key="ConnectionLayout.Top"><![CDATA[Felül]]></lookup>
+	<lookup key="ConnectionLayout.Left"><![CDATA[Bal]]></lookup>
+	<lookup key="ConnectionLayout.Right"><![CDATA[Jobb]]></lookup>
+
+	<!-- 4/25/2018  -->
+
+	<lookup key="AppspaceCustomBackgroundsWarning"><![CDATA[Egyedi hátterek nem állíthatók be, ha az Appspace be van kapcsolva.]]></lookup>
+	<lookup key="DeviceType.Audio"><![CDATA[Hang]]></lookup>
+	<lookup key="DeviceType.Led"><![CDATA[Led]]></lookup>
+
+	<!-- 4/30/2018  -->
+	<lookup key="AUXIP"><![CDATA[AUX IP]]></lookup>
+	<lookup key="DialerType.Sfb"><![CDATA[Skype®]]></lookup>
+	<lookup key="VerisonNumber"><![CDATA[Verziószám]]></lookup>
+	<lookup key="Room"><![CDATA[Helyiség]]></lookup>
+	<lookup key="EnableDspVolumeControl.ExtAmp"><![CDATA[Külső erősítő bekapcsolása]]></lookup>
+
+	<!-- 5/1/2018  -->
+	<lookup key="UploadConfigurationError"><![CDATA[Feltöltés sikertelen, mivel a konfiguráció érvénytelen vagy más eszköztípushoz való. Előző konfiguráció visszaállítva.]]></lookup>
+
+	<!-- 5/3/2018  -->
+	<lookup key="AppspaceLoading"><![CDATA[Az Appspace alkalmazás letöltése és telepítése]]></lookup>
+	<lookup key="AppspaceErrorTitle"><![CDATA[Nem sikerült letölteni az Appspace alkalmazást]]></lookup>
+	<lookup key="AppspaceErrorSubTitle"><![CDATA[Kérjük, ellenőrizze az URL-t és a hálózati csatlakozást. Hamarosan újra megpróbáljuk.]]></lookup>
+
+	<!-- 5/8/2018 -->
+	<lookup key="PortType.Relay"><![CDATA[Relé]]></lookup>
+
+	<!-- 5/10/2018 -->
+	<lookup key="VideoDisplayStatusEvent.TestingNotSupported"><![CDATA[Nem vezérelt kijelző esetén a tesztelés nem támogatott]]></lookup>
+
+	<lookup key="Zum"><![CDATA[Zūm]]></lookup>
+	<lookup key="Network"><![CDATA[Hálózat]]></lookup>
+	<lookup key="FirmwareVersion"><![CDATA[Firmware-verzió]]></lookup>
+	<lookup key="BatteryStatus"><![CDATA[Akkumulátorállapot]]></lookup>
+	<lookup key="StartAcquire"><![CDATA[Beolvasás megkezdése]]></lookup>
+	<lookup key="StopAcquire"><![CDATA[Beolvasás leállítása]]></lookup>
+	<lookup key="FormNetwork"><![CDATA[Hálózat kialakítása]]></lookup>
+	<lookup key="ZumBridgeLabel"><![CDATA[Zūm híd]]></lookup>
+	<lookup key="RoomOccupancyLabel"><![CDATA[Zūm szenzor állapota]]></lookup>
+	<lookup key="Occupancy"><![CDATA[Foglaltság]]></lookup>
+	<lookup key="Id"><![CDATA[Azonosító]]></lookup>
+
+	<!-- 5/16/2018 -->
+	<lookup key="ButtonPanelButtonAction.Up"><![CDATA[Fel]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Down"><![CDATA[Le]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Left"><![CDATA[Balra]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Right"><![CDATA[Jobbra]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Enter"><![CDATA[Bevitel]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Select"><![CDATA[Kiválasztás]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Back"><![CDATA[Vissza]]></lookup>
+
+	<!-- 6/15/2018 -->
+	<lookup key="CallNotificationState.IncomingCall"><![CDATA[Beérkező hívás]]></lookup>
+	<lookup key="CallNotificationState.Connected"><![CDATA[Csatlakoztatva]]></lookup>
+	<lookup key="CallNotificationState.Connecting"><![CDATA[Csatlakozás]]></lookup>
+	<lookup key="CallNotificationState.Rejected"><![CDATA[Elutasítva]]></lookup>
+	<lookup key="CallNotificationState.Disconnected"><![CDATA[Leválasztva]]></lookup>
+
+	<!-- 6/19/2018 -->
+	<lookup key="VideoDisplayStatusEvent.CecInitialized"><![CDATA[CEC-illesztő inicializálva]]></lookup>
+
+	<lookup key="AssociatedOutputDevice.Whiteboard"><![CDATA[AirBoard®]]></lookup>
+	<lookup key="DeviceType.ZumBridge"><![CDATA[Zūm-híd]]></lookup>
+	<lookup key="DeviceType.WhiteBoard"><![CDATA[AirBoard®]]></lookup>
+
+	<!-- 7/18/2018 -->
+	<lookup key="DriverInstallationStatus.StatusUnlicensedDeviceType"><![CDATA[Licenc nélküli eszköztípus]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusUnsupportedIrDriver"><![CDATA[Nem támogatott IR-illesztő]]></lookup>
+
+	<!-- 7/25/2018 -->
+	<lookup key="CommunicationType"><![CDATA[Kommunikáció típusa]]></lookup>
+	<lookup key="SupportedModels"><![CDATA[Támogatott modellek]]></lookup>
+	<lookup key="DriverSearchHint"><![CDATA[Modell vagy gyártó]]></lookup>
+
+	<lookup key="AddNewDeviceDriver"><![CDATA[Új eszközillesztő hozzáadása...]]></lookup>
+	<lookup key="ImportFromFile"><![CDATA[Importálás fájlból...]]></lookup>
+	<lookup key="GeneralAdd"><![CDATA[Hozzáadás]]></lookup>
+
+	<lookup key="DetectedManufacturer"><![CDATA[Észlelt gyártó]]></lookup>
+	<lookup key="DetectedName"><![CDATA[Észlelt név]]></lookup>
+	<lookup key="DetectedSerialNum"><![CDATA[Észlelt sorozatszám]]></lookup>
+
+	<lookup key="CloudSearchError"><![CDATA[Hiba történt az illesztők a felhőben történő keresése során.]]></lookup>
+	<lookup key="ErrorInstallingDriver"><![CDATA[Hiba történt az illesztőprogram telepítése során.]]></lookup>
+
+	<lookup key="DeviceInstallingTitle"><![CDATA[{0} telepítése.]]></lookup>
+
+	<!-- 8/30/2018 -->
+	<lookup key="DisplayTimeError"><![CDATA[A Kijelző be értékének kevesebbnek kell lennie a Kijelző ki értékénél]]></lookup>
+	<lookup key="NavPresentEtc"><![CDATA[Navigálás a kezdőlapra, Forrás bemutatása és továbbiak...]]></lookup>
+
+	<lookup key="FilterBy"><![CDATA[Szűrés alapja]]></lookup>
+	<lookup key="StartDiscovery"><![CDATA[Észlelés indítása]]></lookup>
+	<lookup key="StopDiscovery"><![CDATA[Észlelés leállítása]]></lookup>
+	<lookup key="IPIDCrestnetID"><![CDATA[IPID/CresnetID]]></lookup>
+	<lookup key="Locate"><![CDATA[Megkeresés]]></lookup>
+	<lookup key="LocateRunning"><![CDATA[Megkeresés folyamatban]]></lookup>
+	<lookup key="StopLocate"><![CDATA[Megkeresés leállítása]]></lookup>
+	<lookup key="DeviceDetails"><![CDATA[Az eszköz részletei]]></lookup>
+	<lookup key="DiscoveredDevices"><![CDATA[Észlelt eszközök]]></lookup>
+	<lookup key="ConfiguredDevices"><![CDATA[Konfigurált eszközök]]></lookup>
+
+	<lookup key="AreYouSure"><![CDATA[Biztosan folytatja?]]></lookup>
+
+	<lookup key="WhiteboardCode"><![CDATA[Kód ]]></lookup>
+	<lookup key="WhiteboardCrestronId"><![CDATA[CrestronId: ]]></lookup>
+	<lookup key="WhiteboardUserConnUrl"><![CDATA[URL-cím: ]]></lookup>
+
+	<!-- 11/30/2018 -->
+	<lookup key="RefineSearchContact"><![CDATA[Nem találtunk pontos egyezést. Próbálja meg pontosítani a keresést.]]></lookup>
+
+	<!-- 12/5/2018 -->
+	<lookup key="WhiteboardMeetingEndPPUX"><![CDATA[Az ütemezett értekezletnek hamarosan vége van. Válasszon egy lehetőséget az érintőképernyőn.]]></lookup>
+
+	<!-- 12/7/2018 -->
+	<lookup key="WhiteboardIncomingReqPPUX"><![CDATA[Bejövő távolikapcsolat-kérés. Fogadja el vagy hagyja figyelmen kívül az érintőképernyőn.]]></lookup>
+
+	<!-- 12/14/2018 -->
+	<lookup key="account-action"><![CDATA[Műveletek]]></lookup>
+	<lookup key="cloudware-license"><![CDATA[Cloudware-licencszerződés]]></lookup>
+	<lookup key="service-status"><![CDATA[A szolgáltatás állapota]]></lookup>
+	<lookup key="privacy-statement"><![CDATA[Adatvédelmi nyilatkozat]]></lookup>
+	<lookup key="uc-agreement"><![CDATA[A Crestron Egységes Kommunikáció szoftverlicenc-szerződése]]></lookup>
+
+	<lookup key="busy-loading"><![CDATA[betöltés]]></lookup>
+	<lookup key="AirBoard"><![CDATA[Air Board]]></lookup>
+	<lookup key="Settings"><![CDATA[Beállítások]]></lookup>
+	<lookup key="ConfirmPassword"><![CDATA[Jelszó megerősítése]]></lookup>
+	<lookup key="UserDetail"><![CDATA[Felhasználó részletei]]></lookup>
+	<lookup key="PasswordMismatchWarning"><![CDATA[A jelszavaknak egyezniük kell.]]></lookup>
+
+	<!-- 12/27/2018 -->
+	<lookup key="CresnetBusIdValidationMessage"><![CDATA[Cresnet-azonosító kötelező formátuma (03-1B).]]></lookup>
+	<lookup key="DeviceType.CresnetGateway"><![CDATA[Cresnet-átjáró]]></lookup>
+	<lookup key="DeviceTransport.CrestronCrestnetBus"><![CDATA[Cresnet-busz]]></lookup>
+	<lookup key="GatewayBus"><![CDATA[Átjáróbusz]]></lookup>
+
+	<!-- 01/08/2019 -->
+	<lookup key="EnableAutoUpdate"><![CDATA[Érintőképernyő automatikus frissítésének engedélyezése]]></lookup>
+	<lookup key="AutoRouting"><![CDATA[Csak AirMedia automatikus útválasztás]]></lookup>
+	<lookup key="PriorityRouting"><![CDATA[Elsőbbségi útválasztás]]></lookup>
+	<lookup key="InvalidInputName"><![CDATA[Érvénytelen megjelenítendő név.  Nem tartalmazhat < vagy > karaktert.]]></lookup>
+
+	<lookup key="AudioSource.AudioFollowVideo"><![CDATA[A hang követi a videót]]></lookup>
+	<lookup key="AudioSource.Analog"><![CDATA[Analóg]]></lookup>
+	<lookup key="ChannelType.Streaming"><![CDATA[Adatfolyam]]></lookup>
+
+	<lookup key="UploadConfigRestore"><![CDATA[Visszaállítás]]></lookup>
+	<lookup key="UploadConfigCreateRoom"><![CDATA[Helyiség létrehozása]]></lookup>
+
+	<lookup key="UploadConfigWarning"><![CDATA[Ha egy, a Fusion-környezetben már létező helyiség korábbi konfigurációját állítja vissza, válassza a Visszaállítás lehetőséget.  Ha egy konfigurációt egy új helyiség létrehozásának érdekében importál, válassza a Helyiség létrehozása lehetőséget.]]></lookup>
+
+	<!-- 01/30/2019 -->
+	<lookup key="WhiteBoardCodeMode.Disabled"><![CDATA[Letiltva]]></lookup>
+	<lookup key="WhiteBoardCodeMode.Random"><![CDATA[Véletlenszerű]]></lookup>
+	<lookup key="WhiteBoardCodeMode.Fixed"><![CDATA[Rögzített]]></lookup>
+
+	<lookup key="WhiteboardViewParticipants"><![CDATA[Résztvevők megtekintése]]></lookup>
+	<lookup key="WhiteboardRecord"><![CDATA[Felvétel]]></lookup>
+	<lookup key="WhiteboardStopRecording"><![CDATA[Felvételkészítés leállítása]]></lookup>
+	<lookup key="WhiteboardSnapshot"><![CDATA[Pillanatkép küldése]]></lookup>
+	<lookup key="WhiteboardParticipants"><![CDATA[Résztvevők]]></lookup>
+	<lookup key="WhiteboardIncomingReq"><![CDATA[Bejövő távolikapcsolat-kérés]]></lookup>
+	<lookup key="WhiteboardIncomingReqAccept"><![CDATA[Elfogadás]]></lookup>
+	<lookup key="WhiteboardIncomingReqIgnore"><![CDATA[Figyelmen kívül hagyás]]></lookup>
+	<lookup key="WhiteboardInSession"><![CDATA[Munkamenetben]]></lookup>
+	<lookup key="WhiteboardInLobby"><![CDATA[Előtérben]]></lookup>
+	<lookup key="WhiteboardEmail"><![CDATA[Felvétel elküldése e-mailben ide:]]></lookup>
+	<lookup key="WhiteboardSendSlideDeck"><![CDATA[Diák küldése]]></lookup>
+	<lookup key="WhiteboardEmailRecording"><![CDATA[Felvétel elküldése e-mailben]]></lookup>
+	<lookup key="WhiteboardProceed"><![CDATA[Folytatás e-mail küldése nélkül]]></lookup>
+	<lookup key="WhiteboardMeetingEnd"><![CDATA[Az ütemezett értekezletnek hamarosan vége van. Válasszon egy lehetőséget.]]></lookup>
+	<lookup key="WhiteboardStopPresenting"><![CDATA[Felvételkészítés és bemutatás leállítása]]></lookup>
+	<lookup key="WhiteboardDontStop"><![CDATA[Ne legyen leállítva]]></lookup>
+	<lookup key="WhiteboardTitle"><![CDATA[AirBoard®]]></lookup>
+
+	<lookup key="BluetoothPairingMode"><![CDATA[Bluetooth-párosítási mód]]></lookup>
+	<lookup key="BluetoothTimeOut"><![CDATA[Bluetooth-üresjárati leválasztási idő]]></lookup>
+	<lookup key="BluetoothTimeOutValidValueMessage"><![CDATA[Az értéknek az (1–60) tartományban kell lennie]]></lookup>
+	<lookup key="PairingMode.Timeout"><![CDATA[Időtúllépés]]></lookup>
+	<lookup key="PairingMode.Persistent"><![CDATA[Perzisztens]]></lookup>
+	<lookup key="ReportOnlyAirmediaAsset"><![CDATA[Csak az AirMedia-eszközök jelentése]]></lookup>
+	<lookup key="LdapPortWarning"><![CDATA[Port kötelező formátuma (1–65535).]]></lookup>
+	<lookup key="NonControlledDevice"><![CDATA[Nem vezérelt eszköz]]></lookup>
+
+	<lookup key="CrestronConnected"><![CDATA[Crestron csatlakoztatva]]></lookup>
+	<lookup key="MercuryIpIdValidationMessage"><![CDATA[IPID kötelező formátuma (03–FD).]]></lookup>
+
+	<!-- 6/10/2019 -->
+	<lookup key="WhiteboardConfirmationPrompt"><![CDATA[Biztosan leállítja a felvételt?]]></lookup>
+	<lookup key="WhiteboardStopNowCap"><![CDATA[IGEN, LEÁLLÍTÁS MOST]]></lookup>
+	<lookup key="WhiteboardContinueCap"><![CDATA[NEM, FOLYTATÁS]]></lookup>
+	<lookup key="WhiteboardEmailRecordingCap"><![CDATA[FELVÉTEL KÜLDÉSE E-MAILBEN]]></lookup>
+	<lookup key="WhiteboardProceedCap"><![CDATA[FOLYTATÁS E-MAIL KÜLDÉSE NÉLKÜL]]></lookup>
+	<lookup key="WhiteboardStopPresentingCap"><![CDATA[FELVÉTEL ÉS BEMUTATÓ LEÁLLÍTÁSA]]></lookup>
+
+	<lookup key="GenericCancelCap"><![CDATA[MÉGSE]]></lookup>
+	<lookup key="CouldNotFindMatch"><![CDATA[Nem találtunk pontos egyezést. Próbálja meg pontosítani a keresést.]]></lookup>
+	<lookup key="PresentationTypes"><![CDATA[Bemutatótípusok]]></lookup>
+	<lookup key="Resume"><![CDATA[Folytatás]]></lookup>
+	<lookup key="BlankScreen"><![CDATA[Üres képernyő]]></lookup>
+	<lookup key="CallTypes"><![CDATA[Hívástípusok]]></lookup>
+	<lookup key="ReturnToCall"><![CDATA[Vissza a híváshoz]]></lookup>
+	<lookup key="TapReturnToCall"><![CDATA[Koppintson ide a visszatéréshez a híváshoz]]></lookup>
+	<lookup key="CallOnHold"><![CDATA[Az aktuális hívás tartva]]></lookup>
+	<lookup key="USBCable"><![CDATA[USB kábel]]></lookup>
+	<lookup key="UsbCall"><![CDATA[USB hívás]]></lookup>
+	<lookup key="ConnectYourUsbDeviceText"><![CDATA[Csatlakoztassa eszközét az USB kábelhez]]></lookup>
+	<lookup key="AvailableForNext"><![CDATA[elérhető a következő]]></lookup>
+	<lookup key="Available"><![CDATA[elérhető]]></lookup>
+	<lookup key="RestOfDay"><![CDATA[a nap további részére]]></lookup>
+	<lookup key="ReservedForNext"><![CDATA[lefoglalva a következő]]></lookup>
+	<lookup key="MeetingLabel"><![CDATA[találkozó]]></lookup>
+	<lookup key="GeneralHome"><![CDATA[Kezdőlap]]></lookup>
+	<lookup key="GeneralPresent"><![CDATA[Bemutatás]]></lookup>
+	<lookup key="GeneralCall"><![CDATA[Hívás]]></lookup>
+	<lookup key="GeneralToday"><![CDATA[Ma]]></lookup>
+	<lookup key="GeneralCollaborate"><![CDATA[Együttműködés]]></lookup>
+	<lookup key="NextMeeting"><![CDATA[Következő találkozó]]></lookup>
+	<lookup key="Plug"><![CDATA[csatlakoztassa]]></lookup>
+	<lookup key="ConnectLaptopGuide"><![CDATA[laptopjához a kijelzőn történő prezentációhoz]]></lookup>
+	<lookup key="ConnectUsbGuide"><![CDATA[laptopjához audioeszközként történő használathoz]]></lookup>
+	<lookup key="Set"><![CDATA[beállítás]]></lookup>
+	<lookup key="Camera"><![CDATA[kamera]]></lookup>
+	<lookup key="Step"><![CDATA[lépés]]></lookup>
+	<lookup key="Connect"><![CDATA[csatlakozás]]></lookup>
+	<lookup key="ConnectYourHDMIDeviceText"><![CDATA[a bemutatóhoz csatlakoztassa laptopját a HDMI kábellel]]></lookup>
+
+	<!-- *** IMPORTANT *** Virtual Control is a trademark and should not be translated -->
+	<lookup key="VCToken"><![CDATA[Virtual Control token]]></lookup>
+	<lookup key="VCToken.Message"><![CDATA[A Virtual Control token megadása kötelező.]]></lookup>
+	<lookup key="VCToken.Invalid"><![CDATA[A Virtual Control token érvénytelen.]]></lookup>
+
+	<!-- 2019-09-30 -->
+	<lookup key="VideoDisplayStatusEvent.PortOffline"><![CDATA[A port offline]]></lookup>
+	<lookup key="SyncVC4RoomName"><![CDATA[Helyiség nevének szinkronizálása a VC-4-gyel]]></lookup>
+	<lookup key="EnableCustomHelpPage"><![CDATA[Egyedi Súgó oldal engedélyezése]]></lookup>
+	<lookup key="CustomHelpPageUrl"><![CDATA[Egyedi Súgó oldal URL-je]]></lookup>
+	<lookup key="Upload"><![CDATA[Feltöltés]]></lookup>
+
+	<!-- 2019-09-09 -->
+	<lookup key="Resolution.Res720x480iNTSC"><![CDATA[720x480i 30 Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080p"><![CDATA[1920x1080p 24 Hz]]></lookup>
+	<lookup key="Resolution.Res2048x1080At24Hz"><![CDATA[2048x1080 24 Hz]]></lookup>
+	<lookup key="Resolution.Res1920x1080pAt30HzNTSC"><![CDATA[1920x1080p 30 Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080pAt25HzPAL"><![CDATA[1920x1080p 25 Hz PAL]]></lookup>
+
+	<!-- 2019-09-26 -->
+	<lookup key="UxGeneralCustomization.EnableReservationLabel"><![CDATA[Fenntartás engedélyezése]]></lookup>
+
+	<!-- 2019-10-04 -->
+	<lookup key="ChannelType.DmLite"><![CDATA[DM LITE]]></lookup>
+
+	<!-- 2019-10-15 -->
+	<lookup key="WallPaper.EnableCustomHelpPageLabel"><![CDATA[Egyéni súgó engedélyezése]]></lookup>
+	<lookup key="WallPaper.CustomHelpPageUrlLabel"><![CDATA[Egyéni súgó URL-je]]></lookup>
+	<lookup key="WallPaper.CustomHelpPageUrlValidValueMessage"><![CDATA[Az egyéni súgó URL-je érvénytelen]]></lookup>
+	<lookup key="WallPaper.IdValidValueMessage"><![CDATA[Érvényes választás szükséges]]></lookup>
+
+	<!-- 2019-09-17 -->
+	<lookup key="DisplayFeature.PowerFeedback"><![CDATA[Teljesítmény visszajelzése]]></lookup>
+	<lookup key="DisplayFeature.VideoMute"><![CDATA[Videó némítása]]></lookup>
+	<lookup key="DisplayFeature.Mute"><![CDATA[Némítás]]></lookup>
+	<lookup key="DisplayFeature.MuteFeedback"><![CDATA[Visszajelzés némítása]]></lookup>
+	<lookup key="DisplayFeature.Volume"><![CDATA[Hangerőszabályozó]]></lookup>
+	<lookup key="DisplayFeature.SetVolume"><![CDATA[Analóg hangerő beállítása]]></lookup>
+	<lookup key="DisplayFeature.VolumeFeedback"><![CDATA[Hangerőszabályzó visszajelzése]]></lookup>
+	<lookup key="DisplayFeature.InputFeedback"><![CDATA[Bemeneti kiválasztási visszajelzése]]></lookup>
+	<!-- Supported Driver Feature Web AddNewDevice -->
+	<lookup key="SupportedFeature"><![CDATA[Támogatott illesztőprogram-szolgáltatások]]></lookup>
+
+	<lookup key="StandbyMode.VideoSyncBased"><![CDATA[Videó szinkronizálása alapján]]></lookup>
+	<lookup key="VideoSyncPowerOn"><![CDATA[Videó szinkronizálása bekapcsolva]]></lookup>
+	<lookup key="VideoSyncPowerOff"><![CDATA[Videó szinkronizálása kikapcsolva]]></lookup>
+	<lookup key="VideoSyncPowerOffTimeout"><![CDATA[Videószinkronizálás kikapcsolási időtúllépése]]></lookup>
+	<lookup key="VideoSyncPowerOffTimeoutBoundsWarning"><![CDATA[érvényes tartomány 1–120 perc]]></lookup>
+
+	<!-- 2019-11-01 -->
+	<lookup key="PanelUiVersionType.UI1"><![CDATA[AVF 1.0 téma (régi)]]></lookup>
+	<lookup key="PanelUiVersionType.UI2"><![CDATA[AVF 2.0 téma (új)]]></lookup>
+	<lookup key="UiVersionLabel"><![CDATA[.AV Framework kezelőfelület-téma]]></lookup>
+
+	<!-- 2019-12-11 -->
+	<lookup key="OccupancyPowerOn"><![CDATA[Kihasználtság bekapcsolása]]></lookup>
+	<lookup key="OccupancyPowerOff"><![CDATA[Kihasználtság kikapcsolása]]></lookup>
+
+	<lookup key="StandbyMode.Default"><![CDATA[Kihasználtság-alapú]]></lookup>
+
+	<!-- 2019-12-16-->
+	<lookup key="ThemeHelpText"><![CDATA[Megjegyzés: A témaváltás hozzávetőlegesen <br>30–60 másodpercig eltart az .AV Framework aktiválása után]]></lookup>
+
+	<!-- 2019-12-24 -->
+	<lookup key="videoSyncWarnText"><![CDATA[Megjegyzés: A virtuális kapcsolók nem használhatók <br>a videószinkron-alapú energiamóddal együtt.]]></lookup>
+
+	<!-- 2019-11-15 -->
+	<lookup key="POEOccupancySensorSettings"><![CDATA[PoE kihasználtság-érzékelő beállításai]]></lookup>
+
+	<!-- 2019-12-20 -->
+	<lookup key="SensorStatus"><![CDATA[Érzékelő állapota]]></lookup>
+	<lookup key="Occupied"><![CDATA[Foglalt]]></lookup>
+	<lookup key="Vacant"><![CDATA[Üres]]></lookup>
+
+	<!-- 2020-01-09 -->
+	<lookup key="DriverInstallStatusEnum.UnknownCommand"><![CDATA[Ismeretlen parancs]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Uploading"><![CDATA[Fájl feltöltése]]></lookup>
+	<lookup key="DriverInstallStatusEnum.UploadComplete"><![CDATA[Feltöltés kész]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Downloading"><![CDATA[Fájl letöltése]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Downloaded"><![CDATA[Letöltött fájl]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Installed"><![CDATA[Illesztőprogram telepítve]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Installing"><![CDATA[Illesztőprogram telepítése]]></lookup>
+	<lookup key="DriverInstallStatusEnum.ErrorOccured"><![CDATA[Hiba történt]]></lookup>
+	<lookup key="DriverInstallStatusEnum.UnzippedPkg"><![CDATA[PKG-fájl kicsomagolva]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Processing"><![CDATA[Fájl feldolgozása]]></lookup>
+	<lookup key="DriverInstallStatusEnum.DownloadingComplete"><![CDATA[Letöltés kész]]></lookup>
+	<lookup key="DriverInstallStatusEnum.InvalidOrCorruptFile"><![CDATA[Érvénytelen vagy sérült fájl]]></lookup>
+
+	<!-- 2020-01-20 -->
+	<lookup key="AcronymHour"><![CDATA[ó]]></lookup>
+	<lookup key="AcronymMinute"><![CDATA[p]]></lookup>
+
+	<!-- 2020-01-29 -->
+	<lookup key="AddDeviceDriver"><![CDATA[Illesztőprogram importálása]]></lookup>
+</lang>

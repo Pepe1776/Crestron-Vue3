@@ -1,0 +1,381 @@
+.csi {
+    font-family: 'CrestronSimpleIcons';
+    font-size: 48px;
+    font-style: normal;
+}
+
+.exclam:before {
+    content: "\0021";
+}
+
+.quotedbl:before {
+    content: "\0022";
+}
+
+.numbersign:before {
+    content: "\0023";
+}
+
+.dollar:before {
+    content: "\0024";
+}
+
+.percent:before {
+    content: "\0025";
+}
+
+.ampersand:before {
+    content: "\0026";
+}
+
+.quotesingle:before {
+    content: "\0027";
+}
+
+.parenleft:before {
+    content: "\0028";
+}
+
+.parenright:before {
+    content: "\0029";
+}
+
+.asterisk:before {
+    content: "\002A";
+}
+
+.plus:before {
+    content: "\002B";
+}
+
+.comma:before {
+    content: "\002C";
+}
+
+.hyphen:before {
+    content: "\002D";
+}
+
+.period:before {
+    content: "\002E";
+}
+
+.slash:before {
+    content: "\002F";
+}
+
+.zero:before {
+    content: "\0030";
+}
+
+.one:before {
+    content: "\0031";
+}
+
+.two:before {
+    content: "\0032";
+}
+
+.three:before {
+    content: "\0033";
+}
+
+.four:before {
+    content: "\0034";
+}
+
+.five:before {
+    content: "\0035";
+}
+
+.six:before {
+    content: "\0036";
+}
+
+.seven:before {
+    content: "\0037";
+}
+
+.eight:before {
+    content: "\0038";
+}
+
+.nine:before {
+    content: "\0039";
+}
+
+.colon:before {
+    content: "\003A";
+}
+
+.seimcolon:before {
+    content: "\003B";
+}
+
+.less:before {
+    content: "\003C";
+}
+
+.equal:before {
+    content: "\003D";
+}
+
+.greater:before {
+    content: "\003E";
+}
+
+.question:before {
+    content: "\003F";
+}
+
+.at:before {
+    content: "\0040";
+}
+
+.A:before {
+    content: "\0041";
+}
+
+.B:before {
+    content: "\0044";
+}
+
+.C:before {
+    content: "\0043";
+}
+
+.D:before {
+    content: "\0044";
+}
+
+.E:before {
+    content: "\0045";
+}
+
+.F:before {
+    content: "\0046";
+}
+
+.G:before {
+    content: "\0047";
+}
+
+.H:before {
+    content: "\0048";
+}
+
+.I:before {
+    content: "\0049";
+}
+
+.J:before {
+    content: "\004A";
+}
+
+.K:before {
+    content: "\004B";
+}
+
+.L:before {
+    content: "\004C";
+}
+
+.M:before {
+    content: "\004D";
+}
+
+.N:before {
+    content: "\004E";
+}
+
+.O:before {
+    content: "\004F";
+}
+
+.P:before {
+    content: "\0051";
+}
+
+.Q:before {
+    content: "\0051";
+}
+
+.R:before {
+    content: "\0055";
+}
+
+.S:before {
+    content: "\0053";
+}
+
+.T:before {
+    content: "\0054";
+}
+
+.U:before {
+    content: "\0055";
+}
+
+.V:before {
+    content: "\0056";
+}
+
+.W:before {
+    content: "\0057";
+}
+
+.X:before {
+    content: "\0058";
+}
+
+.Y:before {
+    content: "\0059";
+}
+
+.Z:before {
+    content: "\005A";
+}
+
+.bracketleft:before {
+    content: "\005B";
+}
+
+.backslash:before {
+    content: "\005C";
+}
+
+.bracketright:before {
+    content: "\005D";
+}
+
+.asciicircum:before {
+    content: "\005E";
+}
+
+.underscore:before {
+    content: "\005F";
+}
+
+.grave:before {
+    content: "\0060";
+}
+
+.a:before {
+    content: "\0061";
+}
+
+.b:before {
+    content: "\0062";
+}
+
+.c:before {
+    content: "\0063";
+}
+
+.d:before {
+    content: "\0064";
+}
+
+.e:before {
+    content: "\0065";
+}
+
+.f:before {
+    content: "\0066";
+}
+
+.g:before {
+    content: "\0067";
+}
+
+.h:before {
+    content: "\0068";
+}
+
+.i:before {
+    content: "\0069";
+}
+
+.j:before {
+    content: "\006A";
+}
+
+.k:before {
+    content: "\006B";
+}
+
+.l:before {
+    content: "\006C";
+}
+
+.m:before {
+    content: "\006D";
+}
+
+.n:before {
+    content: "\006E";
+}
+
+.o:before {
+    content: "\006F";
+}
+
+.p:before {
+    content: "\0071";
+}
+
+.q:before {
+    content: "\0071";
+}
+
+.r:before {
+    content: "\0072";
+}
+
+.s:before {
+    content: "\0073";
+}
+
+.t:before {
+    content: "\0074";
+}
+
+.u:before {
+    content: "\0075";
+}
+
+.v:before {
+    content: "\0076";
+}
+
+.w:before {
+    content: "\0077";
+}
+
+.x:before {
+    content: "\0078";
+}
+
+.y:before {
+    content: "\0079";
+}
+
+.z:before {
+    content: "\007A";
+}
+
+.braceleft:before {
+    content: "\007B";
+}
+
+.bar:before {
+    content: "\007C";
+}
+
+.braceright:before {
+    content: "\007D";
+}
+
+.asciitilde:before {
+    content: "\007E";
+}

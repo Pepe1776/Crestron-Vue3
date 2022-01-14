@@ -1,0 +1,25 @@
+<template id="example_contract.Page1.Page1">
+	<div id="Page1.Page1">
+	 	<div id="Page1.JoinToggle.JoinToggle">
+	 		<ch5-button sendEventOnClick="Page1.JoinToggle.ToggleValue" receiveStateSelected="Page1.JoinToggle.Value">
+        	</ch5-button>
+	 </div>
+	 	<div id="Page1.AnalogValueControl.AnalogValueControl">
+	 		<ch5-slider sendEventOnChange="Page1.AnalogValueControl.SetValue" receiveStateValue="Page1.AnalogValueControl.Value">
+        	</ch5-slider>
+	 		<ch5-button sendEventOnClick="Page1.AnalogValueControl.RampUpValue">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Page1.AnalogValueControl.RampDownValue">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Page1.AnalogValueControl.SetValuePresetValue1">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Page1.AnalogValueControl.SetValuePresetValue2">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Page1.AnalogValueControl.SetValuePresetValue3">
+        	</ch5-button>
+	 </div>
+	 	<div id="Page1.TextInputValue.TextInputValue">
+	 	<ch5-textinput sendEventOnChange="Page1.TextInputValue.SetValue" receiveStateValue="Page1.TextInputValue.Value"> </ch5-textinput>
+	 </div>
+	 </div>
+</template>

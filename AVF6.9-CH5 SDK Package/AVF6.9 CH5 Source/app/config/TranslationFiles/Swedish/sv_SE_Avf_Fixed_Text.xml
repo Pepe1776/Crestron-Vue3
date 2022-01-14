@@ -1,0 +1,1546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang locale="sv_SE" name="Swedish" variant="Swedish">
+	<include file="sv_SE_Common_Text.xml"/>
+	<include file="sv_SE_Scheduling_Calendar.xml"/>
+
+	<lookup key = "CurrentLanguageTranslatedName"><![CDATA[Svenska]]></lookup> <!-- This is the name of the language being translated as it exists natively -->
+
+	<lookup key="AvFramework"><![CDATA[AvFramework]]></lookup>
+	<lookup key="signin"><![CDATA[Logga in]]></lookup>
+
+	<!-- 000_Initialize  -->
+	<lookup key="InitializeMessageText"><![CDATA[Vänligen vänta på att systemet initieras ...]]></lookup>
+
+	<!-- 002_Home_Available -->
+	<lookup key="ReserveNowButtonText"><![CDATA[RESERVERA NU]]></lookup>
+
+	<!-- 002_Home_Available_All_Day -->
+	<lookup key="RestOfDayText"><![CDATA[För resten av dagen]]></lookup>
+
+	<!-- 002_Home_Available_Reserve -->
+	<lookup key="NewMeetingText"><![CDATA[Nytt möte]]></lookup>
+
+	<!-- 002_Home_Fusion_Offline -->
+
+	<!-- 002_Home_Meeting_InProgress -->
+
+	<!-- 002_Home_Meeting_InProgress_Join -->
+	<lookup key="MeetingInProgressText"><![CDATA[Pågående]]></lookup>
+	<lookup key="JoinMeetingButtonText"><![CDATA[GÅ MED I MÖTE]]></lookup>
+
+	<!-- 003_Call_Selection -->
+	<lookup key="MakeCallText"><![CDATA[Gör ett samtal]]></lookup>
+
+	<!-- 003_Call_Video_Directory -->
+
+	<!-- 003_Call_Video_InCall -->
+	<lookup key="VideoCallText"><![CDATA[I ett videosamtal]]></lookup>
+	<lookup key="VideoCallDisableVideoText"><![CDATA[Inaktivera video]]></lookup>
+
+	<!-- 004_Call_Audio_Keypad, KeypadButton is in Common_Text.xml-->
+
+	<!-- 004_Call_Audio_Keypad_DTMF, KeypadButton is in Common_Text.xml-->
+
+	<!-- 004_Call_Audio_inCall -->
+	<lookup key="AudioCallText"><![CDATA[I ett ljudsamtal]]></lookup>
+
+	<!-- 0096_Outgoing_Audio_Call, in Common_Text.xml -->
+
+	<!-- 0097_Incoming_In_Call_Audio_Call -->
+	<lookup key="IncomingCallText"><![CDATA[Inkommande]]></lookup>
+	<lookup key="IncomingInCallAnswerText"><![CDATA[Avsluta pågående + Svara]]></lookup>
+	<lookup key="IncomingInCallIgnoreText"><![CDATA[Ignorera]]></lookup>
+
+	<!-- 0098_Incoming_Audio_Call -->
+	<lookup key="IncomingCallAnswerText"><![CDATA[Svara]]></lookup>
+	<lookup key="IncomingCallDismissText"><![CDATA[AVBRYT]]></lookup>
+
+	<!-- 005_Present_Selection -->
+	<lookup key="PresentSourceSelectText"><![CDATA[Vänligen välj en källa för att presentera]]></lookup>
+
+	<!-- 005_Present_BluRay_Playhead -->
+	<lookup key="PresentBlurayPopUpMenuText"><![CDATA[Pop-up-meny]]></lookup>
+	<lookup key="PresentBlurayTopMenuText"><![CDATA[Toppmeny]]></lookup>
+	<lookup key="PresentBlurayEjectText"><![CDATA[MATA UT]]></lookup>
+	<lookup key="PresentSourcesText"><![CDATA[KÄLLOR]]></lookup>
+	<lookup key="PresentNowPresentText"><![CDATA[Presenterar nu]]></lookup>
+	<lookup key="PresentStopPresentingText"><![CDATA[Sluta presentera]]></lookup>
+	<lookup key="PresentSmartTVText"><![CDATA[Smart-TV]]></lookup>
+
+	<!-- 005_Present_BluRay_Keypad -->
+
+	<!-- 005_Present_Laptop -->
+	<lookup key="PresentPlayingSourceText"><![CDATA[spelar upp källa via]]></lookup>
+
+	<!-- 005_Present_Laptop_NoSource -->
+	<lookup key="PresentLaptopNoSourceText"><![CDATA[Anslut din laptop]]></lookup>
+	<lookup key="PresentLaptopNoSourceConnectText"><![CDATA[Anslut din laptop till]]></lookup>
+
+	<!-- 005_Present_PC -->
+
+	<!-- 005_Present_TV_Playhead -->
+	<lookup key="PresentTVTunerText"><![CDATA[TV-tuner]]></lookup>
+	<lookup key="PresentGuideText"><![CDATA[Guide]]></lookup>
+
+	<!-- 005_Present_TV_Keypad -->
+
+	<!-- 005_Present_Wireless -->
+	<lookup key="PresentWirelessSourceText"><![CDATA[Laptop]]></lookup>
+
+	<!-- 0094_Mic_Mute_Privacy -->
+	<lookup key="MicMuteText"><![CDATA[Mikrofon avstängd för sekretess]]></lookup>
+
+	<!-- 0095_Lighting_Popup -->
+	<lookup key="LightingAdjustText"><![CDATA[Justera nuvarande]]></lookup>
+
+	<!-- All power off -->
+	<lookup key="AllPowerOff"><![CDATA[Alla skärmar kommer att slås av och ljudet tystas.]]></lookup>
+	<lookup key="PowerOffCountDown"><![CDATA[Systemet kommer att slås av automatiskt vid:]]></lookup>
+	<lookup key="PowerOffShutdown"><![CDATA[Stäng av]]></lookup>
+	<lookup key="PowerOffContinue"><![CDATA[Fortsätt att använda]]></lookup>
+	<lookup key="PowerOffShutingDown"><![CDATA[Stänger av]]></lookup>
+
+	<!-- MainTemplate.html -->
+	<lookup key="AvFramework20"><![CDATA[AV Framework 2.0]]></lookup>
+
+	<!-- MainTemplate.html (01/28/2016 )-->
+	<lookup key="ToggleNavigation"><![CDATA[Omkopplingsnavigering]]></lookup>
+
+	<!-- login.html -->
+	<lookup key="Username"><![CDATA[Användarnamn]]></lookup>
+	<lookup key="PleaseSignIn"><![CDATA[Vänligen logga in]]></lookup>
+	<lookup key="Password"><![CDATA[Lösenord]]></lookup>
+	<lookup key="Required"><![CDATA[Krävs]]></lookup>
+
+	<!--AddNewDevice.html -->
+
+	<lookup key="AddNewDevice"><![CDATA[Lägg till en ny enhet]]></lookup>
+	<lookup key="DeviceType"><![CDATA[Enhetstyp]]></lookup>
+	<lookup key="ChannelName"><![CDATA[Kanalnamn]]></lookup>
+	<lookup key="DisplayName"><![CDATA[Visningsnamn]]></lookup>
+	<lookup key="Model"><![CDATA[Modell]]></lookup>
+	<lookup key="Control"><![CDATA[Kontroll]]></lookup>
+	<lookup key="IP"><![CDATA[IP]]></lookup>
+	<lookup key="Port"><![CDATA[Port]]></lookup>
+	<lookup key="Channel"><![CDATA[Kanal]]></lookup>
+	<lookup key="IPID"><![CDATA[IPID]]></lookup>
+	<lookup key="DigitalMedia"><![CDATA[Digitala medier]]></lookup>
+	<lookup key="Resolution"><![CDATA[Upplösning]]></lookup>
+	<lookup key="DisplayMode"><![CDATA[Visningsläge]]></lookup>
+	<lookup key="UsbPort"><![CDATA[USB-port]]></lookup>
+	<lookup key="One"><![CDATA[1]]></lookup>
+	<lookup key="Two"><![CDATA[2]]></lookup>
+	<lookup key="Three"><![CDATA[3]]></lookup>
+	<lookup key="Four"><![CDATA[4]]></lookup>
+	<lookup key="BaudRate"><![CDATA[Baudhastighet]]></lookup>
+	<lookup key="IpIdValidationMessage"><![CDATA[IPID krävt format(03-FE)]]></lookup>
+	<lookup key="IpValidationMessage"><![CDATA[Krävt IP-adressformat(#.#.#.#).]]></lookup>
+	<lookup key="PortValidationMessage"><![CDATA[Krävt portformat(1-65535).]]></lookup>
+
+	<!--ConfigStep1.html-->
+
+	<lookup key="SystemSetup"><![CDATA[Systeminställningar]]></lookup>
+	<lookup key="RoomName"><![CDATA[Rumsnamn]]></lookup>
+	<lookup key="FusionIpId"><![CDATA[IPID]]></lookup>
+	<lookup key="AllowCalls"><![CDATA[Tillåt samtal]]></lookup>
+	<lookup key="EnableLighting"><![CDATA[Aktivera belysning]]></lookup>
+	<lookup key="TimeFormat"><![CDATA[Tidsformat]]></lookup>
+	<lookup key="24Hour"><![CDATA[24 timmar]]></lookup>
+	<lookup key="12hour"><![CDATA[12 timmar]]></lookup>
+	<lookup key="DateFormat"><![CDATA[Datumformat]]></lookup>
+
+	<!--ConfigStep2.html-->
+
+	<lookup key="Devices"><![CDATA[Enheter]]></lookup>
+	<lookup key="Name"><![CDATA[Namn]]></lookup>
+	<lookup key="Type"><![CDATA[Typ]]></lookup>
+	<lookup key="Driver"><![CDATA[Drivrutin]]></lookup>
+	<lookup key="TransportDetails"><![CDATA[Transportuppgifter]]></lookup>
+	<lookup key="Serial"><![CDATA[Seriell]]></lookup>
+	<lookup key="Delete"><![CDATA[Radera]]></lookup>
+	<lookup key="Previous"><![CDATA[Föregående]]></lookup>
+
+	<!--ConfigStep3.html-->
+	<lookup key="Inputs"><![CDATA[Ingångar]]></lookup>
+	<lookup key="Icon"><![CDATA[Ikon]]></lookup>
+	<lookup key="Enabled"><![CDATA[Aktiverad]]></lookup>
+	<lookup key="Rank"><![CDATA[Rang]]></lookup>
+	<lookup key="Device"><![CDATA[Enhet]]></lookup>
+	<lookup key="Endpoint"><![CDATA[Slutpunkt]]></lookup>
+	<lookup key="Outputs"><![CDATA[Utgångar]]></lookup>
+
+	<!-- ConfigStep4.html (01/28/2016 ) -->
+	<lookup key="DownloadConfiguration"><![CDATA[Ladda ner konfiguration]]></lookup>
+	<lookup key="UploadConfiguration"><![CDATA[Ladda upp konfiguration]]></lookup>
+	<lookup key="ActivateConfiguration"><![CDATA[Aktivera konfiguration]]></lookup>
+	<lookup key="RevertConfiguration"><![CDATA[Återställ konfiguration]]></lookup>
+
+	<!--Index.html-->
+	<lookup key="Welcome"><![CDATA[Välkommen till AV Framework 2.0]]></lookup>
+
+	<!--RoomStatus.html-->
+	<lookup key="EthernetInformation"><![CDATA[Ethernetinformation]]></lookup>
+	<lookup key="InputChannels"><![CDATA[Ingångskanaler]]></lookup>
+	<lookup key="AttachedDevice"><![CDATA[Tillagd enhet]]></lookup>
+	<lookup key="OutputChannels"><![CDATA[Utgångskanaler]]></lookup>
+	<lookup key="HostName"><![CDATA[Värdnamn]]></lookup>
+	<lookup key="DefaultRouter"><![CDATA[Standardrouter]]></lookup>
+	<lookup key="SubnetMask"><![CDATA[Subnätmask:]]></lookup>
+
+	<!--JavaScript-->
+	<lookup key="Error"><![CDATA[Fel]]></lookup>
+	<lookup key="Notice"><![CDATA[Varning]]></lookup>
+	<lookup key="SaveProblemWarning"><![CDATA[Det verkar vara ett problem med att spara.]]></lookup>
+	<lookup key="MaxDeviceWarning"><![CDATA[Systemet har redan maximalt antal ({0}) av denna enhet.]]></lookup>
+	<lookup key="SpecifyDeviceWarning"><![CDATA[Vänligen specificera en enhetstyp först]]></lookup>
+	<lookup key="UnSavedChangesWarning"><![CDATA[Du har ändringar som inte sparats.]]></lookup>
+	<lookup key="InvalidLogin"><![CDATA[Ogiltigt användarnamn/lösenord.]]></lookup>
+	<lookup key="UnControlledNotConfigurable"><![CDATA[Icke-kontrollerad/Avaktiverade enheter kan inte konfigureras.]]></lookup>
+
+	<!--JavaScript (01/28/2016 ) -->
+	<lookup key="Warning"><![CDATA[Varning]]></lookup>
+	<lookup key="DeleteDeviceWarning"><![CDATA[Är du säker på att du vill ta bort denna enhet?]]></lookup>
+	<lookup key="ActivateConfigWarning"><![CDATA[Är du säker på att du vill Aktivera denna konfiguration?]]></lookup>
+	<lookup key="RevertConfigWarning"><![CDATA[Är du säker på att du vill återställa denna konfiguration?]]></lookup>
+	<lookup key="AlreadyInUse"><![CDATA[{0} används redan.]]></lookup>
+	<lookup key="FileLargeError"><![CDATA[Denna fil är för stor.]]></lookup>
+	<lookup key="IncorrectFileExtensionError"><![CDATA[Inkorrekt filtyp.]]></lookup>
+	<lookup key="Success"><![CDATA[Lyckades]]></lookup>
+	<lookup key="CofigurationUpdated"><![CDATA[Konfigurationen uppdaterad.]]></lookup>
+
+	<!-- Web Menu System-->
+	<lookup key="SignOff"><![CDATA[Logga ut]]></lookup>
+	<lookup key="Configure"><![CDATA[Konfigurera]]></lookup>
+	<!-- Web Menu System (01/28/2016 ) -->
+	<lookup key="Switch"><![CDATA[Växla]]></lookup>
+	<lookup key="System"><![CDATA[System]]></lookup>
+
+	<!-- 01/19/2016, enums for web page -->
+	<!-- AssociatedDevice -->
+	<lookup key="AssociatedInputDevice.Disabled"><![CDATA[Inaktiverad]]></lookup>
+	<lookup key="AssociatedInputDevice.UnControlled"><![CDATA[Icke-kontrollerad]]></lookup>
+	<lookup key="AssociatedInputDevice.Bluray"><![CDATA[Blu-ray]]></lookup>
+	<lookup key="AssociatedInputDevice.Cable"><![CDATA[Sladd]]></lookup>
+	<lookup key="AssociatedInputDevice.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="AssociatedOutputDevice.Disabled"><![CDATA[Inaktiverad]]></lookup>
+	<lookup key="AssociatedOutputDevice.UnControlled"><![CDATA[Icke-kontrollerad]]></lookup>
+	<lookup key="AssociatedInputDevice.ConnectIt"><![CDATA[ConnectIt]]></lookup>
+
+	<!-- ComBaudRate -->
+	<lookup key="ComBaudRate.ComspecBaudRate57600"><![CDATA[57600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate38400"><![CDATA[38400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate28800"><![CDATA[28800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate19200"><![CDATA[19200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate14400"><![CDATA[14400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate9600"><![CDATA[9600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate7200"><![CDATA[7200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate4800"><![CDATA[4800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate3600"><![CDATA[3600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate2400"><![CDATA[2400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate1800"><![CDATA[1800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate1200"><![CDATA[1200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate600"><![CDATA[600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate300"><![CDATA[300]]></lookup>
+
+	<!-- DateFormat -->
+	<lookup key="DateFormat.Mmddyy"><![CDATA[januari 15, 2017]]></lookup>
+	<lookup key="DateFormat.Ddmmyy"><![CDATA[15 januari 2017]]></lookup>
+	<lookup key="DateFormat.Yymmdd"><![CDATA[2017 januari 15]]></lookup>
+
+	<!-- DeviceOnlineStatus -->
+	<lookup key="DeviceOnlineStatus.Unknown"><![CDATA[Ej tillämpligt]]></lookup>
+	<lookup key="DeviceOnlineStatus.Online"><![CDATA[Online]]></lookup>
+	<lookup key="DeviceOnlineStatus.Offline"><![CDATA[Offline]]></lookup>
+
+	<!-- DeviceType -->
+	<lookup key="DeviceType.Switcher"><![CDATA[Omkopplare]]></lookup>
+	<lookup key="DeviceType.CableTv"><![CDATA[Kabel-TV]]></lookup>
+	<lookup key="DeviceType.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="DeviceType.ButtonPanel"><![CDATA[Knappanel]]></lookup>
+	<lookup key="DeviceType.Keypad"><![CDATA[Knappsats]]></lookup>
+	<lookup key="DeviceType.KeyPadUsb"><![CDATA[USB knappsats]]></lookup>
+
+	<!-- DisplayMode -->
+	<lookup key="DisplayMode.Maintain"><![CDATA[Fortsätt]]></lookup>
+	<lookup key="DisplayMode.Stretch"><![CDATA[Sträcka]]></lookup>
+	<lookup key="DisplayMode.Zoom"><![CDATA[Zoom]]></lookup>
+	<lookup key="DisplayMode.None"><![CDATA[Ingen]]></lookup>
+
+	<!-- PortType -->
+	<lookup key="PortType.Ir"><![CDATA[IR]]></lookup>
+	<lookup key="PortType.Serial"><![CDATA[Seriell]]></lookup>
+	<lookup key="PortType.Cec"><![CDATA[CEC]]></lookup>
+
+	<!-- Resolution -->
+	<lookup key="Resolution.EDIDPreferred"><![CDATA[EDID föredras]]></lookup>
+	<lookup key="Resolution.None"><![CDATA[Ingen]]></lookup>
+	<lookup key="Resolution.Res640x480PC"><![CDATA[Res640x480 PC]]></lookup>
+	<lookup key="Resolution.Res720x480pNTSC"><![CDATA[Res720x480p NTSC]]></lookup>
+	<lookup key="Resolution.Res720x576iPAL"><![CDATA[Res720x576i PAL]]></lookup>
+	<lookup key="Resolution.Res720x576pPAL"><![CDATA[Res720x576p PAL]]></lookup>
+	<lookup key="Resolution.Res800x600PC"><![CDATA[Res800x600 PC]]></lookup>
+	<lookup key="Resolution.Res848x480PC"><![CDATA[Res848x480 PC]]></lookup>
+	<lookup key="Resolution.Res1024x768PC"><![CDATA[Res1024x768 PC]]></lookup>
+	<lookup key="Resolution.Res1280x720pPAL"><![CDATA[Res1280x720p PAL]]></lookup>
+	<lookup key="Resolution.Res1280x720pNTSC"><![CDATA[Res1280x720p NTSC]]></lookup>
+	<lookup key="Resolution.Res1280x768PC"><![CDATA[Res1280x768 PC]]></lookup>
+	<lookup key="Resolution.Res1280x768PCRb"><![CDATA[Res1280x768 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1280x800PC"><![CDATA[Res1280x800 PC]]></lookup>
+	<lookup key="Resolution.Res1280x800PCRb"><![CDATA[Res1280x800 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1280x960PC"><![CDATA[Res1280x960 PC]]></lookup>
+	<lookup key="Resolution.Res1280x1024PC"><![CDATA[Res1280x1024 PC]]></lookup>
+	<lookup key="Resolution.Res1360x768PC"><![CDATA[Res1360x768 PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PC"><![CDATA[Res1366x768 PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PCRb"><![CDATA[Res1366x768 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1400x1050PC"><![CDATA[Res1400x1050 PC]]></lookup>
+	<lookup key="Resolution.Res1400x1050PCRb"><![CDATA[Res1400x1050 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1440x900PC"><![CDATA[Res1440x900 PC]]></lookup>
+	<lookup key="Resolution.Res1440x900PCRb"><![CDATA[Res1440x900 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1600x900PCRb"><![CDATA[Res1600x900 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1600x1200PC"><![CDATA[Res1600x1200 PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PC"><![CDATA[Res1680x1050 PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PCRb"><![CDATA[Res1680x1050 PC Rb]]></lookup>
+	<lookup key="Resolution.Res1920x1080iPAL"><![CDATA[Res1920x1080i PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080iNTSC"><![CDATA[Res1920x1080i NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080pPAL"><![CDATA[Res1920x1080p PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080pNTSC"><![CDATA[Res1920x1080p NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1200PCRb"><![CDATA[Res1920x1200 PC Rb]]></lookup>
+	<lookup key="Resolution.Res2048x1152PCRb"><![CDATA[Res2048x1152 PC Rb]]></lookup>
+
+	<!-- SystemRole -->
+	<lookup key="SystemRole.Admin"><![CDATA[Admin]]></lookup>
+	<lookup key="SystemRole.DriverUpdate"><![CDATA[DriverUpdate]]></lookup>
+	<lookup key="SystemRole.User"><![CDATA[Användare]]></lookup>
+	<lookup key="SystemRole.UnAuthorized"><![CDATA[Icke-auktoriserad]]></lookup>
+
+	<!-- SystemState -->
+	<lookup key="SystemState.UnKnown"><![CDATA[Okänd]]></lookup>
+	<lookup key="SystemState.UnConfigured"><![CDATA[Icke-konfigurerad]]></lookup>
+	<lookup key="SystemState.Configuring"><![CDATA[Konfigurerar]]></lookup>
+	<lookup key="SystemState.Configured"><![CDATA[Konfigurerad]]></lookup>
+
+	<!-- DeviceTransport -->
+	<lookup key="DeviceTransport.None"><![CDATA[Ingen]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpId"><![CDATA[IPID]]></lookup>
+	<lookup key="DeviceTransport.CrestronInternal"><![CDATA[CrestronInternal]]></lookup>
+	<lookup key="DeviceTransport.CrestronIp"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronUsb"><![CDATA[USB]]></lookup>
+	<lookup key="DeviceTransport.IpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Ip"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpPortChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Serial"><![CDATA[Seriell]]></lookup>
+	<lookup key="DeviceTransport.SerialBaud"><![CDATA[Seriell]]></lookup>
+	<lookup key="DeviceTransport.SerialChannel"><![CDATA[Seriell]]></lookup>
+	<lookup key="DeviceTransport.Ir"><![CDATA[IR]]></lookup>
+	<lookup key="DeviceTransport.Cec"><![CDATA[CEC]]></lookup>
+	<lookup key="DeviceTransport.HDMI"><![CDATA[HDMI]]></lookup>
+
+	<!-- ChannelType -->
+	<lookup key="ChannelType.Undefined"><![CDATA[Icke-definierad]]></lookup>
+	<lookup key="ChannelType.Hdmi"><![CDATA[HDMI]]></lookup>
+	<lookup key="ChannelType.HdmiVga"><![CDATA[HDMI VGA]]></lookup>
+	<lookup key="ChannelType.HdmiVgaBnc"><![CDATA[HDMI VGA BNC]]></lookup>
+	<lookup key="ChannelType.Vga"><![CDATA[VGA]]></lookup>
+	<lookup key="ChannelType.Dvi"><![CDATA[DVI]]></lookup>
+	<lookup key="ChannelType.DM"><![CDATA[DM]]></lookup>
+	<lookup key="ChannelType.DmHdmi"><![CDATA[DM HDMI]]></lookup>
+	<lookup key="ChannelType.SingleModeFiber"><![CDATA[Enkelläge fiber]]></lookup>
+	<lookup key="ChannelType.Fiber"><![CDATA[Fiber]]></lookup>
+	<lookup key="ChannelType.Audio"><![CDATA[Ljud]]></lookup>
+	<lookup key="ChannelType.Sip"><![CDATA[SIP]]></lookup>
+	<lookup key="ChannelType.Composite"><![CDATA[Sammansatt]]></lookup>
+	<lookup key="ChannelType.DisplayPort"><![CDATA[Visningsport]]></lookup>
+
+	<!-- 02/11/2016 -->
+
+	<!-- Web Logger : new added  -->
+	<lookup key="NoFilter"><![CDATA[Inget filter]]></lookup>
+	<lookup key="Info"><![CDATA[Info]]></lookup>
+	<lookup key="Debug"><![CDATA[Avbuggning]]></lookup>
+	<lookup key="FilterExpression"><![CDATA[Filtrera uttryck]]></lookup>
+	<lookup key="StopScrolling"><![CDATA[Sluta skrolla]]></lookup>
+	<lookup key="Scrolling"><![CDATA[Skrollar]]></lookup>
+	<lookup key="Download"><![CDATA[Ladda ner]]></lookup>
+
+	<lookup key="ClearSearchMessage"><![CDATA[Rensa för att fortsätta]]></lookup>
+	<lookup key="Search"><![CDATA[Sökning]]></lookup>
+	<lookup key="SearchLog"><![CDATA[Söklogg]]></lookup>
+	<lookup key="Clear"><![CDATA[Rensa]]></lookup>
+
+	<!-- 02/29/2016 -->
+
+	<!-- ComBaudRate -->
+	<lookup key="ComBaudRate.ComspecBaudRate115200"><![CDATA[115200]]></lookup>
+
+	<!-- AddNewDevice.html -->
+	<lookup key="UseSensorTimeout"><![CDATA[Använd sensor tidsgräns]]></lookup>
+	<lookup key="SensorTimeOutMinutes"><![CDATA[Tidsgräns minuter]]></lookup>
+	<lookup key="TurnSystemOn"><![CDATA[Starta system]]></lookup>
+	<lookup key="TurnSystemOff"><![CDATA[Stäng av system]]></lookup>
+	<lookup key="RouteDefaultVideo"><![CDATA[Route Standard Video]]></lookup>
+	<lookup key="PowerOnCommandLabel"><![CDATA[Ström på kommando]]></lookup>
+	<lookup key="PowerOffCommandLabel"><![CDATA[Ström av kommando]]></lookup>
+	<lookup key="SetSourceCommandLabel"><![CDATA[Ställ in källa kommando]]></lookup>
+	<lookup key="PowerOnDelaySecondsLabel"><![CDATA[Ström på fördröjning sekunder]]></lookup>
+	<lookup key="Seconds"><![CDATA[Sekunder]]></lookup>
+
+	<!-- RelaySettings.html -->
+	<lookup key="RelayBehavior"><![CDATA[Beteende för relä]]></lookup>
+
+	<!-- JavascriptConts -->
+	<lookup key="Disable"><![CDATA[Inaktivera]]></lookup>
+	<lookup key="Enable"><![CDATA[Aktivera]]></lookup>
+
+	<!-- Custom Serial Web AddNewDevice -->
+	<lookup key="CustomSerialNote"><![CDATA[Obs: Använd \n för ny rad \r för radretur.]]></lookup>
+	<lookup key="ValidTimeoutWarning"><![CDATA[Vänligen ange en giltig tidsgräns.]]></lookup>
+
+	<!-- ConfigStep1.html -->
+	<lookup key="Fusion"><![CDATA[Crestron Fusion]]></lookup>
+	<lookup key="Dialer"><![CDATA[Uppringare]]></lookup>
+	<lookup key="Relay"><![CDATA[Relä]]></lookup>
+	<lookup key="Lighting"><![CDATA[Belysning]]></lookup>
+
+	<!-- ConfigStep3.html  -->
+	<lookup key="SwitchChannelState.EnabledDefault"><![CDATA[Ja (Standard)]]></lookup>
+
+	<!-- ConfigStep4.html  -->
+	<lookup key="ManageConfiguration"><![CDATA[Hantera konfiguration]]></lookup>
+	<lookup key="BackupRestore"><![CDATA[Säkerhetskopiering/återställning]]></lookup>
+
+	<!-- DialerSettings.html -->
+	<lookup key="SpeedKeys"><![CDATA[Snabbtangenter]]></lookup>
+	<lookup key="SpeedKey"><![CDATA[Snabbtangent]]></lookup>
+	<lookup key="Number"><![CDATA[Nummer]]></lookup>
+	<lookup key="OneTouch"><![CDATA[En rörelse]]></lookup>
+	<lookup key="Regex"><![CDATA[Regex]]></lookup>
+	<lookup key="EnabledSpeekKeyWarning"><![CDATA[Aktiverade snabbtangenter kräver namn och nummer.]]></lookup>
+	<lookup key="PhoneNumberWarning"><![CDATA[Ange ett giltigt telefonnummer.]]></lookup>
+
+	<!--FusionSettings.html  -->
+	<lookup key="RoomNameRequired"><![CDATA[Rumsnamn krävs]]></lookup>
+
+	<!--LightingSettings.html -->
+	<lookup key="LightingPresets"><![CDATA[Förinställd belysning]]></lookup>
+	<lookup key="EnabledPresetsWarning"><![CDATA[Aktiverade förinställningar kräver namn.]]></lookup>
+
+	<!-- 03/09/2016 -->
+	<!-- ChannelType : add 2 more Enum -->
+	<lookup key="ChannelType.Aec"><![CDATA[Aec]]></lookup>
+	<lookup key="ChannelType.Codec"><![CDATA[Codec]]></lookup>
+
+	<!--EditDevice.html -->
+	<lookup key="EditDevice"><![CDATA[Redigera enhet]]></lookup>
+	<lookup key="UpdatePendingCountdown"><![CDATA[Dina ändringar kommer appliceras om {0} sekund(er).]]></lookup>
+
+	<!-- JavascriptConts 03/14/2016 -->
+	<lookup key="DeleteDevicePortWarning"><![CDATA[Följande enhet(er)<br> {0} <br> är konfigurerade att använda denna, fortsätt?]]></lookup>
+
+	<!--AddNewDevice.html 03/16/2016-->
+	<lookup key="CrestnetId"><![CDATA[Cresnet ID]]></lookup>
+	<lookup key="CrestnetIdValidationMessage"><![CDATA[Cresnet ID krävt format(03-FE).]]></lookup>
+
+	<!--RoomStatus.html 03/16/2016-->
+	<lookup key="Equipment"><![CDATA[Utrustning]]></lookup>
+
+	<!-- DeviceTransport 03/21/2016 -->
+	<lookup key="DeviceTransport.CrestronCrestnet"><![CDATA[Cresnet]]></lookup>
+	<lookup key="DeviceTransport.SerialBaudCustom"><![CDATA[SerialBaudCustom]]></lookup>
+
+	<!-- RelaySettings.html 03/21/2016 -->
+	<lookup key="RelayBehavior.Momentary"><![CDATA[Momentan]]></lookup>
+	<lookup key="RelayBehavior.Latching"><![CDATA[Låsning]]></lookup>
+
+	<!-- ConfigStep3.html 03/21/2016 -->
+	<lookup key="SwitchChannelState.Disabled"><![CDATA[Inaktiverad]]></lookup>
+	<lookup key="SwitchChannelState.Enabled"><![CDATA[Aktiverad]]></lookup>
+
+	<!--AddNewDevice.html 03/21/2016-->
+	<lookup key="DelayValidationMessage"><![CDATA[Fördröjning krävt format(0-255).]]></lookup>
+
+	<!-- JavascriptConts 03/21/2016 -->
+	<lookup key="ServerCommunicationError"><![CDATA[Det uppstod ett fel vid kommunikation med enheten.]]></lookup>
+	<lookup key="ServerUpdateMessage"><![CDATA[Servern uppdateras, vänligen vänta.]]></lookup>
+
+	<!-- 8/26/2016 -->
+	<lookup key="AvailableForLabel"><![CDATA[TILLGÄNGLIG FÖR KOMMANDE]]></lookup>
+	<lookup key="AvailableAllLabel"><![CDATA[TILLGÄNGLIG UNDER RESTEN AV DAGEN]]></lookup>
+	<lookup key="ReserveLabel"><![CDATA[RESERVERAD FÖR KOMMANDE]]></lookup>
+	<lookup key="HourLabel"><![CDATA[TIMMAR]]></lookup>
+	<lookup key="MinLabel"><![CDATA[MINUTER]]></lookup>
+	<lookup key="NextUpLabel"><![CDATA[NÄSTA]]></lookup>
+	<lookup key="PopupMinLeft"><![CDATA[MIN Kvar | NÄSTA:]]></lookup>
+	<lookup key="WirelessLabel"><![CDATA[Trådlös presentation]]></lookup>
+	<lookup key="VisitLabel"><![CDATA[Besök:]]></lookup>
+	<lookup key="CodeLabel"><![CDATA[Kod:]]></lookup>
+	<lookup key="CableLabel"><![CDATA[Trådbunden presentation]]></lookup>
+	<lookup key="UseCableLabel"><![CDATA[Anslut med medföljande kablar:]]></lookup>
+
+	<!-- MainTemplate.html 3/25/16 -->
+	<lookup key="ConfiguredMessageOffline"><![CDATA[Systemet är offline för närvarande, aktivera eller återställ konfigurering.]]></lookup>
+	<lookup key="ConfiguredMessageOfflineShort"><![CDATA[Systemet är offline.]]></lookup>
+	<lookup key="ConfiguredMessageOnline"><![CDATA[Systemet är online.]]></lookup>
+	<lookup key="ConfiguredMessage"><![CDATA[Systemet är konfigurerat.]]></lookup>
+	<lookup key="ConfiguredMessageClass"><![CDATA[Systemet är konfigurerat.]]></lookup>
+
+	<!-- SystemWideSaveWarning 3/25/16 -->
+	<lookup key="SystemWideSaveWarning"><![CDATA[Alla sparade ändringar kommer att placera systemet offline. Du/användaren måste aktivera den nya konfigurationen för att systemet ska gå online. Klicka på OK för att fortsätta.]]></lookup>
+
+	<lookup key="PortUnconfigured"><![CDATA[Port ej konfigurerad]]></lookup>
+	<lookup key="Version"><![CDATA[Version]]></lookup>
+	<lookup key="None"><![CDATA[Ingen]]></lookup>
+
+	<lookup key="AssociatedChannel"><![CDATA[Tillhörande kanal]]></lookup>
+	<lookup key="PrimaryAssociatedChannel"><![CDATA[Standardkälla]]></lookup>
+	<lookup key="SecondaryAssociatedChannel"><![CDATA[Sekundär källa]]></lookup>
+	<lookup key="SecondaryInputChannelNumber"><![CDATA[Sekundär kanal]]></lookup>
+	<lookup key="IPAddress"><![CDATA[IP-adress]]></lookup>
+
+	<!-- 05/02/2016  -->
+	<lookup key="PortType.Usb"><![CDATA[USB]]></lookup>
+
+	<!-- 08/15/2016 -->
+	<lookup key="DialerType.Sip"><![CDATA[Ljud]]></lookup>
+	<lookup key="DialerType.Bluetooth"><![CDATA[Bluetooth]]></lookup>
+	<lookup key="DialerType.Usb"><![CDATA[USB]]></lookup>
+	<lookup key="DialerType.Video"><![CDATA[Video]]></lookup>
+
+	<!--MercurySystemSettings.html 08/31/2016-->
+	<lookup key="SystemSettings"><![CDATA[Systeminställningar]]></lookup>
+	<lookup key="ValidValueMessage"><![CDATA[Ange ett värde.]]></lookup>
+
+	<!--MercuryFusionSettings.html 08/31/2016-->
+
+	<!-- MercuryDialerSettings.html 08/31/2016-->
+	<lookup key="General"><![CDATA[Allmänt]]></lookup>
+	<lookup key="EnableBluetooth"><![CDATA[Aktivera Bluetooth]]></lookup>
+	<lookup key="EnableUSB"><![CDATA[Aktivera USB]]></lookup>
+
+	<!-- MercuryDisplayDriver.html 08/31/2016-->
+	<lookup key="VideoDisplaySettings"><![CDATA[Visningsinställningar för video]]></lookup>
+
+	<!-- MercuryUXGeneralCustomization.html 08/31/2016-->
+	<lookup key="UXGeneralCustomization"><![CDATA[Allmän anpassning av UX]]></lookup>
+	<lookup key="HideMeetingSubject"><![CDATA[Dölj mötesämne]]></lookup>
+	<lookup key="HideMeetingOrganizer"><![CDATA[Dölj mötesplanerare]]></lookup>
+	<lookup key="DisplayNonEmergencyBroadcast"><![CDATA[Visa icke-akut sändning]]></lookup>
+	<lookup key="EmergencyBroadcastSound"><![CDATA[Nödsändningsljud]]></lookup>
+	<lookup key="EnableCallNotification"><![CDATA[Aktivera samtalsmeddelande]]></lookup>
+	<lookup key="SuppressOfflineNotificationPeriod"><![CDATA[Undertryck offlinemeddelandeperiod]]></lookup>
+	<lookup key="NotificationPeriod"><![CDATA[Meddelandeperiod]]></lookup>
+	<lookup key="CallNotificationTimeout"><![CDATA[Timeout för samtalsmeddelande]]></lookup>
+
+	<!-- PresentationScreenCustomization.html 08/31/2016-->
+	<lookup key="PresentationScreenCustomization"><![CDATA[Anpassning av presentationsskärm]]></lookup>
+	<lookup key="TimeRemainingMessageStarts"><![CDATA[Meddelande för återstående tid startar]]></lookup>
+	<lookup key="TimeRemainingMessageDuration"><![CDATA[Varaktighet för meddelande för återstående tid]]></lookup>
+
+	<!-- RoomScheduleScreenCustomization.html 08/31/2016-->
+	<lookup key="RoomScheduleScreenCustomization"><![CDATA[Anpassning av schemaskärm för rum]]></lookup>
+	<lookup key="NextMeetingInformationShown"><![CDATA[Information om nästa möte visas]]></lookup>
+	<lookup key="MinutesBeforeMeetingStart"><![CDATA[Minuter före mötet startar]]></lookup>
+	<lookup key="HideWiredCableConnection"><![CDATA[Dölj fast kabelanslutning]]></lookup>
+	<lookup key="CableConnectionDetails"><![CDATA[Kabelanslutningsinformation]]></lookup>
+	<lookup key="EnableCustomLogoGraphic"><![CDATA[Aktiver anpassad logotypgrafik]]></lookup>
+	<lookup key="CustomLogoGraphicUrl"><![CDATA[Anpassad logotypgrafik URL]]></lookup>
+	<lookup key="EnableCustomBackgrounds"><![CDATA[Aktivera anpassade bakgrunder]]></lookup>
+	<lookup key="AddCustomBackgroundUrl"><![CDATA[Lägg till URL för anpassad bakgrund]]></lookup>
+	<lookup key="BackgroundUrl1"><![CDATA[Bakgrund URL 1]]></lookup>
+	<lookup key="BackgroundUrl2"><![CDATA[Bakgrund URL 2]]></lookup>
+	<lookup key="BackgroundUrl3"><![CDATA[Bakgrund URL 3]]></lookup>
+	<lookup key="BackgroundUrl4"><![CDATA[Bakgrund URL 4]]></lookup>
+	<lookup key="BackgroundUrl5"><![CDATA[Bakgrund URL 5]]></lookup>
+	<lookup key="BackgroundUrl6"><![CDATA[Bakgrund URL 6]]></lookup>
+	<lookup key="BackgroundUrl7"><![CDATA[Bakgrund URL 7]]></lookup>
+	<lookup key="BackgroundUrl8"><![CDATA[Bakgrund URL 8]]></lookup>
+	<lookup key="BackgroundUrl9"><![CDATA[Bakgrund URL 9]]></lookup>
+	<lookup key="BackgroundUrl10"><![CDATA[Bakgrund URL 10]]></lookup>
+	<lookup key="BackgroundUrl11"><![CDATA[Bakgrund URL 11]]></lookup>
+	<lookup key="BackgroundUrl12"><![CDATA[Bakgrund URL 12]]></lookup>
+	<lookup key="BackgroundUrl13"><![CDATA[Bakgrund URL 13]]></lookup>
+	<lookup key="BackgroundUrl14"><![CDATA[Bakgrund URL 14]]></lookup>
+	<lookup key="BackgroundUrl15"><![CDATA[Bakgrund URL 15]]></lookup>
+	<lookup key="IntervalBetweenBackgrounds"><![CDATA[Intervall mellan bakgrunder]]></lookup>
+
+	<!-- MercuryDialerSettings.html 10/17/2016-->
+	<lookup key="BluetoothDeviceName"><![CDATA[Bluetooth-enhetsnamn]]></lookup>
+
+	<!-- MercuryExternalSettings.html 11/18/2016-->
+
+	<lookup key="CalendarSettings"><![CDATA[Kalenderinställningar]]></lookup>
+	<lookup key="SchedulingType"><![CDATA[Typ av schemaläggning]]></lookup>
+
+	<lookup key="SntpServer"><![CDATA[SNTP-server]]></lookup>
+	<lookup key="SntpUpdateInterval"><![CDATA[SNTP uppdateringsintervall]]></lookup>
+	<lookup key="ValidUrlMessage"><![CDATA[Ange en giltig URL]]></lookup>
+	<lookup key="ValidDomainName"><![CDATA[Ange ett giltigt domännamn]]></lookup>
+	<lookup key="ValidEmailUrlMessage"><![CDATA[Ange en giltig e-postadress]]></lookup>
+	<lookup key="ValidPassword"><![CDATA[Ange ett giltigt lösenord]]></lookup>
+	<lookup key="ValidSntpServer"><![CDATA[Ange en giltig SNTP-server]]></lookup>
+	<lookup key="ValidSntpUpdateIntervalMessage"><![CDATA[Ange ett giltigt SNTP-serverintervall]]></lookup>
+	<lookup key="ValidOutlookResourceAddress"><![CDATA[Ange en giltig Outlook-resursadress]]></lookup>
+
+	<!-- DMPS 4k300C 12/08/2016-->
+	<lookup key="DeviceType.VideoServer"><![CDATA[Videoserver]]></lookup>
+	<lookup key="DeviceType.Dialer"><![CDATA[Uppringare]]></lookup>
+	<lookup key="ImageCouldNotBeLoaded"><![CDATA[Bilden kunde inte laddas]]></lookup>
+	<lookup key="VerifingImage"><![CDATA[Verifierar bild]]></lookup>
+	<lookup key="SchedulingTypeEnum.Fusion"><![CDATA[Crestron Fusion]]></lookup>
+	<lookup key="SchedulingTypeEnum.Exchange"><![CDATA[Schemaläggningstyp Exchange]]></lookup>
+
+	<!-- MercuryDialerSettings.html 12/12/2016-->
+	<lookup key="ValidBluetoothDeviceNameMessage"><![CDATA[Ange ett giltigt Bluetooth-enhetsnamn.]]></lookup>
+
+	<!-- MercuryExternalSettings.html 12/15/2016-->
+
+	<!-- Default Inputs 12/20/2016-->
+	<lookup key="DefaultInputs.HDMI1"><![CDATA[HDMI1]]></lookup>
+	<lookup key="DefaultInputs.HDMI2"><![CDATA[HDMI2]]></lookup>
+	<lookup key="DefaultInputs.HDMI3"><![CDATA[HDMI3]]></lookup>
+	<lookup key="DefaultInputs.HDMI4"><![CDATA[HDMI4]]></lookup>
+	<lookup key="DefaultInput"><![CDATA[Standardingång]]></lookup>
+
+	<!-- Blutooth Page 1/9/2017 -->
+	<lookup key="PresentConnectYourDevice"><![CDATA[Anslut din enhet]]></lookup>
+
+	<lookup key="DisableSip"><![CDATA[Inaktivera ljud]]></lookup>
+	<lookup key="DisableBluetooth"><![CDATA[Inaktivera Bluetooth]]></lookup>
+	<lookup key="DisableUsb"><![CDATA[Inaktivera USB]]></lookup>
+
+	<!-- Standby Mode 2/1/2017 -->
+	<lookup key="Standby"><![CDATA[Standby]]></lookup>
+	<lookup key="StandbyMode.AlwaysOn"><![CDATA[Alltid på]]></lookup>
+	<lookup key="StandbyMode.OccupancyBased"><![CDATA[Baserat på beläggning]]></lookup>
+
+	<lookup key="DisplayNameIsRequired"><![CDATA[Visningsnamn krävs]]></lookup>
+	<lookup key="PowerOffCommandValidationMessage"><![CDATA[Ström av-kommando krävs]]></lookup>
+	<lookup key="PowerOnCommandValidationMessage"><![CDATA[Ström på-kommando krävs]]></lookup>
+	<lookup key="SourceSelectCommandValidationMessage"><![CDATA[Val av källa krävs]]></lookup>
+
+	<lookup key="DeviceType.RfGateway"><![CDATA[RF-gateway]]></lookup>
+	<lookup key="DeviceTransport.Rf"><![CDATA[RF]]></lookup>
+
+	<!-- Mercury Pages 2/23/2017 -->
+	<lookup key="AddressBook"><![CDATA[Adressbok]]></lookup>
+	<lookup key="End"><![CDATA[Slut]]></lookup>
+	<lookup key="DialText"><![CDATA[Ange text att ringa]]></lookup>
+	<lookup key="Mute"><![CDATA[Tyst läge]]></lookup>
+	<lookup key="BlueToothActiveConnection"><![CDATA[Aktiv anslutning: Bluetooth]]></lookup>
+	<lookup key="BTCallText"><![CDATA[I ett Bluetooth-samtal]]></lookup>
+	<lookup key="ConnectedToText"><![CDATA[Ansluten till]]></lookup>
+	<lookup key="PresentBTNoSourceConnectionText"><![CDATA[Anslut din Bluetooth-enhet till]]></lookup>
+	<lookup key="USBConnected"><![CDATA[USB-ansluten]]></lookup>
+	<lookup key="Speakerphone"><![CDATA[Högtalartelefon]]></lookup>
+	<lookup key="ConnectedViaText"><![CDATA[Ansluten via]]></lookup>
+	<lookup key="USBCableText"><![CDATA[USB-kabeln]]></lookup>
+	<lookup key="Connected"><![CDATA[Ansluten]]></lookup>
+	<lookup key="TimeMinutesCap"><![CDATA[MINUTER]]></lookup>
+	<lookup key="Extension"><![CDATA[Anknytning]]></lookup>
+	<lookup key="AvailableCap"><![CDATA[TILLGÄNGLIG]]></lookup>
+	<lookup key="RestOfDayCap"><![CDATA[UNDER RESTEN AV DAGEN]]></lookup>
+	<lookup key="PrepareMeetingText"><![CDATA[Förbereder ditt möte]]></lookup>
+	<lookup key="ExitCap"><![CDATA[AVSLUTA]]></lookup>
+	<lookup key="TopMenuCap"><![CDATA[TOPPMENY]]></lookup>
+	<lookup key="PopupMenuCap"><![CDATA[POP-UP-MENY]]></lookup>
+	<lookup key="HomeCap"><![CDATA[HEM]]></lookup>
+	<lookup key="OptionsCap"><![CDATA[ALTERNATIV]]></lookup>
+	<lookup key="Stop"><![CDATA[Stopp]]></lookup>
+	<lookup key="MenuCap"><![CDATA[MENY]]></lookup>
+	<lookup key="GuideCap"><![CDATA[GUIDE]]></lookup>
+	<lookup key="ConnectToAirmediaText"><![CDATA[Anslut till AirMedia®]]></lookup>
+	<lookup key="PresentOverWifi"><![CDATA[För att presentera innehåll över ditt WiFi-nätverk, vänligen]]></lookup>
+	<lookup key="ConnectCap"><![CDATA[ANSLUT]]></lookup>
+	<lookup key="ToWirelessNwetwork"><![CDATA[till ditt trådlösa nätverk]]></lookup>
+	<lookup key="VisitCap"><![CDATA[BESÖK]]></lookup>
+	<lookup key="ToBrowerAddress"><![CDATA[denna webbläsaradress]]></lookup>
+	<lookup key="EnterCap"><![CDATA[ANGE]]></lookup>
+	<lookup key="ThisCode"><![CDATA[denna kod]]></lookup>
+	<lookup key="DownloadAirmediaMobile"><![CDATA[Ladda ned Crestron AirMedia®-appen för din mobila enhet via]]></lookup>
+	<lookup key="Wirelessly"><![CDATA[Trådlöst]]></lookup>
+	<lookup key="SystemInfo"><![CDATA[Systeminformation]]></lookup>
+	<lookup key="FusionServerConnection"><![CDATA[Crestron Fusion-serveranslutning]]></lookup>
+	<lookup key="MACAddress"><![CDATA[MAC-adress]]></lookup>
+	<lookup key="RoomAndStatus"><![CDATA[Rumsnamn och status]]></lookup>
+	<lookup key="NavPresentCallEtc"><![CDATA[Navigera hem, presentera en källa, ring ett samtal och mycket mer...]]></lookup>
+	<lookup key="AdjustVolume"><![CDATA[Sänk och höj systemvolymen]]></lookup>
+	<lookup key="MICmute"><![CDATA[Mikrofon tyst]]></lookup>
+	<lookup key="SystemMute"><![CDATA[Systemet tyst]]></lookup>
+	<lookup key="SerialNumber"><![CDATA[Serienummer]]></lookup>
+	<lookup key="PhoneExtensionURI"><![CDATA[Telefonanknytning / SIP URI]]></lookup>
+	<lookup key="SIPServer"><![CDATA[SIP-server]]></lookup>
+	<lookup key="AddedLicences"><![CDATA[Tillagda licenser]]></lookup>
+	<lookup key="WebConferenceText"><![CDATA[Webbkonferens]]></lookup>
+	<lookup key="StartWebConferenceText"><![CDATA[För att starta en webbkonferens, vänligen]]></lookup>
+	<lookup key="HDMI"><![CDATA[HDMI]]></lookup>
+	<lookup key="PlugHDMIToPresent"><![CDATA[Anslut HDMI-kabeln till din bärbara dator för att presentera på skärmen]]></lookup>
+	<lookup key="USB"><![CDATA[USB]]></lookup>
+	<lookup key="PlugUSBForAudio"><![CDATA[Anslut USB-kabeln till din bärbara dator för att använda den som din ljudenhet]]></lookup>
+	<lookup key="CameraCap"><![CDATA[KAMERA]]></lookup>
+	<lookup key="UseRoomCamera"><![CDATA[Ställ in din enhet för att använda rummets kamera]]></lookup>
+	<lookup key="Remote"><![CDATA[Fjärr]]></lookup>
+	<lookup key="SecondsCap"><![CDATA[SEKUNDER]]></lookup>
+	<lookup key="PresentingCap"><![CDATA[PRESENTERAR]]></lookup>
+	<lookup key="ReceivingContent"><![CDATA[Tar emot innehåll]]></lookup>
+	<lookup key="CameraPresets"><![CDATA[Kamerainställningar]]></lookup>
+	<lookup key="MeetingID"><![CDATA[Mötes-ID]]></lookup>
+	<lookup key="InfoCap"><![CDATA[INFO]]></lookup>
+	<lookup key="LastCap"><![CDATA[SISTA]]></lookup>
+	<lookup key="LiveCap"><![CDATA[LIVE]]></lookup>
+	<lookup key="OnDemandCap"><![CDATA[PÅ BEGÄRAN]]></lookup>
+	<lookup key="TapSourceToPresent"><![CDATA[tryck på en källa för att presentera]]></lookup>
+	<lookup key="Sources"><![CDATA[Källor]]></lookup>
+	<lookup key="FavCap"><![CDATA[FAV]]></lookup>
+	<lookup key="DVR"><![CDATA[DVR]]></lookup>
+	<lookup key="RecCap"><![CDATA[INSP]]></lookup>
+	<lookup key="OutlookUseCertificate"><![CDATA[Outlook-användarcertifikat]]></lookup>
+	<lookup key="OutlookCertificate"><![CDATA[Outlook-certifikat]]></lookup>
+	<lookup key="UploadCertificate"><![CDATA[Ladda upp certifikat]]></lookup>
+	<lookup key="InvalidUrl"><![CDATA[Ange en giltig URL]]></lookup>
+
+	<lookup key="OutlookWebAccessURLToolTip"><![CDATA[(Exempel: https://outlook.office365.com/EWS/Exchange.asmx)]]></lookup>
+	<lookup key="OutlookDomainNameToolTip"><![CDATA[(exempel: DOMÄN\användarnamn)]]></lookup>
+	<lookup key="OutlookDomainNameMisc"><![CDATA[(Lämna tomt om ej tillämpligt)]]></lookup>
+	<lookup key="OutlookResourceAddressToopTip"><![CDATA[(Detta kan vara samma som användaren men måste inte vara det)]]></lookup>
+	<lookup key="OutlookUserEmailAddressToolTip"><![CDATA[ (exempel: domän\ANVÄNDARNAMN)]]></lookup>
+	<lookup key="ValidUsernameMessage"><![CDATA[Ange ett giltigt användarnamn]]></lookup>
+
+	<!-- Add new resolution 3/28/2017 -->
+	<lookup key="Resolution.Res2048x1080At60Hz"><![CDATA[2048x1080 vid 60 Hz]]></lookup>
+	<lookup key="Resolution.Res1792x1344PC"><![CDATA[1792x1344 PC]]></lookup>
+	<lookup key="Resolution.Res1856x1392PC"><![CDATA[1856x1392 PC]]></lookup>
+	<lookup key="Resolution.Res1920x1440PC"><![CDATA[1920x1440 PC]]></lookup>
+	<lookup key="Resolution.Res2048x1536PC"><![CDATA[2048x1536 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1080PC"><![CDATA[2560x1080 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1440PC"><![CDATA[2560x1440 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1600PCRb"><![CDATA[2560x1600 PC RB]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt24Hz"><![CDATA[3840x2160p vid 24 Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt25Hz"><![CDATA[3840x2160p vid 25 Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt30Hz"><![CDATA[3840x2160p vid 30 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt24Hz"><![CDATA[4096x2160p vid 24 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt25Hz"><![CDATA[4096x2160p vid 25 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt30Hz"><![CDATA[4096x2160p vid 30 Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt50Hz"><![CDATA[3840x2160p vid 50 Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt60Hz"><![CDATA[3840x2160p vid 60 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt50Hz"><![CDATA[4096x2160p vid 50 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt60Hz"><![CDATA[4096x2160p vid 60 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt60HzPCVesaRbV2"><![CDATA[4096x2160p vid 60 Hz PC VESA RB V2]]></lookup>
+	<lookup key="Resolution.Res1680x720At24Hz"><![CDATA[1680x720 vid 24 Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At25Hz"><![CDATA[1680x720 vid 25 Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At30Hz"><![CDATA[1680x720 vid 30 Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At50Hz"><![CDATA[1680x720 vid 50 Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At60Hz"><![CDATA[1680x720 vid 60 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At24Hz"><![CDATA[2560x1080 vid 24 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At25Hz"><![CDATA[2560x1080 vid 25 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At30Hz"><![CDATA[2560x1080 vid 30 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At50Hz"><![CDATA[2560x1080 vid 50 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At60Hz"><![CDATA[2560x1080 vid 60 Hz]]></lookup>
+
+	<!-- the following fields have been renamed, please translate -->
+	<lookup key="OutlookWebAccessUrl"><![CDATA[Exchange EWS URL]]></lookup>
+	<lookup key="OutlookDomainName"><![CDATA[Domän]]></lookup>
+	<lookup key="OutlookUserEmailAddress"><![CDATA[Användarnamn]]></lookup>
+	<lookup key="OutlookPassword"><![CDATA[Lösenord]]></lookup>
+	<lookup key="OutlookResourceAddress"><![CDATA[Kalenderns e-postadress]]></lookup>
+
+	<lookup key="DeviceType.Bluray"><![CDATA[Blu-ray-spelare]]></lookup>
+	<lookup key="DeviceType.Occupancy"><![CDATA[Närvarodetektor]]></lookup>
+	<lookup key="DeviceType.Panel"><![CDATA[Pekskärm]]></lookup>
+	<lookup key="DeviceType.EndpointTx"><![CDATA[DigitalMedia-sändare]]></lookup>
+	<lookup key="DeviceType.EndpointRx"><![CDATA[DigitalMedia-mottagare]]></lookup>
+	<lookup key="DeviceType.EndpointRxScaler"><![CDATA[DigitalMedia skalningsmottagare]]></lookup>
+
+	<lookup key="SfbProxyTypes.None"><![CDATA[Ingen]]></lookup>
+	<lookup key="SfbProxyTypes.SameCredentials"><![CDATA[Samma autentiseringsuppgifter]]></lookup>
+	<lookup key="SfbProxyTypes.OtherCredentials"><![CDATA[Övriga autentiseringsuppgifter]]></lookup>
+
+	<!-- Add new projector display type 4/26/2017 -->
+	<lookup key="DeviceType.Projector"><![CDATA[Projektor]]></lookup>
+	<lookup key="AssociatedOutputDevice.Projector"><![CDATA[Projektor]]></lookup>
+
+	<!-- 5/17/2017 -->
+	<lookup key="Users"><![CDATA[Användare]]></lookup>
+	<lookup key="Manage"><![CDATA[Hantera]]></lookup>
+	<lookup key="Logos"><![CDATA[Pekskärm anpassad grafik]]></lookup>
+	<lookup key="Drivers"><![CDATA[Drivrutiner]]></lookup>
+	<lookup key="Import"><![CDATA[Importera]]></lookup>
+	<lookup key="Manufacturer"><![CDATA[Tillverkare]]></lookup>
+	<lookup key="DriverFileName"><![CDATA[Drivrutinens filnamn]]></lookup>
+	<lookup key="DriverVersion"><![CDATA[Drivrutinversion]]></lookup>
+	<lookup key="FusionCloudUrlRequired"><![CDATA[Crestron Fusion Cloud-URL krävs]]></lookup>
+	<lookup key="FusionCloudUrlInvalid"><![CDATA[Ogiltig Crestron Fusion Cloud-URL]]></lookup>
+	<lookup key="ShowBroadcastOnPanel"><![CDATA[Visa sändningsmeddelande på pekskärm]]></lookup>
+	<lookup key="ImageSizeWarning"><![CDATA[Bildstorleksvarning]]></lookup>
+	<lookup key="ManageUsers"><![CDATA[Hantera användare]]></lookup>
+	<lookup key="FirstName"><![CDATA[Förnamn]]></lookup>
+	<lookup key="LastName"><![CDATA[Efternamn]]></lookup>
+	<lookup key="UsernameRequired"><![CDATA[Användarnamn krävs]]></lookup>
+	<lookup key="MinLengthUsernameWarning"><![CDATA[Användarnamn måste bestå av minst 3 tecken.]]></lookup>
+	<lookup key="MaxLengthUsernameWarning"><![CDATA[Användarnamn kan inte bestå av fler än 15 tecken.]]></lookup>
+	<lookup key="InvalidPassword"><![CDATA[Lösenordet måste innehålla 1 stor bokstav, liten bokstav, siffra och specialtecken.]]></lookup>
+	<lookup key="CreateUser"><![CDATA[Skapa användare]]></lookup>
+	<lookup key="InvalidUsername"><![CDATA[Ogiltigt användarnamn]]></lookup>
+	<lookup key="DuplicateUsernameWarning"><![CDATA[Varning för dubbelt användarnamn]]></lookup>
+	<lookup key="FirstNameRequired"><![CDATA[Förnamn krävs]]></lookup>
+	<lookup key="LastnameRequired"><![CDATA[Efternamn krävs]]></lookup>
+	<lookup key="PasswordRequired"><![CDATA[Lösenord krävs]]></lookup>
+	<lookup key="MinLengthPasswordWarning"><![CDATA[Lösenordet måste bestå av 8 tecken och innehålla 1 stor bokstav, liten bokstav, siffra och specialtecken.]]></lookup>
+	<lookup key="MaxLengthPasswordWarning"><![CDATA[Lösenordet kan inte bestå av fler än 12 tecken.]]></lookup>
+	<lookup key="MaxLengthRoomNameWarning"><![CDATA[Rummets namn kan inte bestå av fler än 20 tecken.]]></lookup>
+	<lookup key="MaxLengthFirstNameWarning"><![CDATA[Förnamn kan inte bestå av fler än 15 tecken.]]></lookup>
+	<lookup key="MinLengthFirstNameWarning"><![CDATA[Förnamn måste bestå av minst 2 tecken.]]></lookup>
+	<lookup key="MaxLengthLastNameWarning"><![CDATA[Efternamn kan inte bestå av fler än 15 tecken.]]></lookup>
+	<lookup key="MinLengthLastNameWarning"><![CDATA[Efternamn måste bestå av minst 2 tecken.]]></lookup>
+
+	<!-- 5/23/2017 -->
+	<lookup key="ImageOutOfRange"><![CDATA[Bilden är utanför intervallet, förväntat: {0}x{1}]]></lookup>
+
+	<!-- 5/24/2017-->
+	<lookup key="DriverInstallationStatus.StatusOk"><![CDATA[Drivrutinen har nu installerats]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusError"><![CDATA[Drivrutinen kunde inte installeras]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorVersionCheckedFailed"><![CDATA[Kontroll av drivrutinversion misslyckades]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorCopyDriverFailed"><![CDATA[Drivrutinen kunde inte kopieras]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorInvalidDeviceType"><![CDATA[Ogiltig enhetstyp för drivrutin]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusSupportingDllNotFound"><![CDATA[Stödjande drivrutin-DLL hittades ej]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusPendingRestart"><![CDATA[Drivrutininstallationen väntar på omstart]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusDriverNotFound"><![CDATA[Drivrutin hittades inte]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorInvalidTransportType"><![CDATA[Ogiltig transporttyp]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorMissingDriverId"><![CDATA[Saknar drivrutins-ID]]></lookup>
+
+	<!-- 5/30/2017-->
+	<lookup key="EnableMics"><![CDATA[Aktivera mikrofoner]]></lookup>
+	<lookup key="ConfirmDeleteUser"><![CDATA[Är du säker på att du vill ta bort denna användare?]]></lookup>
+	<lookup key="TimeZone"><![CDATA[Tidszon]]></lookup>
+	<lookup key="DateTimeLabel"><![CDATA[Datum och tid]]></lookup>
+
+	<lookup key="ClickToReadWarningMessage"><![CDATA[Klicka för att läsa meddelande]]></lookup>
+	<lookup key="WarningMessage"><![CDATA[Systemmeddelande]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Manual"><![CDATA[Användarvald]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Fixed"><![CDATA[Fast]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Follow"><![CDATA[Följ]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.None"><![CDATA[Nej]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.FollowWithVolumeControl"><![CDATA[Ja med volymkontroll]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.Follows"><![CDATA[Ja]]></lookup>
+
+	<!-- Screen saver settings -->
+	<lookup key="PanelScreenSaverEnable"><![CDATA[Aktivera skärmsläckare för pekskärm]]></lookup>
+	<lookup key="PanelSleepTimeSeconds"><![CDATA[Vilolägestid för pekskärmens skärmsläckare]]></lookup>
+	<lookup key="PanelScreenSaverStartTime"><![CDATA[Starttid för pekskärmens skärmsläckare]]></lookup>
+	<lookup key="PanelScreenSaverEndTime"><![CDATA[Sluttid för pekskärmens skärmsläckare]]></lookup>
+
+	<!-- 6/6/2017 -->
+	<lookup key="Advanced"><![CDATA[Avancerat]]></lookup>
+	<lookup key="DeviceType.RoomHallwaySign"><![CDATA[Hallskylt för rumstillgänglighet]]></lookup>
+	<lookup key="DeviceType.DigitalGraphicsEngine"><![CDATA[Digital grafikmotor]]></lookup>
+	<lookup key="AdvancedRouteSettings"><![CDATA[Avancerade dirigeringsinställningar]]></lookup>
+	<lookup key="AudioFollowVideoLabel"><![CDATA[Ljud följer video]]></lookup>
+	<lookup key="VideoRoutingMode"><![CDATA[Videodirigeringsläge]]></lookup>
+	<lookup key="InputForFixedRouteLabel"><![CDATA[Fast dirigering]]></lookup>
+	<lookup key="SelectInput"><![CDATA[Välj ingång]]></lookup>
+	<lookup key="OutputForFollowsRouteLabel"><![CDATA[Följer dirigering]]></lookup>
+	<lookup key="SelectOutput"><![CDATA[Välj utgång]]></lookup>
+	<lookup key="DisplayNameRequired"><![CDATA[Skärmnamn krävs]]></lookup>
+	<lookup key="ValueRequired"><![CDATA[Värde krävs]]></lookup>
+
+	<!-- 6/7/2016 -->
+	<lookup key="EnableSNTP"><![CDATA[Aktivera SNTP]]></lookup>
+
+	<!-- 6/13/2017 these fields have been renamed -->
+	<lookup key="AssociatedOutputDevice.AvDisplay"><![CDATA[Plattskärm]]></lookup>
+	<lookup key="DeviceType.AvDisplay"><![CDATA[Plattskärm]]></lookup>
+
+	<!-- 6/16/2017 -->
+	<lookup key="FindContact"><![CDATA[Hitta kontakt]]></lookup>
+	<lookup key="FindContactToCall"><![CDATA[Hitta kontakt att ringa:]]></lookup>
+	<lookup key="SkypeCallText"><![CDATA[I Skype®-samtal]]></lookup>
+	<lookup key="ViewParticipants"><![CDATA[Visa deltagare]]></lookup>
+	<lookup key="Participants"><![CDATA[Deltagare]]></lookup>
+	<lookup key="AddParticipant"><![CDATA[Lägg till deltagare]]></lookup>
+	<lookup key="InviteNameOrPhone"><![CDATA[Bjud in efter namn eller telefonnummer]]></lookup>
+	<lookup key="Participants:"><![CDATA[Deltagare:]]></lookup>
+	<lookup key="OnThisCall"><![CDATA[I detta samtal]]></lookup>
+	<lookup key="InLobby"><![CDATA[I lobby]]></lookup>
+	<lookup key="InVirtualLobby"><![CDATA[I virtuell lobby]]></lookup>
+	<lookup key="VirtualLobbyMessage"><![CDATA[Hej. Du är i vår virtuella lobby. Arrangören kommer strax att släppa in dig.]]></lookup>
+	<lookup key="JoinSkypeMeeting"><![CDATA[GÅ MED I SKYPE®-MÖTE]]></lookup>
+
+	<lookup key="NonEmergencyBroadcastTimeoutWarning"><![CDATA[Timeout för icke-nödmeddelande ej inom intervallet]]></lookup>
+	<lookup key="EmergencyBroadcastTimeoutWarning"><![CDATA[Timeout för nödmeddelande ej inom intervallet]]></lookup>
+	<lookup key="MinEmergencyBroadcastTimeoutWarning"><![CDATA[Lägsta tillåtna timeout är 0]]></lookup>
+	<lookup key="MaxEmergencyBroadcastTimeoutWarning"><![CDATA[Högsta tillåtna timeout är 1 440]]></lookup>
+
+	<!-- 6/26/2017 -->
+	<lookup key="NaNEmergencyBroadcastTimeoutWarning"><![CDATA[Endast numeriska värden för timeout är tillåtna]]></lookup>
+
+	<!-- 6/28/2017 -->
+	<lookup key="CECDriverNoticeHeader"><![CDATA[Drivrutinsmeddelande för Generic CEC]]></lookup>
+	<lookup key="CrestronConnectedDriverNoticeHeader"><![CDATA[Drivrutinsmeddelande för Crestron Connected]]></lookup>
+	<lookup key="CECDriverNoticeMessage"><![CDATA[Generic CEC är en universell drivrutin som tillhandahålls av Crestron och som fungerar med en mängd olika plattskärmar.  Den specifika funktionalitet som stöds av din enhet är beroende av hur CEC-specifikationen har implementerats av enhetens tillverkare, eftersom CEC-specifikationen inte kräver att enhetens tillverkare implementerar hela kommandouppsättningen.  Besök https://drivers.crestron.io. för en enhetsspecifik drivrutin.  För mer information vänligen kontakta Crestron True Blue Support via support@crestron.com]]></lookup>
+	<lookup key="CrestronConnectedDriverNoticeMessage"><![CDATA[Crestron Connected är en universell drivrutin som tillhandahålls av Crestron och som fungerar med en mängd olika plattskärmar och projektorer.  Den specifika funktionalitet som stöds av din enhet är beroende av den funktionsuppsättning som stöds av din enhet eftersom enhetens tillverkare inte behöver implementera alla funktionsdelar hos Crestron Connected.  Besök https://drivers.crestron.io. för en enhetsspecifik drivrutin. För mer information vänligen kontakta Crestron True Blue Support via support@crestron.com]]></lookup>
+	<lookup key="GeneralAcknowledge"><![CDATA[Bekräfta]]></lookup>
+	<lookup key="SkypeMeeting"><![CDATA[Skype®-möte]]></lookup>
+	<lookup key="DownloadBusyMessage"><![CDATA[Vänligen vänta…]]></lookup>
+	<lookup key="UploadBusyMessage"><![CDATA[Vänligen vänta…]]></lookup>
+	<lookup key="MaxUsersWarning"><![CDATA[Systemet har maximalt antal användare (5).]]></lookup>
+	<lookup key="MinLengthDisplayNameWarning"><![CDATA[Visningsnamn måste bestå av minst 1 tecken.]]></lookup>
+	<lookup key="MaxLengthDisplayNameWarning"><![CDATA[Visningsnamn kan inte bestå av fler än 20 tecken.]]></lookup>
+
+	<!-- 7/13/2016 -->
+
+	<lookup key="DeviceManagement"><![CDATA[Enhetshantering]]></lookup>
+	<lookup key="ConfigurationManagement"><![CDATA[Konfigurationshantering]]></lookup>
+	<lookup key="AVFrameworkDashboard"><![CDATA[AV Framework-panel]]></lookup>
+	<lookup key="Transport"><![CDATA[Kommunikation]]></lookup>
+	<lookup key="EnableDriver"><![CDATA[Aktivera drivrutin]]></lookup>
+	<lookup key="DeviceName"><![CDATA[Enhetsnamn]]></lookup>
+
+	<!-- 7/17/2016 -->
+	<lookup key="DeviceMgmt"><![CDATA[Enhetshant.]]></lookup>
+	<lookup key="DMPSConfig"><![CDATA[DMPS-konfig.]]></lookup>
+	<lookup key="ConfigMgmt"><![CDATA[Konfig.-hant.]]></lookup>
+
+	<!-- 7/18/2016 -->
+	<lookup key="EnableDisable"><![CDATA[Aktivera Inaktivera]]></lookup>
+
+	<!-- 7/19/2016 -->
+	<lookup key="RADID"><![CDATA[ID]]></lookup>
+
+	<!-- 7/28/2017 -->
+	<lookup key="SearchLdap"><![CDATA[Sök LDAP]]></lookup>
+	<lookup key="Query"><![CDATA[Sök]]></lookup>
+	<lookup key="SearchFor"><![CDATA[Sök efter]]></lookup>
+	<lookup key="GeneralSearch"><![CDATA[Allmän sökning]]></lookup>
+	<lookup key="Department"><![CDATA[Avdelning]]></lookup>
+	<lookup key="Location"><![CDATA[Plats]]></lookup>
+	<lookup key="Action"><![CDATA[Åtgärd]]></lookup>
+
+	<!-- 7/31/2017 -->
+	<lookup key="PhoneAttributeWarning"><![CDATA[Telefonattributvarning]]></lookup>
+	<lookup key="Ldap"><![CDATA[LDAP]]></lookup>
+	<lookup key="LdapSettings.Host"><![CDATA[Värd]]></lookup>
+	<lookup key="HostWarning"><![CDATA[Värd krävs och får inte överstiga 40 tecken]]></lookup>
+	<lookup key="LdapSettings.Port"><![CDATA[Port]]></lookup>
+	<lookup key="LdapSettings.Dn"><![CDATA[DN]]></lookup>
+	<lookup key="DnWarning"><![CDATA[DN krävs och får inte överstiga 80 tecken]]></lookup>
+	<lookup key="LdapSettings.Username"><![CDATA[Användarnamn]]></lookup>
+	<lookup key="UsernameWarning"><![CDATA[Användarnamn krävs och får inte överstiga 40 tecken]]></lookup>
+	<lookup key="LdapSettings.Password"><![CDATA[Lösenord]]></lookup>
+	<lookup key="PasswordWarning"><![CDATA[Lösenord krävs]]></lookup>
+	<lookup key="LdapSettings.Search"><![CDATA[Sök]]></lookup>
+	<lookup key="SearchWarning"><![CDATA[Sökning måste innehålla ”%QUERY%” och måste starta med ( sluta med ) och får inte överstiga 80 tecken]]></lookup>
+	<lookup key="LdapSettings.DisplayAttribute"><![CDATA[Skärmattribut]]></lookup>
+	<lookup key="DisplayIsWarning"><![CDATA[Skärmattribut får inte överstiga 40 tecken]]></lookup>
+	<lookup key="LdapSettings.LocationAttribute"><![CDATA[Plats]]></lookup>
+	<lookup key="LocationAttributeWarning"><![CDATA[Platsattribut får inte överstiga 40 tecken]]></lookup>
+	<lookup key="LdapSettings.DepartmentAttributeWarning"><![CDATA[Avdelningsattributvarning]]></lookup>
+	<lookup key="DepartmentAttributeWarning"><![CDATA[Avdelningsattribut får inte överstiga 40 tecken]]></lookup>
+	<lookup key="LdapSettings.PhoneAttribute"><![CDATA[Telefonattribut]]></lookup>
+	<lookup key="GeneralConnect"><![CDATA[Anslut]]></lookup>
+	<lookup key="LdapSettings.DepartmentAttribute"><![CDATA[Avdelningsattribut]]></lookup>
+
+	<!-- 8/3/2017 -->
+	<lookup key="EnableLdap"><![CDATA[Aktivera LDAP]]></lookup>
+	<lookup key="LdapSettings.Domain"><![CDATA[LDAP-domän]]></lookup>
+
+	<!-- 8/22/2017 -->
+	<lookup key="DomainWarning"><![CDATA[Ogiltig domän]]></lookup>
+	<lookup key="LdapAuthentication.Kerberos"><![CDATA[Kerberos (automatisk identifiering)]]></lookup>
+	<lookup key="LdapAuthentication.KerberosServer"><![CDATA[Kerberos (användardefinierad server)]]></lookup>
+	<lookup key="LdapAuthentication.Server"><![CDATA[Serverautentisering (användardefinierad server)]]></lookup>
+	<lookup key="LdapSettings.AuthenticationMethod"><![CDATA[Autentiseringsmetod]]></lookup>
+
+	<lookup key="SystemNotification"><![CDATA[Systemmeddelande]]></lookup>
+
+	<lookup key="DriverUploadComplete"><![CDATA[Enhetens drivrutin(er) har laddats till systemet.  Se systemmeddelandet för drivrutinsstatus.]]></lookup>
+	<lookup key="DriverDescriptionHeading"><![CDATA[Beskrivning]]></lookup>
+	<lookup key="DriverSaveProblemWarning"><![CDATA[Enhetens drivrutin(er) kunde inte laddas till systemet. Vänligen försök igen. Kontakta Crestron True Blue Support om du får detta meddelande upprepade gånger]]></lookup>
+	<lookup key="DriverUploadCompleteHeader"><![CDATA[Laddning av drivrutin lyckades ]]></lookup>
+	<lookup key="DriverSaveProblemWarningHeader"><![CDATA[Laddning av drivrutin misslyckades ]]></lookup>
+
+	<!-- 9/12/2017 -->
+	<lookup key="Updating"><![CDATA[Uppdaterar...]]></lookup>
+
+	<!-- 9/27/2017 -->
+	<lookup key="ChannelType.AirMedia"><![CDATA[AirMedia®]]></lookup>
+
+	<!-- 10/9/2017 -->
+	<lookup key="ActivateConfigurationFromWebsite"><![CDATA[Aktivera konfigurationen från systemets webbplats för att aktivera systemet.]]></lookup>
+
+	<!-- 12/14/2017 -->
+	<lookup key="HideBackgroundFilter"><![CDATA[Dölj bakgrundsfilter]]></lookup>
+
+	<!-- ***** IMPORTANT ***** -->
+	<!-- The following existing keys need to be renamed -->
+	<lookup key="ScreensaverEnableCustomBackgrounds"><![CDATA[Aktivera anpassade skärmsläckarbakgrunder]]></lookup>
+	<lookup key="ScreensaverAddCustomBackgroundUrl"><![CDATA[Lägg till URL för anpassad skärmsläckarbakgrund]]></lookup>
+	<lookup key="Locale"><![CDATA[Språk]]></lookup>
+	<lookup key="NetworkStatus"><![CDATA[Instrumentpanel]]></lookup>
+	<lookup key="ActivityLog"><![CDATA[AVF-logg]]></lookup>
+	<lookup key="EnableDspVolumeControl"><![CDATA[Aktivera DMPS-högtalare och volymkontroll för programutgång]]></lookup>
+	<lookup key="DevicePort"><![CDATA[Kommunikationsport]]></lookup>
+	<lookup key="Add"><![CDATA[Lägg till enhet]]></lookup>
+	<lookup key="EmergencyBroadcastTimeout"><![CDATA[Timeout för nödmeddelande]]></lookup>
+	<lookup key="NonEmergencyBroadcastTimeout"><![CDATA[Timeout för icke-nödmeddelande]]></lookup>
+	<lookup key="ChannelValidationMessage"><![CDATA[ID-krävt format(0–255).]]></lookup>
+
+	<!-- ***** IMPORTANT ***** -->
+	<!-- The following existing keys need to be renamed -->
+	<!-- *** IMPORTANT *** Crestron and Fusion are trademarks and should not be translated -->
+	<lookup key="SupportsFusion"><![CDATA[Stöder Crestron Fusion]]></lookup>
+	<lookup key="FusionRoomName"><![CDATA[Crestron Fusion-rumsnamn]]></lookup>
+	<lookup key="FusionConnection"><![CDATA[Crestron Fusion-anslutning]]></lookup>
+	<lookup key="EnableFusionScheduling"><![CDATA[Aktivera Crestron Fusion-schemaläggning]]></lookup>
+	<lookup key="FusionSettings"><![CDATA[Crestron Fusion-inställningar]]></lookup>
+	<lookup key="FusionCloudURL"><![CDATA[Crestron Fusion Cloud-URL]]></lookup>
+
+	<lookup key="MinFrontOfRoomBackgroundIntervalSecWarning"><![CDATA[Crestron Fusion Cloud-URL]]></lookup>
+
+	<lookup key="EmergencyBroadcastTimeoutValidValueMessage"><![CDATA[Krävt värde måste vara (0–60)]]></lookup>
+	<lookup key="NonEmergencyBroadcastTimeoutValidValueMessage"><![CDATA[Krävt värde måste vara (0–60)]]></lookup>
+	<lookup key="CallNotificationTimeoutValidValueMessage"><![CDATA[Krävt värde måste vara (0–60)]]></lookup>
+	<lookup key="TimeRemainingMessageDurationValidValueMessage"><![CDATA[Krävt värde måste vara (0–60)]]></lookup>
+
+	<lookup key="IntervalBetweenBackgroundsValidValueMessage"><![CDATA[Krävt värde måste vara (30–600)]]></lookup>
+
+	<lookup key="ConfigurationText"><![CDATA[Systemkonfigurering pågår.]]></lookup>
+
+	<lookup key="ConfiguredMessageOfflineLoggedIn"><![CDATA[Systemet är för närvarande offline, <span id="activatePlaceholder">aktivera</span> eller <span id="revertPlaceholder">återställ</span>konfigurering.]]></lookup>
+	<lookup key="SystemOffline"><![CDATA[Systemet går för närvarande inte att nå från din plats. Kontrollera din nätverksanslutning eller kontakta systemadministratören. ]]></lookup>
+	<lookup key="Revert"><![CDATA[Återställ]]></lookup>
+	<lookup key="Activate"><![CDATA[Aktivera]]></lookup>
+	<lookup key="More"><![CDATA[Mer]]></lookup>
+
+	<lookup key="WarmUpTimeLabel"><![CDATA[Uppvärmningstid]]></lookup>
+	<lookup key="WarmUpTimeValidationMessage"><![CDATA[Krävt värde måste vara ({0}–{1})]]></lookup>
+	<lookup key="CoolDownTimeValidationMessage"><![CDATA[Krävt värde måste vara ({0}–{1})]]></lookup>
+	<lookup key="CoolDownTimeLabel"><![CDATA[Avsvalningstid]]></lookup>
+
+	<lookup key="ResourceNotFound"><![CDATA[Resursen du letar efter kan inte hittas.]]></lookup>
+	<lookup key="BackgroundImageRequiredWarning"><![CDATA[När aktiverat krävs minst 1 bakgrund.]]></lookup>
+	<lookup key="MaximumNumberImagesWarning"><![CDATA[Maximalt antal bilder har uppnåtts.]]></lookup>
+
+	<lookup key="SupportedSeries"><![CDATA[Serier som stöds]]></lookup>
+
+	<lookup key="RoomNameValidCharactersWarning"><![CDATA[Tillåtna tecken inkluderar alfanumeriska, mellanslag, _ ,-, / samt ().]]></lookup>
+	<lookup key="Edit"><![CDATA[Redigera]]></lookup>
+	<lookup key="DriverProcessingMessage"><![CDATA[Bearbetning av fil ({0}) startades.]]></lookup>
+
+	<lookup key="Done"><![CDATA[Klart]]></lookup>
+	<lookup key="ConfigureButtons"><![CDATA[Konfigurera knappar]]></lookup>
+	<lookup key="StartButtonTextWarning"><![CDATA[Krävt värde måste vara (1–20) alfanumeriska tecken]]></lookup>
+	<lookup key="EnableStartButtonText"><![CDATA[Aktivera startknapp]]></lookup>
+
+	<lookup key="Back"><![CDATA[Tillbaka]]></lookup>
+	<lookup key="Cancel"><![CDATA[Avbryt]]></lookup>
+	<lookup key="FreeFormLog"><![CDATA[AMPS-logg]]></lookup>
+
+	<lookup key="TestDeviceStatus"><![CDATA[Enhetsstatus]]></lookup>
+	<lookup key="SendCommandLabel"><![CDATA[Skicka kommando]]></lookup>
+	<lookup key="Command"><![CDATA[Kommando]]></lookup>
+	<lookup key="InstallDevice"><![CDATA[Installera enhet]]></lookup>
+	<lookup key="Send"><![CDATA[Skicka]]></lookup>
+
+	<!-- 1/19/2018 - button panel -->
+	<lookup key="ButtonPanelButtonAction.Default"><![CDATA[Standard]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Disable"><![CDATA[Inaktiverad]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerOn"><![CDATA[Sätt på]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerOff"><![CDATA[Stäng av]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerToggle"><![CDATA[Strömomkopplare]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteOn"><![CDATA[Tyst läge på]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteOff"><![CDATA[Tyst läge av]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteToggle"><![CDATA[Omkopplare för tyst läge]]></lookup>
+	<lookup key="ButtonPanelButtonAction.RouteSource"><![CDATA[Dirigera källa]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VolUp"><![CDATA[Höj volym]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VolDown"><![CDATA[Sänk volym]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Play"><![CDATA[Spela upp]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Pause"><![CDATA[Pausa]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Rewind"><![CDATA[Spola tillbaka]]></lookup>
+	<lookup key="ButtonPanelButtonAction.FastForward"><![CDATA[Snabbspola framåt]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Menu"><![CDATA[Meny]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VideoMute"><![CDATA[Tyst läge video]]></lookup>
+	<lookup key="UnionId"><![CDATA[Lösenord]]></lookup>
+	<lookup key="Test"><![CDATA[Testa]]></lookup>
+	<lookup key="Save"><![CDATA[Spara]]></lookup>
+	<lookup key="InstallDialogTitle"><![CDATA[Installerar {0}]]></lookup>
+	<lookup key="DeviceTestDialogTitle"><![CDATA[Testar {0}]]></lookup>
+	<lookup key="UpdateDialogTitle"><![CDATA[Uppdaterar {0}]]></lookup>
+
+	<!-- 1/26/2018 -->
+	<lookup key="DeviceType.IO"><![CDATA[Crestron IO]]></lookup>
+	<lookup key="Status"><![CDATA[Status]]></lookup>
+	<lookup key="TestableDisplayCommands.PowerOn"><![CDATA[Sätt på]]></lookup>
+	<lookup key="TestableDisplayCommands.PowerOff"><![CDATA[Stäng av]]></lookup>
+
+	<lookup key="RelayNotes1"><![CDATA[Reläer är konfigurerade i par på den valda enheten.]]></lookup>
+	<lookup key="RelayName"><![CDATA[Relänamn]]></lookup>
+	<lookup key="RelayDeviceAndIdentifier"><![CDATA[Reläenhet och identifierare]]></lookup>
+	<lookup key="RelayTiming"><![CDATA[Timing]]></lookup>
+	<lookup key="BlankRelayLabel"><![CDATA[Ingen]]></lookup>
+
+	<!-- 2/12/2018 -->
+	<lookup key="RelayBehavior.Disable"><![CDATA[Inaktivera]]></lookup>
+
+	<!-- 2/26/2018 -->
+	<lookup key="RelayTimingBoundsWarning"><![CDATA[Värdet som krävs måste vara (1–180)]]></lookup>
+	<lookup key="RelayNameRequired"><![CDATA[Värdet som krävs måste vara (1–20) alfanumeriska tecken.]]></lookup>
+	<lookup key="RelayValidCharactersWarning"><![CDATA[Värdet som krävs måste vara (1–20) alfanumeriska tecken.]]></lookup>
+	<lookup key="RelayNotes2"><![CDATA[Det första reläet i alla reläpar flyttar SKÄRMEN UPPÅT.]]></lookup>
+	<lookup key="RelayNotes3"><![CDATA[Det andra reläet i alla reläpar flyttar SKÄRMEN NEDÅT.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.WarmingUpCompleted"><![CDATA[Uppvärmning av enheten slutförd]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.WarmingUp"><![CDATA[Värmer upp enheten]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.CoolingDown"><![CDATA[Kyler ner enheten]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.CoolingDownCompleted"><![CDATA[Nedkylning av enheten slutförd]]></lookup>
+
+	<!-- 2/28/2018 -->
+	<lookup key="MaxLengthRelayNameWarning"><![CDATA[Relänamnet kan inte bestå av mer än 20 tecken.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PortNotConfigured"><![CDATA[Port ej konfigurerad eller tillgänglig]]></lookup>
+
+	<!-- 3/2/2018 -->
+	<lookup key="DeviceUsernameValueWarning"><![CDATA[Enhetens användarnamn kan inte bestå av mer än 15 tecken.]]></lookup>
+	<lookup key="DevicePasswordValueWarning"><![CDATA[Enhetens lösenord kan inte bestå av mer än 32 tecken.]]></lookup>
+
+	<!-- 3/8/2018 -->
+	<lookup key="RelayEmptyMsg"><![CDATA[Inga enheter stöder reläer. Du kan lägga till ett relä från sidan för enhetshantering.]]></lookup>
+
+	<!-- 3/9/2018 -->
+	<lookup key="DeviceTransport.Unknown"><![CDATA[Okänd]]></lookup>
+
+	<!-- 3/19/2018 MPC3 - These keys need to be retranslated-->
+	<lookup key="DMPSConfiguration"><![CDATA[A/V-dirigering]]></lookup>
+	<lookup key="SwitchInformation"><![CDATA[Omkopplarinformation]]></lookup>
+
+	<!-- 3/20/2018 -->
+	<lookup key="StartButtonText"><![CDATA[Text på startknapp]]></lookup>
+
+	<lookup key="VideoDisplayStatusEvent.Initializing"><![CDATA[Initierar drivrutinen]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.InitializationFailed"><![CDATA[Initieringen misslyckades]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectingToDevice"><![CDATA[Försöker att ansluta till enheten]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.Authenticating"><![CDATA[Autentiserar]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.AuthenticationSuccessful"><![CDATA[Autentiseringen lyckades]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.AuthenticationFailed"><![CDATA[Autentiseringen misslyckades]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.NotAuthenticated"><![CDATA[Ej autentiserad]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectionSuccessful"><![CDATA[Ansluten till drivrutinen]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectionFailed"><![CDATA[Anslutningen till drivrutinen misslyckades]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.Disconnecting"><![CDATA[Kopplar ifrån drivrutinen]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.UnknownEvent"><![CDATA[Okänd händelse]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PowerOffCommand"><![CDATA[Skickar avstängningskommando]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PowerOnCommand"><![CDATA[Skickar startkommando]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.UnknownCommand"><![CDATA[Okänt kommando]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.DeviceOnline"><![CDATA[Enheten är online]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.DeviceOffline"><![CDATA[Enheten är offline]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.NoControlPortDefined"><![CDATA[Ingen kontrollport har definierats]]></lookup>
+
+	<lookup key="ImageNotLoaded"><![CDATA[Kunde inte ladda bild]]></lookup>
+	<lookup key="logoHelpText"><![CDATA[Optimal logotypstorlek är 800 x 600 pixlar.<br>Bildformat som stöds: BMP, JPG, PNG.]]></lookup>
+	<lookup key="Keypad"><![CDATA[Knappsats]]></lookup>
+
+	<!-- 3/22/2018 -->
+	<lookup key="BackgroundOverlay"><![CDATA[Bakgrundsöverlägg]]></lookup>
+	<!-- 3/27/2018 -->
+	<lookup key="NextMeetingInformationShownValidValueMessage"><![CDATA[Värdet som krävs måste vara (0–120)]]></lookup>
+	<!-- 3/28/2018 -->
+	<lookup key="PowerSettings"><![CDATA[Ströminställningar]]></lookup>
+	<lookup key="DayOfWeek"><![CDATA[Veckodag]]></lookup>
+	<lookup key="DisplayOn"><![CDATA[Display på]]></lookup>
+	<lookup key="DisplayOff"><![CDATA[Display av]]></lookup>
+
+	<lookup key="VideoDisplay"><![CDATA[Videodisplay]]></lookup>
+	<lookup key="WallPaper"><![CDATA[Pekskärm]]></lookup>
+	<lookup key="WallPaper.EnableCustomBackgroundLabelsLabel"><![CDATA[Aktivera anpassade bakgrunder]]></lookup>
+
+	<lookup key="DisplayNotifications"><![CDATA[Visa meddelanden]]></lookup>
+	<lookup key="ConnectionDetailsLayout"><![CDATA[Layout för anslutningsinformation]]></lookup>
+	<lookup key="DisplayCustomization"><![CDATA[Anpassning av visning]]></lookup>
+
+	<!-- 4/5/2018 -->
+	<lookup key="ShowBackgroundOverlay"><![CDATA[Visa bakgrundsöverlägg]]></lookup>
+	<lookup key="WallPaper.CustomBackgroundLabelsLabel"><![CDATA[Bakgrund]]></lookup>
+
+	<lookup key="ShowCalendarOrClockOverlay"><![CDATA[Visa kalender eller klocköverlägg]]></lookup>
+
+	<!-- 4/6/2018 -->
+	<lookup key="ReturnToAudioCall"><![CDATA[Peka här för att svara på ett röstsamtal]]></lookup>
+	<lookup key="CurrentCallOnHold"><![CDATA[Nuvarande samtal i vänteläge]]></lookup>
+	<!-- 4/9/2018 -->
+	<lookup key="TimeRemainingMessageStartsValidValueMessage"><![CDATA[Värdet som krävs måste vara (0–60)]]></lookup>
+
+	<!-- 4/9/2018 -->
+	<lookup key="StandbyMode.OccupancyBasedWithSignage"><![CDATA[Beläggning baserad på skyltning]]></lookup>
+
+	<!-- 4/10/2018 -->
+	<lookup key="ZumBatteryState.Bx"><![CDATA[Extern strömförsörjning]]></lookup>
+	<lookup key="ZumBatteryState.Bc"><![CDATA[Batterinivån kritiskt låg]]></lookup>
+	<lookup key="ZumBatteryState.Bl"><![CDATA[Låg batterinivå]]></lookup>
+	<lookup key="ZumBatteryState.Bok"><![CDATA[Batterinivå OK]]></lookup>
+
+	<lookup key="ZumDeviceStatus.Act"><![CDATA[Aktiv]]></lookup>
+	<lookup key="ZumDeviceStatus.Mis"><![CDATA[Saknas]]></lookup>
+
+	<lookup key="ZumOccupancy.Na"><![CDATA[Ej tillämpligt]]></lookup>
+	<lookup key="ZumOccupancy.Occupied"><![CDATA[Upptagen]]></lookup>
+	<lookup key="ZumOccupancy.Vacant"><![CDATA[Ledig]]></lookup>
+	<lookup key="ZumOccupancy.Unknown"><![CDATA[Okänd]]></lookup>
+
+	<lookup key="ZumUpdateStatus.U0"><![CDATA[Ingen uppdatering pågår]]></lookup>
+	<lookup key="ZumUpdateStatus.Ui"><![CDATA[Uppgradering pågår]]></lookup>
+	<lookup key="ZumUpdateStatus.Up"><![CDATA[Väntande uppdatering]]></lookup>
+
+	<!-- 4/9/2018 -->
+	<lookup key="AppspaceErrorMessage"><![CDATA[Kunde inte ansluta till URL]]></lookup>
+
+	<!-- 4/13/2018 -->
+	<lookup key="External"><![CDATA[Extern]]></lookup>
+	<lookup key="ManageSettings"><![CDATA[Hantera]]></lookup>
+
+	<!-- 4/12/2018 -->
+	<lookup key="DisconnectedHeaderText"><![CDATA[BORTKOPPLAD]]></lookup>
+
+	<!-- 4/12/2018 -->
+	<lookup key="DisconnectedMessageText"><![CDATA[Försöker återansluta. Kontrollera dina kommunikationsinställningar]]></lookup>
+
+	<!-- 4/18/2018 these keys need to be retranslated -->
+	<lookup key="IntervalBetweenBackgroundsBoundsWarning"><![CDATA[Värdet som krävs måste vara (30–600)]]></lookup>
+	<lookup key="PanelSleepTimeSecondsBoundsWarning"><![CDATA[Värdet som krävs måste vara (60–600)]]></lookup>
+
+	<!-- 4/18/2018  -->
+
+	<lookup key="Background"><![CDATA[Bakgrund]]></lookup>
+	<lookup key="Log"><![CDATA[Logg]]></lookup>
+	<lookup key="TouchScreen"><![CDATA[Pekskärm och display]]></lookup>
+
+	<!-- 4/23/2018  -->
+	<lookup key="DayOfWeekEnum.Monday"><![CDATA[Måndag]]></lookup>
+	<lookup key="DayOfWeekEnum.Tuesday"><![CDATA[Tisdag]]></lookup>
+	<lookup key="DayOfWeekEnum.Wednesday"><![CDATA[Onsdag]]></lookup>
+	<lookup key="DayOfWeekEnum.Thursday"><![CDATA[Torsdag]]></lookup>
+	<lookup key="DayOfWeekEnum.Friday"><![CDATA[Fredag]]></lookup>
+	<lookup key="DayOfWeekEnum.Saturday"><![CDATA[Lördag]]></lookup>
+	<lookup key="DayOfWeekEnum.Sunday"><![CDATA[Söndag]]></lookup>
+
+	<!-- 4/23/2018  -->
+	<lookup key="ConnectionLayout.Bottom"><![CDATA[Nederst]]></lookup>
+	<lookup key="ConnectionLayout.Top"><![CDATA[Överst]]></lookup>
+	<lookup key="ConnectionLayout.Left"><![CDATA[Vänster]]></lookup>
+	<lookup key="ConnectionLayout.Right"><![CDATA[Korrekt]]></lookup>
+
+	<!-- 4/25/2018  -->
+
+	<lookup key="AppspaceCustomBackgroundsWarning"><![CDATA[Anpassade bakgrunder kan inte väljas när Appspace är aktiverat.]]></lookup>
+	<lookup key="DeviceType.Audio"><![CDATA[Ljud]]></lookup>
+	<lookup key="DeviceType.Led"><![CDATA[Lysdiod]]></lookup>
+
+	<!-- 4/30/2018  -->
+	<lookup key="AUXIP"><![CDATA[AUX IP]]></lookup>
+	<lookup key="DialerType.Sfb"><![CDATA[Skype®]]></lookup>
+	<lookup key="VerisonNumber"><![CDATA[Versionsnummer]]></lookup>
+	<lookup key="Room"><![CDATA[Rum]]></lookup>
+	<lookup key="EnableDspVolumeControl.ExtAmp"><![CDATA[Aktivera extern förstärkare]]></lookup>
+
+	<!-- 5/1/2018  -->
+	<lookup key="UploadConfigurationError"><![CDATA[Uppladdningen misslyckades eftersom konfigureringen antingen är ogiltig eller för en annan enhetsmodell.  Föregående konfigurering har återställts.]]></lookup>
+
+	<!-- 5/3/2018  -->
+	<lookup key="AppspaceLoading"><![CDATA[Laddar ner och installerar Appspace-appen]]></lookup>
+	<lookup key="AppspaceErrorTitle"><![CDATA[Kunde inte ladda ner Appspace-appen]]></lookup>
+	<lookup key="AppspaceErrorSubTitle"><![CDATA[Kontrollera URL och nätverksanslutning. Vi försöker på nytt inom kort.]]></lookup>
+
+	<!-- 5/8/2018 -->
+	<lookup key="PortType.Relay"><![CDATA[Relä]]></lookup>
+
+	<!-- 5/10/2018 -->
+	<lookup key="VideoDisplayStatusEvent.TestingNotSupported"><![CDATA[Testning har inte stöd för en icke-kontrollerad display]]></lookup>
+
+	<lookup key="Zum"><![CDATA[Zūm]]></lookup>
+	<lookup key="Network"><![CDATA[Nätverk]]></lookup>
+	<lookup key="FirmwareVersion"><![CDATA[Version av inbyggd programvara]]></lookup>
+	<lookup key="BatteryStatus"><![CDATA[Batteristatus]]></lookup>
+	<lookup key="StartAcquire"><![CDATA[Börja hämta]]></lookup>
+	<lookup key="StopAcquire"><![CDATA[Sluta hämta]]></lookup>
+	<lookup key="FormNetwork"><![CDATA[Bilda nätverk]]></lookup>
+	<lookup key="ZumBridgeLabel"><![CDATA[Zūm-brygga]]></lookup>
+	<lookup key="RoomOccupancyLabel"><![CDATA[Zūm-sensorstatus]]></lookup>
+	<lookup key="Occupancy"><![CDATA[Beläggning]]></lookup>
+	<lookup key="Id"><![CDATA[ID]]></lookup>
+
+	<!-- 5/16/2018 -->
+	<lookup key="ButtonPanelButtonAction.Up"><![CDATA[Upp]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Down"><![CDATA[Ned]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Left"><![CDATA[Vänster]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Right"><![CDATA[Höger]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Enter"><![CDATA[Enter]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Select"><![CDATA[Välj]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Back"><![CDATA[Tillbaka]]></lookup>
+
+	<!-- 6/15/2018 -->
+	<lookup key="CallNotificationState.IncomingCall"><![CDATA[Inkommande samtal]]></lookup>
+	<lookup key="CallNotificationState.Connected"><![CDATA[Ansluten]]></lookup>
+	<lookup key="CallNotificationState.Connecting"><![CDATA[Ansluter]]></lookup>
+	<lookup key="CallNotificationState.Rejected"><![CDATA[Avvisad]]></lookup>
+	<lookup key="CallNotificationState.Disconnected"><![CDATA[Frånkopplad]]></lookup>
+
+	<!-- 6/19/2018 -->
+	<lookup key="VideoDisplayStatusEvent.CecInitialized"><![CDATA[CEC-disk initierad]]></lookup>
+
+	<lookup key="AssociatedOutputDevice.Whiteboard"><![CDATA[AirBoard®]]></lookup>
+	<lookup key="DeviceType.ZumBridge"><![CDATA[Zūm-brygga]]></lookup>
+	<lookup key="DeviceType.WhiteBoard"><![CDATA[AirBoard®]]></lookup>
+
+	<!-- 7/18/2018 -->
+	<lookup key="DriverInstallationStatus.StatusUnlicensedDeviceType"><![CDATA[Olicensierad enhetstyp]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusUnsupportedIrDriver"><![CDATA[IR-disk stöds inte]]></lookup>
+
+	<!-- 7/25/2018 -->
+	<lookup key="CommunicationType"><![CDATA[Kommunikationstyp]]></lookup>
+	<lookup key="SupportedModels"><![CDATA[Modeller som stöds]]></lookup>
+	<lookup key="DriverSearchHint"><![CDATA[Modell eller tillverkare]]></lookup>
+
+	<lookup key="AddNewDeviceDriver"><![CDATA[Lägg till en ny enhetsdisk...]]></lookup>
+	<lookup key="ImportFromFile"><![CDATA[Importera från fil...]]></lookup>
+	<lookup key="GeneralAdd"><![CDATA[Lägg till]]></lookup>
+
+	<lookup key="DetectedManufacturer"><![CDATA[Upptäckt tillverkare]]></lookup>
+	<lookup key="DetectedName"><![CDATA[Upptäckt namn]]></lookup>
+	<lookup key="DetectedSerialNum"><![CDATA[Upptäckt serienummer]]></lookup>
+
+	<lookup key="CloudSearchError"><![CDATA[Ett fel uppstod vid sökning av diskar i molnet.]]></lookup>
+	<lookup key="ErrorInstallingDriver"><![CDATA[Ett fel uppstod vid installation av disken.]]></lookup>
+
+	<lookup key="DeviceInstallingTitle"><![CDATA[Installerar {0}.]]></lookup>
+
+	<!-- 8/30/2018 -->
+	<lookup key="DisplayTimeError"><![CDATA[Skärm På måste vara mindre än Skärm Av]]></lookup>
+	<lookup key="NavPresentEtc"><![CDATA[Navigera hem, presentera en källa, och mer...]]></lookup>
+
+	<lookup key="FilterBy"><![CDATA[Filtrera via]]></lookup>
+	<lookup key="StartDiscovery"><![CDATA[Starta identifiering]]></lookup>
+	<lookup key="StopDiscovery"><![CDATA[Stoppa identifiering]]></lookup>
+	<lookup key="IPIDCrestnetID"><![CDATA[IPID/CresnetID]]></lookup>
+	<lookup key="Locate"><![CDATA[Hitta]]></lookup>
+	<lookup key="LocateRunning"><![CDATA[Hitta körs]]></lookup>
+	<lookup key="StopLocate"><![CDATA[Sluta hitta]]></lookup>
+	<lookup key="DeviceDetails"><![CDATA[Enhetsuppgifter]]></lookup>
+	<lookup key="DiscoveredDevices"><![CDATA[Upptäckta enheter]]></lookup>
+	<lookup key="ConfiguredDevices"><![CDATA[Konfigurerade enheter]]></lookup>
+
+	<lookup key="AreYouSure"><![CDATA[Är du säker?]]></lookup>
+
+	<lookup key="WhiteboardCode"><![CDATA[Kod ]]></lookup>
+	<lookup key="WhiteboardCrestronId"><![CDATA[CrestronId: ]]></lookup>
+	<lookup key="WhiteboardUserConnUrl"><![CDATA[Webbadress: ]]></lookup>
+
+	<!-- 11/30/2018 -->
+	<lookup key="RefineSearchContact"><![CDATA[Vi kunde inte hitta en exakt matchning. Försök förfina sökningen.]]></lookup>
+
+	<!-- 12/5/2018 -->
+	<lookup key="WhiteboardMeetingEndPPUX"><![CDATA[Ditt schemalagda möte håller på att sluta, välj ett alternativ på pekskärmen.]]></lookup>
+
+	<!-- 12/7/2018 -->
+	<lookup key="WhiteboardIncomingReqPPUX"><![CDATA[Inkommande begäran om fjärranslutning, godkänn eller ignorera på pekskärmen.]]></lookup>
+
+	<!-- 12/14/2018 -->
+	<lookup key="account-action"><![CDATA[Åtgärder]]></lookup>
+	<lookup key="cloudware-license"><![CDATA[Cloudware-licensavtal]]></lookup>
+	<lookup key="service-status"><![CDATA[Servicestatus]]></lookup>
+	<lookup key="privacy-statement"><![CDATA[Sekretesspolicy]]></lookup>
+	<lookup key="uc-agreement"><![CDATA[Crestron Unified Communications programlicensavtal]]></lookup>
+
+	<lookup key="busy-loading"><![CDATA[laddar]]></lookup>
+	<lookup key="AirBoard"><![CDATA[AirBoard]]></lookup>
+	<lookup key="Settings"><![CDATA[Inställningar]]></lookup>
+	<lookup key="ConfirmPassword"><![CDATA[Bekräfta lösenord]]></lookup>
+	<lookup key="UserDetail"><![CDATA[Användarinformation]]></lookup>
+	<lookup key="PasswordMismatchWarning"><![CDATA[Lösenorden måste matcha.]]></lookup>
+
+	<!-- 12/27/2018 -->
+	<lookup key="CresnetBusIdValidationMessage"><![CDATA[Format som krävs för Cresnet ID (03-1B).]]></lookup>
+	<lookup key="DeviceType.CresnetGateway"><![CDATA[Cresnet-gateway]]></lookup>
+	<lookup key="DeviceTransport.CrestronCrestnetBus"><![CDATA[Cresnet-buss]]></lookup>
+	<lookup key="GatewayBus"><![CDATA[Gateway-buss]]></lookup>
+
+	<!-- 01/08/2019 -->
+	<lookup key="EnableAutoUpdate"><![CDATA[Aktivera automatisk uppdatering för pekskärm]]></lookup>
+	<lookup key="AutoRouting"><![CDATA[AirMedia endast automatisk dirigering]]></lookup>
+	<lookup key="PriorityRouting"><![CDATA[Prioriterad dirigering]]></lookup>
+	<lookup key="InvalidInputName"><![CDATA[Ogiltigt visningsnamn.  Får inte innehålla < eller > tecken.]]></lookup>
+
+	<lookup key="AudioSource.AudioFollowVideo"><![CDATA[Ljud följer video]]></lookup>
+	<lookup key="AudioSource.Analog"><![CDATA[Analog]]></lookup>
+	<lookup key="ChannelType.Streaming"><![CDATA[Strömmande]]></lookup>
+
+	<lookup key="UploadConfigRestore"><![CDATA[Återställ]]></lookup>
+	<lookup key="UploadConfigCreateRoom"><![CDATA[Skapa rum]]></lookup>
+
+	<lookup key="UploadConfigWarning"><![CDATA[Om du återställer en gammal konfiguration för ett befintligt rum som redan finns i din Fusion-miljö, välj ”Återställ”.  Om du dock importerar en konfiguration som en utgångspunkt för ett nytt rum, välj ”Skapa rum”.]]></lookup>
+
+	<!-- 01/30/2019 -->
+	<lookup key="WhiteBoardCodeMode.Disabled"><![CDATA[Inaktiverad]]></lookup>
+	<lookup key="WhiteBoardCodeMode.Random"><![CDATA[Slumpmässig]]></lookup>
+	<lookup key="WhiteBoardCodeMode.Fixed"><![CDATA[Fast]]></lookup>
+
+	<lookup key="WhiteboardViewParticipants"><![CDATA[Visa deltagare]]></lookup>
+	<lookup key="WhiteboardRecord"><![CDATA[Spela in]]></lookup>
+	<lookup key="WhiteboardStopRecording"><![CDATA[Sluta spela in]]></lookup>
+	<lookup key="WhiteboardSnapshot"><![CDATA[Skicka bild]]></lookup>
+	<lookup key="WhiteboardParticipants"><![CDATA[Deltagare]]></lookup>
+	<lookup key="WhiteboardIncomingReq"><![CDATA[Inkommande begäran om fjärranslutning]]></lookup>
+	<lookup key="WhiteboardIncomingReqAccept"><![CDATA[Godkänn]]></lookup>
+	<lookup key="WhiteboardIncomingReqIgnore"><![CDATA[Ignorera]]></lookup>
+	<lookup key="WhiteboardInSession"><![CDATA[I session]]></lookup>
+	<lookup key="WhiteboardInLobby"><![CDATA[I lobby]]></lookup>
+	<lookup key="WhiteboardEmail"><![CDATA[E-posta inspelning till:]]></lookup>
+	<lookup key="WhiteboardSendSlideDeck"><![CDATA[Skicka Slide Deck]]></lookup>
+	<lookup key="WhiteboardEmailRecording"><![CDATA[E-postinspelning]]></lookup>
+	<lookup key="WhiteboardProceed"><![CDATA[Fortsätt utan att använda e-post]]></lookup>
+	<lookup key="WhiteboardMeetingEnd"><![CDATA[Ditt schemalagda möte håller på att sluta, välj ett alternativ]]></lookup>
+	<lookup key="WhiteboardStopPresenting"><![CDATA[Sluta spela in och presentera]]></lookup>
+	<lookup key="WhiteboardDontStop"><![CDATA[Sluta inte]]></lookup>
+	<lookup key="WhiteboardTitle"><![CDATA[AirBoard®]]></lookup>
+
+	<lookup key="BluetoothPairingMode"><![CDATA[Bluetooth parkopplingsläge]]></lookup>
+	<lookup key="BluetoothTimeOut"><![CDATA[Bluetooth tid av inaktivitet för frånkoppling]]></lookup>
+	<lookup key="BluetoothTimeOutValidValueMessage"><![CDATA[Värdet som krävs måste vara (1–60)]]></lookup>
+	<lookup key="PairingMode.Timeout"><![CDATA[Timeout]]></lookup>
+	<lookup key="PairingMode.Persistent"><![CDATA[Fortlöpande]]></lookup>
+	<lookup key="ReportOnlyAirmediaAsset"><![CDATA[Rapportera endast AirMedia-tillgång]]></lookup>
+	<lookup key="LdapPortWarning"><![CDATA[Krävt portformat (1-65535).]]></lookup>
+	<lookup key="NonControlledDevice"><![CDATA[Ej kontrollerad enhet]]></lookup>
+
+	<lookup key="CrestronConnected"><![CDATA[Crestron-ansluten]]></lookup>
+	<lookup key="MercuryIpIdValidationMessage"><![CDATA[IPID-format som krävs (03-FD)]]></lookup>
+
+	<!-- 6/10/2019 -->
+	<lookup key="WhiteboardConfirmationPrompt"><![CDATA[Är du säker på att du vill stoppa inspelningen?]]></lookup>
+	<lookup key="WhiteboardStopNowCap"><![CDATA[JA, STOPPA NU]]></lookup>
+	<lookup key="WhiteboardContinueCap"><![CDATA[NEJ, FORTSÄTT]]></lookup>
+	<lookup key="WhiteboardEmailRecordingCap"><![CDATA[E-POSTINSPELNING]]></lookup>
+	<lookup key="WhiteboardProceedCap"><![CDATA[FORTSÄTT UTAN ATT ANVÄNDA E-POST]]></lookup>
+	<lookup key="WhiteboardStopPresentingCap"><![CDATA[STOPPA INSPELNING & PRESENTATION]]></lookup>
+
+	<lookup key="GenericCancelCap"><![CDATA[AVBRYT]]></lookup>
+	<lookup key="CouldNotFindMatch"><![CDATA[Vi kunde inte hitta en exakt matchning. Försök förfina sökningen.]]></lookup>
+	<lookup key="PresentationTypes"><![CDATA[Presentationstyper]]></lookup>
+	<lookup key="Resume"><![CDATA[Återuppta]]></lookup>
+	<lookup key="BlankScreen"><![CDATA[Blank skärm]]></lookup>
+	<lookup key="CallTypes"><![CDATA[Samtalstyper]]></lookup>
+	<lookup key="ReturnToCall"><![CDATA[Återgå till samtal]]></lookup>
+	<lookup key="TapReturnToCall"><![CDATA[Tryck här för att återgå till samtal]]></lookup>
+	<lookup key="CallOnHold"><![CDATA[Nuvarande samtal i vänteläge]]></lookup>
+	<lookup key="USBCable"><![CDATA[USB-kabel]]></lookup>
+	<lookup key="UsbCall"><![CDATA[USB-samtal]]></lookup>
+	<lookup key="ConnectYourUsbDeviceText"><![CDATA[Anslut enheten med den medföljande USB-kabeln]]></lookup>
+	<lookup key="AvailableForNext"><![CDATA[tillgänglig kommande]]></lookup>
+	<lookup key="Available"><![CDATA[tillgänglig]]></lookup>
+	<lookup key="RestOfDay"><![CDATA[resten av dagen]]></lookup>
+	<lookup key="ReservedForNext"><![CDATA[reserverad för kommande]]></lookup>
+	<lookup key="MeetingLabel"><![CDATA[möte]]></lookup>
+	<lookup key="GeneralHome"><![CDATA[Hem]]></lookup>
+	<lookup key="GeneralPresent"><![CDATA[Presentera]]></lookup>
+	<lookup key="GeneralCall"><![CDATA[Samtal]]></lookup>
+	<lookup key="GeneralToday"><![CDATA[Idag]]></lookup>
+	<lookup key="GeneralCollaborate"><![CDATA[Samarbeta]]></lookup>
+	<lookup key="NextMeeting"><![CDATA[Nästa möte]]></lookup>
+	<lookup key="Plug"><![CDATA[koppla in]]></lookup>
+	<lookup key="ConnectLaptopGuide"><![CDATA[i din bärbara dator för att presentera på skärmen]]></lookup>
+	<lookup key="ConnectUsbGuide"><![CDATA[i din bärbara dator för att använda den som ljudenhet]]></lookup>
+	<lookup key="Set"><![CDATA[ange]]></lookup>
+	<lookup key="Camera"><![CDATA[kamera]]></lookup>
+	<lookup key="Step"><![CDATA[steg]]></lookup>
+	<lookup key="Connect"><![CDATA[anslut]]></lookup>
+	<lookup key="ConnectYourHDMIDeviceText"><![CDATA[anslut med den medföljande HDMI-kabeln för att presentera din bärbara dator]]></lookup>
+
+	<!-- *** IMPORTANT *** Virtual Control is a trademark and should not be translated -->
+	<lookup key="VCToken"><![CDATA[Virtual Control Token]]></lookup>
+	<lookup key="VCToken.Message"><![CDATA[Virtual Control Token krävs.]]></lookup>
+	<lookup key="VCToken.Invalid"><![CDATA[Ogiltig Virtual Control Token.]]></lookup>
+
+	<!-- 2019-09-30 -->
+	<lookup key="VideoDisplayStatusEvent.PortOffline"><![CDATA[Porten är offline]]></lookup>
+	<lookup key="SyncVC4RoomName"><![CDATA[Synkronisera rumsnamn med VC-4]]></lookup>
+	<lookup key="EnableCustomHelpPage"><![CDATA[Aktivera anpassad hjälpsida]]></lookup>
+	<lookup key="CustomHelpPageUrl"><![CDATA[URL för anpassad hjälpsida]]></lookup>
+	<lookup key="Upload"><![CDATA[Ladda upp]]></lookup>
+
+	<!-- 2019-09-09 -->
+	<lookup key="Resolution.Res720x480iNTSC"><![CDATA[720x480 px 30 Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080p"><![CDATA[1920x1080 px 24 Hz]]></lookup>
+	<lookup key="Resolution.Res2048x1080At24Hz"><![CDATA[2048x1080 px vid 24Hz]]></lookup>
+	<lookup key="Resolution.Res1920x1080pAt30HzNTSC"><![CDATA[1920x1080 px vid 30 Hz NTSC ]]></lookup>
+	<lookup key="Resolution.Res1920x1080pAt25HzPAL"><![CDATA[1920x1080p px vid 25 Hz PAL]]></lookup>
+
+	<!-- 2019-09-26 -->
+	<lookup key="UxGeneralCustomization.EnableReservationLabel"><![CDATA[Bokning aktiverad]]></lookup>
+
+	<!-- 2019-10-04 -->
+	<lookup key="ChannelType.DmLite"><![CDATA[DM LITE]]></lookup>
+
+	<!-- 2019-10-15 -->
+	<lookup key="WallPaper.EnableCustomHelpPageLabel"><![CDATA[Aktivera anpassad hjälp]]></lookup>
+	<lookup key="WallPaper.CustomHelpPageUrlLabel"><![CDATA[URL för anpassad hjälp]]></lookup>
+	<lookup key="WallPaper.CustomHelpPageUrlValidValueMessage"><![CDATA[Ogiltig URL för anpassad hjälp]]></lookup>
+	<lookup key="WallPaper.IdValidValueMessage"><![CDATA[Giltigt val krävs]]></lookup>
+
+	<!-- 2019-09-17 -->
+	<lookup key="DisplayFeature.PowerFeedback"><![CDATA[Återkoppling av strömförsörjning]]></lookup>
+	<lookup key="DisplayFeature.VideoMute"><![CDATA[Video tyst]]></lookup>
+	<lookup key="DisplayFeature.Mute"><![CDATA[Tyst]]></lookup>
+	<lookup key="DisplayFeature.MuteFeedback"><![CDATA[Återkoppling av tyst läge]]></lookup>
+	<lookup key="DisplayFeature.Volume"><![CDATA[Volyminställning]]></lookup>
+	<lookup key="DisplayFeature.SetVolume"><![CDATA[Ställa in analog volym]]></lookup>
+	<lookup key="DisplayFeature.VolumeFeedback"><![CDATA[Återkoppling av volyminställning]]></lookup>
+	<lookup key="DisplayFeature.InputFeedback"><![CDATA[Återkoppling av ingångsval]]></lookup>
+	<!-- Supported Driver Feature Web AddNewDevice -->
+	<lookup key="SupportedFeature"><![CDATA[Drivrutinsfunktioner som stöds]]></lookup>
+
+	<lookup key="StandbyMode.VideoSyncBased"><![CDATA[Videosynk.-baserad]]></lookup>
+	<lookup key="VideoSyncPowerOn"><![CDATA[Videosynk.-på]]></lookup>
+	<lookup key="VideoSyncPowerOff"><![CDATA[Videosynk.-av]]></lookup>
+	<lookup key="VideoSyncPowerOffTimeout"><![CDATA[Tidsgräns för videosynk.-av]]></lookup>
+	<lookup key="VideoSyncPowerOffTimeoutBoundsWarning"><![CDATA[giltigt intervall 1–120 minuter]]></lookup>
+
+	<!-- 2019-11-01 -->
+	<lookup key="PanelUiVersionType.UI1"><![CDATA[AVF 1.0 Tema (äldre)]]></lookup>
+	<lookup key="PanelUiVersionType.UI2"><![CDATA[AVF 2.0 Tema (nytt)]]></lookup>
+	<lookup key="UiVersionLabel"><![CDATA[Tema för .AV Framework användargränssnitt]]></lookup>
+
+	<!-- 2019-12-11 -->
+	<lookup key="OccupancyPowerOn"><![CDATA[Närvarobaserad påslagning]]></lookup>
+	<lookup key="OccupancyPowerOff"><![CDATA[Närvarobaserad avstängning]]></lookup>
+
+	<lookup key="StandbyMode.Default"><![CDATA[Närvarobaserad]]></lookup>
+
+	<!-- 2019-12-16-->
+	<lookup key="ThemeHelpText"><![CDATA[Anm.: Att byta teman tar ungefär <br>30–60 sekunder efter att .AV Framework har aktiverats]]></lookup>
+
+	<!-- 2019-12-24 -->
+	<lookup key="videoSyncWarnText"><![CDATA[Anm.: En virtuell mixer kan inte användas i kombination<br> med videosynk.-baserad på/av.]]></lookup>
+
+	<!-- 2019-11-15 -->
+	<lookup key="POEOccupancySensorSettings"><![CDATA[Givarinställningar för upptagen ström via Ethernet]]></lookup>
+
+	<!-- 2019-12-20 -->
+	<lookup key="SensorStatus"><![CDATA[Givarstatus]]></lookup>
+	<lookup key="Occupied"><![CDATA[Upptaget]]></lookup>
+	<lookup key="Vacant"><![CDATA[Ledig]]></lookup>
+
+	<!-- 2020-01-09 -->
+	<lookup key="DriverInstallStatusEnum.UnknownCommand"><![CDATA[Okänt kommando]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Uploading"><![CDATA[Laddar upp fil]]></lookup>
+	<lookup key="DriverInstallStatusEnum.UploadComplete"><![CDATA[Uppladdning slutförd]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Downloading"><![CDATA[Hämtar fil]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Downloaded"><![CDATA[Hämtad fil]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Installed"><![CDATA[Drivrutin installerad]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Installing"><![CDATA[Installerar drivrutin]]></lookup>
+	<lookup key="DriverInstallStatusEnum.ErrorOccured"><![CDATA[Ett fel inträffade]]></lookup>
+	<lookup key="DriverInstallStatusEnum.UnzippedPkg"><![CDATA[Uppackad paketfil]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Processing"><![CDATA[Bearbetar fil]]></lookup>
+	<lookup key="DriverInstallStatusEnum.DownloadingComplete"><![CDATA[Hämtning slutförd]]></lookup>
+	<lookup key="DriverInstallStatusEnum.InvalidOrCorruptFile"><![CDATA[Ogiltig eller skadad fil]]></lookup>
+
+	<!-- 2020-01-20 -->
+	<lookup key="AcronymHour"><![CDATA[h]]></lookup>
+	<lookup key="AcronymMinute"><![CDATA[min]]></lookup>
+
+	<!-- 2020-01-29 -->
+	<lookup key="AddDeviceDriver"><![CDATA[Importera en drivrutin]]></lookup>
+</lang>

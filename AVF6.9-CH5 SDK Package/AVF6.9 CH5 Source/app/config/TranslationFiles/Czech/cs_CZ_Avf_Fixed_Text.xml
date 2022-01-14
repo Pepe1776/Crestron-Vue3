@@ -1,0 +1,1546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang locale="cs_CZ" name="Czech" variant="Czech">
+	<include file="cs_CZ_Common_Text.xml"/>
+	<include file="cs_CZ_Scheduling_Calendar.xml"/>
+
+	<lookup key = "CurrentLanguageTranslatedName"><![CDATA[Čeština]]></lookup> <!-- This is the name of the language being translated as it exists natively -->
+
+	<lookup key="AvFramework"><![CDATA[AvFramework]]></lookup>
+	<lookup key="signin"><![CDATA[Přihlásit se]]></lookup>
+
+	<!-- 000_Initialize  -->
+	<lookup key="InitializeMessageText"><![CDATA[Počkejte prosím na spuštění systému ...]]></lookup>
+
+	<!-- 002_Home_Available -->
+	<lookup key="ReserveNowButtonText"><![CDATA[REZERVOVAT NYNÍ]]></lookup>
+
+	<!-- 002_Home_Available_All_Day -->
+	<lookup key="RestOfDayText"><![CDATA[Po zbytek dne]]></lookup>
+
+	<!-- 002_Home_Available_Reserve -->
+	<lookup key="NewMeetingText"><![CDATA[Nová schůzka]]></lookup>
+
+	<!-- 002_Home_Fusion_Offline -->
+
+	<!-- 002_Home_Meeting_InProgress -->
+
+	<!-- 002_Home_Meeting_InProgress_Join -->
+	<lookup key="MeetingInProgressText"><![CDATA[Probíhá]]></lookup>
+	<lookup key="JoinMeetingButtonText"><![CDATA[Přidat se ke schůzce]]></lookup>
+
+	<!-- 003_Call_Selection -->
+	<lookup key="MakeCallText"><![CDATA[Volat]]></lookup>
+
+	<!-- 003_Call_Video_Directory -->
+
+	<!-- 003_Call_Video_InCall -->
+	<lookup key="VideoCallText"><![CDATA[Ve video hovoru]]></lookup>
+	<lookup key="VideoCallDisableVideoText"><![CDATA[Zablokovat video]]></lookup>
+
+	<!-- 004_Call_Audio_Keypad, KeypadButton is in Common_Text.xml-->
+
+	<!-- 004_Call_Audio_Keypad_DTMF, KeypadButton is in Common_Text.xml-->
+
+	<!-- 004_Call_Audio_inCall -->
+	<lookup key="AudioCallText"><![CDATA[Audio hovor]]></lookup>
+
+	<!-- 0096_Outgoing_Audio_Call, in Common_Text.xml -->
+
+	<!-- 0097_Incoming_In_Call_Audio_Call -->
+	<lookup key="IncomingCallText"><![CDATA[Příchozí]]></lookup>
+	<lookup key="IncomingInCallAnswerText"><![CDATA[Skončit aktuální a přijmout hovor]]></lookup>
+	<lookup key="IncomingInCallIgnoreText"><![CDATA[Ignorovat]]></lookup>
+
+	<!-- 0098_Incoming_Audio_Call -->
+	<lookup key="IncomingCallAnswerText"><![CDATA[Přijmout hovor]]></lookup>
+	<lookup key="IncomingCallDismissText"><![CDATA[ODMÍTNOUT]]></lookup>
+
+	<!-- 005_Present_Selection -->
+	<lookup key="PresentSourceSelectText"><![CDATA[Zvolte prosím Zdroj k předložení ]]></lookup>
+
+	<!-- 005_Present_BluRay_Playhead -->
+	<lookup key="PresentBlurayPopUpMenuText"><![CDATA[Vyskakovací nabídka]]></lookup>
+	<lookup key="PresentBlurayTopMenuText"><![CDATA[Hlavní nabídka]]></lookup>
+	<lookup key="PresentBlurayEjectText"><![CDATA[VYSUNOUT]]></lookup>
+	<lookup key="PresentSourcesText"><![CDATA[ZDROJE]]></lookup>
+	<lookup key="PresentNowPresentText"><![CDATA[Nyní prezentuje]]></lookup>
+	<lookup key="PresentStopPresentingText"><![CDATA[Zastavit prezentaci]]></lookup>
+	<lookup key="PresentSmartTVText"><![CDATA[Chytrá televize]]></lookup>
+
+	<!-- 005_Present_BluRay_Keypad -->
+
+	<!-- 005_Present_Laptop -->
+	<lookup key="PresentPlayingSourceText"><![CDATA[přehrávání prostřednictvím]]></lookup>
+
+	<!-- 005_Present_Laptop_NoSource -->
+	<lookup key="PresentLaptopNoSourceText"><![CDATA[Připojte svůj notebook]]></lookup>
+	<lookup key="PresentLaptopNoSourceConnectText"><![CDATA[Připojte svůj notebook k]]></lookup>
+
+	<!-- 005_Present_PC -->
+
+	<!-- 005_Present_TV_Playhead -->
+	<lookup key="PresentTVTunerText"><![CDATA[Televizní tuner]]></lookup>
+	<lookup key="PresentGuideText"><![CDATA[Průvodce]]></lookup>
+
+	<!-- 005_Present_TV_Keypad -->
+
+	<!-- 005_Present_Wireless -->
+	<lookup key="PresentWirelessSourceText"><![CDATA[Notebook]]></lookup>
+
+	<!-- 0094_Mic_Mute_Privacy -->
+	<lookup key="MicMuteText"><![CDATA[Mikrofon je potlačen pro zachování soukromí]]></lookup>
+
+	<!-- 0095_Lighting_Popup -->
+	<lookup key="LightingAdjustText"><![CDATA[Upravit proud]]></lookup>
+
+	<!-- All power off -->
+	<lookup key="AllPowerOff"><![CDATA[Všechna zobrazení budou vypnuta a zvuk bude potlačen.]]></lookup>
+	<lookup key="PowerOffCountDown"><![CDATA[Systém se automaticky vypne za:]]></lookup>
+	<lookup key="PowerOffShutdown"><![CDATA[Vypnout]]></lookup>
+	<lookup key="PowerOffContinue"><![CDATA[Pokračovat v používání]]></lookup>
+	<lookup key="PowerOffShutingDown"><![CDATA[Vypínání]]></lookup>
+
+	<!-- MainTemplate.html -->
+	<lookup key="AvFramework20"><![CDATA[AV Framework 2.0]]></lookup>
+
+	<!-- MainTemplate.html (01/28/2016 )-->
+	<lookup key="ToggleNavigation"><![CDATA[Přepínání navigace]]></lookup>
+
+	<!-- login.html -->
+	<lookup key="Username"><![CDATA[Uživatelské jméno]]></lookup>
+	<lookup key="PleaseSignIn"><![CDATA[Přihlaste se prosím]]></lookup>
+	<lookup key="Password"><![CDATA[Heslo]]></lookup>
+	<lookup key="Required"><![CDATA[Požadováno]]></lookup>
+
+	<!--AddNewDevice.html -->
+
+	<lookup key="AddNewDevice"><![CDATA[Přidejte nové zařízení]]></lookup>
+	<lookup key="DeviceType"><![CDATA[Typ zařízení]]></lookup>
+	<lookup key="ChannelName"><![CDATA[Název kanálu]]></lookup>
+	<lookup key="DisplayName"><![CDATA[Zobrazit název]]></lookup>
+	<lookup key="Model"><![CDATA[Model]]></lookup>
+	<lookup key="Control"><![CDATA[Ovládání]]></lookup>
+	<lookup key="IP"><![CDATA[IP]]></lookup>
+	<lookup key="Port"><![CDATA[Port]]></lookup>
+	<lookup key="Channel"><![CDATA[Kanál]]></lookup>
+	<lookup key="IPID"><![CDATA[IPID]]></lookup>
+	<lookup key="DigitalMedia"><![CDATA[Digitální média]]></lookup>
+	<lookup key="Resolution"><![CDATA[Rozlišení]]></lookup>
+	<lookup key="DisplayMode"><![CDATA[Režim zobrazení]]></lookup>
+	<lookup key="UsbPort"><![CDATA[Port USB]]></lookup>
+	<lookup key="One"><![CDATA[1]]></lookup>
+	<lookup key="Two"><![CDATA[2]]></lookup>
+	<lookup key="Three"><![CDATA[3]]></lookup>
+	<lookup key="Four"><![CDATA[4]]></lookup>
+	<lookup key="BaudRate"><![CDATA[Přenosová rychlost]]></lookup>
+	<lookup key="IpIdValidationMessage"><![CDATA[Požadovaný formát IPID(03-FE).]]></lookup>
+	<lookup key="IpValidationMessage"><![CDATA[Požadovaný formát adresy IP(#.#.#.#).]]></lookup>
+	<lookup key="PortValidationMessage"><![CDATA[Požadovaný formát portu (1-65535).]]></lookup>
+
+	<!--ConfigStep1.html-->
+
+	<lookup key="SystemSetup"><![CDATA[Nastavení systému]]></lookup>
+	<lookup key="RoomName"><![CDATA[Název pokoje]]></lookup>
+	<lookup key="FusionIpId"><![CDATA[IPID]]></lookup>
+	<lookup key="AllowCalls"><![CDATA[Povolit hovory]]></lookup>
+	<lookup key="EnableLighting"><![CDATA[Umožnit osvětlení]]></lookup>
+	<lookup key="TimeFormat"><![CDATA[Formát času]]></lookup>
+	<lookup key="24Hour"><![CDATA[24 hodin]]></lookup>
+	<lookup key="12hour"><![CDATA[12 hodin]]></lookup>
+	<lookup key="DateFormat"><![CDATA[Formát data]]></lookup>
+
+	<!--ConfigStep2.html-->
+
+	<lookup key="Devices"><![CDATA[Zařízení]]></lookup>
+	<lookup key="Name"><![CDATA[Název]]></lookup>
+	<lookup key="Type"><![CDATA[Typ]]></lookup>
+	<lookup key="Driver"><![CDATA[Ovladač]]></lookup>
+	<lookup key="TransportDetails"><![CDATA[Údaje o přepravě]]></lookup>
+	<lookup key="Serial"><![CDATA[Sériový]]></lookup>
+	<lookup key="Delete"><![CDATA[Vymazat]]></lookup>
+	<lookup key="Previous"><![CDATA[Předchozí]]></lookup>
+
+	<!--ConfigStep3.html-->
+	<lookup key="Inputs"><![CDATA[Vstupy]]></lookup>
+	<lookup key="Icon"><![CDATA[Ikona]]></lookup>
+	<lookup key="Enabled"><![CDATA[Povoleno]]></lookup>
+	<lookup key="Rank"><![CDATA[Řadit]]></lookup>
+	<lookup key="Device"><![CDATA[Zařízení]]></lookup>
+	<lookup key="Endpoint"><![CDATA[Koncový bod]]></lookup>
+	<lookup key="Outputs"><![CDATA[Výstupy]]></lookup>
+
+	<!-- ConfigStep4.html (01/28/2016 ) -->
+	<lookup key="DownloadConfiguration"><![CDATA[Stáhnout konfiguraci]]></lookup>
+	<lookup key="UploadConfiguration"><![CDATA[Odeslat konfiguraci]]></lookup>
+	<lookup key="ActivateConfiguration"><![CDATA[Aktivovat konfiguraci]]></lookup>
+	<lookup key="RevertConfiguration"><![CDATA[Přepnout konfiguraci]]></lookup>
+
+	<!--Index.html-->
+	<lookup key="Welcome"><![CDATA[Vítá  vás AV Framework 2.0]]></lookup>
+
+	<!--RoomStatus.html-->
+	<lookup key="EthernetInformation"><![CDATA[Informace o ethernetu]]></lookup>
+	<lookup key="InputChannels"><![CDATA[Vstupní kanály]]></lookup>
+	<lookup key="AttachedDevice"><![CDATA[Připojené zařízení]]></lookup>
+	<lookup key="OutputChannels"><![CDATA[Výstupní kanály]]></lookup>
+	<lookup key="HostName"><![CDATA[Název hostitele]]></lookup>
+	<lookup key="DefaultRouter"><![CDATA[Výchozí směrovač]]></lookup>
+	<lookup key="SubnetMask"><![CDATA[Maska podsítě]]></lookup>
+
+	<!--JavaScript-->
+	<lookup key="Error"><![CDATA[Chyba]]></lookup>
+	<lookup key="Notice"><![CDATA[Oznámení]]></lookup>
+	<lookup key="SaveProblemWarning"><![CDATA[Zdá se, že se vyskytl problém s ukládáním.]]></lookup>
+	<lookup key="MaxDeviceWarning"><![CDATA[Systém již má maximální počet ({0}) těchto zařízení.]]></lookup>
+	<lookup key="SpecifyDeviceWarning"><![CDATA[Specifikujte prosím nejdříve typ zařízení.]]></lookup>
+	<lookup key="UnSavedChangesWarning"><![CDATA[Máte neuložené změny.]]></lookup>
+	<lookup key="InvalidLogin"><![CDATA[Neplatný uživatel/heslo.]]></lookup>
+	<lookup key="UnControlledNotConfigurable"><![CDATA[Neřízená/zakázaná zařízení nejsou konfigurovatelná.]]></lookup>
+
+	<!--JavaScript (01/28/2016 ) -->
+	<lookup key="Warning"><![CDATA[Upozornění]]></lookup>
+	<lookup key="DeleteDeviceWarning"><![CDATA[Opravdu chcete odstranit toto zařízení?]]></lookup>
+	<lookup key="ActivateConfigWarning"><![CDATA[Opravdu chcete aktivovat tuto konfiguraci?]]></lookup>
+	<lookup key="RevertConfigWarning"><![CDATA[Opravdu chcete přepnout tuto konfiguraci?]]></lookup>
+	<lookup key="AlreadyInUse"><![CDATA[{0} se již používá.]]></lookup>
+	<lookup key="FileLargeError"><![CDATA[Tento soubor je příliš velký.]]></lookup>
+	<lookup key="IncorrectFileExtensionError"><![CDATA[Nesprávný typ souboru.]]></lookup>
+	<lookup key="Success"><![CDATA[Úspěch]]></lookup>
+	<lookup key="CofigurationUpdated"><![CDATA[Konfigurace byla aktualizována.]]></lookup>
+
+	<!-- Web Menu System-->
+	<lookup key="SignOff"><![CDATA[Odhlásit se]]></lookup>
+	<lookup key="Configure"><![CDATA[Konfigurovat]]></lookup>
+	<!-- Web Menu System (01/28/2016 ) -->
+	<lookup key="Switch"><![CDATA[Přepnout]]></lookup>
+	<lookup key="System"><![CDATA[Systém]]></lookup>
+
+	<!-- 01/19/2016, enums for web page -->
+	<!-- AssociatedDevice -->
+	<lookup key="AssociatedInputDevice.Disabled"><![CDATA[Zakázaný]]></lookup>
+	<lookup key="AssociatedInputDevice.UnControlled"><![CDATA[Neřízený]]></lookup>
+	<lookup key="AssociatedInputDevice.Bluray"><![CDATA[Blu-ray]]></lookup>
+	<lookup key="AssociatedInputDevice.Cable"><![CDATA[Kabelový]]></lookup>
+	<lookup key="AssociatedInputDevice.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="AssociatedOutputDevice.Disabled"><![CDATA[Zakázaný]]></lookup>
+	<lookup key="AssociatedOutputDevice.UnControlled"><![CDATA[Neřízený]]></lookup>
+	<lookup key="AssociatedInputDevice.ConnectIt"><![CDATA[ConnectIt]]></lookup>
+
+	<!-- ComBaudRate -->
+	<lookup key="ComBaudRate.ComspecBaudRate57600"><![CDATA[57 600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate38400"><![CDATA[38 400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate28800"><![CDATA[28 800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate19200"><![CDATA[19 200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate14400"><![CDATA[14 400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate9600"><![CDATA[9 600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate7200"><![CDATA[7 200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate4800"><![CDATA[4 800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate3600"><![CDATA[3 600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate2400"><![CDATA[2 400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate1800"><![CDATA[1 800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate1200"><![CDATA[1 200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate600"><![CDATA[600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate300"><![CDATA[300]]></lookup>
+
+	<!-- DateFormat -->
+	<lookup key="DateFormat.Mmddyy"><![CDATA[leden 15., 2017]]></lookup>
+	<lookup key="DateFormat.Ddmmyy"><![CDATA[15. leden 2017]]></lookup>
+	<lookup key="DateFormat.Yymmdd"><![CDATA[2017, leden 15.]]></lookup>
+
+	<!-- DeviceOnlineStatus -->
+	<lookup key="DeviceOnlineStatus.Unknown"><![CDATA[Nedostupné]]></lookup>
+	<lookup key="DeviceOnlineStatus.Online"><![CDATA[Online]]></lookup>
+	<lookup key="DeviceOnlineStatus.Offline"><![CDATA[Offline]]></lookup>
+
+	<!-- DeviceType -->
+	<lookup key="DeviceType.Switcher"><![CDATA[Přepínač]]></lookup>
+	<lookup key="DeviceType.CableTv"><![CDATA[Kabelová televize]]></lookup>
+	<lookup key="DeviceType.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="DeviceType.ButtonPanel"><![CDATA[Tlačítkový panel]]></lookup>
+	<lookup key="DeviceType.Keypad"><![CDATA[Zásuvka]]></lookup>
+	<lookup key="DeviceType.KeyPadUsb"><![CDATA[Klávesnice USB]]></lookup>
+
+	<!-- DisplayMode -->
+	<lookup key="DisplayMode.Maintain"><![CDATA[Udržovat]]></lookup>
+	<lookup key="DisplayMode.Stretch"><![CDATA[Rozpětí]]></lookup>
+	<lookup key="DisplayMode.Zoom"><![CDATA[Zoom]]></lookup>
+	<lookup key="DisplayMode.None"><![CDATA[Žádný]]></lookup>
+
+	<!-- PortType -->
+	<lookup key="PortType.Ir"><![CDATA[IR]]></lookup>
+	<lookup key="PortType.Serial"><![CDATA[Sériový]]></lookup>
+	<lookup key="PortType.Cec"><![CDATA[CEC]]></lookup>
+
+	<!-- Resolution -->
+	<lookup key="Resolution.EDIDPreferred"><![CDATA[EDID, preferovaný]]></lookup>
+	<lookup key="Resolution.None"><![CDATA[Žádný]]></lookup>
+	<lookup key="Resolution.Res640x480PC"><![CDATA[640 × 480 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res720x480pNTSC"><![CDATA[720 × 480p 60 Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res720x576iPAL"><![CDATA[720 × 576i 25 Hz PAL]]></lookup>
+	<lookup key="Resolution.Res720x576pPAL"><![CDATA[720 × 576p 50 Hz PAL]]></lookup>
+	<lookup key="Resolution.Res800x600PC"><![CDATA[800 × 600 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res848x480PC"><![CDATA[848 × 480 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1024x768PC"><![CDATA[1024 × 768 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x720pPAL"><![CDATA[1280 × 720p 50 Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1280x720pNTSC"><![CDATA[1280 × 720p 60 Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1280x768PC"><![CDATA[1280 × 768 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x768PCRb"><![CDATA[1280 × 768 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1280x800PC"><![CDATA[1280 × 800 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x800PCRb"><![CDATA[1280 × 800 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1280x960PC"><![CDATA[1280 × 960 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x1024PC"><![CDATA[1280 × 1024 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1360x768PC"><![CDATA[1360 × 768 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PC"><![CDATA[1366 × 768 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PCRb"><![CDATA[1366 × 768 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1400x1050PC"><![CDATA[1400 × 1050 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1400x1050PCRb"><![CDATA[1400 × 1050 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1440x900PC"><![CDATA[1440 × 900 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1440x900PCRb"><![CDATA[1440 × 900 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1600x900PCRb"><![CDATA[1600 × 900 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1600x1200PC"><![CDATA[1600 × 1200 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PC"><![CDATA[1680 × 1050 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PCRb"><![CDATA[1680 × 1050 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1920x1080iPAL"><![CDATA[1920 × 1080i 60 Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080iNTSC"><![CDATA[1920 × 1080i 60 Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080pPAL"><![CDATA[1920 × 1080p 60 Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080pNTSC"><![CDATA[1920 × 1080p 60 Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1200PCRb"><![CDATA[1920 × 1200 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res2048x1152PCRb"><![CDATA[2048 × 1152 60 Hz PC RB]]></lookup>
+
+	<!-- SystemRole -->
+	<lookup key="SystemRole.Admin"><![CDATA[Admin]]></lookup>
+	<lookup key="SystemRole.DriverUpdate"><![CDATA[Aktualizace ovladače]]></lookup>
+	<lookup key="SystemRole.User"><![CDATA[Uživatel]]></lookup>
+	<lookup key="SystemRole.UnAuthorized"><![CDATA[Neoprávněný]]></lookup>
+
+	<!-- SystemState -->
+	<lookup key="SystemState.UnKnown"><![CDATA[Neznámý]]></lookup>
+	<lookup key="SystemState.UnConfigured"><![CDATA[Nekonfigurovaný]]></lookup>
+	<lookup key="SystemState.Configuring"><![CDATA[Probíhá konfigurace]]></lookup>
+	<lookup key="SystemState.Configured"><![CDATA[Konfigurovaný]]></lookup>
+
+	<!-- DeviceTransport -->
+	<lookup key="DeviceTransport.None"><![CDATA[Žádný]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpId"><![CDATA[IP ID]]></lookup>
+	<lookup key="DeviceTransport.CrestronInternal"><![CDATA[CrestronInternal]]></lookup>
+	<lookup key="DeviceTransport.CrestronIp"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronUsb"><![CDATA[USB]]></lookup>
+	<lookup key="DeviceTransport.IpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Ip"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpPortChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Serial"><![CDATA[Sériový]]></lookup>
+	<lookup key="DeviceTransport.SerialBaud"><![CDATA[Sériový]]></lookup>
+	<lookup key="DeviceTransport.SerialChannel"><![CDATA[Sériový]]></lookup>
+	<lookup key="DeviceTransport.Ir"><![CDATA[IR]]></lookup>
+	<lookup key="DeviceTransport.Cec"><![CDATA[CEC]]></lookup>
+	<lookup key="DeviceTransport.HDMI"><![CDATA[HDMI]]></lookup>
+
+	<!-- ChannelType -->
+	<lookup key="ChannelType.Undefined"><![CDATA[Nedefinovaný]]></lookup>
+	<lookup key="ChannelType.Hdmi"><![CDATA[HDMI]]></lookup>
+	<lookup key="ChannelType.HdmiVga"><![CDATA[HDMI VGA]]></lookup>
+	<lookup key="ChannelType.HdmiVgaBnc"><![CDATA[HDMI VGA BNC]]></lookup>
+	<lookup key="ChannelType.Vga"><![CDATA[VGA]]></lookup>
+	<lookup key="ChannelType.Dvi"><![CDATA[DVI]]></lookup>
+	<lookup key="ChannelType.DM"><![CDATA[DM]]></lookup>
+	<lookup key="ChannelType.DmHdmi"><![CDATA[DM HDMI]]></lookup>
+	<lookup key="ChannelType.SingleModeFiber"><![CDATA[Optický kabel s jedním režimem]]></lookup>
+	<lookup key="ChannelType.Fiber"><![CDATA[Optický kabel]]></lookup>
+	<lookup key="ChannelType.Audio"><![CDATA[Audio]]></lookup>
+	<lookup key="ChannelType.Sip"><![CDATA[SIP]]></lookup>
+	<lookup key="ChannelType.Composite"><![CDATA[Kompozitní ]]></lookup>
+	<lookup key="ChannelType.DisplayPort"><![CDATA[Zobrazovací port]]></lookup>
+
+	<!-- 02/11/2016 -->
+
+	<!-- Web Logger : new added  -->
+	<lookup key="NoFilter"><![CDATA[Žádný filtr]]></lookup>
+	<lookup key="Info"><![CDATA[Informace]]></lookup>
+	<lookup key="Debug"><![CDATA[Ladit]]></lookup>
+	<lookup key="FilterExpression"><![CDATA[Výraz filtrování]]></lookup>
+	<lookup key="StopScrolling"><![CDATA[Zastavit posouvání]]></lookup>
+	<lookup key="Scrolling"><![CDATA[Posouvání]]></lookup>
+	<lookup key="Download"><![CDATA[Stáhnout]]></lookup>
+
+	<lookup key="ClearSearchMessage"><![CDATA[Vymazat pro pokračování]]></lookup>
+	<lookup key="Search"><![CDATA[Hledat]]></lookup>
+	<lookup key="SearchLog"><![CDATA[Protokol hledání]]></lookup>
+	<lookup key="Clear"><![CDATA[Vymazat]]></lookup>
+
+	<!-- 02/29/2016 -->
+
+	<!-- ComBaudRate -->
+	<lookup key="ComBaudRate.ComspecBaudRate115200"><![CDATA[115200]]></lookup>
+
+	<!-- AddNewDevice.html -->
+	<lookup key="UseSensorTimeout"><![CDATA[Použít časový limit senzoru]]></lookup>
+	<lookup key="SensorTimeOutMinutes"><![CDATA[Časový limit v minutách]]></lookup>
+	<lookup key="TurnSystemOn"><![CDATA[Zapnout systém]]></lookup>
+	<lookup key="TurnSystemOff"><![CDATA[Vypnout systém]]></lookup>
+	<lookup key="RouteDefaultVideo"><![CDATA[Směrovat výchozí video]]></lookup>
+	<lookup key="PowerOnCommandLabel"><![CDATA[Příkaz zapnutí napájení]]></lookup>
+	<lookup key="PowerOffCommandLabel"><![CDATA[Příkaz vypnutí napájení]]></lookup>
+	<lookup key="SetSourceCommandLabel"><![CDATA[Příkaz nastavení zdroje]]></lookup>
+	<lookup key="PowerOnDelaySecondsLabel"><![CDATA[Zpoždění zapnutí napájení v sekundách]]></lookup>
+	<lookup key="Seconds"><![CDATA[Sekundy]]></lookup>
+
+	<!-- RelaySettings.html -->
+	<lookup key="RelayBehavior"><![CDATA[Chování relé]]></lookup>
+
+	<!-- JavascriptConts -->
+	<lookup key="Disable"><![CDATA[Zakázat]]></lookup>
+	<lookup key="Enable"><![CDATA[Povolit]]></lookup>
+
+	<!-- Custom Serial Web AddNewDevice -->
+	<lookup key="CustomSerialNote"><![CDATA[Poznámka: Použijte \n pro nový řádek a \r pro návrat na začátek řádku.]]></lookup>
+	<lookup key="ValidTimeoutWarning"><![CDATA[Zadejte platný časový limit.]]></lookup>
+
+	<!-- ConfigStep1.html -->
+	<lookup key="Fusion"><![CDATA[Crestron Fusion]]></lookup>
+	<lookup key="Dialer"><![CDATA[Číselník]]></lookup>
+	<lookup key="Relay"><![CDATA[Relé]]></lookup>
+	<lookup key="Lighting"><![CDATA[Osvětlení]]></lookup>
+
+	<!-- ConfigStep3.html  -->
+	<lookup key="SwitchChannelState.EnabledDefault"><![CDATA[Ano (výchozí)]]></lookup>
+
+	<!-- ConfigStep4.html  -->
+	<lookup key="ManageConfiguration"><![CDATA[Spravovat konfiguraci]]></lookup>
+	<lookup key="BackupRestore"><![CDATA[Zálohovat/obnovit]]></lookup>
+
+	<!-- DialerSettings.html -->
+	<lookup key="SpeedKeys"><![CDATA[Tlačítka rychlé volby]]></lookup>
+	<lookup key="SpeedKey"><![CDATA[Tlačítko rychlé volby]]></lookup>
+	<lookup key="Number"><![CDATA[Číslo]]></lookup>
+	<lookup key="OneTouch"><![CDATA[Jeden dotek]]></lookup>
+	<lookup key="Regex"><![CDATA[Regulérní výraz]]></lookup>
+	<lookup key="EnabledSpeekKeyWarning"><![CDATA[Povolená tlačítka rychlé volby vyžadují název a číslo.]]></lookup>
+	<lookup key="PhoneNumberWarning"><![CDATA[Zadejte platné telefonní číslo.]]></lookup>
+
+	<!--FusionSettings.html  -->
+	<lookup key="RoomNameRequired"><![CDATA[Vyžadován název místnosti]]></lookup>
+
+	<!--LightingSettings.html -->
+	<lookup key="LightingPresets"><![CDATA[Předvolby osvětlení]]></lookup>
+	<lookup key="EnabledPresetsWarning"><![CDATA[Povolené předvolby vyžadují název.]]></lookup>
+
+	<!-- 03/09/2016 -->
+	<!-- ChannelType : add 2 more Enum -->
+	<lookup key="ChannelType.Aec"><![CDATA[Aec]]></lookup>
+	<lookup key="ChannelType.Codec"><![CDATA[Kodek]]></lookup>
+
+	<!--EditDevice.html -->
+	<lookup key="EditDevice"><![CDATA[Upravit zařízení]]></lookup>
+	<lookup key="UpdatePendingCountdown"><![CDATA[Vaše změny se projeví za {0} sekund(y).]]></lookup>
+
+	<!-- JavascriptConts 03/14/2016 -->
+	<lookup key="DeleteDevicePortWarning"><![CDATA[Následující zařízení<br> {0} <br> jsou přiřazena k tomuto zařízení. Opravdu pokračovat?]]></lookup>
+
+	<!--AddNewDevice.html 03/16/2016-->
+	<lookup key="CrestnetId"><![CDATA[ID Cresnet]]></lookup>
+	<lookup key="CrestnetIdValidationMessage"><![CDATA[Požadovaný formát ID Cresnet (03-FE).]]></lookup>
+
+	<!--RoomStatus.html 03/16/2016-->
+	<lookup key="Equipment"><![CDATA[Vybavení]]></lookup>
+
+	<!-- DeviceTransport 03/21/2016 -->
+	<lookup key="DeviceTransport.CrestronCrestnet"><![CDATA[Cresnet]]></lookup>
+	<lookup key="DeviceTransport.SerialBaudCustom"><![CDATA[Vlastní přenosová rychlost]]></lookup>
+
+	<!-- RelaySettings.html 03/21/2016 -->
+	<lookup key="RelayBehavior.Momentary"><![CDATA[Časované]]></lookup>
+	<lookup key="RelayBehavior.Latching"><![CDATA[Bistabilní]]></lookup>
+
+	<!-- ConfigStep3.html 03/21/2016 -->
+	<lookup key="SwitchChannelState.Disabled"><![CDATA[Zakázáno]]></lookup>
+	<lookup key="SwitchChannelState.Enabled"><![CDATA[Povoleno]]></lookup>
+
+	<!--AddNewDevice.html 03/21/2016-->
+	<lookup key="DelayValidationMessage"><![CDATA[Požadovaný formát zpoždění (0–255).]]></lookup>
+
+	<!-- JavascriptConts 03/21/2016 -->
+	<lookup key="ServerCommunicationError"><![CDATA[Došlo k chybě při komunikaci se zařízením.]]></lookup>
+	<lookup key="ServerUpdateMessage"><![CDATA[Server se aktualizuje, počkejte prosím.]]></lookup>
+
+	<!-- 8/26/2016 -->
+	<lookup key="AvailableForLabel"><![CDATA[DOSTUPNÉ PO DALŠÍ]]></lookup>
+	<lookup key="AvailableAllLabel"><![CDATA[DOSTUPNÉ PO ZBYTEK DNE]]></lookup>
+	<lookup key="ReserveLabel"><![CDATA[REZERVOVÁNO PO DALŠÍ]]></lookup>
+	<lookup key="HourLabel"><![CDATA[HODINY]]></lookup>
+	<lookup key="MinLabel"><![CDATA[MINUTY]]></lookup>
+	<lookup key="NextUpLabel"><![CDATA[DALŠÍ]]></lookup>
+	<lookup key="PopupMinLeft"><![CDATA[Zbývající MINUTY | DALŠÍ:]]></lookup>
+	<lookup key="WirelessLabel"><![CDATA[Prezentovat pomocí bezdrátové komunikace]]></lookup>
+	<lookup key="VisitLabel"><![CDATA[Prohlédnout:]]></lookup>
+	<lookup key="CodeLabel"><![CDATA[Kód:]]></lookup>
+	<lookup key="CableLabel"><![CDATA[Prezentovat pomocí kabelů]]></lookup>
+	<lookup key="UseCableLabel"><![CDATA[Připojit pomocí poskytnutých kabelů:]]></lookup>
+
+	<!-- MainTemplate.html 3/25/16 -->
+	<lookup key="ConfiguredMessageOffline"><![CDATA[Systém je momentálně offline, aktivujte nebo obnovte zpět původní konfiguraci.]]></lookup>
+	<lookup key="ConfiguredMessageOfflineShort"><![CDATA[Systém je momentálně offline.]]></lookup>
+	<lookup key="ConfiguredMessageOnline"><![CDATA[Systém je momentálně online.]]></lookup>
+	<lookup key="ConfiguredMessage"><![CDATA[Systém je aktuálně nakonfigurován.]]></lookup>
+	<lookup key="ConfiguredMessageClass"><![CDATA[Systém je aktuálně nakonfigurován.]]></lookup>
+
+	<!-- SystemWideSaveWarning 3/25/16 -->
+	<lookup key="SystemWideSaveWarning"><![CDATA[Jakákoliv uložená změna uvede systém do stavu offline. Uživatel/vy musíte aktivovat novou konfiguraci, abyste uvedli systém do stavu online. Pokračujte kliknutím na OK.]]></lookup>
+
+	<lookup key="PortUnconfigured"><![CDATA[Port nenakonfigurovaný]]></lookup>
+	<lookup key="Version"><![CDATA[Verze]]></lookup>
+	<lookup key="None"><![CDATA[Žádný]]></lookup>
+
+	<lookup key="AssociatedChannel"><![CDATA[Spojený kanál]]></lookup>
+	<lookup key="PrimaryAssociatedChannel"><![CDATA[Výchozí zdroj]]></lookup>
+	<lookup key="SecondaryAssociatedChannel"><![CDATA[Sekundární zdroj]]></lookup>
+	<lookup key="SecondaryInputChannelNumber"><![CDATA[Sekundární kanál]]></lookup>
+	<lookup key="IPAddress"><![CDATA[IP adresa]]></lookup>
+
+	<!-- 05/02/2016  -->
+	<lookup key="PortType.Usb"><![CDATA[USB]]></lookup>
+
+	<!-- 08/15/2016 -->
+	<lookup key="DialerType.Sip"><![CDATA[Audio]]></lookup>
+	<lookup key="DialerType.Bluetooth"><![CDATA[Bluetooth]]></lookup>
+	<lookup key="DialerType.Usb"><![CDATA[USB]]></lookup>
+	<lookup key="DialerType.Video"><![CDATA[Video]]></lookup>
+
+	<!--MercurySystemSettings.html 08/31/2016-->
+	<lookup key="SystemSettings"><![CDATA[Nastavení systému]]></lookup>
+	<lookup key="ValidValueMessage"><![CDATA[Zadejte prosím hodnotu.]]></lookup>
+
+	<!--MercuryFusionSettings.html 08/31/2016-->
+
+	<!-- MercuryDialerSettings.html 08/31/2016-->
+	<lookup key="General"><![CDATA[Obecné]]></lookup>
+	<lookup key="EnableBluetooth"><![CDATA[Povolit Bluetooth]]></lookup>
+	<lookup key="EnableUSB"><![CDATA[Povolit USB]]></lookup>
+
+	<!-- MercuryDisplayDriver.html 08/31/2016-->
+	<lookup key="VideoDisplaySettings"><![CDATA[Nastavení zobrazení videa]]></lookup>
+
+	<!-- MercuryUXGeneralCustomization.html 08/31/2016-->
+	<lookup key="UXGeneralCustomization"><![CDATA[Obecné přizpůsobení UX]]></lookup>
+	<lookup key="HideMeetingSubject"><![CDATA[Skrýt předmět schůzky]]></lookup>
+	<lookup key="HideMeetingOrganizer"><![CDATA[Skrýt organizátora schůzky]]></lookup>
+	<lookup key="DisplayNonEmergencyBroadcast"><![CDATA[Zobrazit jiné než nouzové vysílání]]></lookup>
+	<lookup key="EmergencyBroadcastSound"><![CDATA[Zvuk nouzového vysílání]]></lookup>
+	<lookup key="EnableCallNotification"><![CDATA[Aktivovat upozornění na hovor]]></lookup>
+	<lookup key="SuppressOfflineNotificationPeriod"><![CDATA[Pozastavit offline oznamovací lhůtu]]></lookup>
+	<lookup key="NotificationPeriod"><![CDATA[Oznamovací lhůta]]></lookup>
+	<lookup key="CallNotificationTimeout"><![CDATA[Časový limit upozornění na hovor]]></lookup>
+
+	<!-- PresentationScreenCustomization.html 08/31/2016-->
+	<lookup key="PresentationScreenCustomization"><![CDATA[Přizpůsobení obrazovky pro prezentaci]]></lookup>
+	<lookup key="TimeRemainingMessageStarts"><![CDATA[Čas zobrazení zprávy o zbývajícím čase schůzky]]></lookup>
+	<lookup key="TimeRemainingMessageDuration"><![CDATA[Délka zobrazení zprávy o zbývajícím čase schůzky]]></lookup>
+
+	<!-- RoomScheduleScreenCustomization.html 08/31/2016-->
+	<lookup key="RoomScheduleScreenCustomization"><![CDATA[Přizpůsobení obrazovky s plánem místnosti]]></lookup>
+	<lookup key="NextMeetingInformationShown"><![CDATA[Informace o další schůzce zobrazena]]></lookup>
+	<lookup key="MinutesBeforeMeetingStart"><![CDATA[Minuty do zahájení schůzky]]></lookup>
+	<lookup key="HideWiredCableConnection"><![CDATA[Skrýt kabelové připojení]]></lookup>
+	<lookup key="CableConnectionDetails"><![CDATA[Detaily kabelového připojení]]></lookup>
+	<lookup key="EnableCustomLogoGraphic"><![CDATA[Povolit vlastní grafické logo]]></lookup>
+	<lookup key="CustomLogoGraphicUrl"><![CDATA[Adresa URL vlastního grafického loga]]></lookup>
+	<lookup key="EnableCustomBackgrounds"><![CDATA[Povolit uživatelská pozadí]]></lookup>
+	<lookup key="AddCustomBackgroundUrl"><![CDATA[Přidat adresu URL vlastního pozadí]]></lookup>
+	<lookup key="BackgroundUrl1"><![CDATA[URL 1 pozadí]]></lookup>
+	<lookup key="BackgroundUrl2"><![CDATA[URL 2 pozadí]]></lookup>
+	<lookup key="BackgroundUrl3"><![CDATA[URL 3 pozadí]]></lookup>
+	<lookup key="BackgroundUrl4"><![CDATA[URL 4 pozadí]]></lookup>
+	<lookup key="BackgroundUrl5"><![CDATA[URL 5 pozadí]]></lookup>
+	<lookup key="BackgroundUrl6"><![CDATA[URL 6 pozadí]]></lookup>
+	<lookup key="BackgroundUrl7"><![CDATA[URL 7 pozadí]]></lookup>
+	<lookup key="BackgroundUrl8"><![CDATA[URL 8 pozadí]]></lookup>
+	<lookup key="BackgroundUrl9"><![CDATA[URL 9 pozadí]]></lookup>
+	<lookup key="BackgroundUrl10"><![CDATA[URL 10 pozadí]]></lookup>
+	<lookup key="BackgroundUrl11"><![CDATA[URL 11 pozadí]]></lookup>
+	<lookup key="BackgroundUrl12"><![CDATA[URL 12 pozadí]]></lookup>
+	<lookup key="BackgroundUrl13"><![CDATA[URL 13 pozadí]]></lookup>
+	<lookup key="BackgroundUrl14"><![CDATA[URL 14 pozadí]]></lookup>
+	<lookup key="BackgroundUrl15"><![CDATA[URL 15 pozadí]]></lookup>
+	<lookup key="IntervalBetweenBackgrounds"><![CDATA[Interval mezi pozadími]]></lookup>
+
+	<!-- MercuryDialerSettings.html 10/17/2016-->
+	<lookup key="BluetoothDeviceName"><![CDATA[Název Bluetooth zařízení]]></lookup>
+
+	<!-- MercuryExternalSettings.html 11/18/2016-->
+
+	<lookup key="CalendarSettings"><![CDATA[Nastavení kalendáře]]></lookup>
+	<lookup key="SchedulingType"><![CDATA[Typ rozvrhu]]></lookup>
+
+	<lookup key="SntpServer"><![CDATA[SNTP server]]></lookup>
+	<lookup key="SntpUpdateInterval"><![CDATA[Interval aktualizace SNTP]]></lookup>
+	<lookup key="ValidUrlMessage"><![CDATA[Zadejte platnou URL adresu]]></lookup>
+	<lookup key="ValidDomainName"><![CDATA[Zadejte platný název domény]]></lookup>
+	<lookup key="ValidEmailUrlMessage"><![CDATA[Zadejte platnou e-mailovou adresu]]></lookup>
+	<lookup key="ValidPassword"><![CDATA[Zadejte platné heslo]]></lookup>
+	<lookup key="ValidSntpServer"><![CDATA[Zadejte platný SNTP server]]></lookup>
+	<lookup key="ValidSntpUpdateIntervalMessage"><![CDATA[Zadejte platný interval SNTP serveru]]></lookup>
+	<lookup key="ValidOutlookResourceAddress"><![CDATA[Zadejte platnou adresu zdroje Outlooku]]></lookup>
+
+	<!-- DMPS 4k300C 12/08/2016-->
+	<lookup key="DeviceType.VideoServer"><![CDATA[Video server]]></lookup>
+	<lookup key="DeviceType.Dialer"><![CDATA[Číselník]]></lookup>
+	<lookup key="ImageCouldNotBeLoaded"><![CDATA[Obrázek se nepodařilo načíst.]]></lookup>
+	<lookup key="VerifingImage"><![CDATA[Ověřování obrázku]]></lookup>
+	<lookup key="SchedulingTypeEnum.Fusion"><![CDATA[Crestron Fusion]]></lookup>
+	<lookup key="SchedulingTypeEnum.Exchange"><![CDATA[Typ rozvrhu Exchange]]></lookup>
+
+	<!-- MercuryDialerSettings.html 12/12/2016-->
+	<lookup key="ValidBluetoothDeviceNameMessage"><![CDATA[Zadejte platný název Bluetooth zařízení.]]></lookup>
+
+	<!-- MercuryExternalSettings.html 12/15/2016-->
+
+	<!-- Default Inputs 12/20/2016-->
+	<lookup key="DefaultInputs.HDMI1"><![CDATA[HDMI1]]></lookup>
+	<lookup key="DefaultInputs.HDMI2"><![CDATA[HDMI2]]></lookup>
+	<lookup key="DefaultInputs.HDMI3"><![CDATA[HDMI3]]></lookup>
+	<lookup key="DefaultInputs.HDMI4"><![CDATA[HDMI4]]></lookup>
+	<lookup key="DefaultInput"><![CDATA[Výchozí vstup]]></lookup>
+
+	<!-- Blutooth Page 1/9/2017 -->
+	<lookup key="PresentConnectYourDevice"><![CDATA[Připojit své zařízení]]></lookup>
+
+	<lookup key="DisableSip"><![CDATA[Vypnout zvuk]]></lookup>
+	<lookup key="DisableBluetooth"><![CDATA[Zakázat Bluetooth]]></lookup>
+	<lookup key="DisableUsb"><![CDATA[Zakázat USB]]></lookup>
+
+	<!-- Standby Mode 2/1/2017 -->
+	<lookup key="Standby"><![CDATA[Pohotovostní režim]]></lookup>
+	<lookup key="StandbyMode.AlwaysOn"><![CDATA[Vždy zapnuto]]></lookup>
+	<lookup key="StandbyMode.OccupancyBased"><![CDATA[Podle obsazenosti]]></lookup>
+
+	<lookup key="DisplayNameIsRequired"><![CDATA[Název displeje je povinný údaj]]></lookup>
+	<lookup key="PowerOffCommandValidationMessage"><![CDATA[Je vyžadován příkaz vypnutí napájení]]></lookup>
+	<lookup key="PowerOnCommandValidationMessage"><![CDATA[Je vyžadován příkaz zapnutí napájení]]></lookup>
+	<lookup key="SourceSelectCommandValidationMessage"><![CDATA[Je vyžadován výběr zdroje]]></lookup>
+
+	<lookup key="DeviceType.RfGateway"><![CDATA[Brána RF]]></lookup>
+	<lookup key="DeviceTransport.Rf"><![CDATA[RF]]></lookup>
+
+	<!-- Mercury Pages 2/23/2017 -->
+	<lookup key="AddressBook"><![CDATA[Adresář]]></lookup>
+	<lookup key="End"><![CDATA[Ukončit]]></lookup>
+	<lookup key="DialText"><![CDATA[Zadejte text k vytočení]]></lookup>
+	<lookup key="Mute"><![CDATA[Ztlumit]]></lookup>
+	<lookup key="BlueToothActiveConnection"><![CDATA[Aktivní připojení: Bluetooth]]></lookup>
+	<lookup key="BTCallText"><![CDATA[Hovor přes Bluetooth]]></lookup>
+	<lookup key="ConnectedToText"><![CDATA[Připojeno k]]></lookup>
+	<lookup key="PresentBTNoSourceConnectionText"><![CDATA[Připojte své Bluetooth zařízení k]]></lookup>
+	<lookup key="USBConnected"><![CDATA[USB připojeno]]></lookup>
+	<lookup key="Speakerphone"><![CDATA[Hlasitý telefon]]></lookup>
+	<lookup key="ConnectedViaText"><![CDATA[Připojeno přes]]></lookup>
+	<lookup key="USBCableText"><![CDATA[Kabel USB]]></lookup>
+	<lookup key="Connected"><![CDATA[Připojeno]]></lookup>
+	<lookup key="TimeMinutesCap"><![CDATA[MINUTY]]></lookup>
+	<lookup key="Extension"><![CDATA[Rozšíření]]></lookup>
+	<lookup key="AvailableCap"><![CDATA[DOSTUPNÉ]]></lookup>
+	<lookup key="RestOfDayCap"><![CDATA[PO ZBYTEK DNE]]></lookup>
+	<lookup key="PrepareMeetingText"><![CDATA[Příprava na konferenci]]></lookup>
+	<lookup key="ExitCap"><![CDATA[KONEC]]></lookup>
+	<lookup key="TopMenuCap"><![CDATA[HLAVNÍ MENU]]></lookup>
+	<lookup key="PopupMenuCap"><![CDATA[PŘEKRYVNÉ MENU]]></lookup>
+	<lookup key="HomeCap"><![CDATA[DOMŮ]]></lookup>
+	<lookup key="OptionsCap"><![CDATA[MOŽNOSTI]]></lookup>
+	<lookup key="Stop"><![CDATA[Zastavit]]></lookup>
+	<lookup key="MenuCap"><![CDATA[MENU]]></lookup>
+	<lookup key="GuideCap"><![CDATA[PRŮVODCE]]></lookup>
+	<lookup key="ConnectToAirmediaText"><![CDATA[Připojení k AirMedia®]]></lookup>
+	<lookup key="PresentOverWifi"><![CDATA[Chcete-li prezentovat obsah přes vaši síť WiFi,]]></lookup>
+	<lookup key="ConnectCap"><![CDATA[PŘIPOJIT]]></lookup>
+	<lookup key="ToWirelessNwetwork"><![CDATA[k vaší bezdrátové síti]]></lookup>
+	<lookup key="VisitCap"><![CDATA[PROHLÉDNOUT]]></lookup>
+	<lookup key="ToBrowerAddress"><![CDATA[tato adresa v prohlížeči]]></lookup>
+	<lookup key="EnterCap"><![CDATA[ZADAT]]></lookup>
+	<lookup key="ThisCode"><![CDATA[tento kód]]></lookup>
+	<lookup key="DownloadAirmediaMobile"><![CDATA[Stáhněte si aplikaci pro mobilní zařízení Crestron AirMedia® na]]></lookup>
+	<lookup key="Wirelessly"><![CDATA[Bezdrátové]]></lookup>
+	<lookup key="SystemInfo"><![CDATA[Informace o systému]]></lookup>
+	<lookup key="FusionServerConnection"><![CDATA[Připojení k serveru Crestron Fusion]]></lookup>
+	<lookup key="MACAddress"><![CDATA[Adresa MAC]]></lookup>
+	<lookup key="RoomAndStatus"><![CDATA[Název a stav místnosti]]></lookup>
+	<lookup key="NavPresentCallEtc"><![CDATA[Navigovat domů, prezentovat zdroj, vytočit hovor a další...]]></lookup>
+	<lookup key="AdjustVolume"><![CDATA[Snížení a zvýšení hlasitosti systému]]></lookup>
+	<lookup key="MICmute"><![CDATA[Ztlumení mikrofonu]]></lookup>
+	<lookup key="SystemMute"><![CDATA[Ztlumení systému]]></lookup>
+	<lookup key="SerialNumber"><![CDATA[Sériové číslo]]></lookup>
+	<lookup key="PhoneExtensionURI"><![CDATA[Rozšíření telefonu / SIP URI]]></lookup>
+	<lookup key="SIPServer"><![CDATA[SIP server]]></lookup>
+	<lookup key="AddedLicences"><![CDATA[Přidané licence]]></lookup>
+	<lookup key="WebConferenceText"><![CDATA[Webová konference]]></lookup>
+	<lookup key="StartWebConferenceText"><![CDATA[Chcete-li zahájit webovou konferenci]]></lookup>
+	<lookup key="HDMI"><![CDATA[HDMI]]></lookup>
+	<lookup key="PlugHDMIToPresent"><![CDATA[Zapojte kabel HDMI do notebooku pro prezentaci na displeji]]></lookup>
+	<lookup key="USB"><![CDATA[USB]]></lookup>
+	<lookup key="PlugUSBForAudio"><![CDATA[Zapojte kabel USB do notebooku pro použití v podobě zvukového zařízení]]></lookup>
+	<lookup key="CameraCap"><![CDATA[KAMERA]]></lookup>
+	<lookup key="UseRoomCamera"><![CDATA[Nastavte software pro použití kamery v místnosti]]></lookup>
+	<lookup key="Remote"><![CDATA[Vzdálené]]></lookup>
+	<lookup key="SecondsCap"><![CDATA[SEKUNDY]]></lookup>
+	<lookup key="PresentingCap"><![CDATA[PREZENTOVÁNÍ]]></lookup>
+	<lookup key="ReceivingContent"><![CDATA[Příjem obsahu]]></lookup>
+	<lookup key="CameraPresets"><![CDATA[Předvolby kamery]]></lookup>
+	<lookup key="MeetingID"><![CDATA[ID schůzky]]></lookup>
+	<lookup key="InfoCap"><![CDATA[INFORMACE]]></lookup>
+	<lookup key="LastCap"><![CDATA[POSLEDNÍ]]></lookup>
+	<lookup key="LiveCap"><![CDATA[ŽIVĚ]]></lookup>
+	<lookup key="OnDemandCap"><![CDATA[NA VYŽÁDÁNÍ]]></lookup>
+	<lookup key="TapSourceToPresent"><![CDATA[klepněte na zdroj, který se má prezentovat]]></lookup>
+	<lookup key="Sources"><![CDATA[Zdroje]]></lookup>
+	<lookup key="FavCap"><![CDATA[Oblíbené]]></lookup>
+	<lookup key="DVR"><![CDATA[DVR]]></lookup>
+	<lookup key="RecCap"><![CDATA[Nahrát]]></lookup>
+	<lookup key="OutlookUseCertificate"><![CDATA[Uživatelský certifikát Outlook]]></lookup>
+	<lookup key="OutlookCertificate"><![CDATA[Certifikát Outlook]]></lookup>
+	<lookup key="UploadCertificate"><![CDATA[Nahrát certifikát]]></lookup>
+	<lookup key="InvalidUrl"><![CDATA[Zadejte platnou adresu URL]]></lookup>
+
+	<lookup key="OutlookWebAccessURLToolTip"><![CDATA[(Příklad: https://outlook.office365.com/EWS/Exchange.asmx)]]></lookup>
+	<lookup key="OutlookDomainNameToolTip"><![CDATA[(příklad: DOENA\jmenouzivatele)]]></lookup>
+	<lookup key="OutlookDomainNameMisc"><![CDATA[(Ponechte prázdné, pokud není relevantní)]]></lookup>
+	<lookup key="OutlookResourceAddressToopTip"><![CDATA[(Může nebo nemusí se shodovat s uživatelem)]]></lookup>
+	<lookup key="OutlookUserEmailAddressToolTip"><![CDATA[ (příklad: domena\JMENOUZIVATELE)]]></lookup>
+	<lookup key="ValidUsernameMessage"><![CDATA[Zadejte platné uživatelské jméno]]></lookup>
+
+	<!-- Add new resolution 3/28/2017 -->
+	<lookup key="Resolution.Res2048x1080At60Hz"><![CDATA[2048 x 1080 při 60 Hz]]></lookup>
+	<lookup key="Resolution.Res1792x1344PC"><![CDATA[1792 x 1344 PC]]></lookup>
+	<lookup key="Resolution.Res1856x1392PC"><![CDATA[1856 x 1392 PC]]></lookup>
+	<lookup key="Resolution.Res1920x1440PC"><![CDATA[1920 x 1440 PC]]></lookup>
+	<lookup key="Resolution.Res2048x1536PC"><![CDATA[2048 x 1536 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1080PC"><![CDATA[2560 x 1080 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1440PC"><![CDATA[2560 x 1440 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1600PCRb"><![CDATA[2560 x 1600 PC RB]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt24Hz"><![CDATA[3840 x 2160p při 24 Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt25Hz"><![CDATA[3840 x 2160p při 25 Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt30Hz"><![CDATA[3840 x 2160p při 30 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt24Hz"><![CDATA[4096 x 2160p při 24 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt25Hz"><![CDATA[4096 x 2160p při 25 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt30Hz"><![CDATA[4096 x 2160p při 30 Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt50Hz"><![CDATA[3840 x 2160p při 50 Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt60Hz"><![CDATA[3840 x 2160p při 60 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt50Hz"><![CDATA[4096 x 2160p při 50 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt60Hz"><![CDATA[4096 x 2160p při 60 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt60HzPCVesaRbV2"><![CDATA[4096 x 2160p při 60 Hz PC VESA RB V2]]></lookup>
+	<lookup key="Resolution.Res1680x720At24Hz"><![CDATA[1680 x 720 při 24 Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At25Hz"><![CDATA[1680 x 720 při 25 Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At30Hz"><![CDATA[1680 x 720 při 30 Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At50Hz"><![CDATA[1680 x 720 při 50 Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At60Hz"><![CDATA[1680 x 720 při 60 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At24Hz"><![CDATA[2560 x 1080 při 24 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At25Hz"><![CDATA[2560 x 1080 při 25 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At30Hz"><![CDATA[2560 x 1080 při 30 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At50Hz"><![CDATA[2560 x 1080 při 50 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At60Hz"><![CDATA[2560 x 1080 při 60 Hz]]></lookup>
+
+	<!-- the following fields have been renamed, please translate -->
+	<lookup key="OutlookWebAccessUrl"><![CDATA[Exchange EWS URL]]></lookup>
+	<lookup key="OutlookDomainName"><![CDATA[Doména]]></lookup>
+	<lookup key="OutlookUserEmailAddress"><![CDATA[Uživatelské jméno]]></lookup>
+	<lookup key="OutlookPassword"><![CDATA[Heslo]]></lookup>
+	<lookup key="OutlookResourceAddress"><![CDATA[E-mailová adresa kalendáře]]></lookup>
+
+	<lookup key="DeviceType.Bluray"><![CDATA[Přehrávač Blu-ray]]></lookup>
+	<lookup key="DeviceType.Occupancy"><![CDATA[Čidlo obsazenosti]]></lookup>
+	<lookup key="DeviceType.Panel"><![CDATA[Dotyková obrazovka]]></lookup>
+	<lookup key="DeviceType.EndpointTx"><![CDATA[Vysílač DigitalMedia]]></lookup>
+	<lookup key="DeviceType.EndpointRx"><![CDATA[Přijímač DigitalMedia]]></lookup>
+	<lookup key="DeviceType.EndpointRxScaler"><![CDATA[Škálovací přijímač DigitalMedia]]></lookup>
+
+	<lookup key="SfbProxyTypes.None"><![CDATA[Žádné]]></lookup>
+	<lookup key="SfbProxyTypes.SameCredentials"><![CDATA[Stejné přihlašovací údaje]]></lookup>
+	<lookup key="SfbProxyTypes.OtherCredentials"><![CDATA[Jiné přihlašovací údaje]]></lookup>
+
+	<!-- Add new projector display type 4/26/2017 -->
+	<lookup key="DeviceType.Projector"><![CDATA[Projektor]]></lookup>
+	<lookup key="AssociatedOutputDevice.Projector"><![CDATA[Projektor]]></lookup>
+
+	<!-- 5/17/2017 -->
+	<lookup key="Users"><![CDATA[Uživatelé]]></lookup>
+	<lookup key="Manage"><![CDATA[Spravovat]]></lookup>
+	<lookup key="Logos"><![CDATA[Vlastní grafika dotykové obrazovky]]></lookup>
+	<lookup key="Drivers"><![CDATA[Ovladače]]></lookup>
+	<lookup key="Import"><![CDATA[Importovat]]></lookup>
+	<lookup key="Manufacturer"><![CDATA[Výrobce]]></lookup>
+	<lookup key="DriverFileName"><![CDATA[Název souboru ovladače]]></lookup>
+	<lookup key="DriverVersion"><![CDATA[Verze ovladače]]></lookup>
+	<lookup key="FusionCloudUrlRequired"><![CDATA[Vyžadována adresa URL cloudu Crestron Fusion]]></lookup>
+	<lookup key="FusionCloudUrlInvalid"><![CDATA[Neplatná adresa URL cloudu Crestron Fusion]]></lookup>
+	<lookup key="ShowBroadcastOnPanel"><![CDATA[Zobrazit zprávu vysílání na dotykové obrazovce]]></lookup>
+	<lookup key="ImageSizeWarning"><![CDATA[Výstraha velikosti obrázku]]></lookup>
+	<lookup key="ManageUsers"><![CDATA[Spravovat uživatele]]></lookup>
+	<lookup key="FirstName"><![CDATA[Křestní jméno]]></lookup>
+	<lookup key="LastName"><![CDATA[Příjmení]]></lookup>
+	<lookup key="UsernameRequired"><![CDATA[Uživatelské jméno je povinné]]></lookup>
+	<lookup key="MinLengthUsernameWarning"><![CDATA[Uživatelské jméno musí mít alespoň 3 znaky.]]></lookup>
+	<lookup key="MaxLengthUsernameWarning"><![CDATA[Uživatelské jméno nesmí mít více než 15 znaků.]]></lookup>
+	<lookup key="InvalidPassword"><![CDATA[Heslo by mělo obsahovat 1 velké písmeno, malé písmeno, číslici a speciální znak.]]></lookup>
+	<lookup key="CreateUser"><![CDATA[Vytvořit uživatele]]></lookup>
+	<lookup key="InvalidUsername"><![CDATA[Neplatné uživatelské jméno]]></lookup>
+	<lookup key="DuplicateUsernameWarning"><![CDATA[Výstraha duplicitního uživatelského jména]]></lookup>
+	<lookup key="FirstNameRequired"><![CDATA[Křestní jméno je povinné]]></lookup>
+	<lookup key="LastnameRequired"><![CDATA[Příjmení je povinné]]></lookup>
+	<lookup key="PasswordRequired"><![CDATA[Heslo je povinné]]></lookup>
+	<lookup key="MinLengthPasswordWarning"><![CDATA[Heslo musí mít 8 znaků a musí obsahovat 1 velké písmeno, malé písmeno, číslici a speciální znak.]]></lookup>
+	<lookup key="MaxLengthPasswordWarning"><![CDATA[Heslo nesmí mít více než 12 znaků.]]></lookup>
+	<lookup key="MaxLengthRoomNameWarning"><![CDATA[Název místnosti nesmí mít více než 20 znaků.]]></lookup>
+	<lookup key="MaxLengthFirstNameWarning"><![CDATA[Křestní jméno nesmí mít více než 15 znaků.]]></lookup>
+	<lookup key="MinLengthFirstNameWarning"><![CDATA[Křestní jméno musí mít alespoň 2 znaky.]]></lookup>
+	<lookup key="MaxLengthLastNameWarning"><![CDATA[Příjmení nesmí mít více než 15 znaků.]]></lookup>
+	<lookup key="MinLengthLastNameWarning"><![CDATA[Příjmení musí mít alespoň 2 znaky.]]></lookup>
+
+	<!-- 5/23/2017 -->
+	<lookup key="ImageOutOfRange"><![CDATA[Obrázek je mimo rozsah, očekávaná hodnota: {0}x{1}]]></lookup>
+
+	<!-- 5/24/2017-->
+	<lookup key="DriverInstallationStatus.StatusOk"><![CDATA[Ovladač úspěšně nainstalován]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusError"><![CDATA[Instalace ovladače se nezdařila]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorVersionCheckedFailed"><![CDATA[Kontrola verze ovladače se nezdařila]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorCopyDriverFailed"><![CDATA[Kopírování ovladače se nezdařilo]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorInvalidDeviceType"><![CDATA[Neplatný typ zařízení pro ovladač]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusSupportingDllNotFound"><![CDATA[Soubor DLL s podporovaným ovladačem nenalezen]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusPendingRestart"><![CDATA[Instalace ovladače čeká na restartování]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusDriverNotFound"><![CDATA[Ovladač nenalezen]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorInvalidTransportType"><![CDATA[Neplatný typ přenosu]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorMissingDriverId"><![CDATA[Chybějící ID ovladače]]></lookup>
+
+	<!-- 5/30/2017-->
+	<lookup key="EnableMics"><![CDATA[Zapnout mikrofony]]></lookup>
+	<lookup key="ConfirmDeleteUser"><![CDATA[Opravdu chcete odstranit tohoto uživatele?]]></lookup>
+	<lookup key="TimeZone"><![CDATA[Časové pásmo]]></lookup>
+	<lookup key="DateTimeLabel"><![CDATA[Datum a čas]]></lookup>
+
+	<lookup key="ClickToReadWarningMessage"><![CDATA[Klikněte pro přečtení upozornění.]]></lookup>
+	<lookup key="WarningMessage"><![CDATA[Upozornění systému]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Manual"><![CDATA[Uživatelská volba]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Fixed"><![CDATA[Pevné]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Follow"><![CDATA[Sledující]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.None"><![CDATA[Ne]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.FollowWithVolumeControl"><![CDATA[Ano s ovládáním hlasitosti]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.Follows"><![CDATA[Ano]]></lookup>
+
+	<!-- Screen saver settings -->
+	<lookup key="PanelScreenSaverEnable"><![CDATA[Zapnout spořič dotykové obrazovky]]></lookup>
+	<lookup key="PanelSleepTimeSeconds"><![CDATA[Doba zobrazení spořiče dotykové obrazovky před uspáním]]></lookup>
+	<lookup key="PanelScreenSaverStartTime"><![CDATA[Čas zapnutí spořiče dotykové obrazovky]]></lookup>
+	<lookup key="PanelScreenSaverEndTime"><![CDATA[Čas vypnutí spořiče dotykové obrazovky]]></lookup>
+
+	<!-- 6/6/2017 -->
+	<lookup key="Advanced"><![CDATA[Rozšířená nastavení]]></lookup>
+	<lookup key="DeviceType.RoomHallwaySign"><![CDATA[Označení na chodbu o dostupnosti zařízení v místnosti]]></lookup>
+	<lookup key="DeviceType.DigitalGraphicsEngine"><![CDATA[Digitální grafický modul]]></lookup>
+	<lookup key="AdvancedRouteSettings"><![CDATA[Rozšířená nastavení směrování]]></lookup>
+	<lookup key="AudioFollowVideoLabel"><![CDATA[Zvuk sledující video]]></lookup>
+	<lookup key="VideoRoutingMode"><![CDATA[Režim směrování videa]]></lookup>
+	<lookup key="InputForFixedRouteLabel"><![CDATA[Pevné směrování]]></lookup>
+	<lookup key="SelectInput"><![CDATA[Vybrat vstup]]></lookup>
+	<lookup key="OutputForFollowsRouteLabel"><![CDATA[Sledující směrování]]></lookup>
+	<lookup key="SelectOutput"><![CDATA[Vybrat výstup]]></lookup>
+	<lookup key="DisplayNameRequired"><![CDATA[Název displeje je povinný]]></lookup>
+	<lookup key="ValueRequired"><![CDATA[Hodnota je povinná]]></lookup>
+
+	<!-- 6/7/2016 -->
+	<lookup key="EnableSNTP"><![CDATA[Povolit SNTP]]></lookup>
+
+	<!-- 6/13/2017 these fields have been renamed -->
+	<lookup key="AssociatedOutputDevice.AvDisplay"><![CDATA[Displej s plochým panelem]]></lookup>
+	<lookup key="DeviceType.AvDisplay"><![CDATA[Displej s plochým panelem]]></lookup>
+
+	<!-- 6/16/2017 -->
+	<lookup key="FindContact"><![CDATA[Najít kontakt]]></lookup>
+	<lookup key="FindContactToCall"><![CDATA[Najít kontakt k volání:]]></lookup>
+	<lookup key="SkypeCallText"><![CDATA[V hovoru Skype®]]></lookup>
+	<lookup key="ViewParticipants"><![CDATA[Prohlédnout účastníky]]></lookup>
+	<lookup key="Participants"><![CDATA[Účastníci]]></lookup>
+	<lookup key="AddParticipant"><![CDATA[Přidat účastníka]]></lookup>
+	<lookup key="InviteNameOrPhone"><![CDATA[Pozvat podle jména nebo telefonního čísla]]></lookup>
+	<lookup key="Participants:"><![CDATA[Účastníci:]]></lookup>
+	<lookup key="OnThisCall"><![CDATA[V tomto hovoru]]></lookup>
+	<lookup key="InLobby"><![CDATA[V lobby]]></lookup>
+	<lookup key="InVirtualLobby"><![CDATA[Ve virtuální lobby]]></lookup>
+	<lookup key="VirtualLobbyMessage"><![CDATA[Ahoj. Nacházíte se ve virtuální lobby. Organizátor vás brzy pustí dovnitř.]]></lookup>
+	<lookup key="JoinSkypeMeeting"><![CDATA[PŘIPOJIT SE KE SCHŮZCE SKYPE®]]></lookup>
+
+	<lookup key="NonEmergencyBroadcastTimeoutWarning"><![CDATA[Časový limit netísňové zprávy je mimo rozsah]]></lookup>
+	<lookup key="EmergencyBroadcastTimeoutWarning"><![CDATA[Časový limit tísňové zprávy je mimo rozsah]]></lookup>
+	<lookup key="MinEmergencyBroadcastTimeoutWarning"><![CDATA[Minimální povolený časový limit je 0]]></lookup>
+	<lookup key="MaxEmergencyBroadcastTimeoutWarning"><![CDATA[Maximální povolený časový limit je 1440]]></lookup>
+
+	<!-- 6/26/2017 -->
+	<lookup key="NaNEmergencyBroadcastTimeoutWarning"><![CDATA[Pro časový limit jsou povoleny pouze číselné hodnoty]]></lookup>
+
+	<!-- 6/28/2017 -->
+	<lookup key="CECDriverNoticeHeader"><![CDATA[Oznámení obecného ovladače CEC]]></lookup>
+	<lookup key="CrestronConnectedDriverNoticeHeader"><![CDATA[Oznámení o připojení ovladače Crestron]]></lookup>
+	<lookup key="CECDriverNoticeMessage"><![CDATA[Generický CEC je univerzální ovladač společnosti Crestron, který funguje s širokou řadou displejů s plochými panely. Konkrétní funkce podporované vaším zařízením závisejí na tom, jak byla specifikace CEC implementována výrobcem zařízení, neboť specifikace CEC nevyžaduje, aby výrobce zařízení implementoval kompletní sadu příkazů. Specifický ovladač pro zařízení naleznete na stránce: https://drivers.crestron.io. Pro podrobnější informace kontaktujte podporu Crestron True Blue Support na adrese support@crestron.com]]></lookup>
+	<lookup key="CrestronConnectedDriverNoticeMessage"><![CDATA[Crestron Connected je univerzální ovladač od Crestron, který funguje s širokou řadou displejů s plochými panely a projektorů. Konkrétní funkce podporované vaším zařízením závisejí na tom, jakou sadu funkcí podporuje vaše zařízení, neboť výrobci zařízení nemusejí implementovat všechny součásti funkcí ovladače Crestron Connected. Specifický ovladač pro zařízení naleznete na stránce: https://drivers.crestron.io. Pro podrobnější informace kontaktujte podporu Crestron True Blue Support na adrese support@crestron.com]]></lookup>
+	<lookup key="GeneralAcknowledge"><![CDATA[Potvrdit]]></lookup>
+	<lookup key="SkypeMeeting"><![CDATA[Schůzka Skype®]]></lookup>
+	<lookup key="DownloadBusyMessage"><![CDATA[Počkejte prosím...]]></lookup>
+	<lookup key="UploadBusyMessage"><![CDATA[Počkejte prosím...]]></lookup>
+	<lookup key="MaxUsersWarning"><![CDATA[Systém má maximální počet (5) uživatelů.]]></lookup>
+	<lookup key="MinLengthDisplayNameWarning"><![CDATA[Název displeje musí mít alespoň 1 znak.]]></lookup>
+	<lookup key="MaxLengthDisplayNameWarning"><![CDATA[Název displeje nesmí mít více než 20 znaků.]]></lookup>
+
+	<!-- 7/13/2016 -->
+
+	<lookup key="DeviceManagement"><![CDATA[Správa zařízení]]></lookup>
+	<lookup key="ConfigurationManagement"><![CDATA[Správa konfigurace]]></lookup>
+	<lookup key="AVFrameworkDashboard"><![CDATA[Řídicí panel AV Framework]]></lookup>
+	<lookup key="Transport"><![CDATA[Komunikace]]></lookup>
+	<lookup key="EnableDriver"><![CDATA[Povolit ovladač]]></lookup>
+	<lookup key="DeviceName"><![CDATA[Název zařízení]]></lookup>
+
+	<!-- 7/17/2016 -->
+	<lookup key="DeviceMgmt"><![CDATA[Správa zařízení]]></lookup>
+	<lookup key="DMPSConfig"><![CDATA[Konfigurace DMPS]]></lookup>
+	<lookup key="ConfigMgmt"><![CDATA[Správa konfigurace]]></lookup>
+
+	<!-- 7/18/2016 -->
+	<lookup key="EnableDisable"><![CDATA[Povolit/zakázat]]></lookup>
+
+	<!-- 7/19/2016 -->
+	<lookup key="RADID"><![CDATA[ID]]></lookup>
+
+	<!-- 7/28/2017 -->
+	<lookup key="SearchLdap"><![CDATA[Hledat LDAP]]></lookup>
+	<lookup key="Query"><![CDATA[Dotázat]]></lookup>
+	<lookup key="SearchFor"><![CDATA[Hledat]]></lookup>
+	<lookup key="GeneralSearch"><![CDATA[Obecné hledání]]></lookup>
+	<lookup key="Department"><![CDATA[Oddělení]]></lookup>
+	<lookup key="Location"><![CDATA[Poloha]]></lookup>
+	<lookup key="Action"><![CDATA[Akce]]></lookup>
+
+	<!-- 7/31/2017 -->
+	<lookup key="PhoneAttributeWarning"><![CDATA[Výstraha atributu telefonu]]></lookup>
+	<lookup key="Ldap"><![CDATA[LDAP]]></lookup>
+	<lookup key="LdapSettings.Host"><![CDATA[Hostitel]]></lookup>
+	<lookup key="HostWarning"><![CDATA[Hostitel je povinný a nesmí mít více než 40 znaků]]></lookup>
+	<lookup key="LdapSettings.Port"><![CDATA[Port]]></lookup>
+	<lookup key="LdapSettings.Dn"><![CDATA[Název domény]]></lookup>
+	<lookup key="DnWarning"><![CDATA[Název domény je povinný a nesmí mít více než 80 znaků]]></lookup>
+	<lookup key="LdapSettings.Username"><![CDATA[Uživatelské jméno]]></lookup>
+	<lookup key="UsernameWarning"><![CDATA[Uživatelské jméno je povinné a nesmí mít více než 40 znaků]]></lookup>
+	<lookup key="LdapSettings.Password"><![CDATA[Heslo]]></lookup>
+	<lookup key="PasswordWarning"><![CDATA[Heslo je povinné]]></lookup>
+	<lookup key="LdapSettings.Search"><![CDATA[Hledat]]></lookup>
+	<lookup key="SearchWarning"><![CDATA[Hledání musí obsahovat „%QUERY%“ a musí začínat závorkou ( a končit závorkou ) a nesmí mít více než 80 znaků]]></lookup>
+	<lookup key="LdapSettings.DisplayAttribute"><![CDATA[Atribut displeje]]></lookup>
+	<lookup key="DisplayIsWarning"><![CDATA[Atribut displeje nesmí mít více než 40 znaků]]></lookup>
+	<lookup key="LdapSettings.LocationAttribute"><![CDATA[Poloha]]></lookup>
+	<lookup key="LocationAttributeWarning"><![CDATA[Atribut polohy nesmí mít více než 40 znaků]]></lookup>
+	<lookup key="LdapSettings.DepartmentAttributeWarning"><![CDATA[Výstraha atributu oddělení]]></lookup>
+	<lookup key="DepartmentAttributeWarning"><![CDATA[Atribut oddělení nesmí mít více než 40 znaků]]></lookup>
+	<lookup key="LdapSettings.PhoneAttribute"><![CDATA[Atribut telefonu]]></lookup>
+	<lookup key="GeneralConnect"><![CDATA[Připojit]]></lookup>
+	<lookup key="LdapSettings.DepartmentAttribute"><![CDATA[Atribut oddělení]]></lookup>
+
+	<!-- 8/3/2017 -->
+	<lookup key="EnableLdap"><![CDATA[Povolit LDAP]]></lookup>
+	<lookup key="LdapSettings.Domain"><![CDATA[Doména LDAP]]></lookup>
+
+	<!-- 8/22/2017 -->
+	<lookup key="DomainWarning"><![CDATA[Doména je neplatná]]></lookup>
+	<lookup key="LdapAuthentication.Kerberos"><![CDATA[Kerberos (automatické rozpoznání)]]></lookup>
+	<lookup key="LdapAuthentication.KerberosServer"><![CDATA[Kerberos (uživatelsky zadaný server)]]></lookup>
+	<lookup key="LdapAuthentication.Server"><![CDATA[Ověřování serveru (uživatelsky zadaný server)]]></lookup>
+	<lookup key="LdapSettings.AuthenticationMethod"><![CDATA[Metoda ověřování]]></lookup>
+
+	<lookup key="SystemNotification"><![CDATA[Upozornění systému]]></lookup>
+
+	<lookup key="DriverUploadComplete"><![CDATA[Ovladač(e) zařízení byly nahrány do systému.  Stav ovladače si prohlédněte v upozornění systému.]]></lookup>
+	<lookup key="DriverDescriptionHeading"><![CDATA[Popis]]></lookup>
+	<lookup key="DriverSaveProblemWarning"><![CDATA[Ovladač(e) zařízení se nepodařilo nahrát do systému.  Zkuste to znovu.  Pokud se tato zpráva zobrazí opakovaně, kontaktujte podporu Crestron True Blue Support.]]></lookup>
+	<lookup key="DriverUploadCompleteHeader"><![CDATA[Ovladač úspěšně nahrán ]]></lookup>
+	<lookup key="DriverSaveProblemWarningHeader"><![CDATA[Nahrání ovladače se nezdařilo ]]></lookup>
+
+	<!-- 9/12/2017 -->
+	<lookup key="Updating"><![CDATA[Aktualizace…]]></lookup>
+
+	<!-- 9/27/2017 -->
+	<lookup key="ChannelType.AirMedia"><![CDATA[AirMedia®]]></lookup>
+
+	<!-- 10/9/2017 -->
+	<lookup key="ActivateConfigurationFromWebsite"><![CDATA[Aktivujte konfiguraci z webové stránky, abyste systém povolili.]]></lookup>
+
+	<!-- 12/14/2017 -->
+	<lookup key="HideBackgroundFilter"><![CDATA[Skrýt filtr pozadí]]></lookup>
+
+	<!-- ***** IMPORTANT ***** -->
+	<!-- The following existing keys need to be renamed -->
+	<lookup key="ScreensaverEnableCustomBackgrounds"><![CDATA[Povolit vlastní pozadí spořiče obrazovky]]></lookup>
+	<lookup key="ScreensaverAddCustomBackgroundUrl"><![CDATA[Přidat adresu URL vlastního pozadí spořiče obrazovky]]></lookup>
+	<lookup key="Locale"><![CDATA[Jazyk]]></lookup>
+	<lookup key="NetworkStatus"><![CDATA[Řídicí panel]]></lookup>
+	<lookup key="ActivityLog"><![CDATA[Protokol AVF]]></lookup>
+	<lookup key="EnableDspVolumeControl"><![CDATA[Zapnout reproduktor DMPS a ovládání hlasitosti programového výstupu]]></lookup>
+	<lookup key="DevicePort"><![CDATA[Komunikační porty]]></lookup>
+	<lookup key="Add"><![CDATA[Přidat zařízení]]></lookup>
+	<lookup key="EmergencyBroadcastTimeout"><![CDATA[Časový limit tísňové zprávy]]></lookup>
+	<lookup key="NonEmergencyBroadcastTimeout"><![CDATA[Časový limit netísňové zprávy]]></lookup>
+	<lookup key="ChannelValidationMessage"><![CDATA[Požadovaný formát ID (0–255).]]></lookup>
+
+	<!-- ***** IMPORTANT ***** -->
+	<!-- The following existing keys need to be renamed -->
+	<!-- *** IMPORTANT *** Crestron and Fusion are trademarks and should not be translated -->
+	<lookup key="SupportsFusion"><![CDATA[Podporuje Crestron Fusion]]></lookup>
+	<lookup key="FusionRoomName"><![CDATA[Název místnosti Crestron Fusion]]></lookup>
+	<lookup key="FusionConnection"><![CDATA[Připojení Crestron Fusion]]></lookup>
+	<lookup key="EnableFusionScheduling"><![CDATA[Povolit plánování Crestron Fusion]]></lookup>
+	<lookup key="FusionSettings"><![CDATA[Nastavení Crestron Fusion]]></lookup>
+	<lookup key="FusionCloudURL"><![CDATA[Adresa URL cloudu Crestron Fusion]]></lookup>
+
+	<lookup key="MinFrontOfRoomBackgroundIntervalSecWarning"><![CDATA[Adresa URL cloudu Crestron Fusion]]></lookup>
+
+	<lookup key="EmergencyBroadcastTimeoutValidValueMessage"><![CDATA[Je vyžadována hodnota (0–60)]]></lookup>
+	<lookup key="NonEmergencyBroadcastTimeoutValidValueMessage"><![CDATA[Je vyžadována hodnota 0–60)]]></lookup>
+	<lookup key="CallNotificationTimeoutValidValueMessage"><![CDATA[Je vyžadována hodnota(0–60)]]></lookup>
+	<lookup key="TimeRemainingMessageDurationValidValueMessage"><![CDATA[Je vyžadována hodnota (0–60)]]></lookup>
+
+	<lookup key="IntervalBetweenBackgroundsValidValueMessage"><![CDATA[Je vyžadována hodnota (30–600)]]></lookup>
+
+	<lookup key="ConfigurationText"><![CDATA[Probíhá konfigurace systému.]]></lookup>
+
+	<lookup key="ConfiguredMessageOfflineLoggedIn"><![CDATA[Systém je nyní offline, <span id="activatePlaceholder">aktivujte</span> nebo <span id="revertPlaceholder">vraťte zpět</span> konfiguraci.]]></lookup>
+	<lookup key="SystemOffline"><![CDATA[Systém je nyní z vašeho umístění nedosažitelný. Ověřte vaše síťové připojení nebo kontaktujte správce systému. ]]></lookup>
+	<lookup key="Revert"><![CDATA[Vrátit zpět]]></lookup>
+	<lookup key="Activate"><![CDATA[Aktivovat]]></lookup>
+	<lookup key="More"><![CDATA[Více]]></lookup>
+
+	<lookup key="WarmUpTimeLabel"><![CDATA[Doba rozběhu]]></lookup>
+	<lookup key="WarmUpTimeValidationMessage"><![CDATA[Je vyžadována hodnota ({0}–{1})]]></lookup>
+	<lookup key="CoolDownTimeValidationMessage"><![CDATA[Je vyžadována hodnota ({0}–{1})]]></lookup>
+	<lookup key="CoolDownTimeLabel"><![CDATA[Doba doběhu]]></lookup>
+
+	<lookup key="ResourceNotFound"><![CDATA[Hledaný prostředek nelze najít.]]></lookup>
+	<lookup key="BackgroundImageRequiredWarning"><![CDATA[Když je tato funkce zapnuta, je vyžadováno alespoň 1 pozadí.]]></lookup>
+	<lookup key="MaximumNumberImagesWarning"><![CDATA[Bylo dosaženo maximálního počtu obrázků.]]></lookup>
+
+	<lookup key="SupportedSeries"><![CDATA[Podporované řady]]></lookup>
+
+	<lookup key="RoomNameValidCharactersWarning"><![CDATA[Povolené znaky zahrnují alfanumerické znaky, mezery, _ ,-, / a ().]]></lookup>
+	<lookup key="Edit"><![CDATA[Upravit]]></lookup>
+	<lookup key="DriverProcessingMessage"><![CDATA[Zpracování souboru ({0}) bylo zahájeno.]]></lookup>
+
+	<lookup key="Done"><![CDATA[Hotovo]]></lookup>
+	<lookup key="ConfigureButtons"><![CDATA[Konfigurovat tlačítka]]></lookup>
+	<lookup key="StartButtonTextWarning"><![CDATA[Vyžadovaní hodnota musí mít (1–20) alfanumerických znaků.]]></lookup>
+	<lookup key="EnableStartButtonText"><![CDATA[Tlačítko povolení spuštění]]></lookup>
+
+	<lookup key="Back"><![CDATA[Zpět]]></lookup>
+	<lookup key="Cancel"><![CDATA[Zrušit]]></lookup>
+	<lookup key="FreeFormLog"><![CDATA[Protokol AMPS]]></lookup>
+
+	<lookup key="TestDeviceStatus"><![CDATA[Stav zařízení]]></lookup>
+	<lookup key="SendCommandLabel"><![CDATA[Příkaz Odeslat]]></lookup>
+	<lookup key="Command"><![CDATA[Příkaz]]></lookup>
+	<lookup key="InstallDevice"><![CDATA[Instalovat zařízení]]></lookup>
+	<lookup key="Send"><![CDATA[Odeslat]]></lookup>
+
+	<!-- 1/19/2018 - button panel -->
+	<lookup key="ButtonPanelButtonAction.Default"><![CDATA[Výchozí]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Disable"><![CDATA[Vypnuto]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerOn"><![CDATA[Zapnout]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerOff"><![CDATA[Vypnout]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerToggle"><![CDATA[Přepnout napájení]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteOn"><![CDATA[Ztlumení zapnuto]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteOff"><![CDATA[Ztlumení vypnuto]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteToggle"><![CDATA[Přepnout ztlumení]]></lookup>
+	<lookup key="ButtonPanelButtonAction.RouteSource"><![CDATA[Zdroj směrování]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VolUp"><![CDATA[Zvýšit hlasitost]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VolDown"><![CDATA[Snížit hlasitost]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Play"><![CDATA[Přehrát]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Pause"><![CDATA[Pozastavit]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Rewind"><![CDATA[Převinout zpět]]></lookup>
+	<lookup key="ButtonPanelButtonAction.FastForward"><![CDATA[Převinout vpřed]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Menu"><![CDATA[Menu]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VideoMute"><![CDATA[Ztlumení videa]]></lookup>
+	<lookup key="UnionId"><![CDATA[Heslo]]></lookup>
+	<lookup key="Test"><![CDATA[Testovat]]></lookup>
+	<lookup key="Save"><![CDATA[Uložit]]></lookup>
+	<lookup key="InstallDialogTitle"><![CDATA[Instalování {0}]]></lookup>
+	<lookup key="DeviceTestDialogTitle"><![CDATA[Testování {0}]]></lookup>
+	<lookup key="UpdateDialogTitle"><![CDATA[Aktualizace {0}]]></lookup>
+
+	<!-- 1/26/2018 -->
+	<lookup key="DeviceType.IO"><![CDATA[Crestron IO]]></lookup>
+	<lookup key="Status"><![CDATA[Stav]]></lookup>
+	<lookup key="TestableDisplayCommands.PowerOn"><![CDATA[Zapnout]]></lookup>
+	<lookup key="TestableDisplayCommands.PowerOff"><![CDATA[Vypnout]]></lookup>
+
+	<lookup key="RelayNotes1"><![CDATA[Relé jsou konfigurována ve dvojicích u vybraného zařízení.]]></lookup>
+	<lookup key="RelayName"><![CDATA[Název relé]]></lookup>
+	<lookup key="RelayDeviceAndIdentifier"><![CDATA[Zařízení relé a identifikátor]]></lookup>
+	<lookup key="RelayTiming"><![CDATA[Časovací]]></lookup>
+	<lookup key="BlankRelayLabel"><![CDATA[Žádné]]></lookup>
+
+	<!-- 2/12/2018 -->
+	<lookup key="RelayBehavior.Disable"><![CDATA[Vypnout]]></lookup>
+
+	<!-- 2/26/2018 -->
+	<lookup key="RelayTimingBoundsWarning"><![CDATA[Požadovaná hodnota musí být v rozmezí (1–180)]]></lookup>
+	<lookup key="RelayNameRequired"><![CDATA[Požadovaná hodnota musí mít (1–20) alfanumerických znaků.]]></lookup>
+	<lookup key="RelayValidCharactersWarning"><![CDATA[Požadovaná hodnota musí mít (1–20) alfanumerických znaků.]]></lookup>
+	<lookup key="RelayNotes2"><![CDATA[První relé ze všech dvojic relé VYSUNE OBRAZOVKU.]]></lookup>
+	<lookup key="RelayNotes3"><![CDATA[Druhé relé ze všech dvojic relé ZASUNE OBRAZOVKU.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.WarmingUpCompleted"><![CDATA[Zahřívání zařízení bylo dokončeno]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.WarmingUp"><![CDATA[Zahřívání zařízení]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.CoolingDown"><![CDATA[Ochlazování zařízení]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.CoolingDownCompleted"><![CDATA[Ochlazování zařízení bylo dokončeno]]></lookup>
+
+	<!-- 2/28/2018 -->
+	<lookup key="MaxLengthRelayNameWarning"><![CDATA[Název relé nesmí mít více než 20 znaků.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PortNotConfigured"><![CDATA[Port nebyl nakonfigurován nebo není dostupný]]></lookup>
+
+	<!-- 3/2/2018 -->
+	<lookup key="DeviceUsernameValueWarning"><![CDATA[Uživatelské jméno zařízení nesmí mít více než 15 znaků.]]></lookup>
+	<lookup key="DevicePasswordValueWarning"><![CDATA[Heslo zařízení nesmí mít více než 32 znaků.]]></lookup>
+
+	<!-- 3/8/2018 -->
+	<lookup key="RelayEmptyMsg"><![CDATA[Žádná zařízení nepodporují relé. Relé můžete přidat na stránce Správce zařízení.]]></lookup>
+
+	<!-- 3/9/2018 -->
+	<lookup key="DeviceTransport.Unknown"><![CDATA[Neznámý]]></lookup>
+
+	<!-- 3/19/2018 MPC3 - These keys need to be retranslated-->
+	<lookup key="DMPSConfiguration"><![CDATA[Směrování A/V]]></lookup>
+	<lookup key="SwitchInformation"><![CDATA[Informace o přepínači]]></lookup>
+
+	<!-- 3/20/2018 -->
+	<lookup key="StartButtonText"><![CDATA[Text tlačítka spuštění]]></lookup>
+
+	<lookup key="VideoDisplayStatusEvent.Initializing"><![CDATA[Inicializace ovladače]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.InitializationFailed"><![CDATA[Inicializace se nezdařila]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectingToDevice"><![CDATA[Probíhá pokus o připojení k zařízení]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.Authenticating"><![CDATA[Ověřování]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.AuthenticationSuccessful"><![CDATA[Ověření proběhlo úspěšně]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.AuthenticationFailed"><![CDATA[Ověření se nezdařilo]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.NotAuthenticated"><![CDATA[Neověřeno]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectionSuccessful"><![CDATA[Připojeno k ovladači]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectionFailed"><![CDATA[Připojení k ovladači se nezdařilo]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.Disconnecting"><![CDATA[Odpojování od ovladače]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.UnknownEvent"><![CDATA[Neznámá událost]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PowerOffCommand"><![CDATA[Odesílání příkazu k vypnutí napájení]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PowerOnCommand"><![CDATA[Odesílání příkazu k zapnutí napájení]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.UnknownCommand"><![CDATA[Neznámý příkaz]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.DeviceOnline"><![CDATA[Zařízení je online]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.DeviceOffline"><![CDATA[Zařízení je offline]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.NoControlPortDefined"><![CDATA[Není definován žádný řídicí port]]></lookup>
+
+	<lookup key="ImageNotLoaded"><![CDATA[Nepodařilo se načíst obrázek]]></lookup>
+	<lookup key="logoHelpText"><![CDATA[Optimální velikost loga je 800 × 600 pixelů.<br>Podporované formáty obrázků: BMP, JPG, PNG.]]></lookup>
+	<lookup key="Keypad"><![CDATA[Klávesnice]]></lookup>
+
+	<!-- 3/22/2018 -->
+	<lookup key="BackgroundOverlay"><![CDATA[Překrytí pozadí]]></lookup>
+	<!-- 3/27/2018 -->
+	<lookup key="NextMeetingInformationShownValidValueMessage"><![CDATA[Požadovaná hodnota musí být v rozmezí (0–120)]]></lookup>
+	<!-- 3/28/2018 -->
+	<lookup key="PowerSettings"><![CDATA[Nastavení napájení]]></lookup>
+	<lookup key="DayOfWeek"><![CDATA[Den v týdnu]]></lookup>
+	<lookup key="DisplayOn"><![CDATA[Displej zap.]]></lookup>
+	<lookup key="DisplayOff"><![CDATA[Displej vyp.]]></lookup>
+
+	<lookup key="VideoDisplay"><![CDATA[Zobrazení videa]]></lookup>
+	<lookup key="WallPaper"><![CDATA[Dotyková obrazovka]]></lookup>
+	<lookup key="WallPaper.EnableCustomBackgroundLabelsLabel"><![CDATA[Povolit vlastní pozadí]]></lookup>
+
+	<lookup key="DisplayNotifications"><![CDATA[Zobrazovat oznámení]]></lookup>
+	<lookup key="ConnectionDetailsLayout"><![CDATA[Rozvržení podrobností o připojení]]></lookup>
+	<lookup key="DisplayCustomization"><![CDATA[Přizpůsobení zobrazení]]></lookup>
+
+	<!-- 4/5/2018 -->
+	<lookup key="ShowBackgroundOverlay"><![CDATA[Zobrazit překrytí pozadí]]></lookup>
+	<lookup key="WallPaper.CustomBackgroundLabelsLabel"><![CDATA[Pozadí]]></lookup>
+
+	<lookup key="ShowCalendarOrClockOverlay"><![CDATA[Zobrazit překryti kalendáře nebo hodin]]></lookup>
+
+	<!-- 4/6/2018 -->
+	<lookup key="ReturnToAudioCall"><![CDATA[Klepnutím sem se vrátíte ke zvukovému hovoru]]></lookup>
+	<lookup key="CurrentCallOnHold"><![CDATA[Aktuální hovor je přidržený]]></lookup>
+	<!-- 4/9/2018 -->
+	<lookup key="TimeRemainingMessageStartsValidValueMessage"><![CDATA[Požadovaná hodnota musí být v rozmezí (0–60)]]></lookup>
+
+	<!-- 4/9/2018 -->
+	<lookup key="StandbyMode.OccupancyBasedWithSignage"><![CDATA[Podle obsazenosti s označením]]></lookup>
+
+	<!-- 4/10/2018 -->
+	<lookup key="ZumBatteryState.Bx"><![CDATA[Externě napájeno]]></lookup>
+	<lookup key="ZumBatteryState.Bc"><![CDATA[Kapacita baterie je kriticky nízká]]></lookup>
+	<lookup key="ZumBatteryState.Bl"><![CDATA[Kapacita baterie je nízká]]></lookup>
+	<lookup key="ZumBatteryState.Bok"><![CDATA[Kapacita baterie je v pořádku]]></lookup>
+
+	<lookup key="ZumDeviceStatus.Act"><![CDATA[Aktivní]]></lookup>
+	<lookup key="ZumDeviceStatus.Mis"><![CDATA[Chybějící]]></lookup>
+
+	<lookup key="ZumOccupancy.Na"><![CDATA[Nedostupné]]></lookup>
+	<lookup key="ZumOccupancy.Occupied"><![CDATA[Obsazeno]]></lookup>
+	<lookup key="ZumOccupancy.Vacant"><![CDATA[Neobsazeno]]></lookup>
+	<lookup key="ZumOccupancy.Unknown"><![CDATA[Neznámý]]></lookup>
+
+	<lookup key="ZumUpdateStatus.U0"><![CDATA[Neprobíhá žádná aktualizace]]></lookup>
+	<lookup key="ZumUpdateStatus.Ui"><![CDATA[Probíhá upgrade]]></lookup>
+	<lookup key="ZumUpdateStatus.Up"><![CDATA[Nevyřízená aktualizace]]></lookup>
+
+	<!-- 4/9/2018 -->
+	<lookup key="AppspaceErrorMessage"><![CDATA[K adrese URL se nelze připojit]]></lookup>
+
+	<!-- 4/13/2018 -->
+	<lookup key="External"><![CDATA[Externí]]></lookup>
+	<lookup key="ManageSettings"><![CDATA[Spravovat]]></lookup>
+
+	<!-- 4/12/2018 -->
+	<lookup key="DisconnectedHeaderText"><![CDATA[ODPOJENO]]></lookup>
+
+	<!-- 4/12/2018 -->
+	<lookup key="DisconnectedMessageText"><![CDATA[Probíhá pokus o opětovné připojení. Zkontrolujte nastavení komunikace]]></lookup>
+
+	<!-- 4/18/2018 these keys need to be retranslated -->
+	<lookup key="IntervalBetweenBackgroundsBoundsWarning"><![CDATA[Požadovaná hodnota musí být v rozmezí (30–600)]]></lookup>
+	<lookup key="PanelSleepTimeSecondsBoundsWarning"><![CDATA[Požadovaná hodnota musí být v rozmezí (60–600)]]></lookup>
+
+	<!-- 4/18/2018  -->
+
+	<lookup key="Background"><![CDATA[Pozadí]]></lookup>
+	<lookup key="Log"><![CDATA[Protokol]]></lookup>
+	<lookup key="TouchScreen"><![CDATA[Dotyková obrazovka a displej]]></lookup>
+
+	<!-- 4/23/2018  -->
+	<lookup key="DayOfWeekEnum.Monday"><![CDATA[Pondělí]]></lookup>
+	<lookup key="DayOfWeekEnum.Tuesday"><![CDATA[Úterý]]></lookup>
+	<lookup key="DayOfWeekEnum.Wednesday"><![CDATA[Středa]]></lookup>
+	<lookup key="DayOfWeekEnum.Thursday"><![CDATA[Čtvrtek]]></lookup>
+	<lookup key="DayOfWeekEnum.Friday"><![CDATA[Pátek]]></lookup>
+	<lookup key="DayOfWeekEnum.Saturday"><![CDATA[Sobota]]></lookup>
+	<lookup key="DayOfWeekEnum.Sunday"><![CDATA[Neděle]]></lookup>
+
+	<!-- 4/23/2018  -->
+	<lookup key="ConnectionLayout.Bottom"><![CDATA[Dole]]></lookup>
+	<lookup key="ConnectionLayout.Top"><![CDATA[Nahoře]]></lookup>
+	<lookup key="ConnectionLayout.Left"><![CDATA[Vlevo]]></lookup>
+	<lookup key="ConnectionLayout.Right"><![CDATA[Vpravo]]></lookup>
+
+	<!-- 4/25/2018  -->
+
+	<lookup key="AppspaceCustomBackgroundsWarning"><![CDATA[Vlastní pozadí nelze nastavit, když je povolena aplikace Appspace.]]></lookup>
+	<lookup key="DeviceType.Audio"><![CDATA[Audio]]></lookup>
+	<lookup key="DeviceType.Led"><![CDATA[LED]]></lookup>
+
+	<!-- 4/30/2018  -->
+	<lookup key="AUXIP"><![CDATA[PODPŮRNÁ IP]]></lookup>
+	<lookup key="DialerType.Sfb"><![CDATA[Skype®]]></lookup>
+	<lookup key="VerisonNumber"><![CDATA[Číslo verze]]></lookup>
+	<lookup key="Room"><![CDATA[Pokoj]]></lookup>
+	<lookup key="EnableDspVolumeControl.ExtAmp"><![CDATA[Povolit externí zesilovač]]></lookup>
+
+	<!-- 5/1/2018  -->
+	<lookup key="UploadConfigurationError"><![CDATA[Nahrání se nezdařilo, protože konfigurace je buď neplatná, nebo je určená pro jiný model zařízení. Byla obnovena předchozí konfigurace.]]></lookup>
+
+	<!-- 5/3/2018  -->
+	<lookup key="AppspaceLoading"><![CDATA[Stahování a instalace aplikace Appspace]]></lookup>
+	<lookup key="AppspaceErrorTitle"><![CDATA[Aplikaci Appspace nelze stáhnout]]></lookup>
+	<lookup key="AppspaceErrorSubTitle"><![CDATA[Zkontrolujte adresu URL a síťové připojení V krátké době bude proveden další pokus.]]></lookup>
+
+	<!-- 5/8/2018 -->
+	<lookup key="PortType.Relay"><![CDATA[Relé]]></lookup>
+
+	<!-- 5/10/2018 -->
+	<lookup key="VideoDisplayStatusEvent.TestingNotSupported"><![CDATA[Testování neřízeného displeje není podporováno]]></lookup>
+
+	<lookup key="Zum"><![CDATA[Zūm]]></lookup>
+	<lookup key="Network"><![CDATA[Síť]]></lookup>
+	<lookup key="FirmwareVersion"><![CDATA[Verze firmwaru]]></lookup>
+	<lookup key="BatteryStatus"><![CDATA[Stav baterie]]></lookup>
+	<lookup key="StartAcquire"><![CDATA[Zahájit načítání]]></lookup>
+	<lookup key="StopAcquire"><![CDATA[Zastavit načítání]]></lookup>
+	<lookup key="FormNetwork"><![CDATA[Vytvořit síť]]></lookup>
+	<lookup key="ZumBridgeLabel"><![CDATA[Most Zūm]]></lookup>
+	<lookup key="RoomOccupancyLabel"><![CDATA[Stav senzoru Zūm]]></lookup>
+	<lookup key="Occupancy"><![CDATA[Obsazenost]]></lookup>
+	<lookup key="Id"><![CDATA[Id]]></lookup>
+
+	<!-- 5/16/2018 -->
+	<lookup key="ButtonPanelButtonAction.Up"><![CDATA[Nahoru]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Down"><![CDATA[Dolů]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Left"><![CDATA[Vlevo]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Right"><![CDATA[Vpravo]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Enter"><![CDATA[Zadat]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Select"><![CDATA[Vybrat]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Back"><![CDATA[Zpět]]></lookup>
+
+	<!-- 6/15/2018 -->
+	<lookup key="CallNotificationState.IncomingCall"><![CDATA[Příchozí hovor]]></lookup>
+	<lookup key="CallNotificationState.Connected"><![CDATA[Připojeno]]></lookup>
+	<lookup key="CallNotificationState.Connecting"><![CDATA[Připojování]]></lookup>
+	<lookup key="CallNotificationState.Rejected"><![CDATA[Odmítnuto]]></lookup>
+	<lookup key="CallNotificationState.Disconnected"><![CDATA[Odpojeno]]></lookup>
+
+	<!-- 6/19/2018 -->
+	<lookup key="VideoDisplayStatusEvent.CecInitialized"><![CDATA[Ovladač CEC inicializován]]></lookup>
+
+	<lookup key="AssociatedOutputDevice.Whiteboard"><![CDATA[AirBoard®]]></lookup>
+	<lookup key="DeviceType.ZumBridge"><![CDATA[Most Zūm]]></lookup>
+	<lookup key="DeviceType.WhiteBoard"><![CDATA[AirBoard®]]></lookup>
+
+	<!-- 7/18/2018 -->
+	<lookup key="DriverInstallationStatus.StatusUnlicensedDeviceType"><![CDATA[Typ zařízení bez licence]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusUnsupportedIrDriver"><![CDATA[Nepodporovaný ovladač IR]]></lookup>
+
+	<!-- 7/25/2018 -->
+	<lookup key="CommunicationType"><![CDATA[Typ komunikace]]></lookup>
+	<lookup key="SupportedModels"><![CDATA[Podporované modely]]></lookup>
+	<lookup key="DriverSearchHint"><![CDATA[Model anebo výrobce]]></lookup>
+
+	<lookup key="AddNewDeviceDriver"><![CDATA[Přidat nový ovladač zařízení…]]></lookup>
+	<lookup key="ImportFromFile"><![CDATA[Importovat ze souboru…]]></lookup>
+	<lookup key="GeneralAdd"><![CDATA[Přidat]]></lookup>
+
+	<lookup key="DetectedManufacturer"><![CDATA[Zjištěný výrobce]]></lookup>
+	<lookup key="DetectedName"><![CDATA[Zjištěný název]]></lookup>
+	<lookup key="DetectedSerialNum"><![CDATA[Zjištěné sériové číslo]]></lookup>
+
+	<lookup key="CloudSearchError"><![CDATA[V průběhu vyhledávání ovladačů v cloudu se vyskytla chyba.]]></lookup>
+	<lookup key="ErrorInstallingDriver"><![CDATA[V průběhu instalace ovladače se vyskytla chyba.]]></lookup>
+
+	<lookup key="DeviceInstallingTitle"><![CDATA[Instalování {0}.]]></lookup>
+
+	<!-- 8/30/2018 -->
+	<lookup key="DisplayTimeError"><![CDATA[Hodnota v poli Displej zapnutý musí být menší než hodnota v poli Displej vypnutý.]]></lookup>
+	<lookup key="NavPresentEtc"><![CDATA[Navigovat domů, prezentovat zdroj a další…]]></lookup>
+
+	<lookup key="FilterBy"><![CDATA[Filtrovat podle]]></lookup>
+	<lookup key="StartDiscovery"><![CDATA[Spustit vyhledávání]]></lookup>
+	<lookup key="StopDiscovery"><![CDATA[Zastavit vyhledávání]]></lookup>
+	<lookup key="IPIDCrestnetID"><![CDATA[IPID/CresnetID]]></lookup>
+	<lookup key="Locate"><![CDATA[Lokalizovat]]></lookup>
+	<lookup key="LocateRunning"><![CDATA[Funkce lokalizace je spuštěna]]></lookup>
+	<lookup key="StopLocate"><![CDATA[Ukončit lokalizaci]]></lookup>
+	<lookup key="DeviceDetails"><![CDATA[Informace o zařízení]]></lookup>
+	<lookup key="DiscoveredDevices"><![CDATA[Objevená zařízení]]></lookup>
+	<lookup key="ConfiguredDevices"><![CDATA[Konfigurovat zařízení]]></lookup>
+
+	<lookup key="AreYouSure"><![CDATA[Opravdu?]]></lookup>
+
+	<lookup key="WhiteboardCode"><![CDATA[Kód ]]></lookup>
+	<lookup key="WhiteboardCrestronId"><![CDATA[CrestronId: ]]></lookup>
+	<lookup key="WhiteboardUserConnUrl"><![CDATA[URL: ]]></lookup>
+
+	<!-- 11/30/2018 -->
+	<lookup key="RefineSearchContact"><![CDATA[Přesnou shodu se nepovedlo najít. Pokuste se specifikovat vyhledávání.]]></lookup>
+
+	<!-- 12/5/2018 -->
+	<lookup key="WhiteboardMeetingEndPPUX"><![CDATA[Naplánovaná schůzka se blíží ke konci, vyberte možnost na dotykové obrazovce.]]></lookup>
+
+	<!-- 12/7/2018 -->
+	<lookup key="WhiteboardIncomingReqPPUX"><![CDATA[Požadavek na příchozí vzdálené připojení, přijměte jej nebo jej odmítněte na dotykovém panelu.]]></lookup>
+
+	<!-- 12/14/2018 -->
+	<lookup key="account-action"><![CDATA[Akce]]></lookup>
+	<lookup key="cloudware-license"><![CDATA[Licenční smlouva Cloudware]]></lookup>
+	<lookup key="service-status"><![CDATA[Stav služby]]></lookup>
+	<lookup key="privacy-statement"><![CDATA[Prohlášení o ochraně soukromí]]></lookup>
+	<lookup key="uc-agreement"><![CDATA[Licenční smlouva na komunikační software Crestron Unified]]></lookup>
+
+	<lookup key="busy-loading"><![CDATA[načítání]]></lookup>
+	<lookup key="AirBoard"><![CDATA[AirBoard]]></lookup>
+	<lookup key="Settings"><![CDATA[Nastavení]]></lookup>
+	<lookup key="ConfirmPassword"><![CDATA[Potvrdit heslo]]></lookup>
+	<lookup key="UserDetail"><![CDATA[Podrobnosti o uživateli]]></lookup>
+	<lookup key="PasswordMismatchWarning"><![CDATA[Hesla se musí shodovat.]]></lookup>
+
+	<!-- 12/27/2018 -->
+	<lookup key="CresnetBusIdValidationMessage"><![CDATA[Požadovaný formát ID Cresnet (03-1B).]]></lookup>
+	<lookup key="DeviceType.CresnetGateway"><![CDATA[Brána Cresnet]]></lookup>
+	<lookup key="DeviceTransport.CrestronCrestnetBus"><![CDATA[Sběrnice Cresnet]]></lookup>
+	<lookup key="GatewayBus"><![CDATA[Sběrnice brány]]></lookup>
+
+	<!-- 01/08/2019 -->
+	<lookup key="EnableAutoUpdate"><![CDATA[Povolit automatickou aktualizaci dotykové obrazovky]]></lookup>
+	<lookup key="AutoRouting"><![CDATA[Pouze automatické směrování AirMedia]]></lookup>
+	<lookup key="PriorityRouting"><![CDATA[Prioritní směrování]]></lookup>
+	<lookup key="InvalidInputName"><![CDATA[Neplatný název zobrazení.  Nesmí obsahovat znaky < nebo >.]]></lookup>
+
+	<lookup key="AudioSource.AudioFollowVideo"><![CDATA[Zvuk následující video]]></lookup>
+	<lookup key="AudioSource.Analog"><![CDATA[Analogový]]></lookup>
+	<lookup key="ChannelType.Streaming"><![CDATA[Streaming]]></lookup>
+
+	<lookup key="UploadConfigRestore"><![CDATA[Obnovit]]></lookup>
+	<lookup key="UploadConfigCreateRoom"><![CDATA[Vytvořit místnost]]></lookup>
+
+	<lookup key="UploadConfigWarning"><![CDATA[Pokud obnovujete starou konfiguraci pro existující místnost, která již v prostředí Fusion existuje, vyberte položku „Obnovit“.  Pokud ale importujete konfiguraci jako začáteční bod pro novou místnost, vyberte položku „Vytvořit místnost“.]]></lookup>
+
+	<!-- 01/30/2019 -->
+	<lookup key="WhiteBoardCodeMode.Disabled"><![CDATA[Vypnuto]]></lookup>
+	<lookup key="WhiteBoardCodeMode.Random"><![CDATA[Náhodný]]></lookup>
+	<lookup key="WhiteBoardCodeMode.Fixed"><![CDATA[Pevné]]></lookup>
+
+	<lookup key="WhiteboardViewParticipants"><![CDATA[Zobrazit účastníky]]></lookup>
+	<lookup key="WhiteboardRecord"><![CDATA[Záznam]]></lookup>
+	<lookup key="WhiteboardStopRecording"><![CDATA[Zastavit záznam]]></lookup>
+	<lookup key="WhiteboardSnapshot"><![CDATA[Odeslat snímek obrazovky]]></lookup>
+	<lookup key="WhiteboardParticipants"><![CDATA[Účastníci]]></lookup>
+	<lookup key="WhiteboardIncomingReq"><![CDATA[Požadavek na příchozí vzdálené připojení]]></lookup>
+	<lookup key="WhiteboardIncomingReqAccept"><![CDATA[Přijmout]]></lookup>
+	<lookup key="WhiteboardIncomingReqIgnore"><![CDATA[Ignorovat]]></lookup>
+	<lookup key="WhiteboardInSession"><![CDATA[V relaci]]></lookup>
+	<lookup key="WhiteboardInLobby"><![CDATA[V lobby]]></lookup>
+	<lookup key="WhiteboardEmail"><![CDATA[Odeslat záznam e-mailem na adresu:]]></lookup>
+	<lookup key="WhiteboardSendSlideDeck"><![CDATA[Odeslat prezentaci]]></lookup>
+	<lookup key="WhiteboardEmailRecording"><![CDATA[Odeslat záznam e-mailem]]></lookup>
+	<lookup key="WhiteboardProceed"><![CDATA[Pokračovat bez odeslání e-mailem]]></lookup>
+	<lookup key="WhiteboardMeetingEnd"><![CDATA[Naplánovaná schůzka se blíží ke konci, vyberte požadovanou možnost]]></lookup>
+	<lookup key="WhiteboardStopPresenting"><![CDATA[Zastavit záznam a prezentaci]]></lookup>
+	<lookup key="WhiteboardDontStop"><![CDATA[Nezastavovat]]></lookup>
+	<lookup key="WhiteboardTitle"><![CDATA[AirBoard®]]></lookup>
+
+	<lookup key="BluetoothPairingMode"><![CDATA[Režim párování Bluetooth]]></lookup>
+	<lookup key="BluetoothTimeOut"><![CDATA[Doba do odpojení nečinného rozhraní Bluetooth]]></lookup>
+	<lookup key="BluetoothTimeOutValidValueMessage"><![CDATA[Požadovaná hodnota musí být (1 – 60)]]></lookup>
+	<lookup key="PairingMode.Timeout"><![CDATA[Časový limit]]></lookup>
+	<lookup key="PairingMode.Persistent"><![CDATA[Trvalý]]></lookup>
+	<lookup key="ReportOnlyAirmediaAsset"><![CDATA[Oznámit pouze aktiva AirMedia]]></lookup>
+	<lookup key="LdapPortWarning"><![CDATA[Port požadovaný formát (1–65535)]]></lookup>
+	<lookup key="NonControlledDevice"><![CDATA[Zařízení bez ovládání]]></lookup>
+
+	<lookup key="CrestronConnected"><![CDATA[Crestron připojen]]></lookup>
+	<lookup key="MercuryIpIdValidationMessage"><![CDATA[IPID požadovaný formát (03-FD).]]></lookup>
+
+	<!-- 6/10/2019 -->
+	<lookup key="WhiteboardConfirmationPrompt"><![CDATA[Opravdu chcete zastavit záznam?]]></lookup>
+	<lookup key="WhiteboardStopNowCap"><![CDATA[ANO, ZASTAVIT NYNÍ]]></lookup>
+	<lookup key="WhiteboardContinueCap"><![CDATA[NE, POKRAČOVAT]]></lookup>
+	<lookup key="WhiteboardEmailRecordingCap"><![CDATA[ODESLAT ZÁZNAM E-MAILEM]]></lookup>
+	<lookup key="WhiteboardProceedCap"><![CDATA[POKRAČOVAT BEZ ODESLÁNÍ E-MAILEM]]></lookup>
+	<lookup key="WhiteboardStopPresentingCap"><![CDATA[ZASTAVIT ZÁZNAM A PREZENTACI]]></lookup>
+
+	<lookup key="GenericCancelCap"><![CDATA[ZRUŠIT]]></lookup>
+	<lookup key="CouldNotFindMatch"><![CDATA[Přesnou shodu se nepovedlo najít. Pokuste se specifikovat vyhledávání.]]></lookup>
+	<lookup key="PresentationTypes"><![CDATA[Typy prezentace]]></lookup>
+	<lookup key="Resume"><![CDATA[Pokračovat]]></lookup>
+	<lookup key="BlankScreen"><![CDATA[Prázdná obrazovka]]></lookup>
+	<lookup key="CallTypes"><![CDATA[Typy hovorů]]></lookup>
+	<lookup key="ReturnToCall"><![CDATA[Zpět na hovor]]></lookup>
+	<lookup key="TapReturnToCall"><![CDATA[Klepněte zde pro návrat k hovoru]]></lookup>
+	<lookup key="CallOnHold"><![CDATA[Aktuální hovor je přidržený]]></lookup>
+	<lookup key="USBCable"><![CDATA[USB kabel]]></lookup>
+	<lookup key="UsbCall"><![CDATA[USB hovor]]></lookup>
+	<lookup key="ConnectYourUsbDeviceText"><![CDATA[Připojte zařízení k připravenému USB kabelu]]></lookup>
+	<lookup key="AvailableForNext"><![CDATA[dostupné po další]]></lookup>
+	<lookup key="Available"><![CDATA[dostupné]]></lookup>
+	<lookup key="RestOfDay"><![CDATA[po zbytek dne]]></lookup>
+	<lookup key="ReservedForNext"><![CDATA[rezervováno po další]]></lookup>
+	<lookup key="MeetingLabel"><![CDATA[schůzka]]></lookup>
+	<lookup key="GeneralHome"><![CDATA[Domů]]></lookup>
+	<lookup key="GeneralPresent"><![CDATA[Přítomno]]></lookup>
+	<lookup key="GeneralCall"><![CDATA[Hovor]]></lookup>
+	<lookup key="GeneralToday"><![CDATA[Dnes]]></lookup>
+	<lookup key="GeneralCollaborate"><![CDATA[Spolupracovat]]></lookup>
+	<lookup key="NextMeeting"><![CDATA[Další schůzka]]></lookup>
+	<lookup key="Plug"><![CDATA[zapojit]]></lookup>
+	<lookup key="ConnectLaptopGuide"><![CDATA[do notebooku pro prezentaci na displeji]]></lookup>
+	<lookup key="ConnectUsbGuide"><![CDATA[do notebooku pro použití v podobě zvukového zařízení]]></lookup>
+	<lookup key="Set"><![CDATA[nastavit]]></lookup>
+	<lookup key="Camera"><![CDATA[kamera]]></lookup>
+	<lookup key="Step"><![CDATA[krok]]></lookup>
+	<lookup key="Connect"><![CDATA[připojit]]></lookup>
+	<lookup key="ConnectYourHDMIDeviceText"><![CDATA[pro prezentaci z vašeho notebooku připojte pomocí přiloženého HDMI kabelu]]></lookup>
+
+	<!-- *** IMPORTANT *** Virtual Control is a trademark and should not be translated -->
+	<lookup key="VCToken"><![CDATA[Token Virtual Control]]></lookup>
+	<lookup key="VCToken.Message"><![CDATA[Vyžaduje se token Virtual Control.]]></lookup>
+	<lookup key="VCToken.Invalid"><![CDATA[Neplatný token Virtual Control.]]></lookup>
+
+	<!-- 2019-09-30 -->
+	<lookup key="VideoDisplayStatusEvent.PortOffline"><![CDATA[Port je offline]]></lookup>
+	<lookup key="SyncVC4RoomName"><![CDATA[Synchronizovat název místnosti s VC-4]]></lookup>
+	<lookup key="EnableCustomHelpPage"><![CDATA[Povolit stránku vlastní nápovědy]]></lookup>
+	<lookup key="CustomHelpPageUrl"><![CDATA[URL stránky vlastní nápovědy]]></lookup>
+	<lookup key="Upload"><![CDATA[Nahrát]]></lookup>
+
+	<!-- 2019-09-09 -->
+	<lookup key="Resolution.Res720x480iNTSC"><![CDATA[720 × 480i 30Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080p"><![CDATA[1920 × 1080p 24Hz]]></lookup>
+	<lookup key="Resolution.Res2048x1080At24Hz"><![CDATA[2048 × 1080 při 24Hz]]></lookup>
+	<lookup key="Resolution.Res1920x1080pAt30HzNTSC"><![CDATA[1920 × 1080p při 30 Hz NTSC ]]></lookup>
+	<lookup key="Resolution.Res1920x1080pAt25HzPAL"><![CDATA[1920 × 1080p při 25 Hz PAL]]></lookup>
+
+	<!-- 2019-09-26 -->
+	<lookup key="UxGeneralCustomization.EnableReservationLabel"><![CDATA[Povolit rezervaci]]></lookup>
+
+	<!-- 2019-10-04 -->
+	<lookup key="ChannelType.DmLite"><![CDATA[DM LITE]]></lookup>
+
+	<!-- 2019-10-15 -->
+	<lookup key="WallPaper.EnableCustomHelpPageLabel"><![CDATA[Povolit vlastní nápovědu]]></lookup>
+	<lookup key="WallPaper.CustomHelpPageUrlLabel"><![CDATA[Vlastní adresa URL nápovědy]]></lookup>
+	<lookup key="WallPaper.CustomHelpPageUrlValidValueMessage"><![CDATA[Vlastní adresa URL nápovědy je neplatná]]></lookup>
+	<lookup key="WallPaper.IdValidValueMessage"><![CDATA[Je vyžadována platná volba]]></lookup>
+
+	<!-- 2019-09-17 -->
+	<lookup key="DisplayFeature.PowerFeedback"><![CDATA[Zpětná vazba napájení]]></lookup>
+	<lookup key="DisplayFeature.VideoMute"><![CDATA[Ztlumení (Mute) videa]]></lookup>
+	<lookup key="DisplayFeature.Mute"><![CDATA[Ztlumit (Mute)]]></lookup>
+	<lookup key="DisplayFeature.MuteFeedback"><![CDATA[Ztlumit (Mute) zpětnou vazbu]]></lookup>
+	<lookup key="DisplayFeature.Volume"><![CDATA[Ovládání hlasitosti]]></lookup>
+	<lookup key="DisplayFeature.SetVolume"><![CDATA[Nastavení analogové hlasitosti]]></lookup>
+	<lookup key="DisplayFeature.VolumeFeedback"><![CDATA[Zpětná vazba ovládání hlasitosti]]></lookup>
+	<lookup key="DisplayFeature.InputFeedback"><![CDATA[Zpětná vazba pro výběr vstupu]]></lookup>
+	<!-- Supported Driver Feature Web AddNewDevice -->
+	<lookup key="SupportedFeature"><![CDATA[Podporované funkce ovladače]]></lookup>
+
+	<lookup key="StandbyMode.VideoSyncBased"><![CDATA[Podle synchronizace videa]]></lookup>
+	<lookup key="VideoSyncPowerOn"><![CDATA[Zapnutí (Power on) synchronizace videa]]></lookup>
+	<lookup key="VideoSyncPowerOff"><![CDATA[Zapnutí (Power off) synchronizace videa]]></lookup>
+	<lookup key="VideoSyncPowerOffTimeout"><![CDATA[Časový limit vypnutí (Power off) synchronizace videa]]></lookup>
+	<lookup key="VideoSyncPowerOffTimeoutBoundsWarning"><![CDATA[platný rozsah 1-120 minut]]></lookup>
+
+	<!-- 2019-11-01 -->
+	<lookup key="PanelUiVersionType.UI1"><![CDATA[AVF 1.0 Motiv (starší verze)]]></lookup>
+	<lookup key="PanelUiVersionType.UI2"><![CDATA[AVF 2.0 Motiv (nová)]]></lookup>
+	<lookup key="UiVersionLabel"><![CDATA[Téma uživatelského rozhraní AV Framework]]></lookup>
+
+	<!-- 2019-12-11 -->
+	<lookup key="OccupancyPowerOn"><![CDATA[Zapnout (Power On) obsazenost]]></lookup>
+	<lookup key="OccupancyPowerOff"><![CDATA[Vypnout (Power Off) obsazenost]]></lookup>
+
+	<lookup key="StandbyMode.Default"><![CDATA[Podle obsazenosti]]></lookup>
+
+	<!-- 2019-12-16-->
+	<lookup key="ThemeHelpText"><![CDATA[Poznámka: Přepínání motivů bude trvat přibližně <br>30–60 sekund po aktivaci .AV Framework]]></lookup>
+
+	<!-- 2019-12-24 -->
+	<lookup key="videoSyncWarnText"><![CDATA[Poznámka: Virtuální přepínač nelze použít ve spojení<br> v režimu napájení založené na synchronizaci videa.]]></lookup>
+
+	<!-- 2019-11-15 -->
+	<lookup key="POEOccupancySensorSettings"><![CDATA[Nastavení senzoru obsazenosti PoE]]></lookup>
+
+	<!-- 2019-12-20 -->
+	<lookup key="SensorStatus"><![CDATA[Stav senzoru]]></lookup>
+	<lookup key="Occupied"><![CDATA[Obsazeno]]></lookup>
+	<lookup key="Vacant"><![CDATA[Neobsazeno]]></lookup>
+
+	<!-- 2020-01-09 -->
+	<lookup key="DriverInstallStatusEnum.UnknownCommand"><![CDATA[Neznámý příkaz]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Uploading"><![CDATA[Nahrávání souboru]]></lookup>
+	<lookup key="DriverInstallStatusEnum.UploadComplete"><![CDATA[Nahrávání bylo dokončeno]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Downloading"><![CDATA[Stahování souboru]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Downloaded"><![CDATA[Stažený soubor]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Installed"><![CDATA[Ovladač nainstalován]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Installing"><![CDATA[Instalace ovladače]]></lookup>
+	<lookup key="DriverInstallStatusEnum.ErrorOccured"><![CDATA[Došlo k chybě]]></lookup>
+	<lookup key="DriverInstallStatusEnum.UnzippedPkg"><![CDATA[Rozbalený soubor PKG]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Processing"><![CDATA[Zpracování souboru]]></lookup>
+	<lookup key="DriverInstallStatusEnum.DownloadingComplete"><![CDATA[Stahování dokončeno]]></lookup>
+	<lookup key="DriverInstallStatusEnum.InvalidOrCorruptFile"><![CDATA[Neplatný nebo poškozený soubor]]></lookup>
+
+	<!-- 2020-01-20 -->
+	<lookup key="AcronymHour"><![CDATA[h]]></lookup>
+	<lookup key="AcronymMinute"><![CDATA[min]]></lookup>
+
+	<!-- 2020-01-29 -->
+	<lookup key="AddDeviceDriver"><![CDATA[Import ovladače]]></lookup>
+</lang>

@@ -1,0 +1,38 @@
+{
+  "name": "react-template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cra-template-ch5-typescript": "0.1.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "yarn copylib && react-scripts start",
+    "build": "yarn copylib && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "copylib": "ncp ./node_modules/@crestron/ch5-crcomlib/build_bundles/umd/cr-com-lib.js public/cr-com-lib.js",
+    "serve": "serve -s build",
+    "build-and-serve": "yarn build && yarn serve",
+    "build:archive": "yarn ch5-cli archive -p ch5-react -P samplesource=ch5-react -d build -o dist",
+    "build:deploy": "yarn ch5-cli deploy -p -H panel -t touchscreen dist/ch5-react.ch5z",
+    "build:onestep": "yarn build && yarn build:archive && yarn build:deploy"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

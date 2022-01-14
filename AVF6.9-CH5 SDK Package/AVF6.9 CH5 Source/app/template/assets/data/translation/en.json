@@ -1,0 +1,69 @@
+{
+  "app": {
+    "title": "Crestron CH5 || HTML 5 UI Development Shell Template",
+    "webxpanel": {
+      "popupblocked": "The pop-ups are being blocked by your browser. Turn pop-ups ON in your browser setting.",
+      "status": {
+        "CONNECT_WS": "Status: WS CONNECTING...",
+        "DISCONNECT_CIP": "Status: DISCONNECTED",
+        "ERROR_WS": "Status: WS ERROR",
+        "AUTHENTICATION_FAILED": "Status: AUTHENTICATION FAILED",
+        "AUTHENTICATION_REQUIRED": "Status: AUTHENTICATION REQUIRED",
+        "CONNECT_CIP": "Status: CONNECTED"
+      },
+      "license":{
+        "csmobilitysupport": "Control system does not support Mobility license",
+        "mobilitylicenserequired": "Mobility license is required (expired or never applied)",
+        "mobilitylicensevalid": "Mobility license is valid",
+        "mobilitylicensewarning": "Mobility license expires in {{licenseDaysRemaining}} day(s)",
+        "mobilitylicensetrial": "Trial period expires in {{trialPeriodDaysRemaining}} day(s)"
+      }
+    },
+    "ch5logger": {
+      "title": "REMOTE LOGGER SETTINGS",
+      "docker": {
+        "dockerconnecting": "DOCKER CONNECTING",
+        "dockerdisconnected": "NOT CONNECTED",
+        "dockerconnected": "DOCKER CONNECTED",
+        "dockererror": "CONNECTION ERROR"
+      },      
+      "form": {
+        "ipaddress": "IP Address / Hostname",
+        "portnumber": "Port Number",
+        "connect": "CONNECT",
+        "disconnect": "DISCONNECT",
+        "connecting": "CONNECTING...",
+        "error": {
+          "ipaddress": "Please enter valid IP Address/Hostname",
+          "portnumber": "Please enter valid Port Number"
+        }
+      },
+      "note": "Note:",
+      "note1": "You need to add attribute 'debug' to CH5 tag.",
+      "note2": "The values will be stored only for this session."
+    }
+  },
+  "header": {
+    "accessibility": {
+      "nav": {
+
+      }
+    }
+  },
+  "footer": {
+    "accessibility": {
+      "button": {
+        "navMenu": "Open Navigation Menu"
+      }
+    }
+  },
+  "versionInfo": {
+    "title": "Version Info",
+    "accessibility": {
+      "button": {
+        "version": "Open Version Information"
+      }
+    }
+  },
+  "lang": "English"
+}

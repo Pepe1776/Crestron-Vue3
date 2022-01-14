@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'CrestronSansPro';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Crestron Sans Pro'),
+  local('Crestron-Sans-Pro'),
+  url("#{$font-project-path}CrestronSansPro.woff") format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'CrestronSansPro';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Crestron Sans Pro'),
+  local('Crestron-Sans-Pro'),
+  url("#{$font-project-path}CrestronSansPro-Bold.woff") format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'CrestronSimpleIcons';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Crestron Simple Icons'),
+  local('Crestron Simple Icons'),
+  url("#{$font-project-path}CrestronSimpleIcons.woff") format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'CrestronAV';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Crestron AV'),
+  local('Crestron AV'),
+  url("#{$font-project-path}CrestronAV.woff") format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'CrestronLightingHVAC';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Crestron Lighting HVAC'),
+  local('Crestron Lighting HVAC'),
+  url("#{$font-project-path}CrestronLightingHVAC.woff") format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'CrestronMono';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Crestron Mono'),
+  local('Crestron Mono'),
+  url("#{$font-project-path}CrestronMono.woff2") format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'CrestronGeneral';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Crestron General'),
+  local('Crestron General'),
+  url("#{$font-project-path}CrestronGeneral.woff") format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

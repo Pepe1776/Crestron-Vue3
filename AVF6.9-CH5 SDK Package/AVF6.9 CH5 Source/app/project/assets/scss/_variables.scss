@@ -1,0 +1,59 @@
+/* Copyright (C) 2020 to the present, Crestron Electronics, Inc.
+  * All rights reserved.
+  * No part of this software may be reproduced in any form, machine
+  * or natural, without the express written consent of Crestron Electronics.
+  * Use of this source code is subject to the terms of the Crestron Software License Agreement 
+ * under which you licensed this source code.
+*/
+
+/**
+* Add the variables that should overwrite bootstrap variables. Ex: $info:#20c997;
+* Add the variables that are custom and not using bootstrap variable references. Ex: $lightblue: rgb(0, 174, 255);
+*/
+
+$font-family-sans-serif: "CrestronSansPro", sans-serif;
+
+$image-project-path: "./../img/";
+
+$font-project-path: "./../../../project/assets/fonts/";
+
+$icon-font-family: CrestronSimpleIcons;
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$sizes: map-merge(
+  (
+    5: 5%,
+    10: 10%,
+    15: 15%,
+    20: 20%,
+    25: 25%,
+    33: 33%,
+    34: 34%,
+    50: 50%,
+    75: 75%,
+    80: 80%,
+    85: 85%,
+    90: 90%,
+    95: 95%,
+    100: 100%,
+    auto: auto,
+  ),
+  $sizes
+);
+
+// Variables for components
+$popup-dark-background: rgba(17, 20, 31, 1.0);
+$popup-dark-text-color: #fff;
+$popup-light-background: #fff;
+$popup-light-text-color: rgb(19, 19, 19);
+
+
+$mycustom-radio-size: 20px !default;
+$mycustom-checkbox-size: 20px !default;
+$mycustom-dot-size: 8px !default;
+$mycustom-border-color: #c0c0c0 !default;
+$mycustom-main-color: #3e97eb !default;
+$mycustom-disabled-color: lighten($mycustom-border-color, 14%) !default;
+$mycustom-disabled-checked-color: lighten($mycustom-main-color, 30%) !default;

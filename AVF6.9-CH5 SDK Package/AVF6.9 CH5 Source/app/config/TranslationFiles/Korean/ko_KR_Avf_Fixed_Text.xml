@@ -1,0 +1,1552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang locale="ko_KR" name="Korean" variant="Korean">
+	<include file="ko_KR_Common_Text.xml"/>
+	<include file="ko_KR_Scheduling_Calendar.xml"/>
+
+	<fontface name="Crestron Sans Pro"><![CDATA[Crestron Unicode]]></fontface>
+	<fontface name="Crestron Sans Pro Light"><![CDATA[Crestron Unicode]]></fontface>
+	<fontface name="Crestron Sans Pro Semibold"><![CDATA[Crestron Unicode]]></fontface>
+	<fontface name="Crestron Serif"><![CDATA[Crestron Unicode]]></fontface>
+	<fontface name="Crestron Mono"><![CDATA[Crestron Unicode]]></fontface>
+
+	<lookup key = "CurrentLanguageTranslatedName"><![CDATA[한국어]]></lookup> <!-- This is the name of the language being translated as it exists natively -->
+
+	<lookup key="AvFramework"><![CDATA[AvFramework]]></lookup>
+	<lookup key="signin"><![CDATA[로그인]]></lookup>
+
+	<!-- 000_Initialize  -->
+	<lookup key="InitializeMessageText"><![CDATA[시스템이 초기화될 때까지 기다려 주십시오…]]></lookup>
+
+	<!-- 002_Home_Available -->
+	<lookup key="ReserveNowButtonText"><![CDATA[지금 예약]]></lookup>
+
+	<!-- 002_Home_Available_All_Day -->
+	<lookup key="RestOfDayText"><![CDATA[오늘 내내]]></lookup>
+
+	<!-- 002_Home_Available_Reserve -->
+	<lookup key="NewMeetingText"><![CDATA[새 회의]]></lookup>
+
+	<!-- 002_Home_Fusion_Offline -->
+
+	<!-- 002_Home_Meeting_InProgress -->
+
+	<!-- 002_Home_Meeting_InProgress_Join -->
+	<lookup key="MeetingInProgressText"><![CDATA[진행 중]]></lookup>
+	<lookup key="JoinMeetingButtonText"><![CDATA[회의 참여]]></lookup>
+
+	<!-- 003_Call_Selection -->
+	<lookup key="MakeCallText"><![CDATA[전화 걸기]]></lookup>
+
+	<!-- 003_Call_Video_Directory -->
+
+	<!-- 003_Call_Video_InCall -->
+	<lookup key="VideoCallText"><![CDATA[동영상 통화에서]]></lookup>
+	<lookup key="VideoCallDisableVideoText"><![CDATA[동영상 비활성화]]></lookup>
+
+	<!-- 004_Call_Audio_Keypad, KeypadButton is in Common_Text.xml-->
+
+	<!-- 004_Call_Audio_Keypad_DTMF, KeypadButton is in Common_Text.xml-->
+
+	<!-- 004_Call_Audio_inCall -->
+	<lookup key="AudioCallText"><![CDATA[오디오 통화에서]]></lookup>
+
+	<!-- 0096_Outgoing_Audio_Call, in Common_Text.xml -->
+
+	<!-- 0097_Incoming_In_Call_Audio_Call -->
+	<lookup key="IncomingCallText"><![CDATA[수신]]></lookup>
+	<lookup key="IncomingInCallAnswerText"><![CDATA[종료 + 응답]]></lookup>
+	<lookup key="IncomingInCallIgnoreText"><![CDATA[무시]]></lookup>
+
+	<!-- 0098_Incoming_Audio_Call -->
+	<lookup key="IncomingCallAnswerText"><![CDATA[통화]]></lookup>
+	<lookup key="IncomingCallDismissText"><![CDATA[무시]]></lookup>
+
+	<!-- 005_Present_Selection -->
+	<lookup key="PresentSourceSelectText"><![CDATA[소스 프레젠테이션]]></lookup>
+
+	<!-- 005_Present_BluRay_Playhead -->
+	<lookup key="PresentBlurayPopUpMenuText"><![CDATA[팝업 메뉴]]></lookup>
+	<lookup key="PresentBlurayTopMenuText"><![CDATA[상단 메뉴]]></lookup>
+	<lookup key="PresentBlurayEjectText"><![CDATA[꺼내기]]></lookup>
+	<lookup key="PresentSourcesText"><![CDATA[소스]]></lookup>
+	<lookup key="PresentNowPresentText"><![CDATA[프레젠테이션 시작]]></lookup>
+	<lookup key="PresentStopPresentingText"><![CDATA[프레젠테이션 중지]]></lookup>
+	<lookup key="PresentSmartTVText"><![CDATA[스마트 TV]]></lookup>
+
+	<!-- 005_Present_BluRay_Keypad -->
+
+	<!-- 005_Present_Laptop -->
+	<lookup key="PresentPlayingSourceText"><![CDATA[소스 재생 방법]]></lookup>
+
+	<!-- 005_Present_Laptop_NoSource -->
+	<lookup key="PresentLaptopNoSourceText"><![CDATA[노트북 연결]]></lookup>
+	<lookup key="PresentLaptopNoSourceConnectText"><![CDATA[노트북 연결 대상]]></lookup>
+
+	<!-- 005_Present_PC -->
+
+	<!-- 005_Present_TV_Playhead -->
+	<lookup key="PresentTVTunerText"><![CDATA[TV 튜너]]></lookup>
+	<lookup key="PresentGuideText"><![CDATA[가이드]]></lookup>
+
+	<!-- 005_Present_TV_Keypad -->
+
+	<!-- 005_Present_Wireless -->
+	<lookup key="PresentWirelessSourceText"><![CDATA[노트북]]></lookup>
+
+	<!-- 0094_Mic_Mute_Privacy -->
+	<lookup key="MicMuteText"><![CDATA[사생활 보호를 위한 마이크 음소거]]></lookup>
+
+	<!-- 0095_Lighting_Popup -->
+	<lookup key="LightingAdjustText"><![CDATA[전류 조정]]></lookup>
+
+	<!-- All power off -->
+	<lookup key="AllPowerOff"><![CDATA[모든 디스플레이가 꺼지고 오디오가 음소거 됩니다.]]></lookup>
+	<lookup key="PowerOffCountDown"><![CDATA[시스템이 다음 시간 내에 자동으로 꺼집니다:]]></lookup>
+	<lookup key="PowerOffShutdown"><![CDATA[종료]]></lookup>
+	<lookup key="PowerOffContinue"><![CDATA[계속 사용]]></lookup>
+	<lookup key="PowerOffShutingDown"><![CDATA[종료 중]]></lookup>
+
+	<!-- MainTemplate.html -->
+	<lookup key="AvFramework20"><![CDATA[AV Framework 2.0]]></lookup>
+
+	<!-- MainTemplate.html (01/28/2016 )-->
+	<lookup key="ToggleNavigation"><![CDATA[탐색 토글]]></lookup>
+
+	<!-- login.html -->
+	<lookup key="Username"><![CDATA[사용자 이름]]></lookup>
+	<lookup key="PleaseSignIn"><![CDATA[로그인하십시오.]]></lookup>
+	<lookup key="Password"><![CDATA[암호]]></lookup>
+	<lookup key="Required"><![CDATA[필수 항목]]></lookup>
+
+	<!--AddNewDevice.html -->
+
+	<lookup key="AddNewDevice"><![CDATA[새 장치 추가]]></lookup>
+	<lookup key="DeviceType"><![CDATA[장치 유형]]></lookup>
+	<lookup key="ChannelName"><![CDATA[채널 이름]]></lookup>
+	<lookup key="DisplayName"><![CDATA[디스플레이 이름]]></lookup>
+	<lookup key="Model"><![CDATA[모델]]></lookup>
+	<lookup key="Control"><![CDATA[제어]]></lookup>
+	<lookup key="IP"><![CDATA[IP]]></lookup>
+	<lookup key="Port"><![CDATA[포트]]></lookup>
+	<lookup key="Channel"><![CDATA[채널]]></lookup>
+	<lookup key="IPID"><![CDATA[IP ID]]></lookup>
+	<lookup key="DigitalMedia"><![CDATA[디지털 미디어]]></lookup>
+	<lookup key="Resolution"><![CDATA[해상도]]></lookup>
+	<lookup key="DisplayMode"><![CDATA[디스플레이 모드]]></lookup>
+	<lookup key="UsbPort"><![CDATA[USB 포트]]></lookup>
+	<lookup key="One"><![CDATA[1]]></lookup>
+	<lookup key="Two"><![CDATA[2]]></lookup>
+	<lookup key="Three"><![CDATA[3]]></lookup>
+	<lookup key="Four"><![CDATA[4]]></lookup>
+	<lookup key="BaudRate"><![CDATA[보율]]></lookup>
+	<lookup key="IpIdValidationMessage"><![CDATA[IPID 필수 형식(03-FE).]]></lookup>
+	<lookup key="IpValidationMessage"><![CDATA[IP 주소 필수 형식(#.#.#.#).]]></lookup>
+	<lookup key="PortValidationMessage"><![CDATA[포트 필수 형식(1-65535).]]></lookup>
+
+	<!--ConfigStep1.html-->
+
+	<lookup key="SystemSetup"><![CDATA[시스템 설정]]></lookup>
+	<lookup key="RoomName"><![CDATA[회의실 이름]]></lookup>
+	<lookup key="FusionIpId"><![CDATA[IPID]]></lookup>
+	<lookup key="AllowCalls"><![CDATA[통화 허용]]></lookup>
+	<lookup key="EnableLighting"><![CDATA[조명 활성화]]></lookup>
+	<lookup key="TimeFormat"><![CDATA[시간 형식]]></lookup>
+	<lookup key="24Hour"><![CDATA[24시간]]></lookup>
+	<lookup key="12hour"><![CDATA[12시간]]></lookup>
+	<lookup key="DateFormat"><![CDATA[날짜 형식]]></lookup>
+
+	<!--ConfigStep2.html-->
+
+	<lookup key="Devices"><![CDATA[장치]]></lookup>
+	<lookup key="Name"><![CDATA[이름]]></lookup>
+	<lookup key="Type"><![CDATA[유형]]></lookup>
+	<lookup key="Driver"><![CDATA[드라이버]]></lookup>
+	<lookup key="TransportDetails"><![CDATA[전송 상세 정보]]></lookup>
+	<lookup key="Serial"><![CDATA[시리얼]]></lookup>
+	<lookup key="Delete"><![CDATA[삭제]]></lookup>
+	<lookup key="Previous"><![CDATA[이전]]></lookup>
+
+	<!--ConfigStep3.html-->
+	<lookup key="Inputs"><![CDATA[입력]]></lookup>
+	<lookup key="Icon"><![CDATA[아이콘]]></lookup>
+	<lookup key="Enabled"><![CDATA[활성화됨]]></lookup>
+	<lookup key="Rank"><![CDATA[등급]]></lookup>
+	<lookup key="Device"><![CDATA[장치]]></lookup>
+	<lookup key="Endpoint"><![CDATA[엔드포인트]]></lookup>
+	<lookup key="Outputs"><![CDATA[출력]]></lookup>
+
+	<!-- ConfigStep4.html (01/28/2016 ) -->
+	<lookup key="DownloadConfiguration"><![CDATA[구성 다운로드]]></lookup>
+	<lookup key="UploadConfiguration"><![CDATA[구성 업로드]]></lookup>
+	<lookup key="ActivateConfiguration"><![CDATA[구성 활성화]]></lookup>
+	<lookup key="RevertConfiguration"><![CDATA[구성 되돌리기]]></lookup>
+
+	<!--Index.html-->
+	<lookup key="Welcome"><![CDATA[AV Framework 2.0 시작]]></lookup>
+
+	<!--RoomStatus.html-->
+	<lookup key="EthernetInformation"><![CDATA[이더넷 정보]]></lookup>
+	<lookup key="InputChannels"><![CDATA[입력 채널]]></lookup>
+	<lookup key="AttachedDevice"><![CDATA[연결된 장치]]></lookup>
+	<lookup key="OutputChannels"><![CDATA[출력 채널]]></lookup>
+	<lookup key="HostName"><![CDATA[호스트 이름]]></lookup>
+	<lookup key="DefaultRouter"><![CDATA[기본 라우터]]></lookup>
+	<lookup key="SubnetMask"><![CDATA[서브넷 마스크]]></lookup>
+
+	<!--JavaScript-->
+	<lookup key="Error"><![CDATA[오류]]></lookup>
+	<lookup key="Notice"><![CDATA[알림]]></lookup>
+	<lookup key="SaveProblemWarning"><![CDATA[저장 중 문제가 발생한 것 같습니다.]]></lookup>
+	<lookup key="MaxDeviceWarning"><![CDATA[시스템에 있는 해당 장치의 수가 이미 최대치({0})에 달했습니다.]]></lookup>
+	<lookup key="SpecifyDeviceWarning"><![CDATA[장치 유형을 먼저 지정하십시오.]]></lookup>
+	<lookup key="UnSavedChangesWarning"><![CDATA[저장하지 않은 변경 사항이 있습니다.]]></lookup>
+	<lookup key="InvalidLogin"><![CDATA[유효하지 않은 사용자/암호.]]></lookup>
+	<lookup key="UnControlledNotConfigurable"><![CDATA[제어되지 않은/비활성화된 장치는 구성할 수 없습니다.]]></lookup>
+
+	<!--JavaScript (01/28/2016 ) -->
+	<lookup key="Warning"><![CDATA[경고]]></lookup>
+	<lookup key="DeleteDeviceWarning"><![CDATA[이 장치를 정말 삭제하시겠습니까?]]></lookup>
+	<lookup key="ActivateConfigWarning"><![CDATA[이 구성을 정말 활성화하시겠습니까?]]></lookup>
+	<lookup key="RevertConfigWarning"><![CDATA[이 구성을 정말 되돌리시겠습니까?]]></lookup>
+	<lookup key="AlreadyInUse"><![CDATA[{0}이(가) 이미 사용 중입니다.]]></lookup>
+	<lookup key="FileLargeError"><![CDATA[파일이 너무 큽니다.]]></lookup>
+	<lookup key="IncorrectFileExtensionError"><![CDATA[파일 유형이 올바르지 않습니다.]]></lookup>
+	<lookup key="Success"><![CDATA[성공]]></lookup>
+	<lookup key="CofigurationUpdated"><![CDATA[구성이 업데이트되었습니다.]]></lookup>
+
+	<!-- Web Menu System-->
+	<lookup key="SignOff"><![CDATA[종료]]></lookup>
+	<lookup key="Configure"><![CDATA[구성]]></lookup>
+	<!-- Web Menu System (01/28/2016 ) -->
+	<lookup key="Switch"><![CDATA[전환]]></lookup>
+	<lookup key="System"><![CDATA[시스템]]></lookup>
+
+	<!-- 01/19/2016, enums for web page -->
+	<!-- AssociatedDevice -->
+	<lookup key="AssociatedInputDevice.Disabled"><![CDATA[비활성화됨]]></lookup>
+	<lookup key="AssociatedInputDevice.UnControlled"><![CDATA[제어 안 됨]]></lookup>
+	<lookup key="AssociatedInputDevice.Bluray"><![CDATA[블루레이]]></lookup>
+	<lookup key="AssociatedInputDevice.Cable"><![CDATA[케이블]]></lookup>
+	<lookup key="AssociatedInputDevice.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="AssociatedOutputDevice.Disabled"><![CDATA[비활성화됨]]></lookup>
+	<lookup key="AssociatedOutputDevice.UnControlled"><![CDATA[제어 안 됨]]></lookup>
+	<lookup key="AssociatedInputDevice.ConnectIt"><![CDATA[연결]]></lookup>
+
+	<!-- ComBaudRate -->
+	<lookup key="ComBaudRate.ComspecBaudRate57600"><![CDATA[57600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate38400"><![CDATA[38400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate28800"><![CDATA[28800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate19200"><![CDATA[19200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate14400"><![CDATA[14400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate9600"><![CDATA[9600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate7200"><![CDATA[7200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate4800"><![CDATA[4800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate3600"><![CDATA[3600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate2400"><![CDATA[2400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate1800"><![CDATA[1800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate1200"><![CDATA[1200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate600"><![CDATA[600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate300"><![CDATA[300]]></lookup>
+
+	<!-- DateFormat -->
+	<lookup key="DateFormat.Mmddyy"><![CDATA[1월 15일, 2017년]]></lookup>
+	<lookup key="DateFormat.Ddmmyy"><![CDATA[15일 1월 2017년]]></lookup>
+	<lookup key="DateFormat.Yymmdd"><![CDATA[2017년 1월 15일]]></lookup>
+
+	<!-- DeviceOnlineStatus -->
+	<lookup key="DeviceOnlineStatus.Unknown"><![CDATA[해당 사항 없음]]></lookup>
+	<lookup key="DeviceOnlineStatus.Online"><![CDATA[온라인]]></lookup>
+	<lookup key="DeviceOnlineStatus.Offline"><![CDATA[오프라인]]></lookup>
+
+	<!-- DeviceType -->
+	<lookup key="DeviceType.Switcher"><![CDATA[스위처]]></lookup>
+	<lookup key="DeviceType.CableTv"><![CDATA[케이블 TV]]></lookup>
+	<lookup key="DeviceType.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="DeviceType.ButtonPanel"><![CDATA[버튼 패널]]></lookup>
+	<lookup key="DeviceType.Keypad"><![CDATA[케이블 가방]]></lookup>
+	<lookup key="DeviceType.KeyPadUsb"><![CDATA[키패드 Usb]]></lookup>
+
+	<!-- DisplayMode -->
+	<lookup key="DisplayMode.Maintain"><![CDATA[유지]]></lookup>
+	<lookup key="DisplayMode.Stretch"><![CDATA[확장]]></lookup>
+	<lookup key="DisplayMode.Zoom"><![CDATA[줌]]></lookup>
+	<lookup key="DisplayMode.None"><![CDATA[없음]]></lookup>
+
+	<!-- PortType -->
+	<lookup key="PortType.Ir"><![CDATA[IR]]></lookup>
+	<lookup key="PortType.Serial"><![CDATA[시리얼]]></lookup>
+	<lookup key="PortType.Cec"><![CDATA[CEC]]></lookup>
+
+	<!-- Resolution -->
+	<lookup key="Resolution.EDIDPreferred"><![CDATA[EDID 기본 설정]]></lookup>
+	<lookup key="Resolution.None"><![CDATA[없음]]></lookup>
+	<lookup key="Resolution.Res640x480PC"><![CDATA[640x480 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res720x480pNTSC"><![CDATA[720x480p 60Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res720x576iPAL"><![CDATA[720x576i 25Hz PAL]]></lookup>
+	<lookup key="Resolution.Res720x576pPAL"><![CDATA[720x576p 50Hz PAL]]></lookup>
+	<lookup key="Resolution.Res800x600PC"><![CDATA[800x600 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res848x480PC"><![CDATA[848x480 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1024x768PC"><![CDATA[1024x768 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x720pPAL"><![CDATA[1280x720p 50Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1280x720pNTSC"><![CDATA[1280x720p 60Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1280x768PC"><![CDATA[1280x768 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x768PCRb"><![CDATA[1280x768 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1280x800PC"><![CDATA[1280x800 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x800PCRb"><![CDATA[1280x800 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1280x960PC"><![CDATA[1280x960 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x1024PC"><![CDATA[1280x1024 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1360x768PC"><![CDATA[1360x768 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PC"><![CDATA[1366x768 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PCRb"><![CDATA[1366x768 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1400x1050PC"><![CDATA[1400x1050 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1400x1050PCRb"><![CDATA[1400x1050 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1440x900PC"><![CDATA[1440x900 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1440x900PCRb"><![CDATA[1440x900 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1600x900PCRb"><![CDATA[1600x900 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1600x1200PC"><![CDATA[1600x1200 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PC"><![CDATA[1680x1050 60Hz PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PCRb"><![CDATA[1680x1050 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1920x1080iPAL"><![CDATA[1920x1080i 25Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080iNTSC"><![CDATA[1920x1080i 30Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080pPAL"><![CDATA[1920x1080p 50Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080pNTSC"><![CDATA[1920x1080p 60Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1200PCRb"><![CDATA[1920x1200 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res2048x1152PCRb"><![CDATA[2048x1152 60Hz PC RB]]></lookup>
+
+	<!-- SystemRole -->
+	<lookup key="SystemRole.Admin"><![CDATA[관리자]]></lookup>
+	<lookup key="SystemRole.DriverUpdate"><![CDATA[드라이버업데이트]]></lookup>
+	<lookup key="SystemRole.User"><![CDATA[사용자]]></lookup>
+	<lookup key="SystemRole.UnAuthorized"><![CDATA[권한 없음]]></lookup>
+
+	<!-- SystemState -->
+	<lookup key="SystemState.UnKnown"><![CDATA[알 수 없음]]></lookup>
+	<lookup key="SystemState.UnConfigured"><![CDATA[구성되지 않음]]></lookup>
+	<lookup key="SystemState.Configuring"><![CDATA[구성 중]]></lookup>
+	<lookup key="SystemState.Configured"><![CDATA[구성됨]]></lookup>
+
+	<!-- DeviceTransport -->
+	<lookup key="DeviceTransport.None"><![CDATA[없음]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpId"><![CDATA[IP ID]]></lookup>
+	<lookup key="DeviceTransport.CrestronInternal"><![CDATA[Crestron내부]]></lookup>
+	<lookup key="DeviceTransport.CrestronIp"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronUsb"><![CDATA[USB]]></lookup>
+	<lookup key="DeviceTransport.IpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Ip"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpPortChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Serial"><![CDATA[시리얼]]></lookup>
+	<lookup key="DeviceTransport.SerialBaud"><![CDATA[시리얼]]></lookup>
+	<lookup key="DeviceTransport.SerialChannel"><![CDATA[시리얼]]></lookup>
+	<lookup key="DeviceTransport.Ir"><![CDATA[IR]]></lookup>
+	<lookup key="DeviceTransport.Cec"><![CDATA[CEC]]></lookup>
+	<lookup key="DeviceTransport.HDMI"><![CDATA[HDMI]]></lookup>
+
+	<!-- ChannelType -->
+	<lookup key="ChannelType.Undefined"><![CDATA[정의되지 않음]]></lookup>
+	<lookup key="ChannelType.Hdmi"><![CDATA[HDMI]]></lookup>
+	<lookup key="ChannelType.HdmiVga"><![CDATA[HDMI VGA]]></lookup>
+	<lookup key="ChannelType.HdmiVgaBnc"><![CDATA[HDMI VGA BNC]]></lookup>
+	<lookup key="ChannelType.Vga"><![CDATA[VGA]]></lookup>
+	<lookup key="ChannelType.Dvi"><![CDATA[DVI]]></lookup>
+	<lookup key="ChannelType.DM"><![CDATA[DM]]></lookup>
+	<lookup key="ChannelType.DmHdmi"><![CDATA[DM HDMI]]></lookup>
+	<lookup key="ChannelType.SingleModeFiber"><![CDATA[단일 모드 광섬유]]></lookup>
+	<lookup key="ChannelType.Fiber"><![CDATA[광섬유]]></lookup>
+	<lookup key="ChannelType.Audio"><![CDATA[오디오]]></lookup>
+	<lookup key="ChannelType.Sip"><![CDATA[SIP]]></lookup>
+	<lookup key="ChannelType.Composite"><![CDATA[복합]]></lookup>
+	<lookup key="ChannelType.DisplayPort"><![CDATA[디스플레이 포트]]></lookup>
+
+	<!-- 02/11/2016 -->
+
+	<!-- Web Logger : new added  -->
+	<lookup key="NoFilter"><![CDATA[필터 없음]]></lookup>
+	<lookup key="Info"><![CDATA[정보]]></lookup>
+	<lookup key="Debug"><![CDATA[디버그]]></lookup>
+	<lookup key="FilterExpression"><![CDATA[필터 표현식]]></lookup>
+	<lookup key="StopScrolling"><![CDATA[스크롤 중지]]></lookup>
+	<lookup key="Scrolling"><![CDATA[스크롤]]></lookup>
+	<lookup key="Download"><![CDATA[다운로드]]></lookup>
+
+	<lookup key="ClearSearchMessage"><![CDATA[지우고 다시 시작]]></lookup>
+	<lookup key="Search"><![CDATA[검색]]></lookup>
+	<lookup key="SearchLog"><![CDATA[로그 검색]]></lookup>
+	<lookup key="Clear"><![CDATA[지우기]]></lookup>
+
+	<!-- 02/29/2016 -->
+
+	<!-- ComBaudRate -->
+	<lookup key="ComBaudRate.ComspecBaudRate115200"><![CDATA[115200]]></lookup>
+
+	<!-- AddNewDevice.html -->
+	<lookup key="UseSensorTimeout"><![CDATA[센서 시간 제한 사용]]></lookup>
+	<lookup key="SensorTimeOutMinutes"><![CDATA[시간 제한(분)]]></lookup>
+	<lookup key="TurnSystemOn"><![CDATA[시스템 켜기]]></lookup>
+	<lookup key="TurnSystemOff"><![CDATA[시스템 끄기]]></lookup>
+	<lookup key="RouteDefaultVideo"><![CDATA[기본 동영상 라우팅]]></lookup>
+	<lookup key="PowerOnCommandLabel"><![CDATA[전원 켜기 명령]]></lookup>
+	<lookup key="PowerOffCommandLabel"><![CDATA[전원 끄기 명령]]></lookup>
+	<lookup key="SetSourceCommandLabel"><![CDATA[소스 명령 설정]]></lookup>
+	<lookup key="PowerOnDelaySecondsLabel"><![CDATA[전원 켜기 지연(초)]]></lookup>
+	<lookup key="Seconds"><![CDATA[초]]></lookup>
+
+	<!-- RelaySettings.html -->
+	<lookup key="RelayBehavior"><![CDATA[릴레이 동작]]></lookup>
+
+	<!-- JavascriptConts -->
+	<lookup key="Disable"><![CDATA[비활성화]]></lookup>
+	<lookup key="Enable"><![CDATA[활성화]]></lookup>
+
+	<!-- Custom Serial Web AddNewDevice -->
+	<lookup key="CustomSerialNote"><![CDATA[참고: \n을 새 줄에 사용하고 \r을 캐리지 리턴에 사용하십시오.]]></lookup>
+	<lookup key="ValidTimeoutWarning"><![CDATA[유효한 시간 제한을 입력해 주십시오.]]></lookup>
+
+	<!-- ConfigStep1.html -->
+	<lookup key="Fusion"><![CDATA[Crestron Fusion]]></lookup>
+	<lookup key="Dialer"><![CDATA[다이얼러]]></lookup>
+	<lookup key="Relay"><![CDATA[릴레이]]></lookup>
+	<lookup key="Lighting"><![CDATA[조명]]></lookup>
+
+	<!-- ConfigStep3.html  -->
+	<lookup key="SwitchChannelState.EnabledDefault"><![CDATA[예(기본)]]></lookup>
+
+	<!-- ConfigStep4.html  -->
+	<lookup key="ManageConfiguration"><![CDATA[구성 관리]]></lookup>
+	<lookup key="BackupRestore"><![CDATA[백업/복구]]></lookup>
+
+	<!-- DialerSettings.html -->
+	<lookup key="SpeedKeys"><![CDATA[속도 키]]></lookup>
+	<lookup key="SpeedKey"><![CDATA[속도 키]]></lookup>
+	<lookup key="Number"><![CDATA[번호]]></lookup>
+	<lookup key="OneTouch"><![CDATA[원터치]]></lookup>
+	<lookup key="Regex"><![CDATA[정규식]]></lookup>
+	<lookup key="EnabledSpeekKeyWarning"><![CDATA[활성화된 속도 키에 이름과 번호가 필요합니다.]]></lookup>
+	<lookup key="PhoneNumberWarning"><![CDATA[유효한 전화번호를 입력하십시오.]]></lookup>
+
+	<!--FusionSettings.html  -->
+	<lookup key="RoomNameRequired"><![CDATA[회의실 이름 필요]]></lookup>
+
+	<!--LightingSettings.html -->
+	<lookup key="LightingPresets"><![CDATA[조명 사전 설정]]></lookup>
+	<lookup key="EnabledPresetsWarning"><![CDATA[활성화된 사전 설정에는 이름이 필요합니다.]]></lookup>
+
+	<!-- 03/09/2016 -->
+	<!-- ChannelType : add 2 more Enum -->
+	<lookup key="ChannelType.Aec"><![CDATA[Aec]]></lookup>
+	<lookup key="ChannelType.Codec"><![CDATA[Codec]]></lookup>
+
+	<!--EditDevice.html -->
+	<lookup key="EditDevice"><![CDATA[장치 편집]]></lookup>
+	<lookup key="UpdatePendingCountdown"><![CDATA[변경 사항이 {0}초 내에 적용됩니다.]]></lookup>
+
+	<!-- JavascriptConts 03/14/2016 -->
+	<lookup key="DeleteDevicePortWarning"><![CDATA[다음의 장치가 이를 사용해 <br> {0} <br> 구성됩니다. 계속하시겠습니까?]]></lookup>
+
+	<!--AddNewDevice.html 03/16/2016-->
+	<lookup key="CrestnetId"><![CDATA[Cresnet ID]]></lookup>
+	<lookup key="CrestnetIdValidationMessage"><![CDATA[Cresnet ID 필수 형식(03-FE).]]></lookup>
+
+	<!--RoomStatus.html 03/16/2016-->
+	<lookup key="Equipment"><![CDATA[장비]]></lookup>
+
+	<!-- DeviceTransport 03/21/2016 -->
+	<lookup key="DeviceTransport.CrestronCrestnet"><![CDATA[Cresnet]]></lookup>
+	<lookup key="DeviceTransport.SerialBaudCustom"><![CDATA[시리얼보드사용자지정]]></lookup>
+
+	<!-- RelaySettings.html 03/21/2016 -->
+	<lookup key="RelayBehavior.Momentary"><![CDATA[일시]]></lookup>
+	<lookup key="RelayBehavior.Latching"><![CDATA[래칭]]></lookup>
+
+	<!-- ConfigStep3.html 03/21/2016 -->
+	<lookup key="SwitchChannelState.Disabled"><![CDATA[아니요]]></lookup>
+	<lookup key="SwitchChannelState.Enabled"><![CDATA[예]]></lookup>
+
+	<!--AddNewDevice.html 03/21/2016-->
+	<lookup key="DelayValidationMessage"><![CDATA[지연 필수 형식(0-255).]]></lookup>
+
+	<!-- JavascriptConts 03/21/2016 -->
+	<lookup key="ServerCommunicationError"><![CDATA[이 장치와 통신 중 오류가 발생했습니다.]]></lookup>
+	<lookup key="ServerUpdateMessage"><![CDATA[서버 업데이트 중입니다. 잠시 기다려 주십시오.]]></lookup>
+
+	<!-- 8/26/2016 -->
+	<lookup key="AvailableForLabel"><![CDATA[다음 동안 이용 가능]]></lookup>
+	<lookup key="AvailableAllLabel"><![CDATA[오늘 내내 이용 가능]]></lookup>
+	<lookup key="ReserveLabel"><![CDATA[다음 동안 예약됨]]></lookup>
+	<lookup key="HourLabel"><![CDATA[시간]]></lookup>
+	<lookup key="MinLabel"><![CDATA[분]]></lookup>
+	<lookup key="NextUpLabel"><![CDATA[다음]]></lookup>
+	<lookup key="PopupMinLeft"><![CDATA[남은 분 수 | 다음:]]></lookup>
+	<lookup key="WirelessLabel"><![CDATA[무선을 사용해 프레젠테이션]]></lookup>
+	<lookup key="VisitLabel"><![CDATA[방문:]]></lookup>
+	<lookup key="CodeLabel"><![CDATA[코드:]]></lookup>
+	<lookup key="CableLabel"><![CDATA[케이블을 사용해 프레젠테이션]]></lookup>
+	<lookup key="UseCableLabel"><![CDATA[제공된 케이블을 사용해 연결:]]></lookup>
+
+	<!-- MainTemplate.html 3/25/16 -->
+	<lookup key="ConfiguredMessageOffline"><![CDATA[시스템이 현재 오프라인입니다. 구성을 활성화하거나 되돌리십시오.]]></lookup>
+	<lookup key="ConfiguredMessageOfflineShort"><![CDATA[시스템이 현재 오프라인입니다.]]></lookup>
+	<lookup key="ConfiguredMessageOnline"><![CDATA[시스템이 현재 온라인입니다.]]></lookup>
+	<lookup key="ConfiguredMessage"><![CDATA[시스템이 현재 구성되었습니다.]]></lookup>
+	<lookup key="ConfiguredMessageClass"><![CDATA[시스템이 현재 구성되었습니다.]]></lookup>
+
+	<!-- SystemWideSaveWarning 3/25/16 -->
+	<lookup key="SystemWideSaveWarning"><![CDATA[저장된 모든 변경 사항이 시스템 오프라인을 배치합니다. 시스템을 온라인으로 전환하려면 사용자는 새 구성을 활성화해야 합니다. 계속 진행하려면 '확인'을 클릭하십시오.]]></lookup>
+
+	<lookup key="PortUnconfigured"><![CDATA[포트 구성되지 않음]]></lookup>
+	<lookup key="Version"><![CDATA[버전]]></lookup>
+	<lookup key="None"><![CDATA[없음]]></lookup>
+
+	<lookup key="AssociatedChannel"><![CDATA[관련 채널]]></lookup>
+	<lookup key="PrimaryAssociatedChannel"><![CDATA[기본 설정 소스]]></lookup>
+	<lookup key="SecondaryAssociatedChannel"><![CDATA[보조 소스]]></lookup>
+	<lookup key="SecondaryInputChannelNumber"><![CDATA[보조 채널]]></lookup>
+	<lookup key="IPAddress"><![CDATA[IP 주소]]></lookup>
+
+	<!-- 05/02/2016  -->
+	<lookup key="PortType.Usb"><![CDATA[USB]]></lookup>
+
+	<!-- 08/15/2016 -->
+	<lookup key="DialerType.Sip"><![CDATA[오디오]]></lookup>
+	<lookup key="DialerType.Bluetooth"><![CDATA[블루투스]]></lookup>
+	<lookup key="DialerType.Usb"><![CDATA[USB]]></lookup>
+	<lookup key="DialerType.Video"><![CDATA[동영상]]></lookup>
+
+	<!--MercurySystemSettings.html 08/31/2016-->
+	<lookup key="SystemSettings"><![CDATA[시스템 설정]]></lookup>
+	<lookup key="ValidValueMessage"><![CDATA[값을 입력해 주십시오.]]></lookup>
+
+	<!--MercuryFusionSettings.html 08/31/2016-->
+
+	<!-- MercuryDialerSettings.html 08/31/2016-->
+	<lookup key="General"><![CDATA[일반]]></lookup>
+	<lookup key="EnableBluetooth"><![CDATA[블루투스 활성화]]></lookup>
+	<lookup key="EnableUSB"><![CDATA[USB 활성화]]></lookup>
+
+	<!-- MercuryDisplayDriver.html 08/31/2016-->
+	<lookup key="VideoDisplaySettings"><![CDATA[동영상 디스플레이 설정]]></lookup>
+
+	<!-- MercuryUXGeneralCustomization.html 08/31/2016-->
+	<lookup key="UXGeneralCustomization"><![CDATA[UX 일반 사용자 지정]]></lookup>
+	<lookup key="HideMeetingSubject"><![CDATA[회의 주제 숨기기]]></lookup>
+	<lookup key="HideMeetingOrganizer"><![CDATA[회의 주최자 숨기기]]></lookup>
+	<lookup key="DisplayNonEmergencyBroadcast"><![CDATA[비긴급 브로드캐스트 표시]]></lookup>
+	<lookup key="EmergencyBroadcastSound"><![CDATA[긴급 브로드캐스트 소리]]></lookup>
+	<lookup key="EnableCallNotification"><![CDATA[통화 알림 활성화]]></lookup>
+	<lookup key="SuppressOfflineNotificationPeriod"><![CDATA[오프라인 알림 기간 표시 안 함]]></lookup>
+	<lookup key="NotificationPeriod"><![CDATA[알림 기간]]></lookup>
+	<lookup key="CallNotificationTimeout"><![CDATA[통화 알림 시간 제한]]></lookup>
+
+	<!-- PresentationScreenCustomization.html 08/31/2016-->
+	<lookup key="PresentationScreenCustomization"><![CDATA[프레젠테이션 화면 사용자 지정]]></lookup>
+	<lookup key="TimeRemainingMessageStarts"><![CDATA[메시지 시작 남은 시간]]></lookup>
+	<lookup key="TimeRemainingMessageDuration"><![CDATA[메시지 기간 남은 시간]]></lookup>
+
+	<!-- RoomScheduleScreenCustomization.html 08/31/2016-->
+	<lookup key="RoomScheduleScreenCustomization"><![CDATA[회의실 일정 화면 사용자 지정]]></lookup>
+	<lookup key="NextMeetingInformationShown"><![CDATA[다음 회의 정보 표시됨]]></lookup>
+	<lookup key="MinutesBeforeMeetingStart"><![CDATA[회의 시작 ____분 전]]></lookup>
+	<lookup key="HideWiredCableConnection"><![CDATA[유선 케이블 연결 숨기기]]></lookup>
+	<lookup key="CableConnectionDetails"><![CDATA[케이블 연결 상세 정보]]></lookup>
+	<lookup key="EnableCustomLogoGraphic"><![CDATA[사용자 지정 로고 그래픽 활성화]]></lookup>
+	<lookup key="CustomLogoGraphicUrl"><![CDATA[사용자 지정 로고 그래픽 URL]]></lookup>
+	<lookup key="EnableCustomBackgrounds"><![CDATA[사용자 지정 배경 활성화]]></lookup>
+	<lookup key="AddCustomBackgroundUrl"><![CDATA[사용자 지정 배경 URL 추가]]></lookup>
+	<lookup key="BackgroundUrl1"><![CDATA[배경 URL 1]]></lookup>
+	<lookup key="BackgroundUrl2"><![CDATA[배경 URL 2]]></lookup>
+	<lookup key="BackgroundUrl3"><![CDATA[배경 URL 3]]></lookup>
+	<lookup key="BackgroundUrl4"><![CDATA[배경 URL 4]]></lookup>
+	<lookup key="BackgroundUrl5"><![CDATA[배경 URL 5]]></lookup>
+	<lookup key="BackgroundUrl6"><![CDATA[배경 URL 6]]></lookup>
+	<lookup key="BackgroundUrl7"><![CDATA[배경 URL 7]]></lookup>
+	<lookup key="BackgroundUrl8"><![CDATA[배경 URL 8]]></lookup>
+	<lookup key="BackgroundUrl9"><![CDATA[배경 URL 9]]></lookup>
+	<lookup key="BackgroundUrl10"><![CDATA[배경 URL 10]]></lookup>
+	<lookup key="BackgroundUrl11"><![CDATA[배경 URL 11]]></lookup>
+	<lookup key="BackgroundUrl12"><![CDATA[배경 URL 12]]></lookup>
+	<lookup key="BackgroundUrl13"><![CDATA[배경 URL 13]]></lookup>
+	<lookup key="BackgroundUrl14"><![CDATA[배경 URL 14]]></lookup>
+	<lookup key="BackgroundUrl15"><![CDATA[배경 URL 15]]></lookup>
+	<lookup key="IntervalBetweenBackgrounds"><![CDATA[배경 사이의 간격]]></lookup>
+
+	<!-- MercuryDialerSettings.html 10/17/2016-->
+	<lookup key="BluetoothDeviceName"><![CDATA[블루투스 장치 이름]]></lookup>
+
+	<!-- MercuryExternalSettings.html 11/18/2016-->
+
+	<lookup key="CalendarSettings"><![CDATA[캘린더 설정]]></lookup>
+	<lookup key="SchedulingType"><![CDATA[예약 유형]]></lookup>
+
+	<lookup key="SntpServer"><![CDATA[SNTP 서버]]></lookup>
+	<lookup key="SntpUpdateInterval"><![CDATA[SNTP 업데이트 간격]]></lookup>
+	<lookup key="ValidUrlMessage"><![CDATA[유효한 URL을 입력해 주십시오.]]></lookup>
+	<lookup key="ValidDomainName"><![CDATA[유효한 도메인 이름을 입력해 주십시오.]]></lookup>
+	<lookup key="ValidEmailUrlMessage"><![CDATA[유효한 이메일 주소를 입력해 주십시오.]]></lookup>
+	<lookup key="ValidPassword"><![CDATA[유효한 암호를 입력해 주십시오.]]></lookup>
+	<lookup key="ValidSntpServer"><![CDATA[유효한 SNTP 서버를 입력해 주십시오.]]></lookup>
+	<lookup key="ValidSntpUpdateIntervalMessage"><![CDATA[유효한 SNTP 서버 간격을 입력해 주십시오.]]></lookup>
+	<lookup key="ValidOutlookResourceAddress"><![CDATA[유효한 Outlook 리소스 주소를 입력해 주십시오.]]></lookup>
+
+	<!-- DMPS 4k300C 12/08/2016-->
+	<lookup key="DeviceType.VideoServer"><![CDATA[동영상 서버]]></lookup>
+	<lookup key="DeviceType.Dialer"><![CDATA[다이얼러]]></lookup>
+	<lookup key="ImageCouldNotBeLoaded"><![CDATA[이미지를 로드할 수 없습니다.]]></lookup>
+	<lookup key="VerifingImage"><![CDATA[이미지 확인 중]]></lookup>
+	<lookup key="SchedulingTypeEnum.Fusion"><![CDATA[Crestron Fusion]]></lookup>
+	<lookup key="SchedulingTypeEnum.Exchange"><![CDATA[예약유형 교환]]></lookup>
+
+	<!-- MercuryDialerSettings.html 12/12/2016-->
+	<lookup key="ValidBluetoothDeviceNameMessage"><![CDATA[유효한 블루투스 장치 이름을 입력해 주십시오.]]></lookup>
+
+	<!-- MercuryExternalSettings.html 12/15/2016-->
+
+	<!-- Default Inputs 12/20/2016-->
+	<lookup key="DefaultInputs.HDMI1"><![CDATA[HDMI1]]></lookup>
+	<lookup key="DefaultInputs.HDMI2"><![CDATA[HDMI2]]></lookup>
+	<lookup key="DefaultInputs.HDMI3"><![CDATA[HDMI3]]></lookup>
+	<lookup key="DefaultInputs.HDMI4"><![CDATA[HDMI4]]></lookup>
+	<lookup key="DefaultInput"><![CDATA[기본 입력]]></lookup>
+
+	<!-- Blutooth Page 1/9/2017 -->
+	<lookup key="PresentConnectYourDevice"><![CDATA[장치 연결]]></lookup>
+
+	<lookup key="DisableSip"><![CDATA[오디오 비활성화]]></lookup>
+	<lookup key="DisableBluetooth"><![CDATA[블루투스 비활성화]]></lookup>
+	<lookup key="DisableUsb"><![CDATA[USB 비활성화]]></lookup>
+
+	<!-- Standby Mode 2/1/2017 -->
+	<lookup key="Standby"><![CDATA[대기]]></lookup>
+	<lookup key="StandbyMode.AlwaysOn"><![CDATA[무중단]]></lookup>
+	<lookup key="StandbyMode.OccupancyBased"><![CDATA[점유 기반]]></lookup>
+
+	<lookup key="DisplayNameIsRequired"><![CDATA[디스플레이 이름은 필수 입력 사항입니다.]]></lookup>
+	<lookup key="PowerOffCommandValidationMessage"><![CDATA[전원 끄기 명령은 필수 입력 사항입니다.]]></lookup>
+	<lookup key="PowerOnCommandValidationMessage"><![CDATA[전원 켜기 명령은 필수 입력 사항입니다.]]></lookup>
+	<lookup key="SourceSelectCommandValidationMessage"><![CDATA[소스 선택은 필수 입력 사항입니다.]]></lookup>
+
+	<lookup key="DeviceType.RfGateway"><![CDATA[RF 게이트웨이]]></lookup>
+	<lookup key="DeviceTransport.Rf"><![CDATA[RF]]></lookup>
+
+	<!-- Mercury Pages 2/23/2017 -->
+	<lookup key="AddressBook"><![CDATA[주소록]]></lookup>
+	<lookup key="End"><![CDATA[종료]]></lookup>
+	<lookup key="DialText"><![CDATA[텍스트를 입력하여 전화 걸기]]></lookup>
+	<lookup key="Mute"><![CDATA[음소거]]></lookup>
+	<lookup key="BlueToothActiveConnection"><![CDATA[활성 연결: 블루투스]]></lookup>
+	<lookup key="BTCallText"><![CDATA[블루투스 통화 중]]></lookup>
+	<lookup key="ConnectedToText"><![CDATA[연결 대상]]></lookup>
+	<lookup key="PresentBTNoSourceConnectionText"><![CDATA[블루투스 장치 연결 대상]]></lookup>
+	<lookup key="USBConnected"><![CDATA[USB 연결됨]]></lookup>
+	<lookup key="Speakerphone"><![CDATA[스피커폰]]></lookup>
+	<lookup key="ConnectedViaText"><![CDATA[다음을 통해 연결됨]]></lookup>
+	<lookup key="USBCableText"><![CDATA[USB 케이블]]></lookup>
+	<lookup key="Connected"><![CDATA[연결됨]]></lookup>
+	<lookup key="TimeMinutesCap"><![CDATA[분]]></lookup>
+	<lookup key="Extension"><![CDATA[내선 번호]]></lookup>
+	<lookup key="AvailableCap"><![CDATA[이용 가능]]></lookup>
+	<lookup key="RestOfDayCap"><![CDATA[당일 내내]]></lookup>
+	<lookup key="PrepareMeetingText"><![CDATA[회의 준비 중]]></lookup>
+	<lookup key="ExitCap"><![CDATA[나가기]]></lookup>
+	<lookup key="TopMenuCap"><![CDATA[상단 메뉴]]></lookup>
+	<lookup key="PopupMenuCap"><![CDATA[팝업 메뉴]]></lookup>
+	<lookup key="HomeCap"><![CDATA[홈]]></lookup>
+	<lookup key="OptionsCap"><![CDATA[옵션]]></lookup>
+	<lookup key="Stop"><![CDATA[중지]]></lookup>
+	<lookup key="MenuCap"><![CDATA[메뉴]]></lookup>
+	<lookup key="GuideCap"><![CDATA[안내]]></lookup>
+	<lookup key="ConnectToAirmediaText"><![CDATA[AirMedia®로 연결]]></lookup>
+	<lookup key="PresentOverWifi"><![CDATA[WiFi 무선 네트워크로 콘텐츠를 발표하려면 다음을 수행해야 합니다.]]></lookup>
+	<lookup key="ConnectCap"><![CDATA[연결]]></lookup>
+	<lookup key="ToWirelessNwetwork"><![CDATA[무선 네트워크에 연결]]></lookup>
+	<lookup key="VisitCap"><![CDATA[방문]]></lookup>
+	<lookup key="ToBrowerAddress"><![CDATA[방문할 브라우저 주소]]></lookup>
+	<lookup key="EnterCap"><![CDATA[입력]]></lookup>
+	<lookup key="ThisCode"><![CDATA[입력 코드]]></lookup>
+	<lookup key="DownloadAirmediaMobile"><![CDATA[모바일 기기용 Crestron AirMedia® 앱 다운로드]]></lookup>
+	<lookup key="Wirelessly"><![CDATA[무선으로]]></lookup>
+	<lookup key="SystemInfo"><![CDATA[시스템 정보]]></lookup>
+	<lookup key="FusionServerConnection"><![CDATA[Crestron Fusion 서버 연결]]></lookup>
+	<lookup key="MACAddress"><![CDATA[MAC 주소]]></lookup>
+	<lookup key="RoomAndStatus"><![CDATA[회의실 이름 및 상태]]></lookup>
+	<lookup key="NavPresentCallEtc"><![CDATA[홈 탐색, 소스 발표, 통화 등]]></lookup>
+	<lookup key="AdjustVolume"><![CDATA[시스템 음량 감소 및 증가]]></lookup>
+	<lookup key="MICmute"><![CDATA[MIC 음소거]]></lookup>
+	<lookup key="SystemMute"><![CDATA[시스템 음소거]]></lookup>
+	<lookup key="SerialNumber"><![CDATA[시리얼 번호]]></lookup>
+	<lookup key="PhoneExtensionURI"><![CDATA[전화 내선 번호 / SIP URI]]></lookup>
+	<lookup key="SIPServer"><![CDATA[SIP 서버]]></lookup>
+	<lookup key="AddedLicences"><![CDATA[추가 라이선스]]></lookup>
+	<lookup key="WebConferenceText"><![CDATA[웹 컨퍼런스]]></lookup>
+	<lookup key="StartWebConferenceText"><![CDATA[웹 컨퍼런스를 시작하려면]]></lookup>
+	<lookup key="HDMI"><![CDATA[HDMI]]></lookup>
+	<lookup key="PlugHDMIToPresent"><![CDATA[HDMI 케이블을 노트북에 연결하여 디스플레이에 표시]]></lookup>
+	<lookup key="USB"><![CDATA[USB]]></lookup>
+	<lookup key="PlugUSBForAudio"><![CDATA[USB 케이블을 노트북에 연결하여 이것을 오디오 장치로 사용]]></lookup>
+	<lookup key="CameraCap"><![CDATA[카메라]]></lookup>
+	<lookup key="UseRoomCamera"><![CDATA[회의실 카메라로 사용하도록 소프트웨어를 설정]]></lookup>
+	<lookup key="Remote"><![CDATA[원격]]></lookup>
+	<lookup key="SecondsCap"><![CDATA[초]]></lookup>
+	<lookup key="PresentingCap"><![CDATA[발표 중]]></lookup>
+	<lookup key="ReceivingContent"><![CDATA[수신 컨텐츠]]></lookup>
+	<lookup key="CameraPresets"><![CDATA[카메라 사전 설정]]></lookup>
+	<lookup key="MeetingID"><![CDATA[회의 ID]]></lookup>
+	<lookup key="InfoCap"><![CDATA[정보]]></lookup>
+	<lookup key="LastCap"><![CDATA[최근]]></lookup>
+	<lookup key="LiveCap"><![CDATA[라이브]]></lookup>
+	<lookup key="OnDemandCap"><![CDATA[온디맨드]]></lookup>
+	<lookup key="TapSourceToPresent"><![CDATA[소스를 탭하여 발표]]></lookup>
+	<lookup key="Sources"><![CDATA[소스]]></lookup>
+	<lookup key="FavCap"><![CDATA[FAV]]></lookup>
+	<lookup key="DVR"><![CDATA[DVR]]></lookup>
+	<lookup key="RecCap"><![CDATA[REC]]></lookup>
+	<lookup key="OutlookUseCertificate"><![CDATA[Outlook 사용 인증서]]></lookup>
+	<lookup key="OutlookCertificate"><![CDATA[Outlook 인증서]]></lookup>
+	<lookup key="UploadCertificate"><![CDATA[인증서 업로드]]></lookup>
+	<lookup key="InvalidUrl"><![CDATA[유효한 URL을 입력하십시오]]></lookup>
+
+	<lookup key="OutlookWebAccessURLToolTip"><![CDATA[(예: https://outlook.office365.com/EWS/Exchange.asmx)]]></lookup>
+	<lookup key="OutlookDomainNameToolTip"><![CDATA[(예: DOMAIN\username)]]></lookup>
+	<lookup key="OutlookDomainNameMisc"><![CDATA[(해당하지 않는 경우 빈칸으로 두십시오)]]></lookup>
+	<lookup key="OutlookResourceAddressToopTip"><![CDATA[(사용자와 동일하거나 다를 수 있습니다)]]></lookup>
+	<lookup key="OutlookUserEmailAddressToolTip"><![CDATA[ (예: domain\USERNAME)]]></lookup>
+	<lookup key="ValidUsernameMessage"><![CDATA[유효한 사용자 이름을 입력하십시오]]></lookup>
+
+	<!-- Add new resolution 3/28/2017 -->
+	<lookup key="Resolution.Res2048x1080At60Hz"><![CDATA[60Hz에서 2048x1080]]></lookup>
+	<lookup key="Resolution.Res1792x1344PC"><![CDATA[1792x1344 PC]]></lookup>
+	<lookup key="Resolution.Res1856x1392PC"><![CDATA[1856x1392 PC]]></lookup>
+	<lookup key="Resolution.Res1920x1440PC"><![CDATA[1920x1440 PC]]></lookup>
+	<lookup key="Resolution.Res2048x1536PC"><![CDATA[2048x1536 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1080PC"><![CDATA[2560x1080 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1440PC"><![CDATA[2560x1440 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1600PCRb"><![CDATA[2560x1600 PC RB]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt24Hz"><![CDATA[24Hz에서 3840x2160p]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt25Hz"><![CDATA[25Hz에서 3840x2160p]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt30Hz"><![CDATA[30Hz에서 3840x2160p]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt24Hz"><![CDATA[24Hz에서 4096x2160p]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt25Hz"><![CDATA[25Hz에서 4096x2160p]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt30Hz"><![CDATA[30Hz에서 4096x2160p]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt50Hz"><![CDATA[50Hz에서 3840x2160p]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt60Hz"><![CDATA[60Hz에서 3840x2160p]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt50Hz"><![CDATA[50Hz에서 4096x2160p]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt60Hz"><![CDATA[60Hz에서 4096x2160p]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt60HzPCVesaRbV2"><![CDATA[60Hz PC VESA RB V2에서 4096x2160p]]></lookup>
+	<lookup key="Resolution.Res1680x720At24Hz"><![CDATA[24Hz에서 1680x720]]></lookup>
+	<lookup key="Resolution.Res1680x720At25Hz"><![CDATA[25Hz에서 1680x720]]></lookup>
+	<lookup key="Resolution.Res1680x720At30Hz"><![CDATA[30Hz에서 1680x720]]></lookup>
+	<lookup key="Resolution.Res1680x720At50Hz"><![CDATA[50Hz에서 1680x720]]></lookup>
+	<lookup key="Resolution.Res1680x720At60Hz"><![CDATA[60Hz에서 1680x720]]></lookup>
+	<lookup key="Resolution.Res2560x1080At24Hz"><![CDATA[24Hz에서 2560x1080]]></lookup>
+	<lookup key="Resolution.Res2560x1080At25Hz"><![CDATA[25Hz에서 2560x1080]]></lookup>
+	<lookup key="Resolution.Res2560x1080At30Hz"><![CDATA[30Hz에서 2560x1080]]></lookup>
+	<lookup key="Resolution.Res2560x1080At50Hz"><![CDATA[50Hz에서 2560x1080]]></lookup>
+	<lookup key="Resolution.Res2560x1080At60Hz"><![CDATA[60Hz에서 2560x1080]]></lookup>
+
+	<!-- the following fields have been renamed, please translate -->
+	<lookup key="OutlookWebAccessUrl"><![CDATA[Exchange EWS URL]]></lookup>
+	<lookup key="OutlookDomainName"><![CDATA[도메인]]></lookup>
+	<lookup key="OutlookUserEmailAddress"><![CDATA[사용자 이름]]></lookup>
+	<lookup key="OutlookPassword"><![CDATA[암호]]></lookup>
+	<lookup key="OutlookResourceAddress"><![CDATA[캘린더 이메일 주소]]></lookup>
+
+	<lookup key="DeviceType.Bluray"><![CDATA[블루레이 플레이어]]></lookup>
+	<lookup key="DeviceType.Occupancy"><![CDATA[사용 중 여부 감지기]]></lookup>
+	<lookup key="DeviceType.Panel"><![CDATA[터치 스크린]]></lookup>
+	<lookup key="DeviceType.EndpointTx"><![CDATA[DigitalMedia 전송기]]></lookup>
+	<lookup key="DeviceType.EndpointRx"><![CDATA[DigitalMedia 수신기]]></lookup>
+	<lookup key="DeviceType.EndpointRxScaler"><![CDATA[DigitalMedia 확대 수신기]]></lookup>
+
+	<lookup key="SfbProxyTypes.None"><![CDATA[없음]]></lookup>
+	<lookup key="SfbProxyTypes.SameCredentials"><![CDATA[동일 자격 증명]]></lookup>
+	<lookup key="SfbProxyTypes.OtherCredentials"><![CDATA[기타 자격 증명]]></lookup>
+
+	<!-- Add new projector display type 4/26/2017 -->
+	<lookup key="DeviceType.Projector"><![CDATA[프로젝터]]></lookup>
+	<lookup key="AssociatedOutputDevice.Projector"><![CDATA[프로젝터]]></lookup>
+
+	<!-- 5/17/2017 -->
+	<lookup key="Users"><![CDATA[사용자]]></lookup>
+	<lookup key="Manage"><![CDATA[관리]]></lookup>
+	<lookup key="Logos"><![CDATA[터치 스크린 사용자 설정 그래픽]]></lookup>
+	<lookup key="Drivers"><![CDATA[드라이버]]></lookup>
+	<lookup key="Import"><![CDATA[가져오기]]></lookup>
+	<lookup key="Manufacturer"><![CDATA[제조사]]></lookup>
+	<lookup key="DriverFileName"><![CDATA[드라이버 파일명]]></lookup>
+	<lookup key="DriverVersion"><![CDATA[드라이버 버전]]></lookup>
+	<lookup key="FusionCloudUrlRequired"><![CDATA[Crestron Fusion 클라우드 URL을 입력해야 함]]></lookup>
+	<lookup key="FusionCloudUrlInvalid"><![CDATA[Crestron Fusion 클라우드 URL이 유효하지 않음]]></lookup>
+	<lookup key="ShowBroadcastOnPanel"><![CDATA[터치 스크린에 브로드캐스트 메시지 표시]]></lookup>
+	<lookup key="ImageSizeWarning"><![CDATA[이미지 크기 경고]]></lookup>
+	<lookup key="ManageUsers"><![CDATA[사용자 관리]]></lookup>
+	<lookup key="FirstName"><![CDATA[이름]]></lookup>
+	<lookup key="LastName"><![CDATA[성]]></lookup>
+	<lookup key="UsernameRequired"><![CDATA[사용자 이름은 필수 입력 항목입니다.]]></lookup>
+	<lookup key="MinLengthUsernameWarning"><![CDATA[사용자 이름은 3자 이상이어야 합니다.]]></lookup>
+	<lookup key="MaxLengthUsernameWarning"><![CDATA[사용자 이름은 15자 이하여야 합니다.]]></lookup>
+	<lookup key="InvalidPassword"><![CDATA[암호에는 1개의 대문자, 소문자, 숫자 및 특수 문자가 포함되어야 합니다.]]></lookup>
+	<lookup key="CreateUser"><![CDATA[사용자 생성]]></lookup>
+	<lookup key="InvalidUsername"><![CDATA[유효하지 않은 사용자 이름]]></lookup>
+	<lookup key="DuplicateUsernameWarning"><![CDATA[중복 사용자 이름 경고]]></lookup>
+	<lookup key="FirstNameRequired"><![CDATA[이름은 필수 입력 항목입니다.]]></lookup>
+	<lookup key="LastnameRequired"><![CDATA[성은 필수 입력 항목입니다.]]></lookup>
+	<lookup key="PasswordRequired"><![CDATA[암호는 필수 입력 항목입니다.]]></lookup>
+	<lookup key="MinLengthPasswordWarning"><![CDATA[암호는 8자이며 1개의 대문자, 소문자, 숫자 및 특수 문자가 포함되어야 합니다.]]></lookup>
+	<lookup key="MaxLengthPasswordWarning"><![CDATA[암호는 12자 이하여야 합니다.]]></lookup>
+	<lookup key="MaxLengthRoomNameWarning"><![CDATA[회의실 이름은 20자 이하여야 합니다.]]></lookup>
+	<lookup key="MaxLengthFirstNameWarning"><![CDATA[이름은 15자 이하여야 합니다.]]></lookup>
+	<lookup key="MinLengthFirstNameWarning"><![CDATA[이름은 2자 이상이어야 합니다.]]></lookup>
+	<lookup key="MaxLengthLastNameWarning"><![CDATA[성은 15자 이하여야 합니다.]]></lookup>
+	<lookup key="MinLengthLastNameWarning"><![CDATA[성은 2자 이상이어야 합니다.]]></lookup>
+
+	<!-- 5/23/2017 -->
+	<lookup key="ImageOutOfRange"><![CDATA[이미지가 범위를 초과함, 예상: {0}x{1}]]></lookup>
+
+	<!-- 5/24/2017-->
+	<lookup key="DriverInstallationStatus.StatusOk"><![CDATA[드라이버가 성공적으로 설치됨]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusError"><![CDATA[드라이버를 설치하지 못함]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorVersionCheckedFailed"><![CDATA[드라이버 버전을 확인하지 못함]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorCopyDriverFailed"><![CDATA[드라이버를 복사하지 못함]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorInvalidDeviceType"><![CDATA[드라이버에 유효하지 않은 장치 유형]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusSupportingDllNotFound"><![CDATA[지원 드라이버 DLL을 찾을 수 없음]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusPendingRestart"><![CDATA[드라이버 설치 재시작 대기 중]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusDriverNotFound"><![CDATA[드라이버를 찾을 수 없음]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorInvalidTransportType"><![CDATA[유효하지 않은 전송 유형]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorMissingDriverId"><![CDATA[드라이버 ID 누락]]></lookup>
+
+	<!-- 5/30/2017-->
+	<lookup key="EnableMics"><![CDATA[마이크 활성화]]></lookup>
+	<lookup key="ConfirmDeleteUser"><![CDATA[이 사용자를 삭제하시겠습니까?]]></lookup>
+	<lookup key="TimeZone"><![CDATA[시간대]]></lookup>
+	<lookup key="DateTimeLabel"><![CDATA[날짜 및 시간]]></lookup>
+
+	<lookup key="ClickToReadWarningMessage"><![CDATA[알림을 확인하려면 클릭하십시오.]]></lookup>
+	<lookup key="WarningMessage"><![CDATA[시스템 알림]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Manual"><![CDATA[사용자 선택됨]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Fixed"><![CDATA[수정됨]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Follow"><![CDATA[팔로우]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.None"><![CDATA[아니요]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.FollowWithVolumeControl"><![CDATA[예, 음량 제어 포함]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.Follows"><![CDATA[예]]></lookup>
+
+	<!-- Screen saver settings -->
+	<lookup key="PanelScreenSaverEnable"><![CDATA[터치 스크린 화면 보호기 활성화]]></lookup>
+	<lookup key="PanelSleepTimeSeconds"><![CDATA[터치 스크린 화면 보호기 절전 시간]]></lookup>
+	<lookup key="PanelScreenSaverStartTime"><![CDATA[터치 스크린 화면 보호기 시작 시간]]></lookup>
+	<lookup key="PanelScreenSaverEndTime"><![CDATA[터치 스크린 화면 보호기 종료 시간]]></lookup>
+
+	<!-- 6/6/2017 -->
+	<lookup key="Advanced"><![CDATA[고급]]></lookup>
+	<lookup key="DeviceType.RoomHallwaySign"><![CDATA[회의실 가용성 안내판]]></lookup>
+	<lookup key="DeviceType.DigitalGraphicsEngine"><![CDATA[디지털 그래픽 엔진]]></lookup>
+	<lookup key="AdvancedRouteSettings"><![CDATA[고급 경로 설정]]></lookup>
+	<lookup key="AudioFollowVideoLabel"><![CDATA[오디오 팔로우]]></lookup>
+	<lookup key="VideoRoutingMode"><![CDATA[비디오 경로 설정 모드]]></lookup>
+	<lookup key="InputForFixedRouteLabel"><![CDATA[수정된 경로]]></lookup>
+	<lookup key="SelectInput"><![CDATA[입력 선택]]></lookup>
+	<lookup key="OutputForFollowsRouteLabel"><![CDATA[팔로우 경로]]></lookup>
+	<lookup key="SelectOutput"><![CDATA[출력 선택]]></lookup>
+	<lookup key="DisplayNameRequired"><![CDATA[디스플레이 이름 필수]]></lookup>
+	<lookup key="ValueRequired"><![CDATA[값 필수]]></lookup>
+
+	<!-- 6/7/2016 -->
+	<lookup key="EnableSNTP"><![CDATA[SNTP 활성화]]></lookup>
+
+	<!-- 6/13/2017 these fields have been renamed -->
+	<lookup key="AssociatedOutputDevice.AvDisplay"><![CDATA[평면 패널 디스플레이]]></lookup>
+	<lookup key="DeviceType.AvDisplay"><![CDATA[평면 패널 디스플레이]]></lookup>
+
+	<!-- 6/16/2017 -->
+	<lookup key="FindContact"><![CDATA[연락처 검색]]></lookup>
+	<lookup key="FindContactToCall"><![CDATA[통화할 연락처 검색:]]></lookup>
+	<lookup key="SkypeCallText"><![CDATA[Skype® 통화 중]]></lookup>
+	<lookup key="ViewParticipants"><![CDATA[참석자 보기]]></lookup>
+	<lookup key="Participants"><![CDATA[참석자]]></lookup>
+	<lookup key="AddParticipant"><![CDATA[참석자 추가]]></lookup>
+	<lookup key="InviteNameOrPhone"><![CDATA[이름 또는 전화번호로 초대]]></lookup>
+	<lookup key="Participants:"><![CDATA[참석자:]]></lookup>
+	<lookup key="OnThisCall"><![CDATA[이 통화에서]]></lookup>
+	<lookup key="InLobby"><![CDATA[대기실]]></lookup>
+	<lookup key="InVirtualLobby"><![CDATA[가상 대기실]]></lookup>
+	<lookup key="VirtualLobbyMessage"><![CDATA[안녕하세요. 현재 가상 대기실에 있습니다. 주최자가 곧 입장시켜 드릴 것입니다.]]></lookup>
+	<lookup key="JoinSkypeMeeting"><![CDATA[SKYPE® MEETING 가입]]></lookup>
+
+	<lookup key="NonEmergencyBroadcastTimeoutWarning"><![CDATA[비긴급 메시지 타임아웃이 범위를 벗어남]]></lookup>
+	<lookup key="EmergencyBroadcastTimeoutWarning"><![CDATA[긴급 메시지 타임아웃이 범위를 벗어남]]></lookup>
+	<lookup key="MinEmergencyBroadcastTimeoutWarning"><![CDATA[허용되는 최소 타임아웃은 0임]]></lookup>
+	<lookup key="MaxEmergencyBroadcastTimeoutWarning"><![CDATA[허용되는 최대 타임아웃은 1440임]]></lookup>
+
+	<!-- 6/26/2017 -->
+	<lookup key="NaNEmergencyBroadcastTimeoutWarning"><![CDATA[타임아웃에는 숫자 값만 허용됨]]></lookup>
+
+	<!-- 6/28/2017 -->
+	<lookup key="CECDriverNoticeHeader"><![CDATA[일반 CEC 드라이버 알림]]></lookup>
+	<lookup key="CrestronConnectedDriverNoticeHeader"><![CDATA[Crestron Connected 드라이버 알림]]></lookup>
+	<lookup key="CECDriverNoticeMessage"><![CDATA[일반 CEC는 다양한 평면 패널 디스플레이에서 작동하는 Crestron의 범용 드라이버입니다.  장치 제조사가 CEC 사양에 대한 전체 명령 집합을 구현하지 않아도 되기 때문에, 사용자의 장치에서 지원되는 특정 기능은 장치 제조사의 CEC 사양 구현 방법에 따라 다를 수 있습니다.  장치별 드라이버는 https://drivers.crestron.io에서 확인할 수 있습니다.  자세한 정보는 Crestron True Blue Support(support@crestron.com)에 문의해 주십시오.]]></lookup>
+	<lookup key="CrestronConnectedDriverNoticeMessage"><![CDATA[Crestron Connected는 다양한 평면 패널 디스플레이 및 프로젝터에서 작동하는 Crestron의 범용 드라이버입니다.  장치 제조사는 모든 Crestron Connected 기능을 구현하지 않아도 되기 때문에 사용자의 장치에서 지원되는 특정 기능은 장치에서 지원되는 기능 집합에 따라 다를 수 있습니다.  장치별 드라이버는 https://drivers.crestron.io에서 확인할 수 있습니다.  자세한 정보는 Crestron True Blue Support(support@crestron.com)에 문의해 주십시오.]]></lookup>
+	<lookup key="GeneralAcknowledge"><![CDATA[동의]]></lookup>
+	<lookup key="SkypeMeeting"><![CDATA[Skype® Meeting]]></lookup>
+	<lookup key="DownloadBusyMessage"><![CDATA[잠시 기다려 주십시오...]]></lookup>
+	<lookup key="UploadBusyMessage"><![CDATA[잠시 기다려 주십시오...]]></lookup>
+	<lookup key="MaxUsersWarning"><![CDATA[시스템이 최대 사용자 수(5)에 도달했습니다.]]></lookup>
+	<lookup key="MinLengthDisplayNameWarning"><![CDATA[디스플레이 이름은 1자 이상이어야 합니다.]]></lookup>
+	<lookup key="MaxLengthDisplayNameWarning"><![CDATA[디스플레이 이름은 20자 이하여야 합니다.]]></lookup>
+
+	<!-- 7/13/2016 -->
+
+	<lookup key="DeviceManagement"><![CDATA[장치 관리]]></lookup>
+	<lookup key="ConfigurationManagement"><![CDATA[구성 관리]]></lookup>
+	<lookup key="AVFrameworkDashboard"><![CDATA[AV 프레임워크 대시보드]]></lookup>
+	<lookup key="Transport"><![CDATA[통신]]></lookup>
+	<lookup key="EnableDriver"><![CDATA[드라이버 활성화]]></lookup>
+	<lookup key="DeviceName"><![CDATA[장치 이름]]></lookup>
+
+	<!-- 7/17/2016 -->
+	<lookup key="DeviceMgmt"><![CDATA[장치 관리]]></lookup>
+	<lookup key="DMPSConfig"><![CDATA[DMPS 구성]]></lookup>
+	<lookup key="ConfigMgmt"><![CDATA[구성 관리]]></lookup>
+
+	<!-- 7/18/2016 -->
+	<lookup key="EnableDisable"><![CDATA[활성화 비활성화]]></lookup>
+
+	<!-- 7/19/2016 -->
+	<lookup key="RADID"><![CDATA[ID]]></lookup>
+
+	<!-- 7/28/2017 -->
+	<lookup key="SearchLdap"><![CDATA[LDAP 검색]]></lookup>
+	<lookup key="Query"><![CDATA[쿼리]]></lookup>
+	<lookup key="SearchFor"><![CDATA[검색 대상]]></lookup>
+	<lookup key="GeneralSearch"><![CDATA[일반 검색]]></lookup>
+	<lookup key="Department"><![CDATA[부서]]></lookup>
+	<lookup key="Location"><![CDATA[위치]]></lookup>
+	<lookup key="Action"><![CDATA[작업]]></lookup>
+
+	<!-- 7/31/2017 -->
+	<lookup key="PhoneAttributeWarning"><![CDATA[전화 속성 경고]]></lookup>
+	<lookup key="Ldap"><![CDATA[LDAP]]></lookup>
+	<lookup key="LdapSettings.Host"><![CDATA[호스트]]></lookup>
+	<lookup key="HostWarning"><![CDATA[호스트는 필수이며 40자 이하여야 합니다.]]></lookup>
+	<lookup key="LdapSettings.Port"><![CDATA[포트]]></lookup>
+	<lookup key="LdapSettings.Dn"><![CDATA[도메인 이름]]></lookup>
+	<lookup key="DnWarning"><![CDATA[도메인 이름은 필수이며 80자 이하여야 합니다.]]></lookup>
+	<lookup key="LdapSettings.Username"><![CDATA[사용자 이름]]></lookup>
+	<lookup key="UsernameWarning"><![CDATA[사용자 이름은 필수이며 40자 이하여야 합니다.]]></lookup>
+	<lookup key="LdapSettings.Password"><![CDATA[암호]]></lookup>
+	<lookup key="PasswordWarning"><![CDATA[암호 필수]]></lookup>
+	<lookup key="LdapSettings.Search"><![CDATA[검색]]></lookup>
+	<lookup key="SearchWarning"><![CDATA[검색에는 "%QUERY%"(이)가 포함되어야 하며 '(' 으로 시작하고 ')'으로 끝나는 80자 이하의 문자열이어야 합니다.]]></lookup>
+	<lookup key="LdapSettings.DisplayAttribute"><![CDATA[디스플레이 속성]]></lookup>
+	<lookup key="DisplayIsWarning"><![CDATA[디스플레이 속성은 40자 이하여야 합니다.]]></lookup>
+	<lookup key="LdapSettings.LocationAttribute"><![CDATA[위치]]></lookup>
+	<lookup key="LocationAttributeWarning"><![CDATA[위치 속성은 40자 이하여야 합니다.]]></lookup>
+	<lookup key="LdapSettings.DepartmentAttributeWarning"><![CDATA[부서 속성 경고]]></lookup>
+	<lookup key="DepartmentAttributeWarning"><![CDATA[부서 속성은 40자 이하여야 합니다.]]></lookup>
+	<lookup key="LdapSettings.PhoneAttribute"><![CDATA[전화 속성]]></lookup>
+	<lookup key="GeneralConnect"><![CDATA[연결]]></lookup>
+	<lookup key="LdapSettings.DepartmentAttribute"><![CDATA[부서 속성]]></lookup>
+
+	<!-- 8/3/2017 -->
+	<lookup key="EnableLdap"><![CDATA[LDAP 활성화]]></lookup>
+	<lookup key="LdapSettings.Domain"><![CDATA[LDAP 도메인]]></lookup>
+
+	<!-- 8/22/2017 -->
+	<lookup key="DomainWarning"><![CDATA[유효하지 않은 도메인]]></lookup>
+	<lookup key="LdapAuthentication.Kerberos"><![CDATA[Kerberos(자동 검색)]]></lookup>
+	<lookup key="LdapAuthentication.KerberosServer"><![CDATA[Kerberos(사용자 지정 서버)]]></lookup>
+	<lookup key="LdapAuthentication.Server"><![CDATA[서버 인증(사용자 지정 서버)]]></lookup>
+	<lookup key="LdapSettings.AuthenticationMethod"><![CDATA[인증 방법]]></lookup>
+
+	<lookup key="SystemNotification"><![CDATA[시스템 알림]]></lookup>
+
+	<lookup key="DriverUploadComplete"><![CDATA[장치 드라이버가 시스템에 로드되었습니다.  드라이버 상태는 시스템 알림을 확인하십시오.]]></lookup>
+	<lookup key="DriverDescriptionHeading"><![CDATA[설명]]></lookup>
+	<lookup key="DriverSaveProblemWarning"><![CDATA[장치 드라이버가 시스템에 로드되지 않았습니다.  다시 시도해 주십시오.  이 메시지가 여러 번 표시되면 Crestron True Blue Support에 문의해 주십시오.]]></lookup>
+	<lookup key="DriverUploadCompleteHeader"><![CDATA[드라이버 로드 성공 ]]></lookup>
+	<lookup key="DriverSaveProblemWarningHeader"><![CDATA[드라이버 로드 실패 ]]></lookup>
+
+	<!-- 9/12/2017 -->
+	<lookup key="Updating"><![CDATA[업데이트 중...]]></lookup>
+
+	<!-- 9/27/2017 -->
+	<lookup key="ChannelType.AirMedia"><![CDATA[AirMedia®]]></lookup>
+
+	<!-- 10/9/2017 -->
+	<lookup key="ActivateConfigurationFromWebsite"><![CDATA[시스템 웹 사이트에서 구성을 활성화하여 시스템을 활성화하십시오.]]></lookup>
+
+	<!-- 12/14/2017 -->
+	<lookup key="HideBackgroundFilter"><![CDATA[배경 필터 숨기기]]></lookup>
+
+	<!-- ***** IMPORTANT ***** -->
+	<!-- The following existing keys need to be renamed -->
+	<lookup key="ScreensaverEnableCustomBackgrounds"><![CDATA[사용자 설정 화면 보호기 배경 활성화]]></lookup>
+	<lookup key="ScreensaverAddCustomBackgroundUrl"><![CDATA[사용자 설정 화면 보호기 배경 URL 추가]]></lookup>
+	<lookup key="Locale"><![CDATA[언어]]></lookup>
+	<lookup key="NetworkStatus"><![CDATA[대시보드]]></lookup>
+	<lookup key="ActivityLog"><![CDATA[AVF 로그]]></lookup>
+	<lookup key="EnableDspVolumeControl"><![CDATA[DMPS 스피커 및 프로그램 출력 음량 제어 활성화]]></lookup>
+	<lookup key="DevicePort"><![CDATA[통신 포트]]></lookup>
+	<lookup key="Add"><![CDATA[장치 추가]]></lookup>
+	<lookup key="EmergencyBroadcastTimeout"><![CDATA[긴급 메시지 타임아웃]]></lookup>
+	<lookup key="NonEmergencyBroadcastTimeout"><![CDATA[비긴급 메시지 타임아웃]]></lookup>
+	<lookup key="ChannelValidationMessage"><![CDATA[ID 필수 형식(0~255).]]></lookup>
+
+	<!-- ***** IMPORTANT ***** -->
+	<!-- The following existing keys need to be renamed -->
+	<!-- *** IMPORTANT *** Crestron and Fusion are trademarks and should not be translated -->
+	<lookup key="SupportsFusion"><![CDATA[Crestron Fusion 지원]]></lookup>
+	<lookup key="FusionRoomName"><![CDATA[Crestron Fusion 회의실 이름]]></lookup>
+	<lookup key="FusionConnection"><![CDATA[Crestron Fusion 연결]]></lookup>
+	<lookup key="EnableFusionScheduling"><![CDATA[Crestron Fusion 예약 활성화]]></lookup>
+	<lookup key="FusionSettings"><![CDATA[Crestron Fusion 설정]]></lookup>
+	<lookup key="FusionCloudURL"><![CDATA[Crestron Fusion 클라우드 URL]]></lookup>
+
+	<lookup key="MinFrontOfRoomBackgroundIntervalSecWarning"><![CDATA[Crestron Fusion 클라우드 URL]]></lookup>
+
+	<lookup key="EmergencyBroadcastTimeoutValidValueMessage"><![CDATA[필수 값은 (0~60)범위여야 함]]></lookup>
+	<lookup key="NonEmergencyBroadcastTimeoutValidValueMessage"><![CDATA[필수 값은 (0~60)범위여야 함]]></lookup>
+	<lookup key="CallNotificationTimeoutValidValueMessage"><![CDATA[필수 값은 (0~60)범위여야 함]]></lookup>
+	<lookup key="TimeRemainingMessageDurationValidValueMessage"><![CDATA[필수 값은 (0~60)범위여야 함]]></lookup>
+
+	<lookup key="IntervalBetweenBackgroundsValidValueMessage"><![CDATA[필수 값은 (30~600)범위여야 함]]></lookup>
+
+	<lookup key="ConfigurationText"><![CDATA[시스템 구성 진행 중]]></lookup>
+
+	<lookup key="ConfiguredMessageOfflineLoggedIn"><![CDATA[현재 시스템이 오프라인입니다. 구성을 <span id="activatePlaceholder">활성화</span>하거나 <span id="revertPlaceholder">되돌리십시오</span>.]]></lookup>
+	<lookup key="SystemOffline"><![CDATA[현재 귀하의 위치에서는 서버에 연결할 수 없습니다. 네트워크 연결을 확인하거나 시스템 관리자에게 문의하십시오. ]]></lookup>
+	<lookup key="Revert"><![CDATA[되돌리기]]></lookup>
+	<lookup key="Activate"><![CDATA[활성화]]></lookup>
+	<lookup key="More"><![CDATA[자세히]]></lookup>
+
+	<lookup key="WarmUpTimeLabel"><![CDATA[가동 준비 시간]]></lookup>
+	<lookup key="WarmUpTimeValidationMessage"><![CDATA[필수 값은 ({0}~{1})범위여야 함]]></lookup>
+	<lookup key="CoolDownTimeValidationMessage"><![CDATA[필수 값은 ({0}~{1})범위여야 함]]></lookup>
+	<lookup key="CoolDownTimeLabel"><![CDATA[냉각 시간]]></lookup>
+
+	<lookup key="ResourceNotFound"><![CDATA[찾고 있는 리소스를 찾을 수 없습니다.]]></lookup>
+	<lookup key="BackgroundImageRequiredWarning"><![CDATA[활성화된 경우 최소 1개의 배경이 필요합니다.]]></lookup>
+	<lookup key="MaximumNumberImagesWarning"><![CDATA[최대 이미지 수에 도달했습니다.]]></lookup>
+
+	<lookup key="SupportedSeries"><![CDATA[지원 시리즈]]></lookup>
+
+	<lookup key="RoomNameValidCharactersWarning"><![CDATA[허용되는 문자는 영숫자, 공백, _ , -, / 및 ()입니다.]]></lookup>
+	<lookup key="Edit"><![CDATA[편집]]></lookup>
+	<lookup key="DriverProcessingMessage"><![CDATA[파일({0}) 처리가 시작되었습니다.]]></lookup>
+
+	<lookup key="Done"><![CDATA[완료]]></lookup>
+	<lookup key="ConfigureButtons"><![CDATA[버튼 구성]]></lookup>
+	<lookup key="StartButtonTextWarning"><![CDATA[필수 값은 (1~20)자리의 영숫자여야 합니다.]]></lookup>
+	<lookup key="EnableStartButtonText"><![CDATA[시작 버튼 활성화]]></lookup>
+
+	<lookup key="Back"><![CDATA[뒤로]]></lookup>
+	<lookup key="Cancel"><![CDATA[취소]]></lookup>
+	<lookup key="FreeFormLog"><![CDATA[AMPS 로그]]></lookup>
+
+	<lookup key="TestDeviceStatus"><![CDATA[장치 상태]]></lookup>
+	<lookup key="SendCommandLabel"><![CDATA[명령 전송]]></lookup>
+	<lookup key="Command"><![CDATA[명령]]></lookup>
+	<lookup key="InstallDevice"><![CDATA[장치 설치]]></lookup>
+	<lookup key="Send"><![CDATA[발송]]></lookup>
+
+	<!-- 1/19/2018 - button panel -->
+	<lookup key="ButtonPanelButtonAction.Default"><![CDATA[기본 설정]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Disable"><![CDATA[비활성화됨]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerOn"><![CDATA[전원 켜기]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerOff"><![CDATA[전원 끄기]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerToggle"><![CDATA[전원 토글]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteOn"><![CDATA[음소거 켜기]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteOff"><![CDATA[음소거 끄기]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteToggle"><![CDATA[음소거 토글]]></lookup>
+	<lookup key="ButtonPanelButtonAction.RouteSource"><![CDATA[경로 소스]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VolUp"><![CDATA[음량 증가]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VolDown"><![CDATA[음량 감소]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Play"><![CDATA[재생]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Pause"><![CDATA[일시 정지]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Rewind"><![CDATA[되감기]]></lookup>
+	<lookup key="ButtonPanelButtonAction.FastForward"><![CDATA[빨리 감기]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Menu"><![CDATA[메뉴]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VideoMute"><![CDATA[비디오 음소거]]></lookup>
+	<lookup key="UnionId"><![CDATA[암호]]></lookup>
+	<lookup key="Test"><![CDATA[테스트]]></lookup>
+	<lookup key="Save"><![CDATA[저장]]></lookup>
+	<lookup key="InstallDialogTitle"><![CDATA[{0} 설치 중]]></lookup>
+	<lookup key="DeviceTestDialogTitle"><![CDATA[{0} 테스트 중]]></lookup>
+	<lookup key="UpdateDialogTitle"><![CDATA[{0} 업데이트 중]]></lookup>
+
+	<!-- 1/26/2018 -->
+	<lookup key="DeviceType.IO"><![CDATA[Crestron IO]]></lookup>
+	<lookup key="Status"><![CDATA[상태]]></lookup>
+	<lookup key="TestableDisplayCommands.PowerOn"><![CDATA[전원 켜기]]></lookup>
+	<lookup key="TestableDisplayCommands.PowerOff"><![CDATA[전원 끄기]]></lookup>
+
+	<lookup key="RelayNotes1"><![CDATA[릴레이는 선택한 장치에서 쌍으로 구성됩니다.]]></lookup>
+	<lookup key="RelayName"><![CDATA[릴레이 이름]]></lookup>
+	<lookup key="RelayDeviceAndIdentifier"><![CDATA[릴레이 장치 및 식별자]]></lookup>
+	<lookup key="RelayTiming"><![CDATA[타이밍]]></lookup>
+	<lookup key="BlankRelayLabel"><![CDATA[없음]]></lookup>
+
+	<!-- 2/12/2018 -->
+	<lookup key="RelayBehavior.Disable"><![CDATA[비활성화]]></lookup>
+
+	<!-- 2/26/2018 -->
+	<lookup key="RelayTimingBoundsWarning"><![CDATA[필수 값은 (1-180)이어야 함]]></lookup>
+	<lookup key="RelayNameRequired"><![CDATA[필수 값은 (1-20) 영숫자이어야 합니다.]]></lookup>
+	<lookup key="RelayValidCharactersWarning"><![CDATA[필수 값은 (1-20) 영숫자이어야 합니다.]]></lookup>
+	<lookup key="RelayNotes2"><![CDATA[모든 릴레이 쌍에서 첫 번째 릴레이는 화면을 위로 향하게 합니다.]]></lookup>
+	<lookup key="RelayNotes3"><![CDATA[모든 릴레이 쌍에서 두 번째 릴레이는 화면을 아래로 향하게 합니다.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.WarmingUpCompleted"><![CDATA[장치 예열 완료됨]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.WarmingUp"><![CDATA[장치 예열 중]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.CoolingDown"><![CDATA[장치 냉각 중]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.CoolingDownCompleted"><![CDATA[장치 냉각 완료됨]]></lookup>
+
+	<!-- 2/28/2018 -->
+	<lookup key="MaxLengthRelayNameWarning"><![CDATA[릴레이 이름은 20자 이하여야 합니다.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PortNotConfigured"><![CDATA[포트가 구성되지 않았거나 사용할 수 없음]]></lookup>
+
+	<!-- 3/2/2018 -->
+	<lookup key="DeviceUsernameValueWarning"><![CDATA[장치의 사용자 이름은 15자 이하여야 합니다.]]></lookup>
+	<lookup key="DevicePasswordValueWarning"><![CDATA[장치의 암호는 32자 이하여야 합니다.]]></lookup>
+
+	<!-- 3/8/2018 -->
+	<lookup key="RelayEmptyMsg"><![CDATA[릴레이를 지원하는 장치가 없습니다. 장치 관리자 페이지에서 릴레이를 추가할 수 있습니다.]]></lookup>
+
+	<!-- 3/9/2018 -->
+	<lookup key="DeviceTransport.Unknown"><![CDATA[알 수 없음]]></lookup>
+
+	<!-- 3/19/2018 MPC3 - These keys need to be retranslated-->
+	<lookup key="DMPSConfiguration"><![CDATA[A/V 라우팅]]></lookup>
+	<lookup key="SwitchInformation"><![CDATA[스위처 정보]]></lookup>
+
+	<!-- 3/20/2018 -->
+	<lookup key="StartButtonText"><![CDATA[시작 버튼 텍스트]]></lookup>
+
+	<lookup key="VideoDisplayStatusEvent.Initializing"><![CDATA[드라이버를 초기화하는 중]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.InitializationFailed"><![CDATA[초기화 실패]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectingToDevice"><![CDATA[장치에 연결하려는 중]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.Authenticating"><![CDATA[인증하는 중]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.AuthenticationSuccessful"><![CDATA[인증 성공]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.AuthenticationFailed"><![CDATA[인증 실패]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.NotAuthenticated"><![CDATA[인증되지 않음]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectionSuccessful"><![CDATA[장치에 연결됨]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectionFailed"><![CDATA[장치 연결 실패]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.Disconnecting"><![CDATA[드라이버에서 연결 해제]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.UnknownEvent"><![CDATA[알 수 없는 이벤트]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PowerOffCommand"><![CDATA[전원 끄기 명령을 전송하는 중]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PowerOnCommand"><![CDATA[전원 켜기 명령을 전송하는 중]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.UnknownCommand"><![CDATA[알 수 없는 명령]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.DeviceOnline"><![CDATA[장치가 온라인임]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.DeviceOffline"><![CDATA[장치가 오프라인임]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.NoControlPortDefined"><![CDATA[정의된 제어 포트 없음]]></lookup>
+
+	<lookup key="ImageNotLoaded"><![CDATA[이미지를 로드할 수 없음]]></lookup>
+	<lookup key="logoHelpText"><![CDATA[최적의 로고 사이즈는 800 x 600픽셀입니다.<br>지원되는 이미지 형식: BMP, JPG, PNG.]]></lookup>
+	<lookup key="Keypad"><![CDATA[키패드]]></lookup>
+
+	<!-- 3/22/2018 -->
+	<lookup key="BackgroundOverlay"><![CDATA[배경 오버레이]]></lookup>
+	<!-- 3/27/2018 -->
+	<lookup key="NextMeetingInformationShownValidValueMessage"><![CDATA[필수 값은 (0-120)이어야 함]]></lookup>
+	<!-- 3/28/2018 -->
+	<lookup key="PowerSettings"><![CDATA[전원 설정]]></lookup>
+	<lookup key="DayOfWeek"><![CDATA[요일]]></lookup>
+	<lookup key="DisplayOn"><![CDATA[디스플레이 켜기]]></lookup>
+	<lookup key="DisplayOff"><![CDATA[디스플레이 끄기]]></lookup>
+
+	<lookup key="VideoDisplay"><![CDATA[비디오 디스플레이]]></lookup>
+	<lookup key="WallPaper"><![CDATA[터치 스크린]]></lookup>
+	<lookup key="WallPaper.EnableCustomBackgroundLabelsLabel"><![CDATA[사용자 지정 배경 활성화]]></lookup>
+
+	<lookup key="DisplayNotifications"><![CDATA[알림 표시]]></lookup>
+	<lookup key="ConnectionDetailsLayout"><![CDATA[연결 상세 정보 레이아웃]]></lookup>
+	<lookup key="DisplayCustomization"><![CDATA[디스플레이 사용자 지정]]></lookup>
+
+	<!-- 4/5/2018 -->
+	<lookup key="ShowBackgroundOverlay"><![CDATA[배경 오버레이 표시]]></lookup>
+	<lookup key="WallPaper.CustomBackgroundLabelsLabel"><![CDATA[배경]]></lookup>
+
+	<lookup key="ShowCalendarOrClockOverlay"><![CDATA[캘린더 또는 시계 오버레이 표시]]></lookup>
+
+	<!-- 4/6/2018 -->
+	<lookup key="ReturnToAudioCall"><![CDATA[오디오 통화로 돌아가려면 여기를 터치]]></lookup>
+	<lookup key="CurrentCallOnHold"><![CDATA[현재 통화 대기 중]]></lookup>
+	<!-- 4/9/2018 -->
+	<lookup key="TimeRemainingMessageStartsValidValueMessage"><![CDATA[필수 값은 (0-60)이어야 함]]></lookup>
+
+	<!-- 4/9/2018 -->
+	<lookup key="StandbyMode.OccupancyBasedWithSignage"><![CDATA[신호 표시 사용]]></lookup>
+
+	<!-- 4/10/2018 -->
+	<lookup key="ZumBatteryState.Bx"><![CDATA[외부 전원 공급]]></lookup>
+	<lookup key="ZumBatteryState.Bc"><![CDATA[배터리 수준 매우 낮음]]></lookup>
+	<lookup key="ZumBatteryState.Bl"><![CDATA[배터리 수준 낮음]]></lookup>
+	<lookup key="ZumBatteryState.Bok"><![CDATA[배터리 수준 양호]]></lookup>
+
+	<lookup key="ZumDeviceStatus.Act"><![CDATA[활성]]></lookup>
+	<lookup key="ZumDeviceStatus.Mis"><![CDATA[누락]]></lookup>
+
+	<lookup key="ZumOccupancy.Na"><![CDATA[해당 사항 없음]]></lookup>
+	<lookup key="ZumOccupancy.Occupied"><![CDATA[사용 중]]></lookup>
+	<lookup key="ZumOccupancy.Vacant"><![CDATA[자리 비움]]></lookup>
+	<lookup key="ZumOccupancy.Unknown"><![CDATA[알 수 없음]]></lookup>
+
+	<lookup key="ZumUpdateStatus.U0"><![CDATA[진행 중인 업데이트 없음]]></lookup>
+	<lookup key="ZumUpdateStatus.Ui"><![CDATA[업그레이드 진행 중]]></lookup>
+	<lookup key="ZumUpdateStatus.Up"><![CDATA[대기 중인 업데이트]]></lookup>
+
+	<!-- 4/9/2018 -->
+	<lookup key="AppspaceErrorMessage"><![CDATA[URL에 연결할 수 없음]]></lookup>
+
+	<!-- 4/13/2018 -->
+	<lookup key="External"><![CDATA[외부]]></lookup>
+	<lookup key="ManageSettings"><![CDATA[관리]]></lookup>
+
+	<!-- 4/12/2018 -->
+	<lookup key="DisconnectedHeaderText"><![CDATA[연결 해제됨]]></lookup>
+
+	<!-- 4/12/2018 -->
+	<lookup key="DisconnectedMessageText"><![CDATA[재연결 시도 중입니다. 통신 설정을 확인하십시오.]]></lookup>
+
+	<!-- 4/18/2018 these keys need to be retranslated -->
+	<lookup key="IntervalBetweenBackgroundsBoundsWarning"><![CDATA[필수 값은 (30-600)이어야 함]]></lookup>
+	<lookup key="PanelSleepTimeSecondsBoundsWarning"><![CDATA[필수 값은 (60-600)이어야 함]]></lookup>
+
+	<!-- 4/18/2018  -->
+
+	<lookup key="Background"><![CDATA[배경]]></lookup>
+	<lookup key="Log"><![CDATA[로그]]></lookup>
+	<lookup key="TouchScreen"><![CDATA[터치 스크린 및 디스플레이]]></lookup>
+
+	<!-- 4/23/2018  -->
+	<lookup key="DayOfWeekEnum.Monday"><![CDATA[월요일]]></lookup>
+	<lookup key="DayOfWeekEnum.Tuesday"><![CDATA[화요일]]></lookup>
+	<lookup key="DayOfWeekEnum.Wednesday"><![CDATA[수요일]]></lookup>
+	<lookup key="DayOfWeekEnum.Thursday"><![CDATA[목요일]]></lookup>
+	<lookup key="DayOfWeekEnum.Friday"><![CDATA[금요일]]></lookup>
+	<lookup key="DayOfWeekEnum.Saturday"><![CDATA[토요일]]></lookup>
+	<lookup key="DayOfWeekEnum.Sunday"><![CDATA[일요일]]></lookup>
+
+	<!-- 4/23/2018  -->
+	<lookup key="ConnectionLayout.Bottom"><![CDATA[맨 아래]]></lookup>
+	<lookup key="ConnectionLayout.Top"><![CDATA[맨 위]]></lookup>
+	<lookup key="ConnectionLayout.Left"><![CDATA[왼쪽]]></lookup>
+	<lookup key="ConnectionLayout.Right"><![CDATA[오른쪽]]></lookup>
+
+	<!-- 4/25/2018  -->
+
+	<lookup key="AppspaceCustomBackgroundsWarning"><![CDATA[Appspace가 활성인 상태에서는 사용자 지정 배경을 설정할 수 없습니다.]]></lookup>
+	<lookup key="DeviceType.Audio"><![CDATA[오디오]]></lookup>
+	<lookup key="DeviceType.Led"><![CDATA[LED]]></lookup>
+
+	<!-- 4/30/2018  -->
+	<lookup key="AUXIP"><![CDATA[보조 IP]]></lookup>
+	<lookup key="DialerType.Sfb"><![CDATA[Skype®]]></lookup>
+	<lookup key="VerisonNumber"><![CDATA[버전 번호]]></lookup>
+	<lookup key="Room"><![CDATA[회의실]]></lookup>
+	<lookup key="EnableDspVolumeControl.ExtAmp"><![CDATA[외부 앰프 활성화]]></lookup>
+
+	<!-- 5/1/2018  -->
+	<lookup key="UploadConfigurationError"><![CDATA[구성이 잘못되었거나 다른 장치 모델용이어서 업로드에 실패했습니다.  이전 구성이 복원되었습니다.]]></lookup>
+
+	<!-- 5/3/2018  -->
+	<lookup key="AppspaceLoading"><![CDATA[Appspace 앱을 다운로드 및 설치 중]]></lookup>
+	<lookup key="AppspaceErrorTitle"><![CDATA[Appspace 앱을 다운로드할 수 없음]]></lookup>
+	<lookup key="AppspaceErrorSubTitle"><![CDATA[URL과 네트워크 연결을 확인하십시오. 곧 다시 시도하겠습니다.]]></lookup>
+
+	<!-- 5/8/2018 -->
+	<lookup key="PortType.Relay"><![CDATA[릴레이]]></lookup>
+
+	<!-- 5/10/2018 -->
+	<lookup key="VideoDisplayStatusEvent.TestingNotSupported"><![CDATA[제어 대상이 아닌 디스플레이에는 테스트가 지원되지 않습니다.]]></lookup>
+
+	<lookup key="Zum"><![CDATA[Zūm]]></lookup>
+	<lookup key="Network"><![CDATA[네트워크]]></lookup>
+	<lookup key="FirmwareVersion"><![CDATA[펌웨어 버전]]></lookup>
+	<lookup key="BatteryStatus"><![CDATA[배터리 상태]]></lookup>
+	<lookup key="StartAcquire"><![CDATA[획득 시작]]></lookup>
+	<lookup key="StopAcquire"><![CDATA[획득 중지]]></lookup>
+	<lookup key="FormNetwork"><![CDATA[네트워크 형성]]></lookup>
+	<lookup key="ZumBridgeLabel"><![CDATA[Zūm 브리지]]></lookup>
+	<lookup key="RoomOccupancyLabel"><![CDATA[Zūm 센서 상태]]></lookup>
+	<lookup key="Occupancy"><![CDATA[사용]]></lookup>
+	<lookup key="Id"><![CDATA[ID]]></lookup>
+
+	<!-- 5/16/2018 -->
+	<lookup key="ButtonPanelButtonAction.Up"><![CDATA[위]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Down"><![CDATA[아래]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Left"><![CDATA[왼쪽]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Right"><![CDATA[오른쪽]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Enter"><![CDATA[입력]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Select"><![CDATA[선택]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Back"><![CDATA[뒤로]]></lookup>
+
+	<!-- 6/15/2018 -->
+	<lookup key="CallNotificationState.IncomingCall"><![CDATA[수신 통화]]></lookup>
+	<lookup key="CallNotificationState.Connected"><![CDATA[연결됨]]></lookup>
+	<lookup key="CallNotificationState.Connecting"><![CDATA[연결하는 중]]></lookup>
+	<lookup key="CallNotificationState.Rejected"><![CDATA[거부됨]]></lookup>
+	<lookup key="CallNotificationState.Disconnected"><![CDATA[연결 해제됨]]></lookup>
+
+	<!-- 6/19/2018 -->
+	<lookup key="VideoDisplayStatusEvent.CecInitialized"><![CDATA[CEC 드라이버 초기화됨]]></lookup>
+
+	<lookup key="AssociatedOutputDevice.Whiteboard"><![CDATA[AirBoard®]]></lookup>
+	<lookup key="DeviceType.ZumBridge"><![CDATA[Zūm 브리지]]></lookup>
+	<lookup key="DeviceType.WhiteBoard"><![CDATA[AirBoard®]]></lookup>
+
+	<!-- 7/18/2018 -->
+	<lookup key="DriverInstallationStatus.StatusUnlicensedDeviceType"><![CDATA[라이선스가 없는 장치 유형]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusUnsupportedIrDriver"><![CDATA[지원되지 않는 IR 드라이버]]></lookup>
+
+	<!-- 7/25/2018 -->
+	<lookup key="CommunicationType"><![CDATA[통신 유형]]></lookup>
+	<lookup key="SupportedModels"><![CDATA[지원 모델]]></lookup>
+	<lookup key="DriverSearchHint"><![CDATA[모델 또는 제조사]]></lookup>
+
+	<lookup key="AddNewDeviceDriver"><![CDATA[새 장치 드라이버 추가...]]></lookup>
+	<lookup key="ImportFromFile"><![CDATA[파일에서 가져오기...]]></lookup>
+	<lookup key="GeneralAdd"><![CDATA[추가]]></lookup>
+
+	<lookup key="DetectedManufacturer"><![CDATA[감지된 제조사]]></lookup>
+	<lookup key="DetectedName"><![CDATA[감지된 이름]]></lookup>
+	<lookup key="DetectedSerialNum"><![CDATA[감지된 일련 번호]]></lookup>
+
+	<lookup key="CloudSearchError"><![CDATA[클라우드에서 드라이버를 검색하는 중에 오류가 발생했습니다.]]></lookup>
+	<lookup key="ErrorInstallingDriver"><![CDATA[드라이버를 설치하는 중에 오류가 발생했습니다.]]></lookup>
+
+	<lookup key="DeviceInstallingTitle"><![CDATA[{0} 설치 중.]]></lookup>
+
+	<!-- 8/30/2018 -->
+	<lookup key="DisplayTimeError"><![CDATA[디스플레이 켜기는 디스플레이 끄기보다 작아야 합니다.]]></lookup>
+	<lookup key="NavPresentEtc"><![CDATA[홈 탐색, 소스 발표 등]]></lookup>
+
+	<lookup key="FilterBy"><![CDATA[필터링 기준]]></lookup>
+	<lookup key="StartDiscovery"><![CDATA[검색 시작]]></lookup>
+	<lookup key="StopDiscovery"><![CDATA[검색 중지]]></lookup>
+	<lookup key="IPIDCrestnetID"><![CDATA[IPID/CresnetID]]></lookup>
+	<lookup key="Locate"><![CDATA[찾기]]></lookup>
+	<lookup key="LocateRunning"><![CDATA[찾기 실행 중]]></lookup>
+	<lookup key="StopLocate"><![CDATA[찾기 중지]]></lookup>
+	<lookup key="DeviceDetails"><![CDATA[장치 세부 정보]]></lookup>
+	<lookup key="DiscoveredDevices"><![CDATA[검색된 장치]]></lookup>
+	<lookup key="ConfiguredDevices"><![CDATA[구성된 장치]]></lookup>
+
+	<lookup key="AreYouSure"><![CDATA[맞습니까?]]></lookup>
+
+	<lookup key="WhiteboardCode"><![CDATA[코드 ]]></lookup>
+	<lookup key="WhiteboardCrestronId"><![CDATA[CrestronId: ]]></lookup>
+	<lookup key="WhiteboardUserConnUrl"><![CDATA[URL: ]]></lookup>
+
+	<!-- 11/30/2018 -->
+	<lookup key="RefineSearchContact"><![CDATA[정확히 일치하는 것을 찾을 수 없습니다. 검색을 세분화하여 시도하십시오.]]></lookup>
+
+	<!-- 12/5/2018 -->
+	<lookup key="WhiteboardMeetingEndPPUX"><![CDATA[예정된 회의가 곧 끝날 예정이므로 터치 스크린에서 옵션을 선택하십시오.]]></lookup>
+
+	<!-- 12/7/2018 -->
+	<lookup key="WhiteboardIncomingReqPPUX"><![CDATA[원격 연결 요청 수신, 터치 패널에서 수락하거나 무시하십시오.]]></lookup>
+
+	<!-- 12/14/2018 -->
+	<lookup key="account-action"><![CDATA[작업]]></lookup>
+	<lookup key="cloudware-license"><![CDATA[Cloudware 라이선스 계약]]></lookup>
+	<lookup key="service-status"><![CDATA[서비스 상태]]></lookup>
+	<lookup key="privacy-statement"><![CDATA[개인 정보 보호 준칙]]></lookup>
+	<lookup key="uc-agreement"><![CDATA[Crestron 통합 통신 소프트웨어 라이선스 계약]]></lookup>
+
+	<lookup key="busy-loading"><![CDATA[로드 중]]></lookup>
+	<lookup key="AirBoard"><![CDATA[AirBoard]]></lookup>
+	<lookup key="Settings"><![CDATA[설정]]></lookup>
+	<lookup key="ConfirmPassword"><![CDATA[암호 확인]]></lookup>
+	<lookup key="UserDetail"><![CDATA[사용자 상세 정보]]></lookup>
+	<lookup key="PasswordMismatchWarning"><![CDATA[암호가 일치해야 합니다.]]></lookup>
+
+	<!-- 12/27/2018 -->
+	<lookup key="CresnetBusIdValidationMessage"><![CDATA[Cresnet ID 필수 형식(03-1B).]]></lookup>
+	<lookup key="DeviceType.CresnetGateway"><![CDATA[Cresnet 게이트웨이]]></lookup>
+	<lookup key="DeviceTransport.CrestronCrestnetBus"><![CDATA[Cresnet 버스]]></lookup>
+	<lookup key="GatewayBus"><![CDATA[게이트웨이 버스]]></lookup>
+
+	<!-- 01/08/2019 -->
+	<lookup key="EnableAutoUpdate"><![CDATA[터치 스크린 자동 업데이트 활성화]]></lookup>
+	<lookup key="AutoRouting"><![CDATA[AirMedia 자동 경로 전용]]></lookup>
+	<lookup key="PriorityRouting"><![CDATA[우선순위 라우팅]]></lookup>
+	<lookup key="InvalidInputName"><![CDATA[잘못된 디스플레이 이름.  < 또는 > 문자를 포함할 수 없습니다.]]></lookup>
+
+	<lookup key="AudioSource.AudioFollowVideo"><![CDATA[오디오 팔로우 비디오]]></lookup>
+	<lookup key="AudioSource.Analog"><![CDATA[아날로그]]></lookup>
+	<lookup key="ChannelType.Streaming"><![CDATA[스트리밍]]></lookup>
+
+	<lookup key="UploadConfigRestore"><![CDATA[복구]]></lookup>
+	<lookup key="UploadConfigCreateRoom"><![CDATA[회의실 생성]]></lookup>
+
+	<lookup key="UploadConfigWarning"><![CDATA[Fusion 환경에 이미 있는 기존 회의실에 대한 이전 구성을 복원하는 경우 "복원"을 선택하십시오.  새 회의실의 시작 포인트로 구성을 가져오는 경우 "방 생성"을 선택하십시오.]]></lookup>
+
+	<!-- 01/30/2019 -->
+	<lookup key="WhiteBoardCodeMode.Disabled"><![CDATA[비활성화됨]]></lookup>
+	<lookup key="WhiteBoardCodeMode.Random"><![CDATA[임의]]></lookup>
+	<lookup key="WhiteBoardCodeMode.Fixed"><![CDATA[수정됨]]></lookup>
+
+	<lookup key="WhiteboardViewParticipants"><![CDATA[참석자 보기]]></lookup>
+	<lookup key="WhiteboardRecord"><![CDATA[기록]]></lookup>
+	<lookup key="WhiteboardStopRecording"><![CDATA[기록 중지]]></lookup>
+	<lookup key="WhiteboardSnapshot"><![CDATA[스냅샷 보내기]]></lookup>
+	<lookup key="WhiteboardParticipants"><![CDATA[참석자]]></lookup>
+	<lookup key="WhiteboardIncomingReq"><![CDATA[원격 연결 요청 수신]]></lookup>
+	<lookup key="WhiteboardIncomingReqAccept"><![CDATA[수락]]></lookup>
+	<lookup key="WhiteboardIncomingReqIgnore"><![CDATA[무시]]></lookup>
+	<lookup key="WhiteboardInSession"><![CDATA[세션 진행 중]]></lookup>
+	<lookup key="WhiteboardInLobby"><![CDATA[대기실에서]]></lookup>
+	<lookup key="WhiteboardEmail"><![CDATA[이메일 기록 대상:]]></lookup>
+	<lookup key="WhiteboardSendSlideDeck"><![CDATA[슬라이드 데크 전송]]></lookup>
+	<lookup key="WhiteboardEmailRecording"><![CDATA[이메일 기록]]></lookup>
+	<lookup key="WhiteboardProceed"><![CDATA[이메일 없이 진행]]></lookup>
+	<lookup key="WhiteboardMeetingEnd"><![CDATA[예정된 회의가 곧 끝날 예정이므로 옵션을 선택하십시오.]]></lookup>
+	<lookup key="WhiteboardStopPresenting"><![CDATA[기록 및 발표 중지]]></lookup>
+	<lookup key="WhiteboardDontStop"><![CDATA[중지하지 마십시오.]]></lookup>
+	<lookup key="WhiteboardTitle"><![CDATA[AirBoard®]]></lookup>
+
+	<lookup key="BluetoothPairingMode"><![CDATA[블루투스 페어링 모드]]></lookup>
+	<lookup key="BluetoothTimeOut"><![CDATA[블루투스 유휴 연결 해제 시간]]></lookup>
+	<lookup key="BluetoothTimeOutValidValueMessage"><![CDATA[필수 값은 (1-60)이어야 함]]></lookup>
+	<lookup key="PairingMode.Timeout"><![CDATA[타임아웃]]></lookup>
+	<lookup key="PairingMode.Persistent"><![CDATA[영구적]]></lookup>
+	<lookup key="ReportOnlyAirmediaAsset"><![CDATA[AirMedia 자산만 보고하십시오.]]></lookup>
+	<lookup key="LdapPortWarning"><![CDATA[포트 필수 형식(1-65535).]]></lookup>
+	<lookup key="NonControlledDevice"><![CDATA[비제어 장치]]></lookup>
+
+	<lookup key="CrestronConnected"><![CDATA[Crestron 연결됨]]></lookup>
+	<lookup key="MercuryIpIdValidationMessage"><![CDATA[IPID 필수 형식(03-FD).]]></lookup>
+
+	<!-- 6/10/2019 -->
+	<lookup key="WhiteboardConfirmationPrompt"><![CDATA[기록을 정말 중지하시겠습니까?]]></lookup>
+	<lookup key="WhiteboardStopNowCap"><![CDATA[예, 지금 바로 중지]]></lookup>
+	<lookup key="WhiteboardContinueCap"><![CDATA[아니요, 계속 기록]]></lookup>
+	<lookup key="WhiteboardEmailRecordingCap"><![CDATA[이메일 기록]]></lookup>
+	<lookup key="WhiteboardProceedCap"><![CDATA[이메일 없이 진행]]></lookup>
+	<lookup key="WhiteboardStopPresentingCap"><![CDATA[기록 및 발표 중지]]></lookup>
+
+	<lookup key="GenericCancelCap"><![CDATA[취소]]></lookup>
+	<lookup key="CouldNotFindMatch"><![CDATA[정확히 일치하는 항목을 찾을 수 없습니다. 검색을 세분화하여 시도하십시오.]]></lookup>
+	<lookup key="PresentationTypes"><![CDATA[발표 유형]]></lookup>
+	<lookup key="Resume"><![CDATA[재개]]></lookup>
+	<lookup key="BlankScreen"><![CDATA[빈 화면]]></lookup>
+	<lookup key="CallTypes"><![CDATA[통화 유형]]></lookup>
+	<lookup key="ReturnToCall"><![CDATA[통화로 복귀]]></lookup>
+	<lookup key="TapReturnToCall"><![CDATA[통화하려면 여기를 탭]]></lookup>
+	<lookup key="CallOnHold"><![CDATA[현재 통화 대기 중]]></lookup>
+	<lookup key="USBCable"><![CDATA[USB 케이블]]></lookup>
+	<lookup key="UsbCall"><![CDATA[USB 통화]]></lookup>
+	<lookup key="ConnectYourUsbDeviceText"><![CDATA[장치에 제공된 USB 케이블 연결]]></lookup>
+	<lookup key="AvailableForNext"><![CDATA[다음 이용 가능]]></lookup>
+	<lookup key="Available"><![CDATA[이용 가능]]></lookup>
+	<lookup key="RestOfDay"><![CDATA[당일 내내]]></lookup>
+	<lookup key="ReservedForNext"><![CDATA[다음 예약됨]]></lookup>
+	<lookup key="MeetingLabel"><![CDATA[회의]]></lookup>
+	<lookup key="GeneralHome"><![CDATA[홈]]></lookup>
+	<lookup key="GeneralPresent"><![CDATA[프레젠테이션]]></lookup>
+	<lookup key="GeneralCall"><![CDATA[통화]]></lookup>
+	<lookup key="GeneralToday"><![CDATA[오늘]]></lookup>
+	<lookup key="GeneralCollaborate"><![CDATA[콜래보레이션]]></lookup>
+	<lookup key="NextMeeting"><![CDATA[다음 회의]]></lookup>
+	<lookup key="Plug"><![CDATA[노트북에]]></lookup>
+	<lookup key="ConnectLaptopGuide"><![CDATA[연결하여 디스플레이 표시]]></lookup>
+	<lookup key="ConnectUsbGuide"><![CDATA[연결하여 오디오 장치로 사용]]></lookup>
+	<lookup key="Set"><![CDATA[설정]]></lookup>
+	<lookup key="Camera"><![CDATA[카메라]]></lookup>
+	<lookup key="Step"><![CDATA[단계]]></lookup>
+	<lookup key="Connect"><![CDATA[제공된 HDMI 케이블을 이용하여]]></lookup>
+	<lookup key="ConnectYourHDMIDeviceText"><![CDATA[제공된 HDMI 케이블 연결 후 노트북 연결 표시]]></lookup>
+
+	<!-- *** IMPORTANT *** Virtual Control is a trademark and should not be translated -->
+	<lookup key="VCToken"><![CDATA[Virtual Control 토큰]]></lookup>
+	<lookup key="VCToken.Message"><![CDATA[Virtual Control 토큰이 필요합니다.]]></lookup>
+	<lookup key="VCToken.Invalid"><![CDATA[유효하지 않은 Virtual Control 토큰입니다.]]></lookup>
+
+	<!-- 2019-09-30 -->
+	<lookup key="VideoDisplayStatusEvent.PortOffline"><![CDATA[포트가 오프라인입니다.]]></lookup>
+	<lookup key="SyncVC4RoomName"><![CDATA[회의실 이름을 VC-4와 동기화]]></lookup>
+	<lookup key="EnableCustomHelpPage"><![CDATA[사용자 지정 도움말 페이지 활성화]]></lookup>
+	<lookup key="CustomHelpPageUrl"><![CDATA[사용자 지정 도움말 페이지 URL]]></lookup>
+	<lookup key="Upload"><![CDATA[업로드]]></lookup>
+
+	<!-- 2019-09-09 -->
+	<lookup key="Resolution.Res720x480iNTSC"><![CDATA[720x480i 30Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080p"><![CDATA[1920x1080p 24Hz]]></lookup>
+	<lookup key="Resolution.Res2048x1080At24Hz"><![CDATA[24Hz에서 2048x1080]]></lookup>
+	<lookup key="Resolution.Res1920x1080pAt30HzNTSC"><![CDATA[30Hz NTSC에서 1920x1080p ]]></lookup>
+	<lookup key="Resolution.Res1920x1080pAt25HzPAL"><![CDATA[25Hz PAL에서 1920x1080p]]></lookup>
+
+	<!-- 2019-09-26 -->
+	<lookup key="UxGeneralCustomization.EnableReservationLabel"><![CDATA[예약 활성화]]></lookup>
+
+	<!-- 2019-10-04 -->
+	<lookup key="ChannelType.DmLite"><![CDATA[DM LITE]]></lookup>
+
+	<!-- 2019-10-15 -->
+	<lookup key="WallPaper.EnableCustomHelpPageLabel"><![CDATA[사용자 지정 도움말 활성화]]></lookup>
+	<lookup key="WallPaper.CustomHelpPageUrlLabel"><![CDATA[사용자 지정 도움말 URL]]></lookup>
+	<lookup key="WallPaper.CustomHelpPageUrlValidValueMessage"><![CDATA[사용자 지정 도움말 URL 유효하지 않음]]></lookup>
+	<lookup key="WallPaper.IdValidValueMessage"><![CDATA[유효한 선택 필요함]]></lookup>
+
+	<!-- 2019-09-17 -->
+	<lookup key="DisplayFeature.PowerFeedback"><![CDATA[전원 피드백]]></lookup>
+	<lookup key="DisplayFeature.VideoMute"><![CDATA[비디오 음소거]]></lookup>
+	<lookup key="DisplayFeature.Mute"><![CDATA[음소거]]></lookup>
+	<lookup key="DisplayFeature.MuteFeedback"><![CDATA[음소거 피드백]]></lookup>
+	<lookup key="DisplayFeature.Volume"><![CDATA[음량 제어]]></lookup>
+	<lookup key="DisplayFeature.SetVolume"><![CDATA[아날로그 음량 설정]]></lookup>
+	<lookup key="DisplayFeature.VolumeFeedback"><![CDATA[음량 제어 피드백]]></lookup>
+	<lookup key="DisplayFeature.InputFeedback"><![CDATA[입력 선택 피드백]]></lookup>
+	<!-- Supported Driver Feature Web AddNewDevice -->
+	<lookup key="SupportedFeature"><![CDATA[지원되는 드라이버 기능]]></lookup>
+
+	<lookup key="StandbyMode.VideoSyncBased"><![CDATA[비디오 동기화 기반]]></lookup>
+	<lookup key="VideoSyncPowerOn"><![CDATA[비디오 동기화 전원 켜기]]></lookup>
+	<lookup key="VideoSyncPowerOff"><![CDATA[비디오 동기화 전원 끄기]]></lookup>
+	<lookup key="VideoSyncPowerOffTimeout"><![CDATA[비디오 동기화 전원 끄기 시간 종료]]></lookup>
+	<lookup key="VideoSyncPowerOffTimeoutBoundsWarning"><![CDATA[유효 범위 1-120분]]></lookup>
+
+	<!-- 2019-11-01 -->
+	<lookup key="PanelUiVersionType.UI1"><![CDATA[AVF 1.0 테마(기존)]]></lookup>
+	<lookup key="PanelUiVersionType.UI2"><![CDATA[AVF 2.0 테마(신규)]]></lookup>
+	<lookup key="UiVersionLabel"><![CDATA[.AV 프레임워크 사용자 인터페이스 테마]]></lookup>
+
+	<!-- 2019-12-11 -->
+	<lookup key="OccupancyPowerOn"><![CDATA[점유 전원 켜짐]]></lookup>
+	<lookup key="OccupancyPowerOff"><![CDATA[점유 전원 꺼짐]]></lookup>
+
+	<lookup key="StandbyMode.Default"><![CDATA[점유 상태 기반]]></lookup>
+
+	<!-- 2019-12-16-->
+	<lookup key="ThemeHelpText"><![CDATA[참고: 스위칭 테마는 .AV 프레임워크가 활성화된 후 약 <br>30~60초가 소요됩니다.]]></lookup>
+
+	<!-- 2019-12-24 -->
+	<lookup key="videoSyncWarnText"><![CDATA[참고: 가상 스위처는 비디오 동기화 기반 전원 모드와<br> 함께 사용할 수 없습니다.]]></lookup>
+
+	<!-- 2019-11-15 -->
+	<lookup key="POEOccupancySensorSettings"><![CDATA[PoE 점유 센서 설정]]></lookup>
+
+	<!-- 2019-12-20 -->
+	<lookup key="SensorStatus"><![CDATA[센서 상태]]></lookup>
+	<lookup key="Occupied"><![CDATA[사용 중]]></lookup>
+	<lookup key="Vacant"><![CDATA[자리 비움]]></lookup>
+
+	<!-- 2020-01-09 -->
+	<lookup key="DriverInstallStatusEnum.UnknownCommand"><![CDATA[알 수 없는 명령]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Uploading"><![CDATA[파일 업로드 중]]></lookup>
+	<lookup key="DriverInstallStatusEnum.UploadComplete"><![CDATA[업로드 완료]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Downloading"><![CDATA[파일 다운로드 중]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Downloaded"><![CDATA[다운로드한 파일]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Installed"><![CDATA[드라이버 설치됨]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Installing"><![CDATA[드라이버 설치 중]]></lookup>
+	<lookup key="DriverInstallStatusEnum.ErrorOccured"><![CDATA[오류 발생]]></lookup>
+	<lookup key="DriverInstallStatusEnum.UnzippedPkg"><![CDATA[zip 파일로 압축되지 않은 PKG 파일]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Processing"><![CDATA[파일 처리 중]]></lookup>
+	<lookup key="DriverInstallStatusEnum.DownloadingComplete"><![CDATA[다운로드 완료]]></lookup>
+	<lookup key="DriverInstallStatusEnum.InvalidOrCorruptFile"><![CDATA[유효하지 않거나 손상된 파일]]></lookup>
+
+	<!-- 2020-01-20 -->
+	<lookup key="AcronymHour"><![CDATA[시간]]></lookup>
+	<lookup key="AcronymMinute"><![CDATA[분]]></lookup>
+
+	<!-- 2020-01-29 -->
+	<lookup key="AddDeviceDriver"><![CDATA[드라이버 가져오기]]></lookup>
+</lang>

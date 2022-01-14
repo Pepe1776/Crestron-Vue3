@@ -1,0 +1,85 @@
+{
+    "allowLogging": true,    
+    "urls": {
+        "ipAddress": "127.0.0.1",
+        "uriProtocol": "http://",
+        "portNumber": ":8008"
+    },
+    "logger": {
+        "limit": 2500
+    },
+    "iconMapping": {
+        "Swirl": {
+            "outline": "crestron_outline.png",
+            "solid": "crestron_solid.png"
+        },
+        "Apple": {
+            "outline": "apple.png",
+            "solid": "apple_solid.png"
+        },
+        "Bluray": {
+            "outline": "blu_ray.png",
+            "solid": "blu_ray_solid.png"
+        },
+        "CD": {
+            "outline": "cd.png",
+            "solid": "cd_solid.png"
+        },
+        "ConnectorPlate": {
+            "outline": "input_connector.png",
+            "solid": "input_connector_solid.png"
+        },
+        "Camera": {
+            "outline": "camera.png",
+            "solid": "camera_solid.png"
+        },
+        "DVD": {
+            "outline": "dvd.png",
+            "solid": "dvd_solid.png"
+        },
+        "Film": {
+            "outline": "film.png",
+            "solid": "film_solid.png"
+        },
+        "Laptop": {
+            "outline": "blutooth.png",
+            "solid": "blutooth_solid.png"
+        },
+        "MediaServer": {
+            "outline": "media_server.png",
+            "solid": "media_server_solid.png"
+        },
+        "Satellite": {
+            "outline": "satellite.png",
+            "solid": "satellite_solid.png"
+        },
+        "Theater": {
+            "outline": "clapper.png",
+            "solid": "clapper_solid.png"
+        },
+        "TV": {
+            "outline": "tv.png",
+            "solid": "tv_solid.png"
+        },
+        "USB": {
+            "outline": "usb.png",
+            "solid": "usb_solid.png"
+        },
+        "VideoScreen": {
+            "outline": "videoscreen.png",
+            "solid": "videoscreen_solid.png"
+        },
+        "WiFi": {
+            "outline": "wifi.png",
+            "solid": "wifi_solid.png"
+        },
+        "AirMedia": {
+            "outline": "airmedia.png",
+            "solid": "airmedia_solid.png"
+        },
+        "WhiteBoard": {
+            "outline": "airboard.png",
+            "solid": "airboard_solid.png"
+        }
+    }
+}

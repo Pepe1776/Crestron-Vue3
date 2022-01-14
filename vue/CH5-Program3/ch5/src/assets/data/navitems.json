@@ -1,0 +1,54 @@
+[{
+    "id": "1",
+    "label": "Menu 1",
+    "icon": "camera",
+    "route": "/presentation",
+    "events": [{
+      "type": "b",
+      "join": "1"
+    }],
+    "subscriptions": [{
+        "type": "b",
+        "join": "1",
+        "action": "setActiveState"
+      },
+      {
+        "type": "s",
+        "join": "1",
+        "action": "setLabel"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "label": "Menu 2",
+    "icon": "coffee",
+    "route": "/presentation"
+  },
+  {
+    "id": "3",
+    "label": "Menu 3",
+    "icon": "user",
+    "route": "/"
+  }, {
+    "id": "4",
+    "label": "Menu 4",
+    "icon": "",
+    "route": "/"
+  }, {
+    "id": "5",
+    "label": "Menu 5",
+    "icon": "",
+    "route": "/"
+  }, {
+    "id": "6",
+    "label": "Menu 6",
+    "icon": "",
+    "route": "/"
+  }, {
+    "id": "7",
+    "label": "Menu 7",
+    "icon": "",
+    "route": "/"
+  }
+]

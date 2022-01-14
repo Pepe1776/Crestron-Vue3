@@ -1,0 +1,19 @@
+{
+  "name": "standard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url .",
+    "build:archive": "ch5-cli archive -p basics -d dist -o tsw"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@crestron/ch5-crcomlib": "^1.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

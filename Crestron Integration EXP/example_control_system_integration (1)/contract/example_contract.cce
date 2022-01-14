@@ -1,0 +1,253 @@
+{
+	"Errors": [],
+	"id": "_iogmltbwl",
+	"name": "example_contract",
+	"description": "This is an example contract to show simple components of digital, analog, and serial types",
+	"company": "Crestron Electronics, Inc",
+	"client": "",
+	"author": "",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [
+		{
+			"Errors": [],
+			"parentId": "_iogmltbwl",
+			"id": "_vjznsr37u",
+			"componentId": "_mi683a65b",
+			"instanceName": "Page1",
+			"numberOfInstances": 1
+		}
+	],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_iogmltbwl",
+			"id": "_gfeb9wz9s",
+			"name": "AnalogValueControl",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "Value",
+					"siblingId": "_i3i7wmqwo",
+					"dataType": 2,
+					"notes": "",
+					"id": "_nm6yzpzva",
+					"parentId": "_gfeb9wz9s",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_8n6roc8lu",
+					"dataType": 1,
+					"notes": "",
+					"id": "_yo0jadi7m",
+					"parentId": "_gfeb9wz9s",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_54sm1f8p6",
+					"dataType": 1,
+					"notes": "",
+					"id": "_3rdoqxska",
+					"parentId": "_gfeb9wz9s",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_zbpfo030v",
+					"dataType": 1,
+					"notes": "",
+					"id": "_re00i1wfr",
+					"parentId": "_gfeb9wz9s",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_4yk6ekbvf",
+					"dataType": 1,
+					"notes": "",
+					"id": "_tj10grqrd",
+					"parentId": "_gfeb9wz9s",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_jpiyln5fj",
+					"dataType": 1,
+					"notes": "",
+					"id": "_q0mff66xs",
+					"parentId": "_gfeb9wz9s",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "SetValue",
+					"siblingId": "_nm6yzpzva",
+					"dataType": 2,
+					"notes": "",
+					"id": "_i3i7wmqwo",
+					"parentId": "_gfeb9wz9s",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "RampUpValue",
+					"siblingId": "_yo0jadi7m",
+					"dataType": 1,
+					"notes": "",
+					"id": "_8n6roc8lu",
+					"parentId": "_gfeb9wz9s",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "RampDownValue",
+					"siblingId": "_3rdoqxska",
+					"dataType": 1,
+					"notes": "",
+					"id": "_54sm1f8p6",
+					"parentId": "_gfeb9wz9s",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "SetValuePresetValue1",
+					"siblingId": "_re00i1wfr",
+					"dataType": 1,
+					"notes": "",
+					"id": "_zbpfo030v",
+					"parentId": "_gfeb9wz9s",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "SetValuePresetValue2",
+					"siblingId": "_tj10grqrd",
+					"dataType": 1,
+					"notes": "",
+					"id": "_4yk6ekbvf",
+					"parentId": "_gfeb9wz9s",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "SetValuePresetValue3",
+					"siblingId": "_q0mff66xs",
+					"dataType": 1,
+					"notes": "",
+					"id": "_jpiyln5fj",
+					"parentId": "_gfeb9wz9s",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		},
+		{
+			"Errors": [],
+			"parentId": "_iogmltbwl",
+			"id": "_x7z6g2lqm",
+			"name": "JoinToggle",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "Value",
+					"siblingId": "_bhybdus1p",
+					"dataType": 1,
+					"notes": "",
+					"id": "_r511h5p0t",
+					"parentId": "_x7z6g2lqm",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "ToggleValue",
+					"siblingId": "_r511h5p0t",
+					"dataType": 1,
+					"notes": "",
+					"id": "_bhybdus1p",
+					"parentId": "_x7z6g2lqm",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		},
+		{
+			"Errors": [],
+			"parentId": "_iogmltbwl",
+			"id": "_mi683a65b",
+			"name": "Page1",
+			"commands": [],
+			"feedbacks": [],
+			"specifications": [
+				{
+					"Errors": [],
+					"parentId": "_iogmltbwl",
+					"id": "_mmtn96axs",
+					"componentId": "_x7z6g2lqm",
+					"instanceName": "JoinToggle",
+					"numberOfInstances": 1
+				},
+				{
+					"Errors": [],
+					"parentId": "_iogmltbwl",
+					"id": "_mcpze12k3",
+					"componentId": "_gfeb9wz9s",
+					"instanceName": "AnalogValueControl",
+					"numberOfInstances": 1
+				},
+				{
+					"Errors": [],
+					"parentId": "_iogmltbwl",
+					"id": "_1vv9odgys",
+					"componentId": "_wnywyv6tw",
+					"instanceName": "TextInputValue",
+					"numberOfInstances": 1
+				}
+			]
+		},
+		{
+			"Errors": [],
+			"parentId": "_iogmltbwl",
+			"id": "_wnywyv6tw",
+			"name": "TextInputValue",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "Value",
+					"siblingId": "_193ej8jrj",
+					"dataType": 3,
+					"notes": "",
+					"id": "_yr8xqg3gm",
+					"parentId": "_wnywyv6tw",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "SetValue",
+					"siblingId": "_yr8xqg3gm",
+					"dataType": 3,
+					"notes": "",
+					"id": "_193ej8jrj",
+					"parentId": "_wnywyv6tw",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		}
+	],
+	"allComponentsForAllContracts": []
+}

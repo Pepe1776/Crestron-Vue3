@@ -1,0 +1,52 @@
+// 1070 Panel, 1060 Panel
+@media only screen and (device-width: 1280px) {
+    .csi,
+    .clhvac,
+    .csp,
+    .cv {
+        font-size: 48px;
+    }
+
+    .ch5-button {
+        width: 75px;
+    }
+
+    .ch5-button--label {
+        font-size: 22px;
+    }
+}
+
+// 760 Panel
+@media only screen and (device-width: 1261px) {
+    .csi,
+    .clhvac,
+    .csp,
+    .cv {
+        font-size: 48px;
+    }
+    .ch5-button {
+        width: 75px;
+    }
+
+    .ch5-button--label {
+        font-size: 22px;
+    }
+}
+
+// 560 Panel
+@media only screen and (device-width: 640px) {
+    .csi,
+    .clhvac,
+    .csp,
+    .cv {
+        font-size: 20px;
+    }
+
+    .ch5-button {
+        width: 35px;
+    }
+
+    .ch5-button--label {
+        font-size: 12px;
+    }
+}

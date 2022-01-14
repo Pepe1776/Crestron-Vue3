@@ -1,0 +1,1546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lang locale="fi_FI" name="Finnish" variant="Finnish">
+	<include file="fi_FI_Common_Text.xml"/>
+	<include file="fi_FI_Scheduling_Calendar.xml"/>
+
+	<lookup key = "CurrentLanguageTranslatedName"><![CDATA[Suomi]]></lookup> <!-- This is the name of the language being translated as it exists natively -->
+
+	<lookup key="AvFramework"><![CDATA[AvFramework]]></lookup>
+	<lookup key="signin"><![CDATA[Kirjaudu sisään]]></lookup>
+
+	<!-- 000_Initialize  -->
+	<lookup key="InitializeMessageText"><![CDATA[Odota, että järjestelmä alustetaan...]]></lookup>
+
+	<!-- 002_Home_Available -->
+	<lookup key="ReserveNowButtonText"><![CDATA[VARAA NYT]]></lookup>
+
+	<!-- 002_Home_Available_All_Day -->
+	<lookup key="RestOfDayText"><![CDATA[Loppupäiväksi]]></lookup>
+
+	<!-- 002_Home_Available_Reserve -->
+	<lookup key="NewMeetingText"><![CDATA[Uusi kokous]]></lookup>
+
+	<!-- 002_Home_Fusion_Offline -->
+
+	<!-- 002_Home_Meeting_InProgress -->
+
+	<!-- 002_Home_Meeting_InProgress_Join -->
+	<lookup key="MeetingInProgressText"><![CDATA[Käynnissä]]></lookup>
+	<lookup key="JoinMeetingButtonText"><![CDATA[LIITY KOKOUKSEEN]]></lookup>
+
+	<!-- 003_Call_Selection -->
+	<lookup key="MakeCallText"><![CDATA[Soita]]></lookup>
+
+	<!-- 003_Call_Video_Directory -->
+
+	<!-- 003_Call_Video_InCall -->
+	<lookup key="VideoCallText"><![CDATA[Videopuhelu]]></lookup>
+	<lookup key="VideoCallDisableVideoText"><![CDATA[Poista video käytöstä]]></lookup>
+
+	<!-- 004_Call_Audio_Keypad, KeypadButton is in Common_Text.xml-->
+
+	<!-- 004_Call_Audio_Keypad_DTMF, KeypadButton is in Common_Text.xml-->
+
+	<!-- 004_Call_Audio_inCall -->
+	<lookup key="AudioCallText"><![CDATA[Äänipuhelu]]></lookup>
+
+	<!-- 0096_Outgoing_Audio_Call, in Common_Text.xml -->
+
+	<!-- 0097_Incoming_In_Call_Audio_Call -->
+	<lookup key="IncomingCallText"><![CDATA[Puhelu tulossa]]></lookup>
+	<lookup key="IncomingInCallAnswerText"><![CDATA[Lopeta + vastaa]]></lookup>
+	<lookup key="IncomingInCallIgnoreText"><![CDATA[Ohita]]></lookup>
+
+	<!-- 0098_Incoming_Audio_Call -->
+	<lookup key="IncomingCallAnswerText"><![CDATA[Vastaa]]></lookup>
+	<lookup key="IncomingCallDismissText"><![CDATA[HYLKÄÄ]]></lookup>
+
+	<!-- 005_Present_Selection -->
+	<lookup key="PresentSourceSelectText"><![CDATA[Esittele lähde]]></lookup>
+
+	<!-- 005_Present_BluRay_Playhead -->
+	<lookup key="PresentBlurayPopUpMenuText"><![CDATA[Ponnahdusvalikko]]></lookup>
+	<lookup key="PresentBlurayTopMenuText"><![CDATA[Päävalikko]]></lookup>
+	<lookup key="PresentBlurayEjectText"><![CDATA[POISTA]]></lookup>
+	<lookup key="PresentSourcesText"><![CDATA[LÄHTEET]]></lookup>
+	<lookup key="PresentNowPresentText"><![CDATA[Nyt esitetään]]></lookup>
+	<lookup key="PresentStopPresentingText"><![CDATA[Lopeta esitys]]></lookup>
+	<lookup key="PresentSmartTVText"><![CDATA[Äly-TV]]></lookup>
+
+	<!-- 005_Present_BluRay_Keypad -->
+
+	<!-- 005_Present_Laptop -->
+	<lookup key="PresentPlayingSourceText"><![CDATA[toistetaan lähde]]></lookup>
+
+	<!-- 005_Present_Laptop_NoSource -->
+	<lookup key="PresentLaptopNoSourceText"><![CDATA[Yhdistä kannettava tietokoneesi]]></lookup>
+	<lookup key="PresentLaptopNoSourceConnectText"><![CDATA[Yhdistä kannettava tietokoneesi kohteeseen]]></lookup>
+
+	<!-- 005_Present_PC -->
+
+	<!-- 005_Present_TV_Playhead -->
+	<lookup key="PresentTVTunerText"><![CDATA[TV-viritin]]></lookup>
+	<lookup key="PresentGuideText"><![CDATA[Opas]]></lookup>
+
+	<!-- 005_Present_TV_Keypad -->
+
+	<!-- 005_Present_Wireless -->
+	<lookup key="PresentWirelessSourceText"><![CDATA[Kannettava tietokone]]></lookup>
+
+	<!-- 0094_Mic_Mute_Privacy -->
+	<lookup key="MicMuteText"><![CDATA[Mikrofoni on mykistetty yksityisyyden takaamiseksi]]></lookup>
+
+	<!-- 0095_Lighting_Popup -->
+	<lookup key="LightingAdjustText"><![CDATA[Säädä nykyistä]]></lookup>
+
+	<!-- All power off -->
+	<lookup key="AllPowerOff"><![CDATA[Kaikki näytöt suljetaan ja ääni mykistetään.]]></lookup>
+	<lookup key="PowerOffCountDown"><![CDATA[Järjestelmä sammuu automaattisesti:]]></lookup>
+	<lookup key="PowerOffShutdown"><![CDATA[Sammuta]]></lookup>
+	<lookup key="PowerOffContinue"><![CDATA[Jatka käyttöä]]></lookup>
+	<lookup key="PowerOffShutingDown"><![CDATA[Sammutetaan]]></lookup>
+
+	<!-- MainTemplate.html -->
+	<lookup key="AvFramework20"><![CDATA[AV Framework 2.0]]></lookup>
+
+	<!-- MainTemplate.html (01/28/2016 )-->
+	<lookup key="ToggleNavigation"><![CDATA[Vaihda navigointia]]></lookup>
+
+	<!-- login.html -->
+	<lookup key="Username"><![CDATA[Käyttäjätunnus]]></lookup>
+	<lookup key="PleaseSignIn"><![CDATA[Kirjaudu sisään]]></lookup>
+	<lookup key="Password"><![CDATA[Salasana]]></lookup>
+	<lookup key="Required"><![CDATA[Pakollinen]]></lookup>
+
+	<!--AddNewDevice.html -->
+
+	<lookup key="AddNewDevice"><![CDATA[Lisää uusi laite]]></lookup>
+	<lookup key="DeviceType"><![CDATA[Laitteen tyyppi]]></lookup>
+	<lookup key="ChannelName"><![CDATA[Kanavan nimi]]></lookup>
+	<lookup key="DisplayName"><![CDATA[Näytön nimi]]></lookup>
+	<lookup key="Model"><![CDATA[Malli]]></lookup>
+	<lookup key="Control"><![CDATA[Hallinta]]></lookup>
+	<lookup key="IP"><![CDATA[IP]]></lookup>
+	<lookup key="Port"><![CDATA[Portti]]></lookup>
+	<lookup key="Channel"><![CDATA[Kanava]]></lookup>
+	<lookup key="IPID"><![CDATA[IP-tunnus]]></lookup>
+	<lookup key="DigitalMedia"><![CDATA[Digitaalinen media]]></lookup>
+	<lookup key="Resolution"><![CDATA[Tarkkuus]]></lookup>
+	<lookup key="DisplayMode"><![CDATA[Näyttötila]]></lookup>
+	<lookup key="UsbPort"><![CDATA[USB-portti]]></lookup>
+	<lookup key="One"><![CDATA[1]]></lookup>
+	<lookup key="Two"><![CDATA[2]]></lookup>
+	<lookup key="Three"><![CDATA[3]]></lookup>
+	<lookup key="Four"><![CDATA[4]]></lookup>
+	<lookup key="BaudRate"><![CDATA[Siirtonopeus]]></lookup>
+	<lookup key="IpIdValidationMessage"><![CDATA[Vaadittu IPID-muoto (03-FE).]]></lookup>
+	<lookup key="IpValidationMessage"><![CDATA[Vaadittu IP-osoitteen muoto (#.#.#.#).]]></lookup>
+	<lookup key="PortValidationMessage"><![CDATA[Vaadittu portin muoto (1-65535).]]></lookup>
+
+	<!--ConfigStep1.html-->
+
+	<lookup key="SystemSetup"><![CDATA[Järjestelmäasetukset]]></lookup>
+	<lookup key="RoomName"><![CDATA[Huoneen nimi]]></lookup>
+	<lookup key="FusionIpId"><![CDATA[IPID]]></lookup>
+	<lookup key="AllowCalls"><![CDATA[Salli puhelut]]></lookup>
+	<lookup key="EnableLighting"><![CDATA[Aktivoi valaistus]]></lookup>
+	<lookup key="TimeFormat"><![CDATA[Ajan muoto]]></lookup>
+	<lookup key="24Hour"><![CDATA[24 tunnin kello]]></lookup>
+	<lookup key="12hour"><![CDATA[12 tunnin kello]]></lookup>
+	<lookup key="DateFormat"><![CDATA[Päiväyksen muoto]]></lookup>
+
+	<!--ConfigStep2.html-->
+
+	<lookup key="Devices"><![CDATA[Laitteet]]></lookup>
+	<lookup key="Name"><![CDATA[Nimi]]></lookup>
+	<lookup key="Type"><![CDATA[Tyyppi]]></lookup>
+	<lookup key="Driver"><![CDATA[Kuljettaja]]></lookup>
+	<lookup key="TransportDetails"><![CDATA[Kuljetuksen tiedot]]></lookup>
+	<lookup key="Serial"><![CDATA[Sarja]]></lookup>
+	<lookup key="Delete"><![CDATA[Poista]]></lookup>
+	<lookup key="Previous"><![CDATA[Edellinen]]></lookup>
+
+	<!--ConfigStep3.html-->
+	<lookup key="Inputs"><![CDATA[Tulot]]></lookup>
+	<lookup key="Icon"><![CDATA[Kuvake]]></lookup>
+	<lookup key="Enabled"><![CDATA[Käytössä]]></lookup>
+	<lookup key="Rank"><![CDATA[Asema]]></lookup>
+	<lookup key="Device"><![CDATA[Laite]]></lookup>
+	<lookup key="Endpoint"><![CDATA[Päätepiste]]></lookup>
+	<lookup key="Outputs"><![CDATA[Lähdöt]]></lookup>
+
+	<!-- ConfigStep4.html (01/28/2016 ) -->
+	<lookup key="DownloadConfiguration"><![CDATA[Lataa määritykset]]></lookup>
+	<lookup key="UploadConfiguration"><![CDATA[Lataa määritykset]]></lookup>
+	<lookup key="ActivateConfiguration"><![CDATA[Aktivoi määritykset]]></lookup>
+	<lookup key="RevertConfiguration"><![CDATA[Peruuta määritykset]]></lookup>
+
+	<!--Index.html-->
+	<lookup key="Welcome"><![CDATA[Tervetuloa AV Framework 2.0:aan]]></lookup>
+
+	<!--RoomStatus.html-->
+	<lookup key="EthernetInformation"><![CDATA[Ethernetin tiedot]]></lookup>
+	<lookup key="InputChannels"><![CDATA[Tulokanavat]]></lookup>
+	<lookup key="AttachedDevice"><![CDATA[Liitetty laite]]></lookup>
+	<lookup key="OutputChannels"><![CDATA[Lähtökanavat]]></lookup>
+	<lookup key="HostName"><![CDATA[Isäntänimi]]></lookup>
+	<lookup key="DefaultRouter"><![CDATA[Oletusreititin]]></lookup>
+	<lookup key="SubnetMask"><![CDATA[Aliverkon peite]]></lookup>
+
+	<!--JavaScript-->
+	<lookup key="Error"><![CDATA[Virhe]]></lookup>
+	<lookup key="Notice"><![CDATA[Huomautus]]></lookup>
+	<lookup key="SaveProblemWarning"><![CDATA[Tallennuksessa tapahtui virhe.]]></lookup>
+	<lookup key="MaxDeviceWarning"><![CDATA[Järjestelmässä on jo enimmäismäärä ({0}) tätä laitetta.]]></lookup>
+	<lookup key="SpecifyDeviceWarning"><![CDATA[Valitse ensiksi laitetyyppi.]]></lookup>
+	<lookup key="UnSavedChangesWarning"><![CDATA[Kaikkia muutoksiasi ei ole tallennettu.]]></lookup>
+	<lookup key="InvalidLogin"><![CDATA[Käyttäjätunnus/salasana väärin.]]></lookup>
+	<lookup key="UnControlledNotConfigurable"><![CDATA[Hallitsemattomia / käytöstä poistettuja laitteita ei voi määrittää.]]></lookup>
+
+	<!--JavaScript (01/28/2016 ) -->
+	<lookup key="Warning"><![CDATA[Varoitus]]></lookup>
+	<lookup key="DeleteDeviceWarning"><![CDATA[Haluatko varmasti poistaa tämän laitteen?]]></lookup>
+	<lookup key="ActivateConfigWarning"><![CDATA[Haluatko varmasti aktivoida tämän määrityksen?]]></lookup>
+	<lookup key="RevertConfigWarning"><![CDATA[Haluatko varmasti peruuttaa tämän määrityksen?]]></lookup>
+	<lookup key="AlreadyInUse"><![CDATA[{0} on jo käytössä.]]></lookup>
+	<lookup key="FileLargeError"><![CDATA[Tiedosto on liian iso.]]></lookup>
+	<lookup key="IncorrectFileExtensionError"><![CDATA[Väärä tiedostotyyppi.]]></lookup>
+	<lookup key="Success"><![CDATA[Onnistui]]></lookup>
+	<lookup key="CofigurationUpdated"><![CDATA[Määritys päivitetty.]]></lookup>
+
+	<!-- Web Menu System-->
+	<lookup key="SignOff"><![CDATA[Kirjaudu ulos]]></lookup>
+	<lookup key="Configure"><![CDATA[Määritä]]></lookup>
+	<!-- Web Menu System (01/28/2016 ) -->
+	<lookup key="Switch"><![CDATA[Vaihda]]></lookup>
+	<lookup key="System"><![CDATA[Järjestelmä]]></lookup>
+
+	<!-- 01/19/2016, enums for web page -->
+	<!-- AssociatedDevice -->
+	<lookup key="AssociatedInputDevice.Disabled"><![CDATA[Ei käytössä]]></lookup>
+	<lookup key="AssociatedInputDevice.UnControlled"><![CDATA[Hallitsematon]]></lookup>
+	<lookup key="AssociatedInputDevice.Bluray"><![CDATA[Blu-ray]]></lookup>
+	<lookup key="AssociatedInputDevice.Cable"><![CDATA[Kaapeli]]></lookup>
+	<lookup key="AssociatedInputDevice.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="AssociatedOutputDevice.Disabled"><![CDATA[Ei käytössä]]></lookup>
+	<lookup key="AssociatedOutputDevice.UnControlled"><![CDATA[Hallitsematon]]></lookup>
+	<lookup key="AssociatedInputDevice.ConnectIt"><![CDATA[Liitä se]]></lookup>
+
+	<!-- ComBaudRate -->
+	<lookup key="ComBaudRate.ComspecBaudRate57600"><![CDATA[57600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate38400"><![CDATA[38400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate28800"><![CDATA[28800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate19200"><![CDATA[19200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate14400"><![CDATA[14400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate9600"><![CDATA[9600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate7200"><![CDATA[7200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate4800"><![CDATA[4800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate3600"><![CDATA[3600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate2400"><![CDATA[2400]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate1800"><![CDATA[1800]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate1200"><![CDATA[1200]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate600"><![CDATA[600]]></lookup>
+	<lookup key="ComBaudRate.ComspecBaudRate300"><![CDATA[300]]></lookup>
+
+	<!-- DateFormat -->
+	<lookup key="DateFormat.Mmddyy"><![CDATA[tammikuu 15, 2017]]></lookup>
+	<lookup key="DateFormat.Ddmmyy"><![CDATA[15. tammikuuta 2017]]></lookup>
+	<lookup key="DateFormat.Yymmdd"><![CDATA[2017 tammikuu 15]]></lookup>
+
+	<!-- DeviceOnlineStatus -->
+	<lookup key="DeviceOnlineStatus.Unknown"><![CDATA[Ei käyt.]]></lookup>
+	<lookup key="DeviceOnlineStatus.Online"><![CDATA[Online]]></lookup>
+	<lookup key="DeviceOnlineStatus.Offline"><![CDATA[Offline]]></lookup>
+
+	<!-- DeviceType -->
+	<lookup key="DeviceType.Switcher"><![CDATA[Vaihdin]]></lookup>
+	<lookup key="DeviceType.CableTv"><![CDATA[Kaapeli-TV]]></lookup>
+	<lookup key="DeviceType.AirMedia"><![CDATA[AirMedia®]]></lookup>
+	<lookup key="DeviceType.ButtonPanel"><![CDATA[Näppäinpaneeli]]></lookup>
+	<lookup key="DeviceType.Keypad"><![CDATA[Näppäimistö]]></lookup>
+	<lookup key="DeviceType.KeyPadUsb"><![CDATA[USB-näppäimistö]]></lookup>
+
+	<!-- DisplayMode -->
+	<lookup key="DisplayMode.Maintain"><![CDATA[Pidä yllä]]></lookup>
+	<lookup key="DisplayMode.Stretch"><![CDATA[Venytä]]></lookup>
+	<lookup key="DisplayMode.Zoom"><![CDATA[Suurennus]]></lookup>
+	<lookup key="DisplayMode.None"><![CDATA[Ei mitään]]></lookup>
+
+	<!-- PortType -->
+	<lookup key="PortType.Ir"><![CDATA[IR]]></lookup>
+	<lookup key="PortType.Serial"><![CDATA[Sarja]]></lookup>
+	<lookup key="PortType.Cec"><![CDATA[CEC]]></lookup>
+
+	<!-- Resolution -->
+	<lookup key="Resolution.EDIDPreferred"><![CDATA[EDID ensisijaisesti]]></lookup>
+	<lookup key="Resolution.None"><![CDATA[Ei mitään]]></lookup>
+	<lookup key="Resolution.Res640x480PC"><![CDATA[640 x 480 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res720x480pNTSC"><![CDATA[720 x 480p 60 Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res720x576iPAL"><![CDATA[720 x 576i 25 Hz PAL]]></lookup>
+	<lookup key="Resolution.Res720x576pPAL"><![CDATA[720 x 576p 50 Hz PAL]]></lookup>
+	<lookup key="Resolution.Res800x600PC"><![CDATA[800 x 600 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res848x480PC"><![CDATA[848x480 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1024x768PC"><![CDATA[1024 x 768 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x720pPAL"><![CDATA[1280 x 720 p 60 Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1280x720pNTSC"><![CDATA[1280 x 720 p 60 Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1280x768PC"><![CDATA[1280 x 768 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x768PCRb"><![CDATA[1280 x 768 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1280x800PC"><![CDATA[1280 x 800 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x800PCRb"><![CDATA[1280 x 800 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1280x960PC"><![CDATA[1280 x 960 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1280x1024PC"><![CDATA[1280 x 1024 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1360x768PC"><![CDATA[1360 x 768 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PC"><![CDATA[1366 x 768 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1366x768PCRb"><![CDATA[1366 x 768 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1400x1050PC"><![CDATA[1400 x 1050 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1400x1050PCRb"><![CDATA[1400 x 1050 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1440x900PC"><![CDATA[1440 x 900 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1440x900PCRb"><![CDATA[1440 x 900 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1600x900PCRb"><![CDATA[1600 x 900 60Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1600x1200PC"><![CDATA[1600 x 1200 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PC"><![CDATA[1680 x 1050 60 Hz PC]]></lookup>
+	<lookup key="Resolution.Res1680x1050PCRb"><![CDATA[1680 x 1050 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res1920x1080iPAL"><![CDATA[1920 x 1080 i 25 Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080iNTSC"><![CDATA[1920 x 1080 i 30 Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080pPAL"><![CDATA[1920 x 1080 p 50 Hz PAL]]></lookup>
+	<lookup key="Resolution.Res1920x1080pNTSC"><![CDATA[1920 x 1080 p 60 Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1200PCRb"><![CDATA[1920 x 1200 60 Hz PC RB]]></lookup>
+	<lookup key="Resolution.Res2048x1152PCRb"><![CDATA[2048 x 1152 60Hz PC RB]]></lookup>
+
+	<!-- SystemRole -->
+	<lookup key="SystemRole.Admin"><![CDATA[Järjestelmänvalvoja]]></lookup>
+	<lookup key="SystemRole.DriverUpdate"><![CDATA[Kuljettajan päivitys]]></lookup>
+	<lookup key="SystemRole.User"><![CDATA[Käyttäjä]]></lookup>
+	<lookup key="SystemRole.UnAuthorized"><![CDATA[Valtuuttamaton]]></lookup>
+
+	<!-- SystemState -->
+	<lookup key="SystemState.UnKnown"><![CDATA[Tuntematon]]></lookup>
+	<lookup key="SystemState.UnConfigured"><![CDATA[Määrittelemätön]]></lookup>
+	<lookup key="SystemState.Configuring"><![CDATA[Määritetään]]></lookup>
+	<lookup key="SystemState.Configured"><![CDATA[Määritetty]]></lookup>
+
+	<!-- DeviceTransport -->
+	<lookup key="DeviceTransport.None"><![CDATA[Ei mitään]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpId"><![CDATA[IP-tunnus]]></lookup>
+	<lookup key="DeviceTransport.CrestronInternal"><![CDATA[CrestronInternal]]></lookup>
+	<lookup key="DeviceTransport.CrestronIp"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronIpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.CrestronUsb"><![CDATA[USB]]></lookup>
+	<lookup key="DeviceTransport.IpPort"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Ip"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpPortChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.IpChannel"><![CDATA[IP]]></lookup>
+	<lookup key="DeviceTransport.Serial"><![CDATA[Sarja]]></lookup>
+	<lookup key="DeviceTransport.SerialBaud"><![CDATA[Sarja]]></lookup>
+	<lookup key="DeviceTransport.SerialChannel"><![CDATA[Sarja]]></lookup>
+	<lookup key="DeviceTransport.Ir"><![CDATA[IR]]></lookup>
+	<lookup key="DeviceTransport.Cec"><![CDATA[CEC]]></lookup>
+	<lookup key="DeviceTransport.HDMI"><![CDATA[HDMI]]></lookup>
+
+	<!-- ChannelType -->
+	<lookup key="ChannelType.Undefined"><![CDATA[Tuntematon]]></lookup>
+	<lookup key="ChannelType.Hdmi"><![CDATA[HDMI]]></lookup>
+	<lookup key="ChannelType.HdmiVga"><![CDATA[HDMI VGA]]></lookup>
+	<lookup key="ChannelType.HdmiVgaBnc"><![CDATA[HDMI VGA BNC]]></lookup>
+	<lookup key="ChannelType.Vga"><![CDATA[VGA]]></lookup>
+	<lookup key="ChannelType.Dvi"><![CDATA[DVI]]></lookup>
+	<lookup key="ChannelType.DM"><![CDATA[DM]]></lookup>
+	<lookup key="ChannelType.DmHdmi"><![CDATA[DM HDMI]]></lookup>
+	<lookup key="ChannelType.SingleModeFiber"><![CDATA[Yksimuotokuitu]]></lookup>
+	<lookup key="ChannelType.Fiber"><![CDATA[Kuitu]]></lookup>
+	<lookup key="ChannelType.Audio"><![CDATA[Ääni]]></lookup>
+	<lookup key="ChannelType.Sip"><![CDATA[SIP]]></lookup>
+	<lookup key="ChannelType.Composite"><![CDATA[Yhdistelmä]]></lookup>
+	<lookup key="ChannelType.DisplayPort"><![CDATA[Näyttöportti]]></lookup>
+
+	<!-- 02/11/2016 -->
+
+	<!-- Web Logger : new added  -->
+	<lookup key="NoFilter"><![CDATA[Ei suodatinta]]></lookup>
+	<lookup key="Info"><![CDATA[Info]]></lookup>
+	<lookup key="Debug"><![CDATA[Virheenkorjaus]]></lookup>
+	<lookup key="FilterExpression"><![CDATA[Suodata lauseke]]></lookup>
+	<lookup key="StopScrolling"><![CDATA[Lopeta vieritys]]></lookup>
+	<lookup key="Scrolling"><![CDATA[Vieritys]]></lookup>
+	<lookup key="Download"><![CDATA[Lataa]]></lookup>
+
+	<lookup key="ClearSearchMessage"><![CDATA[Tyhjennä jatkaaksesi]]></lookup>
+	<lookup key="Search"><![CDATA[Etsi]]></lookup>
+	<lookup key="SearchLog"><![CDATA[Hakuloki]]></lookup>
+	<lookup key="Clear"><![CDATA[Tyhjennä]]></lookup>
+
+	<!-- 02/29/2016 -->
+
+	<!-- ComBaudRate -->
+	<lookup key="ComBaudRate.ComspecBaudRate115200"><![CDATA[115200]]></lookup>
+
+	<!-- AddNewDevice.html -->
+	<lookup key="UseSensorTimeout"><![CDATA[Käytä anturin aikakatkaisua]]></lookup>
+	<lookup key="SensorTimeOutMinutes"><![CDATA[Aikakatkaisu minuuteissa]]></lookup>
+	<lookup key="TurnSystemOn"><![CDATA[Käynnistä järjestelmä]]></lookup>
+	<lookup key="TurnSystemOff"><![CDATA[Sammuta järjestelmä]]></lookup>
+	<lookup key="RouteDefaultVideo"><![CDATA[Reititä oletusvideo]]></lookup>
+	<lookup key="PowerOnCommandLabel"><![CDATA[Virta päälle -komento]]></lookup>
+	<lookup key="PowerOffCommandLabel"><![CDATA[Virta pois päältä -komento]]></lookup>
+	<lookup key="SetSourceCommandLabel"><![CDATA[Aseta lähde -komento]]></lookup>
+	<lookup key="PowerOnDelaySecondsLabel"><![CDATA[Virta päälle -komennon viive sekunneissa]]></lookup>
+	<lookup key="Seconds"><![CDATA[Sekuntia]]></lookup>
+
+	<!-- RelaySettings.html -->
+	<lookup key="RelayBehavior"><![CDATA[Releen käyttäytyminen]]></lookup>
+
+	<!-- JavascriptConts -->
+	<lookup key="Disable"><![CDATA[Poista käytöstä]]></lookup>
+	<lookup key="Enable"><![CDATA[Ota käyttöön]]></lookup>
+
+	<!-- Custom Serial Web AddNewDevice -->
+	<lookup key="CustomSerialNote"><![CDATA[Huomautus: Käytä merkkiä \n aloittaaksesi uuden rivin ja merkkiä \r rivinvaihtoon.]]></lookup>
+	<lookup key="ValidTimeoutWarning"><![CDATA[Anna kelvollinen aikaviive.]]></lookup>
+
+	<!-- ConfigStep1.html -->
+	<lookup key="Fusion"><![CDATA[Crestron Fusion]]></lookup>
+	<lookup key="Dialer"><![CDATA[Valitsin]]></lookup>
+	<lookup key="Relay"><![CDATA[Rele]]></lookup>
+	<lookup key="Lighting"><![CDATA[Valaistus]]></lookup>
+
+	<!-- ConfigStep3.html  -->
+	<lookup key="SwitchChannelState.EnabledDefault"><![CDATA[Kyllä (oletus)]]></lookup>
+
+	<!-- ConfigStep4.html  -->
+	<lookup key="ManageConfiguration"><![CDATA[Hallitse määrityksiä]]></lookup>
+	<lookup key="BackupRestore"><![CDATA[Varmuuskopioi/palauta]]></lookup>
+
+	<!-- DialerSettings.html -->
+	<lookup key="SpeedKeys"><![CDATA[Pikanäppäimet]]></lookup>
+	<lookup key="SpeedKey"><![CDATA[Pikanäppäin]]></lookup>
+	<lookup key="Number"><![CDATA[Luku]]></lookup>
+	<lookup key="OneTouch"><![CDATA[One Touch]]></lookup>
+	<lookup key="Regex"><![CDATA[Säännönmukainen lauseke]]></lookup>
+	<lookup key="EnabledSpeekKeyWarning"><![CDATA[Pikanäppäinten käyttöönotto vaatii nimen ja numeron.]]></lookup>
+	<lookup key="PhoneNumberWarning"><![CDATA[Anna kelvollinen puhelinnumero.]]></lookup>
+
+	<!--FusionSettings.html  -->
+	<lookup key="RoomNameRequired"><![CDATA[Huoneen nimi vaaditaan]]></lookup>
+
+	<!--LightingSettings.html -->
+	<lookup key="LightingPresets"><![CDATA[Valaistuksen esiasetukset]]></lookup>
+	<lookup key="EnabledPresetsWarning"><![CDATA[Esiasetusten käyttöönotto vaatii nimen.]]></lookup>
+
+	<!-- 03/09/2016 -->
+	<!-- ChannelType : add 2 more Enum -->
+	<lookup key="ChannelType.Aec"><![CDATA[Aec]]></lookup>
+	<lookup key="ChannelType.Codec"><![CDATA[Pakkauksenhallinta]]></lookup>
+
+	<!--EditDevice.html -->
+	<lookup key="EditDevice"><![CDATA[Muokkaa laitetta]]></lookup>
+	<lookup key="UpdatePendingCountdown"><![CDATA[Muutoksesi tulevat käyttöön {0} sekunnin kuluttua.]]></lookup>
+
+	<!-- JavascriptConts 03/14/2016 -->
+	<lookup key="DeleteDevicePortWarning"><![CDATA[Seuraavat laitteet<br> {0} <br> on määritetty tähän laitteeseen, jatka ?]]></lookup>
+
+	<!--AddNewDevice.html 03/16/2016-->
+	<lookup key="CrestnetId"><![CDATA[Cresnet-tunnus]]></lookup>
+	<lookup key="CrestnetIdValidationMessage"><![CDATA[Vaadittu Cresnet-tunnuksen muoto (03-FE).]]></lookup>
+
+	<!--RoomStatus.html 03/16/2016-->
+	<lookup key="Equipment"><![CDATA[Laite]]></lookup>
+
+	<!-- DeviceTransport 03/21/2016 -->
+	<lookup key="DeviceTransport.CrestronCrestnet"><![CDATA[Cresnet]]></lookup>
+	<lookup key="DeviceTransport.SerialBaudCustom"><![CDATA[SerialBaudCustom]]></lookup>
+
+	<!-- RelaySettings.html 03/21/2016 -->
+	<lookup key="RelayBehavior.Momentary"><![CDATA[Hetkellinen]]></lookup>
+	<lookup key="RelayBehavior.Latching"><![CDATA[Salpaus]]></lookup>
+
+	<!-- ConfigStep3.html 03/21/2016 -->
+	<lookup key="SwitchChannelState.Disabled"><![CDATA[Ei käytössä]]></lookup>
+	<lookup key="SwitchChannelState.Enabled"><![CDATA[Käytössä]]></lookup>
+
+	<!--AddNewDevice.html 03/21/2016-->
+	<lookup key="DelayValidationMessage"><![CDATA[Vaadittu viiveen muoto (0-255).]]></lookup>
+
+	<!-- JavascriptConts 03/21/2016 -->
+	<lookup key="ServerCommunicationError"><![CDATA[Laitteen kanssa kommunikoinnissa tapahtui virhe.]]></lookup>
+	<lookup key="ServerUpdateMessage"><![CDATA[Palvelin päivittyy, odota.]]></lookup>
+
+	<!-- 8/26/2016 -->
+	<lookup key="AvailableForLabel"><![CDATA[VAPAANA SEURAAVAT]]></lookup>
+	<lookup key="AvailableAllLabel"><![CDATA[VAPAANA LOPPUPÄIVÄN]]></lookup>
+	<lookup key="ReserveLabel"><![CDATA[VARATTUNA SEURAAVAT]]></lookup>
+	<lookup key="HourLabel"><![CDATA[TUNTIA]]></lookup>
+	<lookup key="MinLabel"><![CDATA[MINUUTTIA]]></lookup>
+	<lookup key="NextUpLabel"><![CDATA[SEURAAVAKSI]]></lookup>
+	<lookup key="PopupMinLeft"><![CDATA[MIN jäljellä | SEURAAVAKSI:]]></lookup>
+	<lookup key="WirelessLabel"><![CDATA[Pidä esitys langattomasti]]></lookup>
+	<lookup key="VisitLabel"><![CDATA[Käynti:]]></lookup>
+	<lookup key="CodeLabel"><![CDATA[Koodi:]]></lookup>
+	<lookup key="CableLabel"><![CDATA[Pidä esitys kaapelin avulla]]></lookup>
+	<lookup key="UseCableLabel"><![CDATA[Yhdistä mukana toimitetuilla kaapeleilla:]]></lookup>
+
+	<!-- MainTemplate.html 3/25/16 -->
+	<lookup key="ConfiguredMessageOffline"><![CDATA[Järjestelmä ei ole verkossa, aktivoi tai peruuta määritykset.]]></lookup>
+	<lookup key="ConfiguredMessageOfflineShort"><![CDATA[Järjestelmä ei ole verkossa.]]></lookup>
+	<lookup key="ConfiguredMessageOnline"><![CDATA[Järjestelmä on tällä hetkellä verkossa.]]></lookup>
+	<lookup key="ConfiguredMessage"><![CDATA[Järjestelmää määritetään parhaillaan.]]></lookup>
+	<lookup key="ConfiguredMessageClass"><![CDATA[Järjestelmää määritetään parhaillaan.]]></lookup>
+
+	<!-- SystemWideSaveWarning 3/25/16 -->
+	<lookup key="SystemWideSaveWarning"><![CDATA[Tallennetut muutokset poistavat järjestelmän verkosta. Sinun/käyttäjän on aktivoitava uusi määritys, jotta järjestelmä olisi verkossa. Jatka napsauttamalla OK.]]></lookup>
+
+	<lookup key="PortUnconfigured"><![CDATA[Porttia ei ole määritetty]]></lookup>
+	<lookup key="Version"><![CDATA[Versio]]></lookup>
+	<lookup key="None"><![CDATA[Ei mitään]]></lookup>
+
+	<lookup key="AssociatedChannel"><![CDATA[Liittyvä kanava]]></lookup>
+	<lookup key="PrimaryAssociatedChannel"><![CDATA[Oletuslähde]]></lookup>
+	<lookup key="SecondaryAssociatedChannel"><![CDATA[Toissijainen lähde]]></lookup>
+	<lookup key="SecondaryInputChannelNumber"><![CDATA[Lisäkanava]]></lookup>
+	<lookup key="IPAddress"><![CDATA[IP-osoite]]></lookup>
+
+	<!-- 05/02/2016  -->
+	<lookup key="PortType.Usb"><![CDATA[USB]]></lookup>
+
+	<!-- 08/15/2016 -->
+	<lookup key="DialerType.Sip"><![CDATA[Ääni]]></lookup>
+	<lookup key="DialerType.Bluetooth"><![CDATA[Bluetooth]]></lookup>
+	<lookup key="DialerType.Usb"><![CDATA[USB]]></lookup>
+	<lookup key="DialerType.Video"><![CDATA[Video]]></lookup>
+
+	<!--MercurySystemSettings.html 08/31/2016-->
+	<lookup key="SystemSettings"><![CDATA[Järjestelmän asetukset]]></lookup>
+	<lookup key="ValidValueMessage"><![CDATA[Syötä arvo.]]></lookup>
+
+	<!--MercuryFusionSettings.html 08/31/2016-->
+
+	<!-- MercuryDialerSettings.html 08/31/2016-->
+	<lookup key="General"><![CDATA[Yleinen]]></lookup>
+	<lookup key="EnableBluetooth"><![CDATA[Ota Bluetooth käyttöön]]></lookup>
+	<lookup key="EnableUSB"><![CDATA[Ota USB käyttöön]]></lookup>
+
+	<!-- MercuryDisplayDriver.html 08/31/2016-->
+	<lookup key="VideoDisplaySettings"><![CDATA[Videonäytön asetukset]]></lookup>
+
+	<!-- MercuryUXGeneralCustomization.html 08/31/2016-->
+	<lookup key="UXGeneralCustomization"><![CDATA[UX:n yleinen mukautus]]></lookup>
+	<lookup key="HideMeetingSubject"><![CDATA[Piilota kokousaihe]]></lookup>
+	<lookup key="HideMeetingOrganizer"><![CDATA[Piilota kokouksen järjestäjä]]></lookup>
+	<lookup key="DisplayNonEmergencyBroadcast"><![CDATA[Näytä ei-hälytyskuulutus]]></lookup>
+	<lookup key="EmergencyBroadcastSound"><![CDATA[Hälytyskuulutuksen ääni]]></lookup>
+	<lookup key="EnableCallNotification"><![CDATA[Ota puheluilmoitukset käyttöön]]></lookup>
+	<lookup key="SuppressOfflineNotificationPeriod"><![CDATA[Vaimenna ilmoitusjakso offline-tilassa]]></lookup>
+	<lookup key="NotificationPeriod"><![CDATA[Ilmoitusjakso]]></lookup>
+	<lookup key="CallNotificationTimeout"><![CDATA[Puheluilmoituksen aikakatkaisu]]></lookup>
+
+	<!-- PresentationScreenCustomization.html 08/31/2016-->
+	<lookup key="PresentationScreenCustomization"><![CDATA[Esitysnäytön mukautus]]></lookup>
+	<lookup key="TimeRemainingMessageStarts"><![CDATA[Aikaa jäljellä -viesti alkaa]]></lookup>
+	<lookup key="TimeRemainingMessageDuration"><![CDATA[Aikaa jäljellä -viestin kesto]]></lookup>
+
+	<!-- RoomScheduleScreenCustomization.html 08/31/2016-->
+	<lookup key="RoomScheduleScreenCustomization"><![CDATA[Huoneen aikataulunäytön mukautus]]></lookup>
+	<lookup key="NextMeetingInformationShown"><![CDATA[Seuraava kokous -tiedot näytetään]]></lookup>
+	<lookup key="MinutesBeforeMeetingStart"><![CDATA[Minuuttia kokouksen alkuun]]></lookup>
+	<lookup key="HideWiredCableConnection"><![CDATA[Piilota langallinen kaapeliyhteys]]></lookup>
+	<lookup key="CableConnectionDetails"><![CDATA[Kaapeliyhteyden tiedot]]></lookup>
+	<lookup key="EnableCustomLogoGraphic"><![CDATA[Ota käyttöön muokattu logografiikka]]></lookup>
+	<lookup key="CustomLogoGraphicUrl"><![CDATA[Muokatun logografiikan URL]]></lookup>
+	<lookup key="EnableCustomBackgrounds"><![CDATA[Ota käyttöön muokatut taustat]]></lookup>
+	<lookup key="AddCustomBackgroundUrl"><![CDATA[Lisää muokatun taustan URL]]></lookup>
+	<lookup key="BackgroundUrl1"><![CDATA[Taustan URL 1]]></lookup>
+	<lookup key="BackgroundUrl2"><![CDATA[Taustan URL 2]]></lookup>
+	<lookup key="BackgroundUrl3"><![CDATA[Taustan URL 3]]></lookup>
+	<lookup key="BackgroundUrl4"><![CDATA[Taustan URL 4]]></lookup>
+	<lookup key="BackgroundUrl5"><![CDATA[Taustan URL 5]]></lookup>
+	<lookup key="BackgroundUrl6"><![CDATA[Taustan URL 6]]></lookup>
+	<lookup key="BackgroundUrl7"><![CDATA[Taustan URL 7]]></lookup>
+	<lookup key="BackgroundUrl8"><![CDATA[Taustan URL 8]]></lookup>
+	<lookup key="BackgroundUrl9"><![CDATA[Taustan URL 9]]></lookup>
+	<lookup key="BackgroundUrl10"><![CDATA[Taustan URL 10]]></lookup>
+	<lookup key="BackgroundUrl11"><![CDATA[Taustan URL 11]]></lookup>
+	<lookup key="BackgroundUrl12"><![CDATA[Taustan URL 12]]></lookup>
+	<lookup key="BackgroundUrl13"><![CDATA[Taustan URL 13]]></lookup>
+	<lookup key="BackgroundUrl14"><![CDATA[Taustan URL 14]]></lookup>
+	<lookup key="BackgroundUrl15"><![CDATA[Taustan URL 15]]></lookup>
+	<lookup key="IntervalBetweenBackgrounds"><![CDATA[Taustojen väli]]></lookup>
+
+	<!-- MercuryDialerSettings.html 10/17/2016-->
+	<lookup key="BluetoothDeviceName"><![CDATA[Bluetooth-laitteen nimi]]></lookup>
+
+	<!-- MercuryExternalSettings.html 11/18/2016-->
+
+	<lookup key="CalendarSettings"><![CDATA[Kalenteriasetukset]]></lookup>
+	<lookup key="SchedulingType"><![CDATA[Aikataulutuksen tyyppi]]></lookup>
+
+	<lookup key="SntpServer"><![CDATA[SNTP-palvelin]]></lookup>
+	<lookup key="SntpUpdateInterval"><![CDATA[SNTP:n päivitysväli]]></lookup>
+	<lookup key="ValidUrlMessage"><![CDATA[Anna kelvollinen URL]]></lookup>
+	<lookup key="ValidDomainName"><![CDATA[Anna kelvollinen verkkotunnuksen nimi]]></lookup>
+	<lookup key="ValidEmailUrlMessage"><![CDATA[Anna kelvollinen sähköpostiosoite]]></lookup>
+	<lookup key="ValidPassword"><![CDATA[Anna kelvollinen salasana]]></lookup>
+	<lookup key="ValidSntpServer"><![CDATA[Anna kelvollinen SNTP-palvelin]]></lookup>
+	<lookup key="ValidSntpUpdateIntervalMessage"><![CDATA[Anna kelvollinen SNTP-palvelimen väli]]></lookup>
+	<lookup key="ValidOutlookResourceAddress"><![CDATA[Anna kelvollinen Outlook-resurssiosoite]]></lookup>
+
+	<!-- DMPS 4k300C 12/08/2016-->
+	<lookup key="DeviceType.VideoServer"><![CDATA[Videopalvelin]]></lookup>
+	<lookup key="DeviceType.Dialer"><![CDATA[Valitsin]]></lookup>
+	<lookup key="ImageCouldNotBeLoaded"><![CDATA[Kuvaa ei voitu ladata]]></lookup>
+	<lookup key="VerifingImage"><![CDATA[Vahvistetaan kuvaa]]></lookup>
+	<lookup key="SchedulingTypeEnum.Fusion"><![CDATA[Crestron Fusion]]></lookup>
+	<lookup key="SchedulingTypeEnum.Exchange"><![CDATA[Ajastustyyppi Exchange]]></lookup>
+
+	<!-- MercuryDialerSettings.html 12/12/2016-->
+	<lookup key="ValidBluetoothDeviceNameMessage"><![CDATA[Anna kelvollinen Bluetooth-laitteen nimi.]]></lookup>
+
+	<!-- MercuryExternalSettings.html 12/15/2016-->
+
+	<!-- Default Inputs 12/20/2016-->
+	<lookup key="DefaultInputs.HDMI1"><![CDATA[HDMI1]]></lookup>
+	<lookup key="DefaultInputs.HDMI2"><![CDATA[HDMI2]]></lookup>
+	<lookup key="DefaultInputs.HDMI3"><![CDATA[HDMI3]]></lookup>
+	<lookup key="DefaultInputs.HDMI4"><![CDATA[HDMI4]]></lookup>
+	<lookup key="DefaultInput"><![CDATA[Oletustulo]]></lookup>
+
+	<!-- Blutooth Page 1/9/2017 -->
+	<lookup key="PresentConnectYourDevice"><![CDATA[Yhdistä laitteesi]]></lookup>
+
+	<lookup key="DisableSip"><![CDATA[Poista ääni käytöstä]]></lookup>
+	<lookup key="DisableBluetooth"><![CDATA[Poista Bluetooth käytöstä]]></lookup>
+	<lookup key="DisableUsb"><![CDATA[Poista USB käytöstä]]></lookup>
+
+	<!-- Standby Mode 2/1/2017 -->
+	<lookup key="Standby"><![CDATA[Valmiustila]]></lookup>
+	<lookup key="StandbyMode.AlwaysOn"><![CDATA[Aina päällä]]></lookup>
+	<lookup key="StandbyMode.OccupancyBased"><![CDATA[Käyttöön perustuva]]></lookup>
+
+	<lookup key="DisplayNameIsRequired"><![CDATA[Näyttönimi vaaditaan]]></lookup>
+	<lookup key="PowerOffCommandValidationMessage"><![CDATA[Virta pois päältä -komento vaaditaan]]></lookup>
+	<lookup key="PowerOnCommandValidationMessage"><![CDATA[Virta päällä -komento vaaditaan]]></lookup>
+	<lookup key="SourceSelectCommandValidationMessage"><![CDATA[Lähteen valinta vaaditaan]]></lookup>
+
+	<lookup key="DeviceType.RfGateway"><![CDATA[RF-yhdyskäytävä]]></lookup>
+	<lookup key="DeviceTransport.Rf"><![CDATA[RF]]></lookup>
+
+	<!-- Mercury Pages 2/23/2017 -->
+	<lookup key="AddressBook"><![CDATA[Osoitekirja]]></lookup>
+	<lookup key="End"><![CDATA[Lopeta]]></lookup>
+	<lookup key="DialText"><![CDATA[Syötä tekstiä soittoa varten]]></lookup>
+	<lookup key="Mute"><![CDATA[Mykistä]]></lookup>
+	<lookup key="BlueToothActiveConnection"><![CDATA[Aktiivinen yhteys: Bluetooth]]></lookup>
+	<lookup key="BTCallText"><![CDATA[Bluetooth-puhelu]]></lookup>
+	<lookup key="ConnectedToText"><![CDATA[Yhdistetty kohteeseen]]></lookup>
+	<lookup key="PresentBTNoSourceConnectionText"><![CDATA[Yhdistä Bluetooth-laitteesi kohteeseen]]></lookup>
+	<lookup key="USBConnected"><![CDATA[USB yhdistetty]]></lookup>
+	<lookup key="Speakerphone"><![CDATA[Kaiutinpuhelin]]></lookup>
+	<lookup key="ConnectedViaText"><![CDATA[Yhdistetty]]></lookup>
+	<lookup key="USBCableText"><![CDATA[USB-kaapelilla]]></lookup>
+	<lookup key="Connected"><![CDATA[Yhdistetty]]></lookup>
+	<lookup key="TimeMinutesCap"><![CDATA[MINUUTTIA]]></lookup>
+	<lookup key="Extension"><![CDATA[Alanro]]></lookup>
+	<lookup key="AvailableCap"><![CDATA[SAATAVILLA]]></lookup>
+	<lookup key="RestOfDayCap"><![CDATA[LOPPUPÄIVÄKSI]]></lookup>
+	<lookup key="PrepareMeetingText"><![CDATA[Kokoustasi valmistellaan]]></lookup>
+	<lookup key="ExitCap"><![CDATA[POISTU]]></lookup>
+	<lookup key="TopMenuCap"><![CDATA[PÄÄVALIKKO]]></lookup>
+	<lookup key="PopupMenuCap"><![CDATA[PONNAHDUSVALIKKO]]></lookup>
+	<lookup key="HomeCap"><![CDATA[KOTI]]></lookup>
+	<lookup key="OptionsCap"><![CDATA[ASETUKSET]]></lookup>
+	<lookup key="Stop"><![CDATA[Lopeta]]></lookup>
+	<lookup key="MenuCap"><![CDATA[VALIKKO]]></lookup>
+	<lookup key="GuideCap"><![CDATA[OPAS]]></lookup>
+	<lookup key="ConnectToAirmediaText"><![CDATA[Yhdistä AirMedia®-ohjelmistoon]]></lookup>
+	<lookup key="PresentOverWifi"><![CDATA[Jos haluat esittää sisältöä langattoman Wi-Fi-verkkosi kautta]]></lookup>
+	<lookup key="ConnectCap"><![CDATA[YHDISTÄ]]></lookup>
+	<lookup key="ToWirelessNwetwork"><![CDATA[langattomaan verkkoosi]]></lookup>
+	<lookup key="VisitCap"><![CDATA[KÄY]]></lookup>
+	<lookup key="ToBrowerAddress"><![CDATA[tässä selaimen osoitteessa]]></lookup>
+	<lookup key="EnterCap"><![CDATA[SYÖTÄ]]></lookup>
+	<lookup key="ThisCode"><![CDATA[tämä koodi]]></lookup>
+	<lookup key="DownloadAirmediaMobile"><![CDATA[Lataa Crestron AirMedia® -sovellus mobiililaitteeseesi osoitteesta]]></lookup>
+	<lookup key="Wirelessly"><![CDATA[Langattomasti]]></lookup>
+	<lookup key="SystemInfo"><![CDATA[Järjestelmätiedot]]></lookup>
+	<lookup key="FusionServerConnection"><![CDATA[Crestron Fusion -palvelinyhteys]]></lookup>
+	<lookup key="MACAddress"><![CDATA[MAC-osoite]]></lookup>
+	<lookup key="RoomAndStatus"><![CDATA[Huoneen nimi ja tila]]></lookup>
+	<lookup key="NavPresentCallEtc"><![CDATA[Siirry kotiin, esitä lähde, soita puhelu ynnä muuta...]]></lookup>
+	<lookup key="AdjustVolume"><![CDATA[Laske ja nosta järjestelmän äänenvoimakkuutta]]></lookup>
+	<lookup key="MICmute"><![CDATA[Mikr. mykistys]]></lookup>
+	<lookup key="SystemMute"><![CDATA[Järjestelmän mykistys]]></lookup>
+	<lookup key="SerialNumber"><![CDATA[Sarjanumero]]></lookup>
+	<lookup key="PhoneExtensionURI"><![CDATA[Alanumero / SIP URI]]></lookup>
+	<lookup key="SIPServer"><![CDATA[SIP-palvelin]]></lookup>
+	<lookup key="AddedLicences"><![CDATA[Lisätyt lisenssit]]></lookup>
+	<lookup key="WebConferenceText"><![CDATA[Verkkokonferenssi]]></lookup>
+	<lookup key="StartWebConferenceText"><![CDATA[Jos haluat aloittaa verkkokonferenssin]]></lookup>
+	<lookup key="HDMI"><![CDATA[HDMI]]></lookup>
+	<lookup key="PlugHDMIToPresent"><![CDATA[Kytke HDMI-kaapeli kannettavaan tietokoneeseesi näytössä esittämistä varten]]></lookup>
+	<lookup key="USB"><![CDATA[USB]]></lookup>
+	<lookup key="PlugUSBForAudio"><![CDATA[Kytke USB-kaapeli kannettavaan tietokoneeseesi käyttääksesi tätä äänilaitteenasi]]></lookup>
+	<lookup key="CameraCap"><![CDATA[KAMERA]]></lookup>
+	<lookup key="UseRoomCamera"><![CDATA[Aseta ohjelmistosi käyttämään huoneen kameraa]]></lookup>
+	<lookup key="Remote"><![CDATA[Etä]]></lookup>
+	<lookup key="SecondsCap"><![CDATA[SEKUNTIA]]></lookup>
+	<lookup key="PresentingCap"><![CDATA[ESITETÄÄN]]></lookup>
+	<lookup key="ReceivingContent"><![CDATA[Sisältöä vastaanotetaan]]></lookup>
+	<lookup key="CameraPresets"><![CDATA[Kameran esiasetukset]]></lookup>
+	<lookup key="MeetingID"><![CDATA[Kokoustunnus]]></lookup>
+	<lookup key="InfoCap"><![CDATA[INFO]]></lookup>
+	<lookup key="LastCap"><![CDATA[VIIMEINEN]]></lookup>
+	<lookup key="LiveCap"><![CDATA[LIVE]]></lookup>
+	<lookup key="OnDemandCap"><![CDATA[TILAUKSESTA]]></lookup>
+	<lookup key="TapSourceToPresent"><![CDATA[napauta lähdettä esitystä varten]]></lookup>
+	<lookup key="Sources"><![CDATA[Lähteet]]></lookup>
+	<lookup key="FavCap"><![CDATA[SUOS.]]></lookup>
+	<lookup key="DVR"><![CDATA[DVR]]></lookup>
+	<lookup key="RecCap"><![CDATA[TALL.]]></lookup>
+	<lookup key="OutlookUseCertificate"><![CDATA[Outlook-käyttövarmenne]]></lookup>
+	<lookup key="OutlookCertificate"><![CDATA[Outlook-varmenne]]></lookup>
+	<lookup key="UploadCertificate"><![CDATA[Lataa varmenne]]></lookup>
+	<lookup key="InvalidUrl"><![CDATA[Anna kelvollinen URL]]></lookup>
+
+	<lookup key="OutlookWebAccessURLToolTip"><![CDATA[(Esimerkki: https://outlook.office365.com/EWS/Exchange.asmx)]]></lookup>
+	<lookup key="OutlookDomainNameToolTip"><![CDATA[(esimerkki: TOIMIALUE\käyttäjänimi)]]></lookup>
+	<lookup key="OutlookDomainNameMisc"><![CDATA[(Jätä tyhjäksi, jos tätä ei käytetä)]]></lookup>
+	<lookup key="OutlookResourceAddressToopTip"><![CDATA[(Tämä voi olla tai ei ehkä ole sama kuin käyttäjä)]]></lookup>
+	<lookup key="OutlookUserEmailAddressToolTip"><![CDATA[(esimerkki: toimialue\KÄYTTÄJÄNIMI)]]></lookup>
+	<lookup key="ValidUsernameMessage"><![CDATA[Anna kelvollinen käyttäjänimi]]></lookup>
+
+	<!-- Add new resolution 3/28/2017 -->
+	<lookup key="Resolution.Res2048x1080At60Hz"><![CDATA[2048 x 1080, 60 Hz]]></lookup>
+	<lookup key="Resolution.Res1792x1344PC"><![CDATA[1792 x 1344 PC]]></lookup>
+	<lookup key="Resolution.Res1856x1392PC"><![CDATA[1856 x 1392 PC]]></lookup>
+	<lookup key="Resolution.Res1920x1440PC"><![CDATA[1920 x 1440 PC]]></lookup>
+	<lookup key="Resolution.Res2048x1536PC"><![CDATA[2048 x 1536 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1080PC"><![CDATA[2560 x 1080 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1440PC"><![CDATA[2560 x 1440 PC]]></lookup>
+	<lookup key="Resolution.Res2560x1600PCRb"><![CDATA[2560 x 1600 PC RB]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt24Hz"><![CDATA[3840 x 2160 p, 24 Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt25Hz"><![CDATA[3840 x 2160 p, 25 Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt30Hz"><![CDATA[3840 x 2160 p, 30 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt24Hz"><![CDATA[4096 x 2160 p, 24 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt25Hz"><![CDATA[4096 x 2160 p, 25 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt30Hz"><![CDATA[4096 x 2160 p, 30 Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt50Hz"><![CDATA[3840 x 2160 p, 50 Hz]]></lookup>
+	<lookup key="Resolution.Res3840x2160pAt60Hz"><![CDATA[3840 x 2160 p, 60 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt50Hz"><![CDATA[4096 x 2160 p, 50 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt60Hz"><![CDATA[4096 x 2160 p, 60 Hz]]></lookup>
+	<lookup key="Resolution.Res4096x2160pAt60HzPCVesaRbV2"><![CDATA[4096 x 2160 p, 60 Hz, PC VESA RB V2]]></lookup>
+	<lookup key="Resolution.Res1680x720At24Hz"><![CDATA[1680 x 720, 24 Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At25Hz"><![CDATA[1680 x 720, 25 Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At30Hz"><![CDATA[1680 x 720, 30 Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At50Hz"><![CDATA[1680 x 720, 50 Hz]]></lookup>
+	<lookup key="Resolution.Res1680x720At60Hz"><![CDATA[1680 x 720, 60 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At24Hz"><![CDATA[2560 x 1080, 24 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At25Hz"><![CDATA[2560 x 1080, 25 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At30Hz"><![CDATA[2560 x 1080, 30 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At50Hz"><![CDATA[2560 x 1080, 50 Hz]]></lookup>
+	<lookup key="Resolution.Res2560x1080At60Hz"><![CDATA[2560 x 1080, 60 Hz]]></lookup>
+
+	<!-- the following fields have been renamed, please translate -->
+	<lookup key="OutlookWebAccessUrl"><![CDATA[Vaihda EWS-URL]]></lookup>
+	<lookup key="OutlookDomainName"><![CDATA[Toimialue]]></lookup>
+	<lookup key="OutlookUserEmailAddress"><![CDATA[Käyttäjänimi]]></lookup>
+	<lookup key="OutlookPassword"><![CDATA[Salasana]]></lookup>
+	<lookup key="OutlookResourceAddress"><![CDATA[Kalenterin sähköpostiosoite]]></lookup>
+
+	<lookup key="DeviceType.Bluray"><![CDATA[Blu-ray-soitin]]></lookup>
+	<lookup key="DeviceType.Occupancy"><![CDATA[Liiketunnistin]]></lookup>
+	<lookup key="DeviceType.Panel"><![CDATA[Kosketusnäyttö]]></lookup>
+	<lookup key="DeviceType.EndpointTx"><![CDATA[DigitalMedia-lähetin]]></lookup>
+	<lookup key="DeviceType.EndpointRx"><![CDATA[DigitalMedia-vastaanotin]]></lookup>
+	<lookup key="DeviceType.EndpointRxScaler"><![CDATA[DigitalMedia-skaalausvastaanotin]]></lookup>
+
+	<lookup key="SfbProxyTypes.None"><![CDATA[Ei mitään]]></lookup>
+	<lookup key="SfbProxyTypes.SameCredentials"><![CDATA[Samat tunnistetiedot]]></lookup>
+	<lookup key="SfbProxyTypes.OtherCredentials"><![CDATA[Muut tunnistetiedot]]></lookup>
+
+	<!-- Add new projector display type 4/26/2017 -->
+	<lookup key="DeviceType.Projector"><![CDATA[Projektori]]></lookup>
+	<lookup key="AssociatedOutputDevice.Projector"><![CDATA[Projektori]]></lookup>
+
+	<!-- 5/17/2017 -->
+	<lookup key="Users"><![CDATA[Käyttäjät]]></lookup>
+	<lookup key="Manage"><![CDATA[Hallinnoi]]></lookup>
+	<lookup key="Logos"><![CDATA[Kosketusnäytön mukautettu grafiikka]]></lookup>
+	<lookup key="Drivers"><![CDATA[Ajurit]]></lookup>
+	<lookup key="Import"><![CDATA[Tuo]]></lookup>
+	<lookup key="Manufacturer"><![CDATA[Valmistaja]]></lookup>
+	<lookup key="DriverFileName"><![CDATA[Ajurin tiedostonimi]]></lookup>
+	<lookup key="DriverVersion"><![CDATA[Ajurin versio]]></lookup>
+	<lookup key="FusionCloudUrlRequired"><![CDATA[Crestron Fusion -pilvi-URL pakollinen]]></lookup>
+	<lookup key="FusionCloudUrlInvalid"><![CDATA[Crestron Fusion -pilvi-URL ei kelpaa]]></lookup>
+	<lookup key="ShowBroadcastOnPanel"><![CDATA[Näytä kuulutusviesti kosketusnäytössä]]></lookup>
+	<lookup key="ImageSizeWarning"><![CDATA[Kuvakoon varoitus]]></lookup>
+	<lookup key="ManageUsers"><![CDATA[Hallinnoi käyttäjiä]]></lookup>
+	<lookup key="FirstName"><![CDATA[Etunimi]]></lookup>
+	<lookup key="LastName"><![CDATA[Sukunimi]]></lookup>
+	<lookup key="UsernameRequired"><![CDATA[Käyttäjänimi pakollinen]]></lookup>
+	<lookup key="MinLengthUsernameWarning"><![CDATA[Käyttäjänimen on oltava vähintään 3 merkkiä pitkä.]]></lookup>
+	<lookup key="MaxLengthUsernameWarning"><![CDATA[Käyttäjänimi ei voi olla yli 15 merkkiä pitkä.]]></lookup>
+	<lookup key="InvalidPassword"><![CDATA[Salasanan pitää sisältää 1 iso kirjain, pieni kirjain ja numero sekä erikoismerkki.]]></lookup>
+	<lookup key="CreateUser"><![CDATA[Luo käyttäjä]]></lookup>
+	<lookup key="InvalidUsername"><![CDATA[Käyttäjänimi ei kelpaa]]></lookup>
+	<lookup key="DuplicateUsernameWarning"><![CDATA[Sama käyttäjänimi kahdesti -varoitus]]></lookup>
+	<lookup key="FirstNameRequired"><![CDATA[Etunimi pakollinen]]></lookup>
+	<lookup key="LastnameRequired"><![CDATA[Sukunimi pakollinen]]></lookup>
+	<lookup key="PasswordRequired"><![CDATA[Salasana pakollinen]]></lookup>
+	<lookup key="MinLengthPasswordWarning"><![CDATA[Salasanassa on oltava 8 merkkiä, ja sen pitää sisältää 1 iso kirjain, pieni kirjain, numero ja erikoismerkki.]]></lookup>
+	<lookup key="MaxLengthPasswordWarning"><![CDATA[Salasana ei voi olla yli 12 merkkiä pitkä.]]></lookup>
+	<lookup key="MaxLengthRoomNameWarning"><![CDATA[Huoneen nimi ei voi olla yli 20 merkkiä pitkä.]]></lookup>
+	<lookup key="MaxLengthFirstNameWarning"><![CDATA[Etunimi ei voi olla yli 15 merkkiä pitkä.]]></lookup>
+	<lookup key="MinLengthFirstNameWarning"><![CDATA[Etunimen on oltava vähintään 2 merkkiä pitkä.]]></lookup>
+	<lookup key="MaxLengthLastNameWarning"><![CDATA[Sukunimi ei voi olla yli 15 merkkiä pitkä.]]></lookup>
+	<lookup key="MinLengthLastNameWarning"><![CDATA[Sukunimen on oltava vähintään 2 merkkiä pitkä.]]></lookup>
+
+	<!-- 5/23/2017 -->
+	<lookup key="ImageOutOfRange"><![CDATA[Kuva on alueen ulkopuolella, oletetaan: {0}x{1}]]></lookup>
+
+	<!-- 5/24/2017-->
+	<lookup key="DriverInstallationStatus.StatusOk"><![CDATA[Ajurin asennus onnistui]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusError"><![CDATA[Ajurin asennus epäonnistui]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorVersionCheckedFailed"><![CDATA[Ajurin version tarkistus epäonnistui]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorCopyDriverFailed"><![CDATA[Ajurin kopiointi epäonnistui]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorInvalidDeviceType"><![CDATA[Laitteen tyyppi ei kelpaa ajurille]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusSupportingDllNotFound"><![CDATA[Tukevan ajurin DLL:ää ei löytynyt]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusPendingRestart"><![CDATA[Ajurin asennus odottaa uudelleenkäynnistystä]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusDriverNotFound"><![CDATA[Ajuria ei löytynyt]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorInvalidTransportType"><![CDATA[Kuljetustyyppi ei kelpaa]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusErrorMissingDriverId"><![CDATA[Ajurin tunnus puuttuu]]></lookup>
+
+	<!-- 5/30/2017-->
+	<lookup key="EnableMics"><![CDATA[Ota mikrofonit käyttöön]]></lookup>
+	<lookup key="ConfirmDeleteUser"><![CDATA[Haluatko varmasti poistaa tämän käyttäjän?]]></lookup>
+	<lookup key="TimeZone"><![CDATA[Aikavyöhyke]]></lookup>
+	<lookup key="DateTimeLabel"><![CDATA[Päivämäärä ja kellonaika]]></lookup>
+
+	<lookup key="ClickToReadWarningMessage"><![CDATA[Napsauta, jos haluat lukea ilmoituksen.]]></lookup>
+	<lookup key="WarningMessage"><![CDATA[Järjestelmäilmoitus]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Manual"><![CDATA[Käyttäjän valitsema]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Fixed"><![CDATA[Kiinteä]]></lookup>
+	<lookup key="SwitcherOutputRouteType.Follow"><![CDATA[Seuranta]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.None"><![CDATA[Ei]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.FollowWithVolumeControl"><![CDATA[Kyllä, äänenvoimakkuuden hallinnalla]]></lookup>
+	<lookup key="SwitcherOutputAudioRouteType.Follows"><![CDATA[Kyllä]]></lookup>
+
+	<!-- Screen saver settings -->
+	<lookup key="PanelScreenSaverEnable"><![CDATA[Ota kosketusnäytön näytönsäästäjä käyttöön]]></lookup>
+	<lookup key="PanelSleepTimeSeconds"><![CDATA[Kosketusnäytön näytönsäästäjän lepotilan kesto]]></lookup>
+	<lookup key="PanelScreenSaverStartTime"><![CDATA[Kosketusnäytön näytönsäästäjän aloitusaika]]></lookup>
+	<lookup key="PanelScreenSaverEndTime"><![CDATA[Kosketusnäytön näytönsäästäjän päättymisaika]]></lookup>
+
+	<!-- 6/6/2017 -->
+	<lookup key="Advanced"><![CDATA[Lisäasetukset]]></lookup>
+	<lookup key="DeviceType.RoomHallwaySign"><![CDATA[Huoneen saatavuuden käytäväkyltti]]></lookup>
+	<lookup key="DeviceType.DigitalGraphicsEngine"><![CDATA[Digitaalinen grafiikkamoduuli]]></lookup>
+	<lookup key="AdvancedRouteSettings"><![CDATA[Reitin lisäasetukset]]></lookup>
+	<lookup key="AudioFollowVideoLabel"><![CDATA[Videon seuranta]]></lookup>
+	<lookup key="VideoRoutingMode"><![CDATA[Videon reititystila]]></lookup>
+	<lookup key="InputForFixedRouteLabel"><![CDATA[Kiinteä reitti]]></lookup>
+	<lookup key="SelectInput"><![CDATA[Valitse syöte]]></lookup>
+	<lookup key="OutputForFollowsRouteLabel"><![CDATA[Seuraa reittiä]]></lookup>
+	<lookup key="SelectOutput"><![CDATA[Valitse lähtö]]></lookup>
+	<lookup key="DisplayNameRequired"><![CDATA[Näyttönimi pakollinen]]></lookup>
+	<lookup key="ValueRequired"><![CDATA[Arvo pakollinen]]></lookup>
+
+	<!-- 6/7/2016 -->
+	<lookup key="EnableSNTP"><![CDATA[Ota SNTP käyttöön]]></lookup>
+
+	<!-- 6/13/2017 these fields have been renamed -->
+	<lookup key="AssociatedOutputDevice.AvDisplay"><![CDATA[Litteä näyttö]]></lookup>
+	<lookup key="DeviceType.AvDisplay"><![CDATA[Litteä näyttö]]></lookup>
+
+	<!-- 6/16/2017 -->
+	<lookup key="FindContact"><![CDATA[Etsi yhteystieto]]></lookup>
+	<lookup key="FindContactToCall"><![CDATA[Etsi yhteystieto soittoa varten:]]></lookup>
+	<lookup key="SkypeCallText"><![CDATA[Skype®-puhelu]]></lookup>
+	<lookup key="ViewParticipants"><![CDATA[Näytä osallistujat]]></lookup>
+	<lookup key="Participants"><![CDATA[Osallistujat]]></lookup>
+	<lookup key="AddParticipant"><![CDATA[Lisää osallistuja]]></lookup>
+	<lookup key="InviteNameOrPhone"><![CDATA[Kutsu nimellä tai puhelinnumerolla]]></lookup>
+	<lookup key="Participants:"><![CDATA[Osallistujat:]]></lookup>
+	<lookup key="OnThisCall"><![CDATA[Tässä puhelussa]]></lookup>
+	<lookup key="InLobby"><![CDATA[Aulassa]]></lookup>
+	<lookup key="InVirtualLobby"><![CDATA[Virtuaaliaulassa]]></lookup>
+	<lookup key="VirtualLobbyMessage"><![CDATA[Hei. Olet virtuaaliaulassamme. Järjestäjä päästää sinut pian sisään.]]></lookup>
+	<lookup key="JoinSkypeMeeting"><![CDATA[LIITY SKYPE®-KOKOUKSEEN]]></lookup>
+
+	<lookup key="NonEmergencyBroadcastTimeoutWarning"><![CDATA[Ei-hälytysviestin aikakatkaisu ei alueella]]></lookup>
+	<lookup key="EmergencyBroadcastTimeoutWarning"><![CDATA[Hälytysviestin aikakatkaisu ei alueella]]></lookup>
+	<lookup key="MinEmergencyBroadcastTimeoutWarning"><![CDATA[Sallittu aikakatkaisu on vähintään 0]]></lookup>
+	<lookup key="MaxEmergencyBroadcastTimeoutWarning"><![CDATA[Sallittu aikakatkaisu on enintään 1440]]></lookup>
+
+	<!-- 6/26/2017 -->
+	<lookup key="NaNEmergencyBroadcastTimeoutWarning"><![CDATA[Aikakatkaisussa sallitaan vain numeroarvot]]></lookup>
+
+	<!-- 6/28/2017 -->
+	<lookup key="CECDriverNoticeHeader"><![CDATA[Generic CEC -ajurihuomautus]]></lookup>
+	<lookup key="CrestronConnectedDriverNoticeHeader"><![CDATA[Crestron Connected -ajurihuomautus]]></lookup>
+	<lookup key="CECDriverNoticeMessage"><![CDATA[Crestron tarjoaa Generic CEC -yleisajurin, joka toimii monien erilaisten litteiden näyttöjen kanssa. Laitteesi tukemat toiminnot riippuvat siitä, miten laitteen valmistaja on toteuttanut CEC-määrityksen, sillä CEC-määritys ei edellytä, että laitteen valmistaja toteuttaisi koko komentosarjan. Tietoja laitekohtaisista ajureista on osoitteessa https://drivers.crestron.io. Saat lisätietoja ottamalla yhteyttä Crestron True Blue Supportiin sähköpostitse osoitteeseen support@crestron.com]]></lookup>
+	<lookup key="CrestronConnectedDriverNoticeMessage"><![CDATA[Crestron tarjoaa Crestron Connected -yleisajurin, joka toimii monien erilaisten litteiden näyttöjen ja projektoreiden kanssa. Laitteesi tukemat toiminnot riippuvat siitä, mitä toimintosarjaa laitteesi tukee, sillä laitteen valmistajien ei tarvitse toteuttaa Crestron Connected -toimintojen kaikkia osia. Tietoja laitekohtaisista ajureista on osoitteessa https://drivers.crestron.io. Saat lisätietoja ottamalla yhteyttä Crestron True Blue Supportiin sähköpostitse osoitteeseen support@crestron.com]]></lookup>
+	<lookup key="GeneralAcknowledge"><![CDATA[Hyväksy]]></lookup>
+	<lookup key="SkypeMeeting"><![CDATA[Skype®-kokous]]></lookup>
+	<lookup key="DownloadBusyMessage"><![CDATA[Odota...]]></lookup>
+	<lookup key="UploadBusyMessage"><![CDATA[Odota...]]></lookup>
+	<lookup key="MaxUsersWarning"><![CDATA[Järjestelmässä on enimmäismäärä käyttäjiä (5).]]></lookup>
+	<lookup key="MinLengthDisplayNameWarning"><![CDATA[Näyttönimen on oltava vähintään 1 merkkiä pitkä.]]></lookup>
+	<lookup key="MaxLengthDisplayNameWarning"><![CDATA[Näyttönimi ei voi olla yli 20 merkkiä pitkä.]]></lookup>
+
+	<!-- 7/13/2016 -->
+
+	<lookup key="DeviceManagement"><![CDATA[Laitehallinta]]></lookup>
+	<lookup key="ConfigurationManagement"><![CDATA[Määritysten hallinta]]></lookup>
+	<lookup key="AVFrameworkDashboard"><![CDATA[AV Framework -koontinäyttö]]></lookup>
+	<lookup key="Transport"><![CDATA[Kommunikointi]]></lookup>
+	<lookup key="EnableDriver"><![CDATA[Ota ajuri käyttöön]]></lookup>
+	<lookup key="DeviceName"><![CDATA[Laitenimi]]></lookup>
+
+	<!-- 7/17/2016 -->
+	<lookup key="DeviceMgmt"><![CDATA[Laitehall.]]></lookup>
+	<lookup key="DMPSConfig"><![CDATA[DMPS-määr.]]></lookup>
+	<lookup key="ConfigMgmt"><![CDATA[Määr.hall.]]></lookup>
+
+	<!-- 7/18/2016 -->
+	<lookup key="EnableDisable"><![CDATA[Ota käyttöön Poista käytöstä]]></lookup>
+
+	<!-- 7/19/2016 -->
+	<lookup key="RADID"><![CDATA[Tunnus]]></lookup>
+
+	<!-- 7/28/2017 -->
+	<lookup key="SearchLdap"><![CDATA[Etsi LDAP]]></lookup>
+	<lookup key="Query"><![CDATA[Kysy]]></lookup>
+	<lookup key="SearchFor"><![CDATA[Etsi kohdetta]]></lookup>
+	<lookup key="GeneralSearch"><![CDATA[Yleinen haku]]></lookup>
+	<lookup key="Department"><![CDATA[Osasto]]></lookup>
+	<lookup key="Location"><![CDATA[Sijainti]]></lookup>
+	<lookup key="Action"><![CDATA[Toiminto]]></lookup>
+
+	<!-- 7/31/2017 -->
+	<lookup key="PhoneAttributeWarning"><![CDATA[Puhelinmääritevaroitus]]></lookup>
+	<lookup key="Ldap"><![CDATA[LDAP]]></lookup>
+	<lookup key="LdapSettings.Host"><![CDATA[Isäntä]]></lookup>
+	<lookup key="HostWarning"><![CDATA[Isäntä on pakollinen, ja se voi olla enintään 40 merkkiä pitkä]]></lookup>
+	<lookup key="LdapSettings.Port"><![CDATA[Portti]]></lookup>
+	<lookup key="LdapSettings.Dn"><![CDATA[TN]]></lookup>
+	<lookup key="DnWarning"><![CDATA[Toimialueen nimi (TN) on pakollinen, ja se voi olla enintään 80 merkkiä pitkä]]></lookup>
+	<lookup key="LdapSettings.Username"><![CDATA[Käyttäjänimi]]></lookup>
+	<lookup key="UsernameWarning"><![CDATA[Käyttäjänimi on pakollinen, ja se voi olla enintään 40 merkkiä pitkä]]></lookup>
+	<lookup key="LdapSettings.Password"><![CDATA[Salasana]]></lookup>
+	<lookup key="PasswordWarning"><![CDATA[Salasana on pakollinen]]></lookup>
+	<lookup key="LdapSettings.Search"><![CDATA[Haku]]></lookup>
+	<lookup key="SearchWarning"><![CDATA[Haun pitää sisältää "%KYSELY%", ja sen alussa pitää olla ( ja lopussa ), ja se voi olla enintään 80 merkkiä pitkä]]></lookup>
+	<lookup key="LdapSettings.DisplayAttribute"><![CDATA[Näyttömäärite]]></lookup>
+	<lookup key="DisplayIsWarning"><![CDATA[Näyttömäärite voi olla enintään 40 merkkiä pitkä]]></lookup>
+	<lookup key="LdapSettings.LocationAttribute"><![CDATA[Sijainti]]></lookup>
+	<lookup key="LocationAttributeWarning"><![CDATA[Sijaintimäärite voi olla enintään 40 merkkiä pitkä]]></lookup>
+	<lookup key="LdapSettings.DepartmentAttributeWarning"><![CDATA[Osastomääritevaroitus]]></lookup>
+	<lookup key="DepartmentAttributeWarning"><![CDATA[Osastomäärite voi olla enintään 40 merkkiä pitkä]]></lookup>
+	<lookup key="LdapSettings.PhoneAttribute"><![CDATA[Puhelinmäärite]]></lookup>
+	<lookup key="GeneralConnect"><![CDATA[Yhdistä]]></lookup>
+	<lookup key="LdapSettings.DepartmentAttribute"><![CDATA[Osastomäärite]]></lookup>
+
+	<!-- 8/3/2017 -->
+	<lookup key="EnableLdap"><![CDATA[Ota LDAP käyttöön]]></lookup>
+	<lookup key="LdapSettings.Domain"><![CDATA[LDAP-toimialue]]></lookup>
+
+	<!-- 8/22/2017 -->
+	<lookup key="DomainWarning"><![CDATA[Toimialue ei kelpaa]]></lookup>
+	<lookup key="LdapAuthentication.Kerberos"><![CDATA[Kerberos (automaattinen etsintä)]]></lookup>
+	<lookup key="LdapAuthentication.KerberosServer"><![CDATA[Kerberos (käyttäjän määrittämä palvelin)]]></lookup>
+	<lookup key="LdapAuthentication.Server"><![CDATA[Palvelimen todentaminen (käyttäjän määrittämä palvelin)]]></lookup>
+	<lookup key="LdapSettings.AuthenticationMethod"><![CDATA[Todennusmenetelmä]]></lookup>
+
+	<lookup key="SystemNotification"><![CDATA[Järjestelmäilmoitus]]></lookup>
+
+	<lookup key="DriverUploadComplete"><![CDATA[Laiteajuri(t) on ladattu järjestelmään.  Katso ajuritila järjestelmäilmoituksesta.]]></lookup>
+	<lookup key="DriverDescriptionHeading"><![CDATA[Kuvaus]]></lookup>
+	<lookup key="DriverSaveProblemWarning"><![CDATA[Laiteajuri(e)n lataus järjestelmään epäonnistui. Yritä uudelleen. Jos olet saanut tämän viestin useaan kertaan, ota yhteyttä Crestron True Blue Supportiin.]]></lookup>
+	<lookup key="DriverUploadCompleteHeader"><![CDATA[Ajurin lataus onnistunut ]]></lookup>
+	<lookup key="DriverSaveProblemWarningHeader"><![CDATA[Ajurin lataus epäonnistunut ]]></lookup>
+
+	<!-- 9/12/2017 -->
+	<lookup key="Updating"><![CDATA[Päivitetään...]]></lookup>
+
+	<!-- 9/27/2017 -->
+	<lookup key="ChannelType.AirMedia"><![CDATA[AirMedia®]]></lookup>
+
+	<!-- 10/9/2017 -->
+	<lookup key="ActivateConfigurationFromWebsite"><![CDATA[Aktivoi määritys järjestelmän verkkosivustolta järjestelmän käyttöönottoa varten.]]></lookup>
+
+	<!-- 12/14/2017 -->
+	<lookup key="HideBackgroundFilter"><![CDATA[Piilota taustasuodatin]]></lookup>
+
+	<!-- ***** IMPORTANT ***** -->
+	<!-- The following existing keys need to be renamed -->
+	<lookup key="ScreensaverEnableCustomBackgrounds"><![CDATA[Ota mukautetut näytönsäästäjätaustat käyttöön]]></lookup>
+	<lookup key="ScreensaverAddCustomBackgroundUrl"><![CDATA[Lisää mukautetun näytönsäästäjätaustan URL]]></lookup>
+	<lookup key="Locale"><![CDATA[Kieli]]></lookup>
+	<lookup key="NetworkStatus"><![CDATA[Koontinäyttö]]></lookup>
+	<lookup key="ActivityLog"><![CDATA[AVF-loki]]></lookup>
+	<lookup key="EnableDspVolumeControl"><![CDATA[Ota DMPS-kaiutin ja ohjelman lähtöäänenvoimakkuuden hallinta käyttöön]]></lookup>
+	<lookup key="DevicePort"><![CDATA[Tietoliikenneportti]]></lookup>
+	<lookup key="Add"><![CDATA[Lisää laite]]></lookup>
+	<lookup key="EmergencyBroadcastTimeout"><![CDATA[Hälytysviestin aikakatkaisu]]></lookup>
+	<lookup key="NonEmergencyBroadcastTimeout"><![CDATA[Ei-hälytysviestin aikakatkaisu]]></lookup>
+	<lookup key="ChannelValidationMessage"><![CDATA[Vaadittu tunnuksen muoto (0–255).]]></lookup>
+
+	<!-- ***** IMPORTANT ***** -->
+	<!-- The following existing keys need to be renamed -->
+	<!-- *** IMPORTANT *** Crestron and Fusion are trademarks and should not be translated -->
+	<lookup key="SupportsFusion"><![CDATA[Tukee Crestron Fusionia]]></lookup>
+	<lookup key="FusionRoomName"><![CDATA[Crestron Fusion -huoneen nimi]]></lookup>
+	<lookup key="FusionConnection"><![CDATA[Crestron Fusion -yhteys]]></lookup>
+	<lookup key="EnableFusionScheduling"><![CDATA[Ota Crestron Fusion -aikataulutus käyttöön]]></lookup>
+	<lookup key="FusionSettings"><![CDATA[Crestron Fusion -asetukset]]></lookup>
+	<lookup key="FusionCloudURL"><![CDATA[Crestron Fusion -pilvi-URL]]></lookup>
+
+	<lookup key="MinFrontOfRoomBackgroundIntervalSecWarning"><![CDATA[Crestron Fusion -pilvi-URL]]></lookup>
+
+	<lookup key="EmergencyBroadcastTimeoutValidValueMessage"><![CDATA[Vaaditun arvon on oltava (0–60)]]></lookup>
+	<lookup key="NonEmergencyBroadcastTimeoutValidValueMessage"><![CDATA[Vaaditun arvon on oltava (0–60)]]></lookup>
+	<lookup key="CallNotificationTimeoutValidValueMessage"><![CDATA[Vaaditun arvon on oltava (0–60)]]></lookup>
+	<lookup key="TimeRemainingMessageDurationValidValueMessage"><![CDATA[Vaaditun arvon on oltava (0–60)]]></lookup>
+
+	<lookup key="IntervalBetweenBackgroundsValidValueMessage"><![CDATA[Vaaditun arvon on oltava (30–600)]]></lookup>
+
+	<lookup key="ConfigurationText"><![CDATA[Järjestelmän määritys käynnissä.]]></lookup>
+
+	<lookup key="ConfiguredMessageOfflineLoggedIn"><![CDATA[Järjestelmä ei ole tällä hetkellä verkossa, <span id="activatePlaceholder">aktivoi</span> tai <span id="revertPlaceholder">palauta</span> määritys.]]></lookup>
+	<lookup key="SystemOffline"><![CDATA[Järjestelmää ei tällä hetkellä tavoiteta sijainnistasi. Tarkista verkkoyhteytesi tai ota yhteyttä järjestelmänvalvojaasi. ]]></lookup>
+	<lookup key="Revert"><![CDATA[Palauta]]></lookup>
+	<lookup key="Activate"><![CDATA[Aktivoi]]></lookup>
+	<lookup key="More"><![CDATA[Lisää]]></lookup>
+
+	<lookup key="WarmUpTimeLabel"><![CDATA[Lämpenemisaika]]></lookup>
+	<lookup key="WarmUpTimeValidationMessage"><![CDATA[Vaaditun arvon on oltava ({0}–{1})]]></lookup>
+	<lookup key="CoolDownTimeValidationMessage"><![CDATA[Vaaditun arvon on oltava ({0}–{1})]]></lookup>
+	<lookup key="CoolDownTimeLabel"><![CDATA[Jäähtymisaika]]></lookup>
+
+	<lookup key="ResourceNotFound"><![CDATA[Etsimääsi resurssia ei löydy.]]></lookup>
+	<lookup key="BackgroundImageRequiredWarning"><![CDATA[Kun käytössä, vähintään 1 tausta on pakollinen.]]></lookup>
+	<lookup key="MaximumNumberImagesWarning"><![CDATA[Kuvien enimmäismäärä on saavutettu.]]></lookup>
+
+	<lookup key="SupportedSeries"><![CDATA[Tuettu sarja]]></lookup>
+
+	<lookup key="RoomNameValidCharactersWarning"><![CDATA[Sallittuihin merkkeihin sisältyvät aakkosnumeeriset merkit, välilyönnit, _ ,-, / ja ().]]></lookup>
+	<lookup key="Edit"><![CDATA[Muokkaa]]></lookup>
+	<lookup key="DriverProcessingMessage"><![CDATA[Tiedoston ({0}) käsittely käynnistetty.]]></lookup>
+
+	<lookup key="Done"><![CDATA[Valmis]]></lookup>
+	<lookup key="ConfigureButtons"><![CDATA[Määritä painikkeet]]></lookup>
+	<lookup key="StartButtonTextWarning"><![CDATA[Vaaditun arvon on oltava (1–20) aakkosnumeerista merkkiä.]]></lookup>
+	<lookup key="EnableStartButtonText"><![CDATA[Ota käynnistyspainike käyttöön]]></lookup>
+
+	<lookup key="Back"><![CDATA[Takaisin]]></lookup>
+	<lookup key="Cancel"><![CDATA[Peruuta]]></lookup>
+	<lookup key="FreeFormLog"><![CDATA[AMPS-loki]]></lookup>
+
+	<lookup key="TestDeviceStatus"><![CDATA[Laitteen tila]]></lookup>
+	<lookup key="SendCommandLabel"><![CDATA[Lähetä komento]]></lookup>
+	<lookup key="Command"><![CDATA[Komento]]></lookup>
+	<lookup key="InstallDevice"><![CDATA[Asenna laite]]></lookup>
+	<lookup key="Send"><![CDATA[Lähetä]]></lookup>
+
+	<!-- 1/19/2018 - button panel -->
+	<lookup key="ButtonPanelButtonAction.Default"><![CDATA[Oletus]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Disable"><![CDATA[Ei käytössä]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerOn"><![CDATA[Virta päälle]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerOff"><![CDATA[Virta pois]]></lookup>
+	<lookup key="ButtonPanelButtonAction.PowerToggle"><![CDATA[Virta pois ja takaisin päälle]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteOn"><![CDATA[Mykistys päälle]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteOff"><![CDATA[Mykistys pois]]></lookup>
+	<lookup key="ButtonPanelButtonAction.MuteToggle"><![CDATA[Mykistys pois ja takaisin päälle]]></lookup>
+	<lookup key="ButtonPanelButtonAction.RouteSource"><![CDATA[Reittilähde]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VolUp"><![CDATA[Äänenvoim. ylös]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VolDown"><![CDATA[Äänenvoim. alas]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Play"><![CDATA[Toista]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Pause"><![CDATA[Keskeytä]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Rewind"><![CDATA[Siirry taaksepäin]]></lookup>
+	<lookup key="ButtonPanelButtonAction.FastForward"><![CDATA[Siirry eteenpäin]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Menu"><![CDATA[Valikko]]></lookup>
+	<lookup key="ButtonPanelButtonAction.VideoMute"><![CDATA[Videon mykistys]]></lookup>
+	<lookup key="UnionId"><![CDATA[Salasana]]></lookup>
+	<lookup key="Test"><![CDATA[Testaa]]></lookup>
+	<lookup key="Save"><![CDATA[Tallenna]]></lookup>
+	<lookup key="InstallDialogTitle"><![CDATA[Asennetaan {0}]]></lookup>
+	<lookup key="DeviceTestDialogTitle"><![CDATA[Testataan {0}]]></lookup>
+	<lookup key="UpdateDialogTitle"><![CDATA[Päivitetään {0}]]></lookup>
+
+	<!-- 1/26/2018 -->
+	<lookup key="DeviceType.IO"><![CDATA[Crestron IO]]></lookup>
+	<lookup key="Status"><![CDATA[Tila]]></lookup>
+	<lookup key="TestableDisplayCommands.PowerOn"><![CDATA[Virta päälle]]></lookup>
+	<lookup key="TestableDisplayCommands.PowerOff"><![CDATA[Virta pois]]></lookup>
+
+	<lookup key="RelayNotes1"><![CDATA[Releet määritetään pareittain valitussa laitteessa.]]></lookup>
+	<lookup key="RelayName"><![CDATA[Relenimi]]></lookup>
+	<lookup key="RelayDeviceAndIdentifier"><![CDATA[Relelaite ja tunnistin]]></lookup>
+	<lookup key="RelayTiming"><![CDATA[Ajastus]]></lookup>
+	<lookup key="BlankRelayLabel"><![CDATA[Ei mitään]]></lookup>
+
+	<!-- 2/12/2018 -->
+	<lookup key="RelayBehavior.Disable"><![CDATA[Poista käytöstä]]></lookup>
+
+	<!-- 2/26/2018 -->
+	<lookup key="RelayTimingBoundsWarning"><![CDATA[Vaaditun arvon on oltava (1–180)]]></lookup>
+	<lookup key="RelayNameRequired"><![CDATA[Vaaditun arvon on oltava (1–20) aakkosnumeerista merkkiä.]]></lookup>
+	<lookup key="RelayValidCharactersWarning"><![CDATA[Vaaditun arvon on oltava (1–20) aakkosnumeerista merkkiä.]]></lookup>
+	<lookup key="RelayNotes2"><![CDATA[Kaikkien releparien ensimmäinen rele siirtää NÄYTÖN YLÖS.]]></lookup>
+	<lookup key="RelayNotes3"><![CDATA[Kaikkien releparien ensimmäinen rele siirtää NÄYTÖN ALAS.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.WarmingUpCompleted"><![CDATA[Laitteen lämpeneminen valmis]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.WarmingUp"><![CDATA[Laite lämpenee]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.CoolingDown"><![CDATA[Laite jäähtyy]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.CoolingDownCompleted"><![CDATA[Laitteen jäähtyminen valmis]]></lookup>
+
+	<!-- 2/28/2018 -->
+	<lookup key="MaxLengthRelayNameWarning"><![CDATA[Releen nimi ei voi olla yli 20 merkkiä pitkä.]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PortNotConfigured"><![CDATA[Porttia ei ole määritetty tai porttia ei ole käytettävissä]]></lookup>
+
+	<!-- 3/2/2018 -->
+	<lookup key="DeviceUsernameValueWarning"><![CDATA[Laitteen käyttäjänimi ei voi olla yli 15 merkkiä pitkä.]]></lookup>
+	<lookup key="DevicePasswordValueWarning"><![CDATA[Laitteen salasana ei voi olla yli 32 merkkiä pitkä.]]></lookup>
+
+	<!-- 3/8/2018 -->
+	<lookup key="RelayEmptyMsg"><![CDATA[Laitteet eivät tue releitä. Voit lisätä releen laitehallintasivulta.]]></lookup>
+
+	<!-- 3/9/2018 -->
+	<lookup key="DeviceTransport.Unknown"><![CDATA[Tuntematon]]></lookup>
+
+	<!-- 3/19/2018 MPC3 - These keys need to be retranslated-->
+	<lookup key="DMPSConfiguration"><![CDATA[A/V-reititys]]></lookup>
+	<lookup key="SwitchInformation"><![CDATA[Vaihtimen tiedot]]></lookup>
+
+	<!-- 3/20/2018 -->
+	<lookup key="StartButtonText"><![CDATA[Käynnistyspainikkeen teksti]]></lookup>
+
+	<lookup key="VideoDisplayStatusEvent.Initializing"><![CDATA[Ajuria alustetaan]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.InitializationFailed"><![CDATA[Alustaminen epäonnistui]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectingToDevice"><![CDATA[Yritetään yhdistää laitteeseen]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.Authenticating"><![CDATA[Todennetaan]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.AuthenticationSuccessful"><![CDATA[Todentaminen onnistui]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.AuthenticationFailed"><![CDATA[Todentaminen epäonnistui]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.NotAuthenticated"><![CDATA[Ei todennettu]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectionSuccessful"><![CDATA[Yhdistetty ajuriin]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.ConnectionFailed"><![CDATA[Yhdistäminen ajuriin epäonnistui]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.Disconnecting"><![CDATA[Katkaistaan yhteyttä ajurista]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.UnknownEvent"><![CDATA[Tuntematon tapahtuma]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PowerOffCommand"><![CDATA[Lähetetään virta pois -komentoa]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.PowerOnCommand"><![CDATA[Lähetetään virta päälle -komentoa]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.UnknownCommand"><![CDATA[Tuntematon komento]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.DeviceOnline"><![CDATA[Laite on online-tilassa]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.DeviceOffline"><![CDATA[Laite on offline-tilassa]]></lookup>
+	<lookup key="VideoDisplayStatusEvent.NoControlPortDefined"><![CDATA[Hallintaporttia ei määritetty]]></lookup>
+
+	<lookup key="ImageNotLoaded"><![CDATA[Kuvaa ei voitu ladata]]></lookup>
+	<lookup key="logoHelpText"><![CDATA[Optimaalinen logon koko on 800 x 600 pikseliä.<br>Tuetut kuvamuodot: BMP, JPG, PNG.]]></lookup>
+	<lookup key="Keypad"><![CDATA[Näppäimistö]]></lookup>
+
+	<!-- 3/22/2018 -->
+	<lookup key="BackgroundOverlay"><![CDATA[Tausta peittokuvana]]></lookup>
+	<!-- 3/27/2018 -->
+	<lookup key="NextMeetingInformationShownValidValueMessage"><![CDATA[Vaaditun arvon on oltava (0–120)]]></lookup>
+	<!-- 3/28/2018 -->
+	<lookup key="PowerSettings"><![CDATA[Virta-asetukset]]></lookup>
+	<lookup key="DayOfWeek"><![CDATA[Viikonpäivä]]></lookup>
+	<lookup key="DisplayOn"><![CDATA[Näyttö päälle]]></lookup>
+	<lookup key="DisplayOff"><![CDATA[Näyttö pois]]></lookup>
+
+	<lookup key="VideoDisplay"><![CDATA[Videonäyttö]]></lookup>
+	<lookup key="WallPaper"><![CDATA[Kosketusnäyttö]]></lookup>
+	<lookup key="WallPaper.EnableCustomBackgroundLabelsLabel"><![CDATA[Ota käyttöön mukautetut taustat]]></lookup>
+
+	<lookup key="DisplayNotifications"><![CDATA[Näyttöilmoitukset]]></lookup>
+	<lookup key="ConnectionDetailsLayout"><![CDATA[Yhteyden tietojen asettelu]]></lookup>
+	<lookup key="DisplayCustomization"><![CDATA[Näytön mukautus]]></lookup>
+
+	<!-- 4/5/2018 -->
+	<lookup key="ShowBackgroundOverlay"><![CDATA[Näytä tausta peittokuvana]]></lookup>
+	<lookup key="WallPaper.CustomBackgroundLabelsLabel"><![CDATA[Tausta]]></lookup>
+
+	<lookup key="ShowCalendarOrClockOverlay"><![CDATA[Näytä kalenteri tai kello peittokuvana]]></lookup>
+
+	<!-- 4/6/2018 -->
+	<lookup key="ReturnToAudioCall"><![CDATA[Kosketa tähän, jos haluat palata äänipuheluun]]></lookup>
+	<lookup key="CurrentCallOnHold"><![CDATA[Nykyinen puhelu pidossa]]></lookup>
+	<!-- 4/9/2018 -->
+	<lookup key="TimeRemainingMessageStartsValidValueMessage"><![CDATA[Vaaditun arvon on oltava (0–60)]]></lookup>
+
+	<!-- 4/9/2018 -->
+	<lookup key="StandbyMode.OccupancyBasedWithSignage"><![CDATA[Käyttö opasteiden perusteella]]></lookup>
+
+	<!-- 4/10/2018 -->
+	<lookup key="ZumBatteryState.Bx"><![CDATA[Ulkoinen virtalähde]]></lookup>
+	<lookup key="ZumBatteryState.Bc"><![CDATA[Akun varaus erittäin vähissä]]></lookup>
+	<lookup key="ZumBatteryState.Bl"><![CDATA[Akun varaus vähissä]]></lookup>
+	<lookup key="ZumBatteryState.Bok"><![CDATA[Akun varaus OK]]></lookup>
+
+	<lookup key="ZumDeviceStatus.Act"><![CDATA[Aktiivinen]]></lookup>
+	<lookup key="ZumDeviceStatus.Mis"><![CDATA[Puuttuu]]></lookup>
+
+	<lookup key="ZumOccupancy.Na"><![CDATA[Ei käyt.]]></lookup>
+	<lookup key="ZumOccupancy.Occupied"><![CDATA[Käytössä]]></lookup>
+	<lookup key="ZumOccupancy.Vacant"><![CDATA[Vapaa]]></lookup>
+	<lookup key="ZumOccupancy.Unknown"><![CDATA[Tuntematon]]></lookup>
+
+	<lookup key="ZumUpdateStatus.U0"><![CDATA[Ei päivitystä käynnissä]]></lookup>
+	<lookup key="ZumUpdateStatus.Ui"><![CDATA[Päivitys käynnissä]]></lookup>
+	<lookup key="ZumUpdateStatus.Up"><![CDATA[Odottaa päivitystä]]></lookup>
+
+	<!-- 4/9/2018 -->
+	<lookup key="AppspaceErrorMessage"><![CDATA[Ei voitu yhdistää URL:ään]]></lookup>
+
+	<!-- 4/13/2018 -->
+	<lookup key="External"><![CDATA[Ulkoinen]]></lookup>
+	<lookup key="ManageSettings"><![CDATA[Hallinnoi]]></lookup>
+
+	<!-- 4/12/2018 -->
+	<lookup key="DisconnectedHeaderText"><![CDATA[YHTEYS KATKAISTU]]></lookup>
+
+	<!-- 4/12/2018 -->
+	<lookup key="DisconnectedMessageText"><![CDATA[Yritetään yhdistää uudelleen. Tarkista yhteysasetuksesi]]></lookup>
+
+	<!-- 4/18/2018 these keys need to be retranslated -->
+	<lookup key="IntervalBetweenBackgroundsBoundsWarning"><![CDATA[Vaaditun arvon on oltava (30–600)]]></lookup>
+	<lookup key="PanelSleepTimeSecondsBoundsWarning"><![CDATA[Vaaditun arvon on oltava (60–600)]]></lookup>
+
+	<!-- 4/18/2018  -->
+
+	<lookup key="Background"><![CDATA[Tausta]]></lookup>
+	<lookup key="Log"><![CDATA[Loki]]></lookup>
+	<lookup key="TouchScreen"><![CDATA[Kosketusnäyttö ja näyttö]]></lookup>
+
+	<!-- 4/23/2018  -->
+	<lookup key="DayOfWeekEnum.Monday"><![CDATA[Maanantai]]></lookup>
+	<lookup key="DayOfWeekEnum.Tuesday"><![CDATA[Tiistai]]></lookup>
+	<lookup key="DayOfWeekEnum.Wednesday"><![CDATA[Keskiviikko]]></lookup>
+	<lookup key="DayOfWeekEnum.Thursday"><![CDATA[Torstai]]></lookup>
+	<lookup key="DayOfWeekEnum.Friday"><![CDATA[Perjantai]]></lookup>
+	<lookup key="DayOfWeekEnum.Saturday"><![CDATA[Lauantai]]></lookup>
+	<lookup key="DayOfWeekEnum.Sunday"><![CDATA[Sunnuntai]]></lookup>
+
+	<!-- 4/23/2018  -->
+	<lookup key="ConnectionLayout.Bottom"><![CDATA[Alaosa]]></lookup>
+	<lookup key="ConnectionLayout.Top"><![CDATA[Yläosa]]></lookup>
+	<lookup key="ConnectionLayout.Left"><![CDATA[Vasen]]></lookup>
+	<lookup key="ConnectionLayout.Right"><![CDATA[Oikea]]></lookup>
+
+	<!-- 4/25/2018  -->
+
+	<lookup key="AppspaceCustomBackgroundsWarning"><![CDATA[Mukautettuja taustoja ei voi asettaa, kun Appspace on käytössä.]]></lookup>
+	<lookup key="DeviceType.Audio"><![CDATA[Ääni]]></lookup>
+	<lookup key="DeviceType.Led"><![CDATA[LED]]></lookup>
+
+	<!-- 4/30/2018  -->
+	<lookup key="AUXIP"><![CDATA[AUX IP]]></lookup>
+	<lookup key="DialerType.Sfb"><![CDATA[Skype®]]></lookup>
+	<lookup key="VerisonNumber"><![CDATA[Versionumero]]></lookup>
+	<lookup key="Room"><![CDATA[Huone]]></lookup>
+	<lookup key="EnableDspVolumeControl.ExtAmp"><![CDATA[Ota käyttöön ulkoinen vahvistin]]></lookup>
+
+	<!-- 5/1/2018  -->
+	<lookup key="UploadConfigurationError"><![CDATA[Lataus epäonnistui, koska määritys on joko virheellinen tai toisen laitemallin. Edellinen määritys palautetaan.]]></lookup>
+
+	<!-- 5/3/2018  -->
+	<lookup key="AppspaceLoading"><![CDATA[Ladataan ja asennetaan Appspace-sovellus]]></lookup>
+	<lookup key="AppspaceErrorTitle"><![CDATA[Ei voi ladata Appspace-sovellusta]]></lookup>
+	<lookup key="AppspaceErrorSubTitle"><![CDATA[Tarkista URL ja verkkoyhteys. Yritämme uudelleen hetken kuluttua.]]></lookup>
+
+	<!-- 5/8/2018 -->
+	<lookup key="PortType.Relay"><![CDATA[Rele]]></lookup>
+
+	<!-- 5/10/2018 -->
+	<lookup key="VideoDisplayStatusEvent.TestingNotSupported"><![CDATA[Testausta ei tueta hallitsemattoman näytön osalta]]></lookup>
+
+	<lookup key="Zum"><![CDATA[Zūm]]></lookup>
+	<lookup key="Network"><![CDATA[Verkko]]></lookup>
+	<lookup key="FirmwareVersion"><![CDATA[Laiteohjelmistoversio]]></lookup>
+	<lookup key="BatteryStatus"><![CDATA[Akun tila]]></lookup>
+	<lookup key="StartAcquire"><![CDATA[Aloita hankinta]]></lookup>
+	<lookup key="StopAcquire"><![CDATA[Lopeta hankinta]]></lookup>
+	<lookup key="FormNetwork"><![CDATA[Muodosta verkko]]></lookup>
+	<lookup key="ZumBridgeLabel"><![CDATA[Zūm-silta]]></lookup>
+	<lookup key="RoomOccupancyLabel"><![CDATA[Zūm-tunnistimen tila]]></lookup>
+	<lookup key="Occupancy"><![CDATA[Käyttö]]></lookup>
+	<lookup key="Id"><![CDATA[Tunnus]]></lookup>
+
+	<!-- 5/16/2018 -->
+	<lookup key="ButtonPanelButtonAction.Up"><![CDATA[Ylös]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Down"><![CDATA[Alas]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Left"><![CDATA[Vasemmalle]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Right"><![CDATA[Oikealle]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Enter"><![CDATA[Enter]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Select"><![CDATA[Valitse]]></lookup>
+	<lookup key="ButtonPanelButtonAction.Back"><![CDATA[Takaisin]]></lookup>
+
+	<!-- 6/15/2018 -->
+	<lookup key="CallNotificationState.IncomingCall"><![CDATA[Saapuva puhelu]]></lookup>
+	<lookup key="CallNotificationState.Connected"><![CDATA[Yhdistetty]]></lookup>
+	<lookup key="CallNotificationState.Connecting"><![CDATA[Yhdistetään]]></lookup>
+	<lookup key="CallNotificationState.Rejected"><![CDATA[Hylätty]]></lookup>
+	<lookup key="CallNotificationState.Disconnected"><![CDATA[Yhteys katkaistu]]></lookup>
+
+	<!-- 6/19/2018 -->
+	<lookup key="VideoDisplayStatusEvent.CecInitialized"><![CDATA[CEC-ohjain alustettu]]></lookup>
+
+	<lookup key="AssociatedOutputDevice.Whiteboard"><![CDATA[AirBoard®]]></lookup>
+	<lookup key="DeviceType.ZumBridge"><![CDATA[Zūm-silta]]></lookup>
+	<lookup key="DeviceType.WhiteBoard"><![CDATA[AirBoard®]]></lookup>
+
+	<!-- 7/18/2018 -->
+	<lookup key="DriverInstallationStatus.StatusUnlicensedDeviceType"><![CDATA[Käyttöoikeudeton laitetyyppi]]></lookup>
+	<lookup key="DriverInstallationStatus.StatusUnsupportedIrDriver"><![CDATA[Ei tuettu IR-ohjain]]></lookup>
+
+	<!-- 7/25/2018 -->
+	<lookup key="CommunicationType"><![CDATA[Tietoliikennetyyppi]]></lookup>
+	<lookup key="SupportedModels"><![CDATA[Tuetut mallit]]></lookup>
+	<lookup key="DriverSearchHint"><![CDATA[Malli tai valmistaja]]></lookup>
+
+	<lookup key="AddNewDeviceDriver"><![CDATA[Lisää uusi laiteohjain...]]></lookup>
+	<lookup key="ImportFromFile"><![CDATA[Tuo tiedostosta...]]></lookup>
+	<lookup key="GeneralAdd"><![CDATA[Lisää]]></lookup>
+
+	<lookup key="DetectedManufacturer"><![CDATA[Tunnistettu valmistaja]]></lookup>
+	<lookup key="DetectedName"><![CDATA[Tunnistettu nimi]]></lookup>
+	<lookup key="DetectedSerialNum"><![CDATA[Tunnistettu sarjanumero]]></lookup>
+
+	<lookup key="CloudSearchError"><![CDATA[Virhe etsittäessä ohjaimia pilvestä.]]></lookup>
+	<lookup key="ErrorInstallingDriver"><![CDATA[Virhe asennettaessa ohjainta.]]></lookup>
+
+	<lookup key="DeviceInstallingTitle"><![CDATA[Asennetaan kohdetta {0}.]]></lookup>
+
+	<!-- 8/30/2018 -->
+	<lookup key="DisplayTimeError"><![CDATA[Näyttö päällä -arvon on oltava pienempi kuin Näyttö pois -arvon]]></lookup>
+	<lookup key="NavPresentEtc"><![CDATA[Siirry aloitusnäyttöön, esitä lähde ynnä muuta...]]></lookup>
+
+	<lookup key="FilterBy"><![CDATA[Suodatusehto]]></lookup>
+	<lookup key="StartDiscovery"><![CDATA[Aloita etsintä]]></lookup>
+	<lookup key="StopDiscovery"><![CDATA[Lopeta etsintä]]></lookup>
+	<lookup key="IPIDCrestnetID"><![CDATA[IP-tunnus/Cresnet-tunnus]]></lookup>
+	<lookup key="Locate"><![CDATA[Paikanna]]></lookup>
+	<lookup key="LocateRunning"><![CDATA[Paikannus on käynnissä]]></lookup>
+	<lookup key="StopLocate"><![CDATA[Lopeta paikannus]]></lookup>
+	<lookup key="DeviceDetails"><![CDATA[Laitteen tiedot]]></lookup>
+	<lookup key="DiscoveredDevices"><![CDATA[Löydetyt laitteet]]></lookup>
+	<lookup key="ConfiguredDevices"><![CDATA[Määritetyt laitteet]]></lookup>
+
+	<lookup key="AreYouSure"><![CDATA[Oletko varma?]]></lookup>
+
+	<lookup key="WhiteboardCode"><![CDATA[Koodi]]></lookup>
+	<lookup key="WhiteboardCrestronId"><![CDATA[Crestron-tunnus:]]></lookup>
+	<lookup key="WhiteboardUserConnUrl"><![CDATA[URL:]]></lookup>
+
+	<!-- 11/30/2018 -->
+	<lookup key="RefineSearchContact"><![CDATA[Emme löytäneet tarkkaa osumaa. Yritä muokata hakua.]]></lookup>
+
+	<!-- 12/5/2018 -->
+	<lookup key="WhiteboardMeetingEndPPUX"><![CDATA[Ajoitettu kokouksesi on loppumaisillaan, valitse vaihtoehto kosketusnäytöstä.]]></lookup>
+
+	<!-- 12/7/2018 -->
+	<lookup key="WhiteboardIncomingReqPPUX"><![CDATA[Saapuva etäyhteyspyyntö, hyväksy tai ohita se kosketuspaneelista.]]></lookup>
+
+	<!-- 12/14/2018 -->
+	<lookup key="account-action"><![CDATA[Toiminnot]]></lookup>
+	<lookup key="cloudware-license"><![CDATA[Pilviohjelmiston käyttöoikeussopimus]]></lookup>
+	<lookup key="service-status"><![CDATA[Palvelun tila]]></lookup>
+	<lookup key="privacy-statement"><![CDATA[Tietosuojailmoitus]]></lookup>
+	<lookup key="uc-agreement"><![CDATA[Crestronin yhdistetty viestintä – ohjelmiston käyttöoikeussopimus]]></lookup>
+
+	<lookup key="busy-loading"><![CDATA[ladataan]]></lookup>
+	<lookup key="AirBoard"><![CDATA[AirBoard]]></lookup>
+	<lookup key="Settings"><![CDATA[Asetukset]]></lookup>
+	<lookup key="ConfirmPassword"><![CDATA[Vahvista salasana]]></lookup>
+	<lookup key="UserDetail"><![CDATA[Käyttäjän tiedot]]></lookup>
+	<lookup key="PasswordMismatchWarning"><![CDATA[Salasanojen on vastattava toisiaan.]]></lookup>
+
+	<!-- 12/27/2018 -->
+	<lookup key="CresnetBusIdValidationMessage"><![CDATA[Vaadittu Cresnet-tunnuksen muoto (03-1B).]]></lookup>
+	<lookup key="DeviceType.CresnetGateway"><![CDATA[Cresnet-yhdyskäytävä]]></lookup>
+	<lookup key="DeviceTransport.CrestronCrestnetBus"><![CDATA[Cresnet-väylä]]></lookup>
+	<lookup key="GatewayBus"><![CDATA[Yhdyskäytäväväylä]]></lookup>
+
+	<!-- 01/08/2019 -->
+	<lookup key="EnableAutoUpdate"><![CDATA[Ota kosketusnäytön automaattinen päivitys käyttöön]]></lookup>
+	<lookup key="AutoRouting"><![CDATA[Vain automaattinen AirMedia-reititys]]></lookup>
+	<lookup key="PriorityRouting"><![CDATA[Prioriteettireititys]]></lookup>
+	<lookup key="InvalidInputName"><![CDATA[Näyttönimi ei kelpaa.  Ei voi sisältää merkkejä < tai >.]]></lookup>
+
+	<lookup key="AudioSource.AudioFollowVideo"><![CDATA[Ääni seuraa videota]]></lookup>
+	<lookup key="AudioSource.Analog"><![CDATA[Analoginen]]></lookup>
+	<lookup key="ChannelType.Streaming"><![CDATA[Suoratoisto]]></lookup>
+
+	<lookup key="UploadConfigRestore"><![CDATA[Palauta]]></lookup>
+	<lookup key="UploadConfigCreateRoom"><![CDATA[Luo huone]]></lookup>
+
+	<lookup key="UploadConfigWarning"><![CDATA[Jos olet palauttamassa vanhaa määritystä olemassa olevalle huoneelle, joka on jo olemassa Fusion-ympäristössäsi, valitse ”Palauta”. Jos kuitenkin olet tuomassa määritystä uuden huoneen aloituspisteeksi, valitse ”Luo huone”.]]></lookup>
+
+	<!-- 01/30/2019 -->
+	<lookup key="WhiteBoardCodeMode.Disabled"><![CDATA[Ei käytössä]]></lookup>
+	<lookup key="WhiteBoardCodeMode.Random"><![CDATA[Satunnainen]]></lookup>
+	<lookup key="WhiteBoardCodeMode.Fixed"><![CDATA[Kiinteä]]></lookup>
+
+	<lookup key="WhiteboardViewParticipants"><![CDATA[Näytä osallistujat]]></lookup>
+	<lookup key="WhiteboardRecord"><![CDATA[Tallenna]]></lookup>
+	<lookup key="WhiteboardStopRecording"><![CDATA[Lopeta tallennus]]></lookup>
+	<lookup key="WhiteboardSnapshot"><![CDATA[Lähetä tilannekuva]]></lookup>
+	<lookup key="WhiteboardParticipants"><![CDATA[Osallistujat]]></lookup>
+	<lookup key="WhiteboardIncomingReq"><![CDATA[Saapuva etäyhteyspyyntö]]></lookup>
+	<lookup key="WhiteboardIncomingReqAccept"><![CDATA[Hyväksy]]></lookup>
+	<lookup key="WhiteboardIncomingReqIgnore"><![CDATA[Ohita]]></lookup>
+	<lookup key="WhiteboardInSession"><![CDATA[Istunnossa]]></lookup>
+	<lookup key="WhiteboardInLobby"><![CDATA[Aulassa]]></lookup>
+	<lookup key="WhiteboardEmail"><![CDATA[Lähetä tallenne sähköpostitse vastaanottajalle:]]></lookup>
+	<lookup key="WhiteboardSendSlideDeck"><![CDATA[Lähetä diaesitys]]></lookup>
+	<lookup key="WhiteboardEmailRecording"><![CDATA[Lähetä tallenne sähköpostitse]]></lookup>
+	<lookup key="WhiteboardProceed"><![CDATA[Jatka lähettämättä sähköpostia]]></lookup>
+	<lookup key="WhiteboardMeetingEnd"><![CDATA[Ajoitettu kokouksesi on loppumaisillaan, valitse vaihtoehto]]></lookup>
+	<lookup key="WhiteboardStopPresenting"><![CDATA[Lopeta tallennus ja esitys]]></lookup>
+	<lookup key="WhiteboardDontStop"><![CDATA[Älä lopeta]]></lookup>
+	<lookup key="WhiteboardTitle"><![CDATA[AirBoard®]]></lookup>
+
+	<lookup key="BluetoothPairingMode"><![CDATA[Bluetooth-laiteparitila]]></lookup>
+	<lookup key="BluetoothTimeOut"><![CDATA[Aika käyttämättömän Bluetooth-laitteen yhteyden katkaisuun]]></lookup>
+	<lookup key="BluetoothTimeOutValidValueMessage"><![CDATA[Vaaditun arvon on oltava (1–60)]]></lookup>
+	<lookup key="PairingMode.Timeout"><![CDATA[Aikakatkaisu]]></lookup>
+	<lookup key="PairingMode.Persistent"><![CDATA[Pysyvä]]></lookup>
+	<lookup key="ReportOnlyAirmediaAsset"><![CDATA[Ilmoita vain AirMedia-laite]]></lookup>
+	<lookup key="LdapPortWarning"><![CDATA[Portin pakollinen muoto (1–65535).]]></lookup>
+	<lookup key="NonControlledDevice"><![CDATA[Ei hallittu laite]]></lookup>
+
+	<lookup key="CrestronConnected"><![CDATA[Crestron Connected]]></lookup>
+	<lookup key="MercuryIpIdValidationMessage"><![CDATA[IPID vaadittu formaatti(03-FD).]]></lookup>
+
+	<!-- 6/10/2019 -->
+	<lookup key="WhiteboardConfirmationPrompt"><![CDATA[Haluatko varmasti lopettaa tallentamisen?]]></lookup>
+	<lookup key="WhiteboardStopNowCap"><![CDATA[KYLLÄ, LOPETA NYT]]></lookup>
+	<lookup key="WhiteboardContinueCap"><![CDATA[EI, JATKA]]></lookup>
+	<lookup key="WhiteboardEmailRecordingCap"><![CDATA[LÄHETÄ TALLENNE SÄHKÖPOSTILLA]]></lookup>
+	<lookup key="WhiteboardProceedCap"><![CDATA[JATKA ILMAN SÄHKÖPOSTIN LÄHETTÄMISTÄ]]></lookup>
+	<lookup key="WhiteboardStopPresentingCap"><![CDATA[PYSÄYTÄ TALLENNUS & ESITYS]]></lookup>
+
+	<lookup key="GenericCancelCap"><![CDATA[PERUUTA]]></lookup>
+	<lookup key="CouldNotFindMatch"><![CDATA[Emme löytäneet tarkkaa vastinetta. Kokeile tarkentaa hakua.]]></lookup>
+	<lookup key="PresentationTypes"><![CDATA[Esitystyypit]]></lookup>
+	<lookup key="Resume"><![CDATA[Jatka]]></lookup>
+	<lookup key="BlankScreen"><![CDATA[Tyhjä näyttö]]></lookup>
+	<lookup key="CallTypes"><![CDATA[Puhelutyypit]]></lookup>
+	<lookup key="ReturnToCall"><![CDATA[Palaa puheluun]]></lookup>
+	<lookup key="TapReturnToCall"><![CDATA[Napsauta tästä palataksesi puheluun]]></lookup>
+	<lookup key="CallOnHold"><![CDATA[Käynnissä oleva puhelu odottaa]]></lookup>
+	<lookup key="USBCable"><![CDATA[USB-kaapeli]]></lookup>
+	<lookup key="UsbCall"><![CDATA[USB-soitto]]></lookup>
+	<lookup key="ConnectYourUsbDeviceText"><![CDATA[Yhdistä laitteesi mukana toimitettuun USB-kaapeliin]]></lookup>
+	<lookup key="AvailableForNext"><![CDATA[saatavilla seuraavalle]]></lookup>
+	<lookup key="Available"><![CDATA[saatavilla]]></lookup>
+	<lookup key="RestOfDay"><![CDATA[loppupäiväksi]]></lookup>
+	<lookup key="ReservedForNext"><![CDATA[varattuna seuraavat]]></lookup>
+	<lookup key="MeetingLabel"><![CDATA[kokous]]></lookup>
+	<lookup key="GeneralHome"><![CDATA[Koti]]></lookup>
+	<lookup key="GeneralPresent"><![CDATA[Esitä]]></lookup>
+	<lookup key="GeneralCall"><![CDATA[Soita]]></lookup>
+	<lookup key="GeneralToday"><![CDATA[Tänään]]></lookup>
+	<lookup key="GeneralCollaborate"><![CDATA[Toimi yhdessä]]></lookup>
+	<lookup key="NextMeeting"><![CDATA[Seuraava kokous]]></lookup>
+	<lookup key="Plug"><![CDATA[liitä]]></lookup>
+	<lookup key="ConnectLaptopGuide"><![CDATA[kannettavaasi esittääksesi näytössä]]></lookup>
+	<lookup key="ConnectUsbGuide"><![CDATA[kannettavaasi käyttääksesi tätä äänilaitteenasi]]></lookup>
+	<lookup key="Set"><![CDATA[aseta]]></lookup>
+	<lookup key="Camera"><![CDATA[kamera]]></lookup>
+	<lookup key="Step"><![CDATA[vaihe]]></lookup>
+	<lookup key="Connect"><![CDATA[yhdistä]]></lookup>
+	<lookup key="ConnectYourHDMIDeviceText"><![CDATA[esittääksesi kannettavasi yhdistä mukana toimitetulla HDMI-kaapelilla]]></lookup>
+
+	<!-- *** IMPORTANT *** Virtual Control is a trademark and should not be translated -->
+	<lookup key="VCToken"><![CDATA[Virtual Control Token]]></lookup>
+	<lookup key="VCToken.Message"><![CDATA[Virtual Control Token ohjausvaltuutus vaaditaan.]]></lookup>
+	<lookup key="VCToken.Invalid"><![CDATA[Virheellinen Virtual Control Token ohjausvaltuutus]]></lookup>
+
+	<!-- 2019-09-30 -->
+	<lookup key="VideoDisplayStatusEvent.PortOffline"><![CDATA[Portti on offline-tilassa]]></lookup>
+	<lookup key="SyncVC4RoomName"><![CDATA[Synkronoi huoneen nimi VC-4:n kanssa]]></lookup>
+	<lookup key="EnableCustomHelpPage"><![CDATA[Ota mukautettu ohjesivu käyttöön]]></lookup>
+	<lookup key="CustomHelpPageUrl"><![CDATA[Mukautetun ohjesivun URL]]></lookup>
+	<lookup key="Upload"><![CDATA[Lataa]]></lookup>
+
+	<!-- 2019-09-09 -->
+	<lookup key="Resolution.Res720x480iNTSC"><![CDATA[720 x 480 i 30 Hz NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080p"><![CDATA[1920 x 1080 p 24 Hz]]></lookup>
+	<lookup key="Resolution.Res2048x1080At24Hz"><![CDATA[2048 x 1080, 24 Hz]]></lookup>
+	<lookup key="Resolution.Res1920x1080pAt30HzNTSC"><![CDATA[1920 x 1080 p, 30 Hz, NTSC]]></lookup>
+	<lookup key="Resolution.Res1920x1080pAt25HzPAL"><![CDATA[1920 x 1080 p, 25 Hz PAL]]></lookup>
+
+	<!-- 2019-09-26 -->
+	<lookup key="UxGeneralCustomization.EnableReservationLabel"><![CDATA[Varaus otetaan käyttöön]]></lookup>
+
+	<!-- 2019-10-04 -->
+	<lookup key="ChannelType.DmLite"><![CDATA[DM LITE]]></lookup>
+
+	<!-- 2019-10-15 -->
+	<lookup key="WallPaper.EnableCustomHelpPageLabel"><![CDATA[Ota käyttöön mukautettu ohje]]></lookup>
+	<lookup key="WallPaper.CustomHelpPageUrlLabel"><![CDATA[Mukautetun ohjeen URL]]></lookup>
+	<lookup key="WallPaper.CustomHelpPageUrlValidValueMessage"><![CDATA[Mukautetun ohjeen URL virheellinen]]></lookup>
+	<lookup key="WallPaper.IdValidValueMessage"><![CDATA[Kelpuutettu valinta vaaditaan]]></lookup>
+
+	<!-- 2019-09-17 -->
+	<lookup key="DisplayFeature.PowerFeedback"><![CDATA[Virran takaisinkytkentä]]></lookup>
+	<lookup key="DisplayFeature.VideoMute"><![CDATA[Videon mykistys]]></lookup>
+	<lookup key="DisplayFeature.Mute"><![CDATA[Mykistä]]></lookup>
+	<lookup key="DisplayFeature.MuteFeedback"><![CDATA[Mykistä palaute]]></lookup>
+	<lookup key="DisplayFeature.Volume"><![CDATA[Äänenvoimakkuuden säätö]]></lookup>
+	<lookup key="DisplayFeature.SetVolume"><![CDATA[Analogisen äänenvoimakkuuden asettaminen]]></lookup>
+	<lookup key="DisplayFeature.VolumeFeedback"><![CDATA[Äänenvoimakkuuden säädön palaute]]></lookup>
+	<lookup key="DisplayFeature.InputFeedback"><![CDATA[Syötön valinnan takaisinkytkentä]]></lookup>
+	<!-- Supported Driver Feature Web AddNewDevice -->
+	<lookup key="SupportedFeature"><![CDATA[Tuetut ajuriominaisuudet]]></lookup>
+
+	<lookup key="StandbyMode.VideoSyncBased"><![CDATA[Videon synkronointiin pohjautuva]]></lookup>
+	<lookup key="VideoSyncPowerOn"><![CDATA[Videon synkronoinnin virta päällä]]></lookup>
+	<lookup key="VideoSyncPowerOff"><![CDATA[Videon synkronoinnin virta pois päältä]]></lookup>
+	<lookup key="VideoSyncPowerOffTimeout"><![CDATA[Videon synkronoinnin virran katkaisun aikaraja]]></lookup>
+	<lookup key="VideoSyncPowerOffTimeoutBoundsWarning"><![CDATA[hyväksyttävä vaihtelualue 1–120 minuuttia]]></lookup>
+
+	<!-- 2019-11-01 -->
+	<lookup key="PanelUiVersionType.UI1"><![CDATA[AVF 1.0 -teema (vanha)]]></lookup>
+	<lookup key="PanelUiVersionType.UI2"><![CDATA[AVF 2.0 -teema (uusi)]]></lookup>
+	<lookup key="UiVersionLabel"><![CDATA[.AV Framework -käyttäjärajapinnan teema]]></lookup>
+
+	<!-- 2019-12-11 -->
+	<lookup key="OccupancyPowerOn"><![CDATA[Kuormitusvirta päällä]]></lookup>
+	<lookup key="OccupancyPowerOff"><![CDATA[Kuormitusvirta pois päältä]]></lookup>
+
+	<lookup key="StandbyMode.Default"><![CDATA[Kuormitukseen perustuva]]></lookup>
+
+	<!-- 2019-12-16-->
+	<lookup key="ThemeHelpText"><![CDATA[Huomautus: teeman vaihtumiseen menee noin <br>30–60 sekuntia .AV Framework -ohjelmiston aktivoinnin jälkeen]]></lookup>
+
+	<!-- 2019-12-24 -->
+	<lookup key="videoSyncWarnText"><![CDATA[Huomautus: virtuaalikytkintä ei voida käyttää yhdessä<br> videosynkronointiin pohjautuvan virtatilan kanssa.]]></lookup>
+
+	<!-- 2019-11-15 -->
+	<lookup key="POEOccupancySensorSettings"><![CDATA[PoE-tekniikan läsnäoloanturin asetukset]]></lookup>
+
+	<!-- 2019-12-20 -->
+	<lookup key="SensorStatus"><![CDATA[Anturin tila]]></lookup>
+	<lookup key="Occupied"><![CDATA[Käytössä]]></lookup>
+	<lookup key="Vacant"><![CDATA[Vapaa]]></lookup>
+
+	<!-- 2020-01-09 -->
+	<lookup key="DriverInstallStatusEnum.UnknownCommand"><![CDATA[Tuntematon komento]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Uploading"><![CDATA[Tiedostoa ladataan]]></lookup>
+	<lookup key="DriverInstallStatusEnum.UploadComplete"><![CDATA[Lataaminen valmis]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Downloading"><![CDATA[Tiedostoa ladataan]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Downloaded"><![CDATA[Tiedosto ladattu]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Installed"><![CDATA[Ajuri asennettu]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Installing"><![CDATA[Ajuria asennetaan]]></lookup>
+	<lookup key="DriverInstallStatusEnum.ErrorOccured"><![CDATA[Virhe ilmaantui]]></lookup>
+	<lookup key="DriverInstallStatusEnum.UnzippedPkg"><![CDATA[Pakkaamaton PKG-tiedosto]]></lookup>
+	<lookup key="DriverInstallStatusEnum.Processing"><![CDATA[Tiedostoa käsitellään]]></lookup>
+	<lookup key="DriverInstallStatusEnum.DownloadingComplete"><![CDATA[Lataaminen valmis]]></lookup>
+	<lookup key="DriverInstallStatusEnum.InvalidOrCorruptFile"><![CDATA[Virheellinen tai vahingoittunut tiedosto]]></lookup>
+
+	<!-- 2020-01-20 -->
+	<lookup key="AcronymHour"><![CDATA[h]]></lookup>
+	<lookup key="AcronymMinute"><![CDATA[min]]></lookup>
+
+	<!-- 2020-01-29 -->
+	<lookup key="AddDeviceDriver"><![CDATA[Ajurin tuonti]]></lookup>
+</lang>

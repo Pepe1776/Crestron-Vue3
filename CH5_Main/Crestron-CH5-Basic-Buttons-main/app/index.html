@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,  initial-scale=1" />
+    <title>Crestron CH5</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide"
+    />
+    <link rel="stylesheet" href="css\main.css" />
+    <link rel="stylesheet" href="assets\vendor\light-theme.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="top-bar">
+      <img id="logo-img" src="./assets/images/Aevio_Compass.jpg" />
+     <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols"; [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "US 100"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR/USD"
+    },
+    {
+      "description": "Apple",
+      "proName": "NASDAQ:AAPL"
+    },
+    {
+      "description": "Tesla",
+      "proName": "NASDAQ:TSLA"
+    },
+    {
+      "description": "Nvidia",
+      "proName": "NASDAQ:NVDA"
+    },
+    {
+      "description": "AMC",
+      "proName": "NYSE:AMC"
+    },
+    {
+      "description": "",
+      "proName": "FRED:SP500"
+    },
+    {
+      "description": "",
+      "proName": "FRED:NASDAQ100"
+    },
+    {
+      "description": "Unemployment",
+      "proName": "FRED:UNRATE"
+    },
+    {
+      "description": "BTC",
+      "proName": "BITSTAMP:BTCUSD"
+    },
+    {
+      "description": "Shiba",
+      "proName": "BINANCE:SHIBUSDT"
+    },
+    {
+      "description": "ETH",
+      "proName": "COINBASE:ETHUSD"
+    },
+    {
+      "description": "Doge",
+      "proName": "BINANCE:DOGEUSDT"
+    },
+    {
+      "description": "XRP",
+      "proName": "BITSTAMP:XRPUSD"
+    },
+    {
+      "description": "Cardano",
+      "proName": "BINANCE:ADAUSDT"
+    },
+    {
+      "description": "MANA",
+      "proName": "BINANCE:MANAUSDT"
+    },
+    {
+      "description": "VeChain",
+      "proName": "BINANCE:VETUSDT"
+    }
+  ],
+  "showSymbolLogo"; true,
+  "colorTheme"; "dark",
+  "isTransparent"; true,
+  "displayMode"; "adaptive",
+  "locale"; "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+      <h1></h1>
+      
+    </div>
+
+    <!-- middle bar start! -->
+
+    <div class="middle-bar">
+      <div class="source-pages">
+
+        <!-- Page 1 Start -->
+
+        <ch5-triggerview receivestateshow="11">
+          <div class="subpage-header">
+            <h1 class="subpage-header-text">Living Room</h1>
+            <img src="assets/images/Line Horizontal.png" />
+          </div>
+          <div class="subpage-main">
+           <container>
+  <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Video1')">Watch</button>
+  <button class="tablinks" onclick="openCity(event, 'Audio1')">Listen</button>
+  <button class="tablinks" onclick="openCity(event, 'Light1')">Lighting</button>
+</div>
+
+<div id="Video1" class="tabcontent">
+  <h3>VIDEO SOURCES</h3>
+ 
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+     <ch5-button
+        class="source-btn"
+        shape="rounded-rectangle"
+        type="info"
+        stretch="both"
+        label="Apple TV"
+        iconurl="assets/images/apple-brands.svg"
+      id="p24"
+      ></ch5-button>
+    </div>
+    <div class="col">
+      <ch5-button
+        class="source-btn"
+        type="info"
+        stretch="both"
+        label="Apple TV2"
+        iconurl="assets/images/apple-brands.svg"
+        
+      id="p25"
+      ></ch5-button>
+    </div>
+    <div class="col">
+     <ch5-button
+        class="source-btn"
+        type="info"
+        stretch="both"
+        label="Direct TV"
+        iconurl="assets/images/satellite-dish-solid.svg"
+      id="p24"
+      ></ch5-button>
+    </div>
+    <div class="col">
+      <ch5-button
+        class="source-btn"
+        type="info"
+        stretch="both"
+        label="Direct TV2"
+        iconurl="assets/images/satellite-dish-solid.svg"
+      id="p25"
+      ></ch5-button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div id="Audio1" class="tabcontent">
+  <h3>AUDIO SOURCES</h3>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+     <ch5-button
+        class="source-btn"
+        type="info"
+        stretch="both"
+        label="Apple TV"
+        iconurl="assets/images/apple-brands.svg"
+      id="p24"
+      ></ch5-button>
+    </div>
+    <div class="col">
+      <ch5-button
+        class="source-btn"
+        type="info"
+        stretch="both"
+        label="MMS"
+        iconurl="assets/images/apple-brands.svg"
+      id="p25"
+      ></ch5-button>
+    </div>
+    <div class="col">
+     <ch5-button
+        class="source-btn"
+        type="info"
+        stretch="both"
+        label="Direct TV"
+        iconurl="assets/images/satellite-dish-solid.svg"
+      id="p24"
+      ></ch5-button>
+    </div>
+    <div class="col">
+      <ch5-button
+        class="source-btn"
+        type="info"
+        stretch="both"
+        label="Air Play"
+        iconurl="assets/images/satellite-dish-solid.svg"
+      id="p25"
+      ></ch5-button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="Light1" class="tabcontent">
+  <h3>LIGHTING</h3>
+ <div class="sliders">
+  <ch5-slider></ch5-slider>
+  <ch5-slider></ch5-slider>
+  <ch5-slider></ch5-slider>
+ </div>
+</div>
+          </div>
+        </ch5-triggerview>
+</container>
+        <!-- Page 2 Start -->
+
+        <ch5-triggerview receivestateshow="12">
+          <div class="subpage-header">
+            <h1 class="subpage-header-text">Kitchen</h1>
+            <img src="assets/images/Line Horizontal.png" />
+          </div>
+          <div class="subpage-main">
+     <container id="p2">     
+
+</container>  
+            <p class="home-page-text">
+            </p>
+          </div>
+        </ch5-triggerview>
+
+        <!-- Page 3 Start -->
+
+        <ch5-triggerview receivestateshow="13">
+          <div class="subpage-header">
+            <h1 class="subpage-header-text">Dinning Room</h1>
+            <img src="assets/images/Line Horizontal.png" />
+          </div>
+          <div class="subpage-main">
+           
+            <container id="p3">
+      
+            </container>
+            <p class="home-page-text">
+            </p>
+          </div>
+        </ch5-triggerview>
+
+        <!-- Page 4 Start -->
+
+        <ch5-triggerview receivestateshow="14">
+          <div class="subpage-header">
+            <h1 class="subpage-header-text">Office</h1>
+            <img src="assets/images/Line Horizontal.png" />
+          </div>
+          <div class="subpage-main">
+            <p class="home-page-text">
+              Perfect place to try a keypad, css grid again.
+            </p>
+          </div>
+        </ch5-triggerview>
+
+        <!-- Page 5 Start -->
+
+        <ch5-triggerview receivestateshow="15">
+          <div class="subpage-header">
+            <h1 class="subpage-header-text">Master Bed</h1>
+            <img src="assets/images/Line Horizontal.png" />
+          </div>
+          <div class="subpage-main">
+            <p class="home-page-text">
+              How about using the Dpad from the camera page and changing the
+              center button? Also add the Menu/Play buttons you'd need here.<br />Also
+              a nice place to try some transport controls.
+            </p>
+          </div>
+        </ch5-triggerview>
+      </div>
+
+      <!-- End Of PAges -->
+
+      <div class="right-bar">
+<a class="weatherwidget-io" href="https://forecast7.com/en/33d49n111d93/scottsdale/?unit=us" data-label_1="SCOTTSDALE" data-label_2="WEATHER" data-theme="dark" >SCOTTSDALE WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+
+        </div>
+      </div>
+    </div>
+
+<!-- Bottom Bar -->
+
+    <div class="bottom-bar">
+      <ch5-button
+        class="source-btn"
+        type="info"
+        stretch="both"
+        label="Living Room"
+        iconurl="assets/images/house-user-solid.svg"
+        sendeventonclick="11"
+        receivestateselected="11"
+      ></ch5-button>
+      <ch5-button
+        class="source-btn"
+        type="info"
+        stretch="both"
+        label="Kitchen"
+        iconurl="assets/images/sink-solid.svg"
+        sendeventonclick="12"
+        receivestateselected="12"
+      ></ch5-button>
+      <ch5-button
+        class="source-btn"
+        type="info"
+        stretch="both"
+        label="Dinning Room"
+        iconurl="assets/images/utensils-solid.svg"
+        sendeventonclick="13"
+        receivestateselected="13"
+      ></ch5-button>
+      <ch5-button
+        class="source-btn"
+        type="info"
+        stretch="both"
+        label="Office"
+        iconurl="assets/images/print-solid.svg"
+        sendeventonclick="14"
+        receivestateselected="14"
+      ></ch5-button>
+      <ch5-button
+        class="source-btn"
+        type="info"
+        stretch="both"
+        label="Master Bed"
+        iconurl="assets/images/bed-solid.svg"
+        sendeventonclick="15"
+        receivestateselected="15"
+      ></ch5-button>
+    </div>
+
+    <!-- Scripts -->
+
+    <script src="assets\vendor\cr-com-lib.js"></script>
+    <!-- Comment 2 lines below before archiving or they will run the emulator on the touchpanel -->
+    <script src="./assets/vendor/service.js"></script>
+    <script src="./assets/vendor/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--*************************************************************************************-->
+  </body>
+</html>
