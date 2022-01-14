@@ -6,7 +6,7 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-    <h1 class="text-8xl font-bold underline">Hello world!</h1>
+    <h1 class="text-9xl font-bold underline">Hello world!</h1>
   </div>
   <router-view />
 </template>
