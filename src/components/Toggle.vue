@@ -1,7 +1,7 @@
 <template>
   <div class="toggle-wrapper">
     <label class="toggle">
-      <input 
+      <input
         type="checkbox"
         :checked="mode === 'dark' ? 'checked' : false"
         @change="$emit('toggle')"
@@ -12,7 +12,7 @@
 </template>
 <script>
 export default {
-  props: ["mode"],
+  props: ['mode'],
 };
 </script>
 
@@ -41,7 +41,7 @@ export default {
 }
 .toggler:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 26px;
   width: 26px;
   left: 4px;
