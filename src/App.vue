@@ -4,18 +4,27 @@ export default {
   name: "app",
   data() {
     return {
-      mode: "dark",
+      mode: "light",
     };
   },
   components: {
     Nav,
+  },
+  methods: {
+    toggle () {
+      if (this.mode === "dark") {
+        this.mode = "light";
+      } else {
+        this.mode = "dark";
+      }
+    },
   },
 };
 </script>
 
 <template>
   <div class="app" :class="mode">
-    <Nav :mode="mode" />
+    <Nav :mode="mode" @toggle="toggle" />
     <router-view />
   </div>
 </template>
@@ -29,8 +38,9 @@ export default {
 .app {
   width: 100vw;
   min-height: 100vh;
-  background-color: #c0cfdb;
+  background-color: #b8dbf8;
   color: #15202b;
+  transition: background 0.3s ease-in-out;
 }
 .dark {
   background-color: #080d11;
